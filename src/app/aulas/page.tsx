@@ -109,6 +109,7 @@ async function getPlaylistItems(apiKey: string, playlistId: string): Promise<Omi
         contentDetails?: { videoId?: string };
         snippet?: {
           title?: string;
+          description?: string;
           publishedAt?: string;
           thumbnails?: {
             maxres?: { url?: string };
