@@ -44,7 +44,7 @@ function formatDate(iso: string): string {
   }).format(new Date(iso));
 }
 
-function trimDescription(text: string, max = 180): string {
+function trimDescription(text: string, max = 140): string {
   const compact = text.replace(/\s+/g, " ").trim();
   if (!compact) return "";
   if (compact.length <= max) return compact;
@@ -249,18 +249,17 @@ export default async function Page() {
       ) : null}
 
       {!error && (
-        <div className="mt-6 flex flex-col gap-4">
+        <div className="mt-6 flex flex-col divide-y" style={{ borderColor: "rgba(255,255,255,0.1)" }}>
           {videos.map((video) => (
             <div
               key={video.id}
-              className="flex flex-col gap-4 overflow-hidden rounded-xl p-3 sm:flex-row"
-              style={{ border: "1px solid rgba(255,255,255,0.16)", background: "rgba(255,255,255,0.04)" }}
+              className="flex flex-col gap-3 py-4 sm:flex-row sm:items-start"
             >
               <a
                 href={`https://www.youtube.com/watch?v=${video.id}`}
                 target="_blank"
                 rel="noreferrer"
-                className="relative aspect-video w-full overflow-hidden rounded-lg sm:w-56"
+                className="relative aspect-video w-full max-w-[420px] overflow-hidden rounded-lg sm:w-48 sm:max-w-none"
               >
                 <img src={video.thumbnail} alt={video.title} className="h-full w-full object-cover" />
                 <span
@@ -271,12 +270,12 @@ export default async function Page() {
                 </span>
               </a>
 
-              <div className="flex flex-1 flex-col gap-2">
+              <div className="flex min-w-0 flex-1 flex-col gap-2">
                 <a
                   href={`https://www.youtube.com/watch?v=${video.id}`}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-base font-semibold"
+                  className="text-base font-semibold leading-snug"
                   style={{ color: "#f6f7f8" }}
                 >
                   {video.title}
