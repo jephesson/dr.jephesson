@@ -56,28 +56,30 @@ export default function SondaSearch({ data }: Props) {
   }, [data, normalizedQuery]);
 
   return (
-    <div className="mt-8 flex flex-col gap-6">
-      <div className="mx-auto w-full" style={{ maxWidth: 720 }}>
+    <div className="sonda-search mt-8">
+      <div className="mx-auto w-full" style={{ maxWidth: 760 }}>
         <label className="text-sm font-semibold" style={{ color: "#0b1422" }}>
           Pesquisar medicamento
         </label>
+
         <div className="relative mt-3">
-          <input
-            value={query}
-            onChange={(event) => {
-              setQuery(event.target.value);
-              setSelected(null);
-            }}
-            placeholder="Digite o nome do medicamento"
-            className="w-full rounded-2xl border px-5 py-4 text-lg outline-none"
-            style={{ borderColor: "rgba(15,26,43,0.18)" }}
-          />
+          <div className="sonda-search__shell">
+            <div className="sonda-search__inner">
+              <span className="sonda-search__dot" aria-hidden="true" />
+              <input
+                value={query}
+                onChange={(event) => {
+                  setQuery(event.target.value);
+                  setSelected(null);
+                }}
+                placeholder="Digite o nome do medicamento"
+                className="sonda-search__input"
+              />
+            </div>
+          </div>
 
           {normalizedQuery.length >= 2 ? (
-            <div
-              className="absolute z-10 mt-2 w-full overflow-hidden rounded-2xl border bg-white shadow-lg"
-              style={{ borderColor: "rgba(15,26,43,0.12)" }}
-            >
+            <div className="sonda-search__dropdown absolute z-10 w-full">
               {results.length === 0 ? (
                 <div className="px-4 py-3 text-sm" style={{ color: "rgba(11,20,34,0.7)" }}>
                   Nenhum medicamento encontrado.
@@ -92,16 +94,9 @@ export default function SondaSearch({ data }: Props) {
                           setQuery(item.medicamento);
                           setSelected(item);
                         }}
-                        className="flex w-full flex-col gap-1 px-4 py-3 text-left text-sm hover:bg-slate-50"
+                        className="sonda-search__item"
                       >
-                        <span className="font-semibold" style={{ color: "#0b1422" }}>
-                          {item.medicamento}
-                        </span>
-                        {item.observacao ? (
-                          <span className="text-xs" style={{ color: "rgba(11,20,34,0.6)" }}>
-                            {item.observacao}
-                          </span>
-                        ) : null}
+                        {item.medicamento}
                       </button>
                     </li>
                   ))}
@@ -110,6 +105,7 @@ export default function SondaSearch({ data }: Props) {
             </div>
           ) : null}
         </div>
+
         <p className="mt-3 text-xs text-center" style={{ color: "rgba(11,20,34,0.6)" }}>
           Digite ao menos 2 letras para ver sugestões.
         </p>
@@ -133,16 +129,34 @@ export default function SondaSearch({ data }: Props) {
               );
             })()}
           </div>
-          {selected.observacao ? (
-            <p className="mt-3 text-sm" style={{ color: "rgba(11,20,34,0.75)" }}>
-              {selected.observacao}
+
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <div className="rounded-xl border px-4 py-3" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
+              <p className="text-[11px] font-semibold uppercase" style={{ color: "rgba(11,20,34,0.55)" }}>
+                Permitido
+              </p>
+              <p className="mt-1 text-sm font-semibold" style={{ color: "#0b1422" }}>
+                {formatPermitido(selected.permitido).label}
+              </p>
+            </div>
+            <div className="rounded-xl border px-4 py-3" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
+              <p className="text-[11px] font-semibold uppercase" style={{ color: "rgba(11,20,34,0.55)" }}>
+                Pausa dieta
+              </p>
+              <p className="mt-1 text-sm font-semibold" style={{ color: "#0b1422" }}>
+                {selected.pausaDieta || "Não informado"}
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-4 rounded-xl border px-4 py-3" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
+            <p className="text-[11px] font-semibold uppercase" style={{ color: "rgba(11,20,34,0.55)" }}>
+              Observação
             </p>
-          ) : null}
-          {selected.pausaDieta ? (
-            <p className="mt-2 text-xs" style={{ color: "rgba(11,20,34,0.55)" }}>
-              Pausa dieta: {selected.pausaDieta}
+            <p className="mt-2 text-sm" style={{ color: "rgba(11,20,34,0.75)" }}>
+              {selected.observacao || "Sem observações adicionais."}
             </p>
-          ) : null}
+          </div>
         </div>
       ) : null}
     </div>
