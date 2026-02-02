@@ -44,7 +44,7 @@ function formatDate(iso: string): string {
   }).format(new Date(iso));
 }
 
-function trimDescription(text: string, max = 110): string {
+function trimDescription(text: string, max = 100): string {
   const compact = text.replace(/\s+/g, " ").trim();
   if (!compact) return "";
   if (compact.length <= max) return compact;
@@ -211,10 +211,10 @@ export default async function Page() {
   const { videos, error } = await getLongVideos();
 
   return (
-    <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
+    <div className="rounded-2xl border bg-white p-5" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h2 className="text-2xl font-semibold" style={{ color: "#0b1422" }}>
+          <h2 className="text-xl font-semibold" style={{ color: "#0b1422" }}>
             Aulas grátis - Youtube
           </h2>
           <p className="mt-2 text-sm" style={{ color: "rgba(11,20,34,0.65)" }}>
@@ -251,7 +251,14 @@ export default async function Page() {
       ) : null}
 
       {!error && (
-        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div
+          className="mt-6"
+          style={{
+            display: "grid",
+            gap: 12,
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+          }}
+        >
           {videos.map((video) => (
             <div
               key={video.id}
@@ -262,7 +269,8 @@ export default async function Page() {
                 href={`https://www.youtube.com/watch?v=${video.id}`}
                 target="_blank"
                 rel="noreferrer"
-                className="relative aspect-video w-full overflow-hidden rounded-lg"
+                className="relative w-full overflow-hidden rounded-lg"
+                style={{ aspectRatio: "16 / 9" }}
               >
                 <img src={video.thumbnail} alt={video.title} className="h-full w-full object-cover" />
                 <span
@@ -278,13 +286,13 @@ export default async function Page() {
                   href={`https://www.youtube.com/watch?v=${video.id}`}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-[13px] font-semibold leading-snug"
+                  className="text-[12.5px] font-semibold leading-snug"
                   style={{ color: "#0b1422" }}
                 >
                   {video.title}
                 </a>
                 {video.description ? (
-                  <p className="text-[12px]" style={{ color: "rgba(11,20,34,0.68)" }}>
+                  <p className="text-[11.5px]" style={{ color: "rgba(11,20,34,0.68)" }}>
                     {trimDescription(video.description)}
                   </p>
                 ) : null}
