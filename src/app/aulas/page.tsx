@@ -44,7 +44,7 @@ function formatDate(iso: string): string {
   }).format(new Date(iso));
 }
 
-function trimDescription(text: string, max = 120): string {
+function trimDescription(text: string, max = 110): string {
   const compact = text.replace(/\s+/g, " ").trim();
   if (!compact) return "";
   if (compact.length <= max) return compact;
@@ -251,18 +251,18 @@ export default async function Page() {
       ) : null}
 
       {!error && (
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {videos.map((video) => (
             <div
               key={video.id}
-              className="flex flex-col gap-3 rounded-xl border bg-white p-3 md:flex-row"
+              className="flex flex-col gap-2 rounded-xl border bg-white p-3"
               style={{ borderColor: "rgba(15,26,43,0.12)" }}
             >
               <a
                 href={`https://www.youtube.com/watch?v=${video.id}`}
                 target="_blank"
                 rel="noreferrer"
-                className="relative aspect-video w-full overflow-hidden rounded-lg md:w-48"
+                className="relative aspect-video w-full overflow-hidden rounded-lg"
               >
                 <img src={video.thumbnail} alt={video.title} className="h-full w-full object-cover" />
                 <span
@@ -278,13 +278,13 @@ export default async function Page() {
                   href={`https://www.youtube.com/watch?v=${video.id}`}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-sm font-semibold leading-snug"
+                  className="text-[13px] font-semibold leading-snug"
                   style={{ color: "#0b1422" }}
                 >
                   {video.title}
                 </a>
                 {video.description ? (
-                  <p className="text-xs" style={{ color: "rgba(11,20,34,0.68)" }}>
+                  <p className="text-[12px]" style={{ color: "rgba(11,20,34,0.68)" }}>
                     {trimDescription(video.description)}
                   </p>
                 ) : null}
