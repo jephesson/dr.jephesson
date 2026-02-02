@@ -8,7 +8,7 @@ const items = [
   { href: "/quem-sou-eu", label: "Quem sou eu" },
   { href: "/medicamentos", label: "Medicamentos" },
   { href: "/ferramentas", label: "Ferramentas" },
-  { href: "/aulas", label: "Aulas" },
+  { href: "/aulas", label: "Aulas grátis - Youtube" },
   { href: "/ebooks", label: "E-books" },
   { href: "/contato", label: "Contato" },
 ];
