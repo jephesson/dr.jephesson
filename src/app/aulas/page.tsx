@@ -11,8 +11,7 @@ const CHANNEL_ID = process.env.YOUTUBE_CHANNEL_ID;
 const CHANNEL_HANDLE = process.env.YOUTUBE_CHANNEL_HANDLE || "dr.jephessonsantos";
 const MIN_DURATION_SECONDS = 61;
 const MAX_PAGES = 20;
-
-export const revalidate = 60 * 60;
+const REVALIDATE_SECONDS = 3600;
 
 const API_BASE = "https://www.googleapis.com/youtube/v3";
 
@@ -45,7 +44,7 @@ function formatDate(iso: string): string {
 }
 
 async function fetchJson<T>(url: string): Promise<T> {
-  const res = await fetch(url, { next: { revalidate } });
+  const res = await fetch(url, { next: { revalidate: REVALIDATE_SECONDS } });
   if (!res.ok) {
     throw new Error(`YouTube API error: ${res.status}`);
   }
