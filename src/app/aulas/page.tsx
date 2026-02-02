@@ -44,7 +44,7 @@ function formatDate(iso: string): string {
   }).format(new Date(iso));
 }
 
-function trimDescription(text: string, max = 100): string {
+function trimDescription(text: string, max = 90): string {
   const compact = text.replace(/\s+/g, " ").trim();
   if (!compact) return "";
   if (compact.length <= max) return compact;
@@ -217,19 +217,10 @@ export default async function Page() {
           <h2 className="text-xl font-semibold" style={{ color: "#0b1422" }}>
             Aulas grátis - Youtube
           </h2>
-          <p className="mt-2 text-sm" style={{ color: "rgba(11,20,34,0.65)" }}>
-            Lista automática com os vídeos longos do canal (exclui Shorts).
+          <p className="mt-2 text-sm" style={{ color: "rgba(11,20,34,0.68)" }}>
+            Conteúdo gratuito e de qualidade para apoiar decisões e ampliar o conhecimento nos diversos temas da área da saúde.
           </p>
         </div>
-        <a
-          href="https://www.youtube.com/@dr.jephessonsantos"
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex items-center justify-center rounded-full px-4 py-2 text-xs font-semibold"
-          style={{ background: "var(--accent)", color: "#0b1422" }}
-        >
-          Ver canal no YouTube
-        </a>
       </div>
 
       {error === "missing-env" ? (
@@ -256,14 +247,14 @@ export default async function Page() {
           style={{
             display: "grid",
             gap: 12,
-            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
           }}
         >
           {videos.map((video) => (
             <div
               key={video.id}
-              className="flex flex-col gap-2 rounded-xl border bg-white p-3"
-              style={{ borderColor: "rgba(15,26,43,0.12)" }}
+              className="flex flex-col gap-2 rounded-xl p-3"
+              style={{ background: "#0b1422" }}
             >
               <a
                 href={`https://www.youtube.com/watch?v=${video.id}`}
@@ -287,16 +278,31 @@ export default async function Page() {
                   target="_blank"
                   rel="noreferrer"
                   className="text-[12.5px] font-semibold leading-snug"
-                  style={{ color: "#0b1422" }}
+                  style={{
+                    color: "#f6f7f8",
+                    display: "-webkit-box",
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: "vertical",
+                    overflow: "hidden",
+                  }}
                 >
                   {video.title}
                 </a>
                 {video.description ? (
-                  <p className="text-[11.5px]" style={{ color: "rgba(11,20,34,0.68)" }}>
+                  <p
+                    className="text-[11.5px]"
+                    style={{
+                      color: "rgba(246,247,248,0.7)",
+                      display: "-webkit-box",
+                      WebkitLineClamp: 2,
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden",
+                    }}
+                  >
                     {trimDescription(video.description)}
                   </p>
                 ) : null}
-                <p className="text-[11px]" style={{ color: "rgba(11,20,34,0.55)" }}>
+                <p className="text-[11px]" style={{ color: "rgba(246,247,248,0.55)" }}>
                   Publicado em {formatDate(video.publishedAt)}
                 </p>
               </div>
