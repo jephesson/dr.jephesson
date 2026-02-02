@@ -121,19 +121,15 @@ export default function SondaSearch({ data }: Props) {
         <div className="sonda-result">
           <div className="sonda-result__inner">
             <h3 className="sonda-result__title">{selected.medicamento}</h3>
-            {(() => {
-              const status = formatPermitido(selected.permitido);
-              return (
-                <span className="sonda-result__badge" style={toneStyles[status.tone]}>
-                  Permitido: {status.label}
-                </span>
-              );
-            })()}
 
             <div className="sonda-result__grid">
               <div className="sonda-result__card">
                 <p className="sonda-result__label">Permitido</p>
-                <p className="sonda-result__value">{formatPermitido(selected.permitido).label}</p>
+                {(() => {
+                  const status = formatPermitido(selected.permitido);
+                  const valueClass = `sonda-result__value sonda-result__value--${status.tone}`;
+                  return <p className={valueClass}>{status.label}</p>;
+                })()}
               </div>
               <div className="sonda-result__card">
                 <p className="sonda-result__label">Pausa dieta</p>

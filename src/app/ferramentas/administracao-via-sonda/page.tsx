@@ -5,16 +5,14 @@ export default async function Page() {
   const { items, error } = await loadSondaData();
 
   return (
-    <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
+    <div className="rounded-2xl p-6">
       <div className="flex flex-col gap-2">
-        <p className="text-xs font-semibold uppercase tracking-wide" style={{ color: "rgba(11,20,34,0.55)" }}>
-          Ferramenta
-        </p>
         <h2 className="text-2xl font-semibold" style={{ color: "#0b1422" }}>
           Administração via sonda
         </h2>
         <p className="text-sm" style={{ color: "rgba(11,20,34,0.68)" }}>
-          Consulte o banco de dados para saber se o medicamento pode ser administrado via sonda e veja a observação.
+          Escolha o medicamento originalmente prescrito por via oral para verificar a possibilidade de administração via sonda
+          e a compatibilidade com a dieta.
         </p>
       </div>
 
