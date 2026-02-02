@@ -46,6 +46,7 @@ const toneStyles = {
 export default function SondaSearch({ data }: Props) {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<SondaItem | null>(null);
+  const [isOpen, setIsOpen] = useState(false);
   const normalizedQuery = normalize(query.trim());
 
   const results = useMemo(() => {
@@ -71,14 +72,17 @@ export default function SondaSearch({ data }: Props) {
                 onChange={(event) => {
                   setQuery(event.target.value);
                   setSelected(null);
+                  setIsOpen(true);
                 }}
+                onFocus={() => setIsOpen(true)}
+                onBlur={() => setTimeout(() => setIsOpen(false), 120)}
                 placeholder="Digite o nome do medicamento"
                 className="sonda-search__input"
               />
             </div>
           </div>
 
-          {normalizedQuery.length >= 2 ? (
+          {isOpen && normalizedQuery.length >= 2 ? (
             <div className="sonda-search__dropdown absolute z-10 w-full">
               {results.length === 0 ? (
                 <div className="px-4 py-3 text-sm" style={{ color: "rgba(11,20,34,0.7)" }}>
@@ -90,9 +94,11 @@ export default function SondaSearch({ data }: Props) {
                     <li key={`${item.medicamento}-${item.observacao}`}>
                       <button
                         type="button"
+                        onMouseDown={(event) => event.preventDefault()}
                         onClick={() => {
                           setQuery(item.medicamento);
                           setSelected(item);
+                          setIsOpen(false);
                         }}
                         className="sonda-search__item"
                       >
