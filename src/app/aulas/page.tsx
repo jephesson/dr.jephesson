@@ -1,6 +1,7 @@
 type VideoItem = {
   id: string;
   title: string;
+  description: string;
   thumbnail: string;
   publishedAt: string;
   durationSeconds: number;
@@ -41,6 +42,13 @@ function formatDate(iso: string): string {
     month: "short",
     year: "numeric",
   }).format(new Date(iso));
+}
+
+function trimDescription(text: string, max = 180): string {
+  const compact = text.replace(/\s+/g, " ").trim();
+  if (!compact) return "";
+  if (compact.length <= max) return compact;
+  return `${compact.slice(0, max).trimEnd()}...`;
 }
 
 async function fetchJson<T>(url: string): Promise<T> {
@@ -123,6 +131,7 @@ async function getPlaylistItems(apiKey: string, playlistId: string): Promise<Omi
       items.push({
         id: videoId,
         title: snippet.title,
+        description: snippet.description ?? "",
         thumbnail,
         publishedAt: snippet.publishedAt ?? "",
       });
@@ -239,17 +248,19 @@ export default async function Page() {
       ) : null}
 
       {!error && (
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-6 flex flex-col gap-4">
           {videos.map((video) => (
-            <a
+            <div
               key={video.id}
-              href={`https://www.youtube.com/watch?v=${video.id}`}
-              target="_blank"
-              rel="noreferrer"
-              className="overflow-hidden rounded-xl"
+              className="flex flex-col gap-4 overflow-hidden rounded-xl p-3 sm:flex-row"
               style={{ border: "1px solid rgba(255,255,255,0.16)", background: "rgba(255,255,255,0.04)" }}
             >
-              <div className="relative aspect-video">
+              <a
+                href={`https://www.youtube.com/watch?v=${video.id}`}
+                target="_blank"
+                rel="noreferrer"
+                className="relative aspect-video w-full overflow-hidden rounded-lg sm:w-56"
+              >
                 <img src={video.thumbnail} alt={video.title} className="h-full w-full object-cover" />
                 <span
                   className="absolute bottom-2 right-2 rounded px-2 py-1 text-[11px] font-semibold"
@@ -257,16 +268,28 @@ export default async function Page() {
                 >
                   {formatDuration(video.durationSeconds)}
                 </span>
-              </div>
-              <div className="px-4 py-3">
-                <h3 className="text-sm font-semibold" style={{ color: "#f6f7f8" }}>
+              </a>
+
+              <div className="flex flex-1 flex-col gap-2">
+                <a
+                  href={`https://www.youtube.com/watch?v=${video.id}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-base font-semibold"
+                  style={{ color: "#f6f7f8" }}
+                >
                   {video.title}
-                </h3>
-                <p className="mt-2 text-xs" style={{ color: "rgba(246,247,248,0.65)" }}>
+                </a>
+                {video.description ? (
+                  <p className="text-sm" style={{ color: "rgba(246,247,248,0.75)" }}>
+                    {trimDescription(video.description)}
+                  </p>
+                ) : null}
+                <p className="text-xs" style={{ color: "rgba(246,247,248,0.6)" }}>
                   Publicado em {formatDate(video.publishedAt)}
                 </p>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       )}
