@@ -57,11 +57,11 @@ export default function SondaSearch({ data }: Props) {
 
   return (
     <div className="mt-8 flex flex-col gap-6">
-      <div className="mx-auto w-full max-w-2xl">
+      <div className="mx-auto w-full" style={{ maxWidth: 720 }}>
         <label className="text-sm font-semibold" style={{ color: "#0b1422" }}>
           Pesquisar medicamento
         </label>
-        <div className="relative mt-2">
+        <div className="relative mt-3">
           <input
             value={query}
             onChange={(event) => {
@@ -69,7 +69,7 @@ export default function SondaSearch({ data }: Props) {
               setSelected(null);
             }}
             placeholder="Digite o nome do medicamento"
-            className="w-full rounded-2xl border px-5 py-3 text-base outline-none"
+            className="w-full rounded-2xl border px-5 py-4 text-lg outline-none"
             style={{ borderColor: "rgba(15,26,43,0.18)" }}
           />
 
@@ -110,7 +110,7 @@ export default function SondaSearch({ data }: Props) {
             </div>
           ) : null}
         </div>
-        <p className="mt-2 text-xs text-center" style={{ color: "rgba(11,20,34,0.6)" }}>
+        <p className="mt-3 text-xs text-center" style={{ color: "rgba(11,20,34,0.6)" }}>
           Digite ao menos 2 letras para ver sugestões.
         </p>
       </div>
