@@ -31,53 +31,83 @@ function toItems(rows: string[][]): SondaItem[] {
     if (isHeaderRow(row)) continue;
     const medicamento = normalizeCell(row[0]);
     if (!medicamento) continue;
-    items.push({
-      medicamento,
-      permitido: normalizeCell(row[1]),
-      pausaDieta: normalizeCell(row[2]),
-      observacao: normalizeCell(row[3]),
-    });
+    const permitido = normalizeCell(row[1]);
+    const pausaDieta = normalizeCell(row[2]);
+    let observacao = normalizeCell(row[3]);
+    if (row.length > 4) {
+      observacao = normalizeCell(row.slice(3).join(" "));
+    }
+    items.push({ medicamento, permitido, pausaDieta, observacao });
   }
   return items;
 }
 
-function detectDelimiter(line: string): string {
-  const commas = (line.match(/,/g) || []).length;
-  const semicolons = (line.match(/;/g) || []).length;
-  return semicolons > commas ? ";" : ",";
+function detectDelimiter(text: string): string {
+  const firstLine = text.split(/\r?\n/)[0] ?? "";
+  const candidates = [",", ";", "\t", "|"];
+  let best = ";";
+  let bestCount = -1;
+  for (const candidate of candidates) {
+    const count = firstLine.split(candidate).length - 1;
+    if (count > bestCount) {
+      best = candidate;
+      bestCount = count;
+    }
+  }
+  return best;
 }
 
 function parseCsv(text: string): string[][] {
   const cleaned = text.replace(/^\uFEFF/, "");
-  const lines = cleaned.split(/\r?\n/).filter((line) => line.trim().length > 0);
-  if (lines.length === 0) return [];
-  const delimiter = detectDelimiter(lines[0]);
+  if (!cleaned.trim()) return [];
+  const delimiter = detectDelimiter(cleaned);
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let field = "";
+  let inQuotes = false;
 
-  return lines.map((line) => {
-    const cells: string[] = [];
-    let current = "";
-    let inQuotes = false;
-    for (let i = 0; i < line.length; i += 1) {
-      const char = line[i];
-      if (char === "\"") {
-        if (inQuotes && line[i + 1] === "\"") {
-          current += "\"";
-          i += 1;
-        } else {
-          inQuotes = !inQuotes;
-        }
-        continue;
+  for (let i = 0; i < cleaned.length; i += 1) {
+    const char = cleaned[i];
+    if (char === "\"") {
+      if (inQuotes && cleaned[i + 1] === "\"") {
+        field += "\"";
+        i += 1;
+      } else {
+        inQuotes = !inQuotes;
       }
-      if (char === delimiter && !inQuotes) {
-        cells.push(current);
-        current = "";
-        continue;
-      }
-      current += char;
+      continue;
     }
-    cells.push(current);
-    return cells.map((cell) => cell.trim());
-  });
+
+    if (!inQuotes && char === delimiter) {
+      row.push(field);
+      field = "";
+      continue;
+    }
+
+    if (!inQuotes && (char === "\n" || char === "\r")) {
+      if (char === "\r" && cleaned[i + 1] === "\n") {
+        i += 1;
+      }
+      row.push(field);
+      field = "";
+      if (row.some((cell) => cell.trim().length > 0)) {
+        rows.push(row.map((cell) => cell.trim()));
+      }
+      row = [];
+      continue;
+    }
+
+    field += char;
+  }
+
+  if (field.length > 0 || row.length > 0) {
+    row.push(field);
+    if (row.some((cell) => cell.trim().length > 0)) {
+      rows.push(row.map((cell) => cell.trim()));
+    }
+  }
+
+  return rows;
 }
 
 function isXlsx(buffer: Buffer): boolean {

@@ -1,3 +1,6 @@
+import type { CSSProperties } from "react";
+import Link from "next/link";
+
 export default function Page() {
   return (
     <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
@@ -8,39 +11,36 @@ export default function Page() {
         Selecione a ferramenta que deseja usar.
       </p>
 
-      <div
-        className="mt-6"
-        style={{
-          display: "grid",
-          gap: 16,
-          gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-        }}
-      >
-        <a
+      <div className="tool-grid mt-6">
+        <Link
           href="/ferramentas/incompatibilidade-via-y"
-          className="rounded-xl border bg-white p-4"
-          style={{ borderColor: "rgba(15,26,43,0.12)" }}
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#0f172a",
+              "--card-to": "#2563eb",
+            } as CSSProperties
+          }
         >
-          <h3 className="text-sm font-semibold" style={{ color: "#0b1422" }}>
-            Incompatibilidade via Y
-          </h3>
-          <p className="mt-2 text-xs" style={{ color: "rgba(11,20,34,0.6)" }}>
-            Verificar incompatibilidades relacionadas ao Y.
-          </p>
-        </a>
+          <span className="tool-card__label">Ferramenta</span>
+          <h3>Incompatibilidade via Y</h3>
+          <p>Verifique incompatibilidades relacionadas ao uso em Y.</p>
+        </Link>
 
-        <a
+        <Link
           href="/ferramentas/administracao-via-sonda"
-          className="rounded-xl border bg-white p-4"
-          style={{ borderColor: "rgba(15,26,43,0.12)" }}
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#0b3a2f",
+              "--card-to": "#22c55e",
+            } as CSSProperties
+          }
         >
-          <h3 className="text-sm font-semibold" style={{ color: "#0b1422" }}>
-            Administração via sonda
-          </h3>
-          <p className="mt-2 text-xs" style={{ color: "rgba(11,20,34,0.6)" }}>
-            Pesquise o medicamento e veja se é permitido e a observação.
-          </p>
-        </a>
+          <span className="tool-card__label">Ferramenta</span>
+          <h3>Administração via sonda</h3>
+          <p>Pesquise o medicamento e veja se é permitido e a observação.</p>
+        </Link>
       </div>
     </div>
   );
