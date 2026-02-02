@@ -112,50 +112,35 @@ export default function SondaSearch({ data }: Props) {
       </div>
 
       {selected ? (
-        <div className="mx-auto w-full max-w-3xl rounded-2xl border bg-white p-5" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
-          <div className="flex items-start justify-between gap-3">
-            <h3 className="text-lg font-semibold" style={{ color: "#0b1422" }}>
-              {selected.medicamento}
-            </h3>
+        <div className="sonda-result">
+          <div className="sonda-result__inner">
+            <h3 className="sonda-result__title">{selected.medicamento}</h3>
             {(() => {
               const status = formatPermitido(selected.permitido);
               return (
-                <span
-                  className="rounded-full border px-3 py-1 text-xs font-semibold"
-                  style={toneStyles[status.tone]}
-                >
+                <span className="sonda-result__badge" style={toneStyles[status.tone]}>
                   Permitido: {status.label}
                 </span>
               );
             })()}
-          </div>
 
-          <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            <div className="rounded-xl border px-4 py-3" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
-              <p className="text-[11px] font-semibold uppercase" style={{ color: "rgba(11,20,34,0.55)" }}>
-                Permitido
-              </p>
-              <p className="mt-1 text-sm font-semibold" style={{ color: "#0b1422" }}>
-                {formatPermitido(selected.permitido).label}
+            <div className="sonda-result__grid">
+              <div className="sonda-result__card">
+                <p className="sonda-result__label">Permitido</p>
+                <p className="sonda-result__value">{formatPermitido(selected.permitido).label}</p>
+              </div>
+              <div className="sonda-result__card">
+                <p className="sonda-result__label">Pausa dieta</p>
+                <p className="sonda-result__value">{selected.pausaDieta || "Não informado"}</p>
+              </div>
+            </div>
+
+            <div className="sonda-result__card" style={{ marginTop: 12 }}>
+              <p className="sonda-result__label">Observação</p>
+              <p className="sonda-result__value">
+                {selected.observacao || "Sem observações adicionais."}
               </p>
             </div>
-            <div className="rounded-xl border px-4 py-3" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
-              <p className="text-[11px] font-semibold uppercase" style={{ color: "rgba(11,20,34,0.55)" }}>
-                Pausa dieta
-              </p>
-              <p className="mt-1 text-sm font-semibold" style={{ color: "#0b1422" }}>
-                {selected.pausaDieta || "Não informado"}
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-4 rounded-xl border px-4 py-3" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
-            <p className="text-[11px] font-semibold uppercase" style={{ color: "rgba(11,20,34,0.55)" }}>
-              Observação
-            </p>
-            <p className="mt-2 text-sm" style={{ color: "rgba(11,20,34,0.75)" }}>
-              {selected.observacao || "Sem observações adicionais."}
-            </p>
           </div>
         </div>
       ) : null}
