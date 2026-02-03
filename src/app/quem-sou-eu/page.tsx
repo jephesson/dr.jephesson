@@ -6,8 +6,8 @@ export default function Page() {
       </header>
 
       <div
-        className="mx-auto rounded-2xl bg-white p-8"
-        style={{ border: "1px solid var(--stroke)", maxWidth: 680 }}
+        className="mx-auto rounded-2xl bg-white p-10"
+        style={{ border: "2px solid #0b1422", maxWidth: 760 }}
       >
         <div
           className="space-y-5"
