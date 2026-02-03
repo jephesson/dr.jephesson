@@ -7,7 +7,7 @@ export default function Page() {
 
       <div
         className="mx-auto rounded-2xl bg-white p-10"
-        style={{ border: "2px solid #0b1422", maxWidth: 760 }}
+        style={{ border: "2px solid #0b1422", maxWidth: 820, padding: "48px 52px" }}
       >
         <div
           className="space-y-5"
