@@ -1,11 +1,14 @@
 export default function Page() {
   return (
-    <section className="mx-auto max-w-2xl">
+    <section className="mx-auto max-w-4xl">
       <header className="mb-6">
         <h1 className="text-3xl font-semibold text-center">Quem sou eu</h1>
       </header>
 
-      <div className="rounded-2xl bg-white p-8" style={{ border: "1px solid var(--stroke)" }}>
+      <div
+        className="mx-auto rounded-2xl bg-white p-8"
+        style={{ border: "1px solid var(--stroke)", maxWidth: 680 }}
+      >
         <div
           className="space-y-5"
           style={{
