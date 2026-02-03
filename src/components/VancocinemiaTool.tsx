@@ -68,6 +68,11 @@ export default function VancocinemiaTool() {
 
   return (
     <div className="vanco-tool">
+      <div className="vanco-alert">
+        Esta calculadora de vancocinemia está em fase de testes. Não utilize os resultados para decisões clínicas, pois os
+        dados ainda não são confiáveis.
+      </div>
+
       <div className="vanco-tabs">
         <button
           type="button"
@@ -196,7 +201,7 @@ export default function VancocinemiaTool() {
       )}
 
       <p className="vanco-disclaimer">
-        Ferramenta educacional. Verifique critérios clínicos, horários das coletas e estabilidade renal antes de decisões terapêuticas.
+        Ferramenta em validação. Os resultados não devem ser usados para decisões clínicas até nova atualização.
       </p>
     </div>
   );
