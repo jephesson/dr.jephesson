@@ -2,60 +2,40 @@ export default function Page() {
   return (
     <section className="mx-auto max-w-3xl">
       <header className="mb-6">
-        <h1 className="text-3xl font-semibold">Quem sou eu</h1>
-        <p className="mt-2" style={{ color: "var(--muted)" }}>
-          Farmacêutico clínico, pesquisador e empreendedor.
-        </p>
+        <h1 className="text-3xl font-semibold text-center">Quem sou eu</h1>
       </header>
 
-      <div
-        className="rounded-2xl p-8"
-        style={{
-          background: "#fff",
-          border: "1px solid var(--stroke)",
-          boxShadow: "0 12px 28px rgba(0,0,0,0.06)",
-        }}
-      >
-        <p className="text-base" style={{ color: "var(--muted)" }}>
-          Nasci em Guarabira, Paraíba, e sigo dedicado à prática clínica, à pesquisa em farmacologia e à educação em saúde.
-          Sou graduado em Farmácia pela UFPB (2015), mestre em Produtos Naturais e Sintéticos Bioativos (UFPB, 2017) e doutor
-          em Biologia Celular e Molecular pela UFRGS (2022), com atuação no LabSinal e no HCPA.
-        </p>
-
-        <div className="mt-6 grid gap-4">
-          <div className="rounded-xl p-5" style={{ background: "rgba(11,20,34,0.03)", border: "1px solid var(--stroke)" }}>
-            <p className="font-semibold">Formação</p>
-            <p className="mt-1 text-sm" style={{ color: "var(--muted)" }}>
-              Farmácia (UFPB, 2015) • Mestrado em Produtos Naturais e Sintéticos Bioativos (UFPB, 2017) • Doutorado em Biologia
-              Celular e Molecular (UFRGS, 2022).
-            </p>
-          </div>
-
-          <div className="rounded-xl p-5" style={{ background: "rgba(11,20,34,0.03)", border: "1px solid var(--stroke)" }}>
-            <p className="font-semibold">Atuação clínica</p>
-            <p className="mt-1 text-sm" style={{ color: "var(--muted)" }}>
-              Farmacêutico clínico no HE‑UFPEL. Atuei no CHC de Curitiba até abril de 2025, com experiência em transplante de medula
-              óssea e UTI. Também trabalhei como farmacêutico clínico no HCPA durante o doutorado.
-            </p>
-          </div>
-
-          <div className="rounded-xl p-5" style={{ background: "rgba(11,20,34,0.03)", border: "1px solid var(--stroke)" }}>
-            <p className="font-semibold">Tecnologia e empreendedorismo</p>
-            <p className="mt-1 text-sm" style={{ color: "var(--muted)" }}>
-              No último ano, concentrei esforços no desenvolvimento de sites e aplicativos voltados à saúde. Também sou empresário
-              e empreendedor no ramo de agência de viagens (vias aéreas).
-            </p>
-          </div>
-
-          <div className="rounded-xl p-5" style={{ background: "rgba(11,20,34,0.03)", border: "1px solid var(--stroke)" }}>
-            <p className="font-semibold">Lattes</p>
-            <p className="mt-1 text-sm" style={{ color: "var(--muted)" }}>
-              Currículo completo:{" "}
-              <a href="http://lattes.cnpq.br/9112252231580180" target="_blank" rel="noreferrer">
-                lattes.cnpq.br/9112252231580180
-              </a>
-            </p>
-          </div>
+      <div className="rounded-2xl bg-white p-8" style={{ border: "1px solid var(--stroke)" }}>
+        <div className="space-y-5 text-center" style={{ color: "#0b1422" }}>
+          <p className="text-base">
+            Sou Jephesson Alex Floriano dos Santos, farmacêutico clínico, pesquisador e empreendedor. Nasci em Guarabira, Paraíba,
+            e minha trajetória profissional sempre esteve conectada ao cuidado com o paciente, à pesquisa em farmacologia e à
+            educação em saúde.
+          </p>
+          <p className="text-base">
+            Graduado em Farmácia pela Universidade Federal da Paraíba (UFPB, 2015), segui para o mestrado no Programa de
+            Pós-Graduação em Produtos Naturais e Sintéticos Bioativos, com ênfase em Farmacologia, também na UFPB (2017). Em
+            seguida, concluí o doutorado em Biologia Celular e Molecular na Universidade Federal do Rio Grande do Sul (UFRGS, 2022),
+            no Laboratório de Sinalização e Plasticidade Celular (LabSinal), período em que atuei como farmacêutico clínico no
+            Hospital de Clínicas de Porto Alegre (HCPA).
+          </p>
+          <p className="text-base">
+            Minha atuação clínica inclui experiência no Complexo do Hospital de Clínicas de Curitiba (CHC/UFPR), onde trabalhei com
+            transplante de medula óssea e UTI até abril de 2025. Atualmente, sou farmacêutico clínico no HE‑UFPEL, mantendo o foco
+            em segurança do paciente, uso racional de medicamentos e prática baseada em evidências.
+          </p>
+          <p className="text-base">
+            No último ano, ampliei minha atuação para a inovação em saúde, dedicando-me ao desenvolvimento de sites e aplicativos
+            voltados à área. Também sou empresário no ramo de agência de viagens (vias aéreas), conciliando a visão empreendedora
+            com o compromisso de gerar valor em diferentes frentes.
+          </p>
+          <p className="text-base">
+            Meu currículo completo está no{" "}
+            <a href="http://lattes.cnpq.br/9112252231580180" target="_blank" rel="noreferrer">
+              lattes.cnpq.br/9112252231580180
+            </a>
+            .
+          </p>
         </div>
       </div>
     </section>
