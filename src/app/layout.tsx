@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 const bodyFont = DM_Sans({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
