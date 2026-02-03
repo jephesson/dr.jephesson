@@ -280,6 +280,16 @@ export default function IncompatibilidadeYTool() {
           <p className="y-report__empty">Selecione ao menos dois medicamentos para gerar o relatório.</p>
         )}
 
+        <div className="y-report__responsaveis">
+          <h4>Farmacêuticos responsáveis</h4>
+          <ul>
+            <li>Aline — CRF/PR XX.XXX</li>
+            <li>Willian — CRF/PR XX.XXXX</li>
+            <li>Camila — CRF/PR XX.XXX</li>
+            <li>Jephesson — CRF/RS XX.XXX</li>
+          </ul>
+        </div>
+
         <p className="y-report__disclaimer">Os dados informados não são armazenados neste site.</p>
       </div>
     </div>

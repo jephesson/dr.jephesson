@@ -18,7 +18,7 @@ export default function Navbar() {
   const isActive = (href: string) => pathname?.startsWith(href);
 
   return (
-    <header style={{ position: "sticky", top: 0, zIndex: 50 }}>
+    <header className="site-header" style={{ position: "sticky", top: 0, zIndex: 50 }}>
       {/* Faixa da marca */}
       <div style={{ background: "var(--brand)" }}>
         <div

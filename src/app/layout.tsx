@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         <main className="mx-auto max-w-6xl px-4 py-10">{children}</main>
 
-        <footer style={{ borderTop: "1px solid var(--stroke)" }}>
+        <footer className="site-footer" style={{ borderTop: "1px solid var(--stroke)" }}>
           <div className="mx-auto max-w-6xl px-4 py-8 text-sm" style={{ color: "var(--muted)" }}>
             <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
               <p>© {new Date().getFullYear()} Dr. Jephesson</p>
