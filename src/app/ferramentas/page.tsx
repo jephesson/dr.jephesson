@@ -41,6 +41,21 @@ export default function Page() {
           <h3>Administração via sonda</h3>
           <p>Pesquise o medicamento e veja se é permitido e a observação.</p>
         </Link>
+
+        <Link
+          href="/ferramentas/vancocinemia"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#2b1d3a",
+              "--card-to": "#f97316",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Calculadora</span>
+          <h3>Vancocinemia</h3>
+          <p>Calcule ajuste pelo vale e AUC com duas medições.</p>
+        </Link>
       </div>
     </div>
   );
