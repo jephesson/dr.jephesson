@@ -7,7 +7,9 @@ export default function Home() {
         <h1 className="text-4xl font-semibold tracking-tight">dr.jephesson</h1>
 
         <p className="mt-3 text-base" style={{ color: "var(--muted)" }}>
-          Conteúdo prático sobre medicamentos — aulas, e-books e ferramentas para prática clínica com segurança.
+          Este espaço foi criado para oferecer ferramentas, aulas e colaboração entre profissionais da saúde. Aqui você encontra
+          calculadoras em saúde, análise de incompatibilidade via Y e detalhes sobre medicamentos para apoiar a prática clínica
+          com segurança. Também disponibilizamos aulas gratuitas no YouTube e conteúdos para atualização contínua.
         </p>
 
         <div className="mt-8 flex justify-center">
