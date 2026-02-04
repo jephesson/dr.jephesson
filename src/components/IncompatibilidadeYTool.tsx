@@ -78,6 +78,7 @@ export default function IncompatibilidadeYTool() {
   const [council, setCouncil] = useState("");
   const [patient, setPatient] = useState("");
   const [record, setRecord] = useState("");
+  const [responsible, setResponsible] = useState("");
 
   useEffect(() => {
     let mounted = true;
@@ -160,6 +161,24 @@ export default function IncompatibilidadeYTool() {
               Prontuário
               <input value={record} onChange={(e) => setRecord(e.target.value)} placeholder="Ex.: 000000" />
             </label>
+            <label>
+              Gerado por (profissional)
+              <select value={responsible} onChange={(e) => setResponsible(e.target.value)}>
+                <option value="">Selecione</option>
+                <option value="Aline de Fátima Bonetti — CRF/PR 26590">
+                  Aline de Fátima Bonetti — CRF/PR 26590
+                </option>
+                <option value="Camila dos Santos Bernardo — CRF/PR 31261">
+                  Camila dos Santos Bernardo — CRF/PR 31261
+                </option>
+                <option value="William Lucas Ferreira da Silva — CRF/PR 38218">
+                  William Lucas Ferreira da Silva — CRF/PR 38218
+                </option>
+                <option value="Jephesson Alex Floriano dos Santos — CRF/RS 18913">
+                  Jephesson Alex Floriano dos Santos — CRF/RS 18913
+                </option>
+              </select>
+            </label>
           </div>
           <p className="y-tool__note">Os dados preenchidos aqui não são armazenados.</p>
         </div>
@@ -217,26 +236,18 @@ export default function IncompatibilidadeYTool() {
       <div className="print-area y-report">
         <header className="y-report__header">
           <div>
-            <h2>{institution || "Instituição"}</h2>
-            <p>Relatório de incompatibilidade em Y</p>
-          </div>
-          <div className="y-report__meta">
-            <span>Data/Hora: {dateTime}</span>
+            <h2>Incompatibilidade via Y</h2>
           </div>
         </header>
 
-        <div className="y-report__info">
+        <div className="y-report__info y-report__info--highlight">
           <div>
-            <strong>Profissional:</strong> {professional || "—"}
+            <strong>Paciente</strong>
+            <div>{patient || "—"}</div>
           </div>
           <div>
-            <strong>Conselho:</strong> {council || "—"}
-          </div>
-          <div>
-            <strong>Paciente:</strong> {patient || "—"}
-          </div>
-          <div>
-            <strong>Prontuário:</strong> {record || "—"}
+            <strong>Prontuário</strong>
+            <div>{record || "—"}</div>
           </div>
         </div>
 
@@ -289,6 +300,10 @@ export default function IncompatibilidadeYTool() {
             <li>Jephesson — CRF/RS XX.XXX</li>
           </ul>
         </div>
+
+        <p className="y-report__footer">
+          Gerado por {responsible || "—"} · {dateTime}
+        </p>
 
         <p className="y-report__disclaimer">Os dados informados não são armazenados neste site.</p>
       </div>
