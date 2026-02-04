@@ -681,6 +681,192 @@ const posts: Post[] = [
       },
     ],
   },
+  {
+    id: "semaglutida",
+    name: "Semaglutida (Ozempic®)",
+    className: "Incretínicos",
+    category: "Farmacologia",
+    summary:
+      "A semaglutida é um agonista do receptor de GLP-1 (GLP-1RA) de ação prolongada, usado principalmente no diabetes tipo 2.",
+    sections: [
+      {
+        title: "Semaglutida (Ozempic®): farmacologia completa para uso em site",
+        paragraphs: [
+          "A semaglutida é um agonista do receptor de GLP-1 (GLP-1RA) de ação prolongada, usado principalmente no diabetes tipo 2. Ela atua reduzindo glicemia de forma dependente da glicose (com menor risco de hipoglicemia “sozinha”), além de efeitos no apetite, esvaziamento gástrico e, em populações específicas, desfechos cardiovasculares e renais.",
+          "Nota para o site (importante): conteúdo educativo, não substitui avaliação e prescrição médica.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "A semaglutida foi desenvolvida pela Novo Nordisk como um análogo de GLP-1 com meia-vida longa (permitindo administração semanal), ampliando a classe dos GLP-1RAs. O Ozempic® é a formulação injetável semanal indicada para diabetes tipo 2 (e algumas reduções de risco em grupos específicos), enquanto a mesma molécula aparece em outras marcas/posologias para outros objetivos regulatórios (p. ex., Wegovy® para manejo crônico do peso, em indicações específicas).",
+        ],
+      },
+      {
+        title: "Dados da molécula (visão prática)",
+        bullets: [
+          "Nome: semaglutida",
+          "Tipo: peptídeo (análogo de GLP-1)",
+          "Fórmula molecular: C₁₈₇H₂₉₁N₄₅O₅₉",
+          "Massa molecular: ~4113,6 g/mol",
+          "Ligação a proteínas (albumina): muito alta (>99%)",
+          "Ação prolongada: exposição sustentada e eliminação lenta (base para uso semanal)",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e “linha do tempo” de resposta (com dieta e exercício)",
+        paragraphs: ["2.1 Indicações aprovadas (on-label) — Ozempic®", "De acordo com bula/label, o Ozempic® é indicado em adultos com diabetes tipo 2:"],
+        bullets: [
+          "para melhorar o controle glicêmico, como adjuvante à dieta e ao exercício;",
+          "para reduzir risco de eventos cardiovasculares maiores (MACE) em adultos com DM2 e doença cardiovascular estabelecida;",
+          "para reduzir risco de progressão de doença renal (piora sustentada de eTFG, insuficiência renal terminal e morte cardiovascular) em adultos com DM2 e doença renal crônica.",
+          "Limitações de uso importantes (visão geral): não é “insulina”, não é para DM1; há advertências relevantes (ex.: tumores de células C em roedores; ver seção Segurança).",
+        ],
+      },
+      {
+        title: "2.2 Efeito terapêutico esperado (o que melhora)",
+        paragraphs: ["Efeitos metabólicos centrais (esperados):"],
+        bullets: [
+          "Redução de glicemia (jejum e pós-prandial) por ↑ insulina e ↓ glucagon dependentes da glicose",
+          "Redução de apetite/ingesta energética e retardo do esvaziamento gástrico (mais evidente no início)",
+          "Perda de peso costuma ocorrer em muitos pacientes com DM2 em estudos clínicos (magnitude variável; não é a indicação primária do Ozempic®, mas é um efeito frequente observado em trial)",
+        ],
+      },
+      {
+        title: "2.3 Em quanto tempo “começa a fazer efeito”? (prazos realistas)",
+        paragraphs: [
+          "1) Primeiros dias a 2 semanas (início):",
+          "É comum notar redução de apetite e/ou sintomas gastrointestinais (ex.: náusea), que muitas vezes diminuem com adaptação.",
+          "2) 4 a 5 semanas (estabilização farmacocinética):",
+          "A semaglutida atinge estado de equilíbrio (steady-state) tipicamente em 4–5 semanas. Isso ajuda a explicar por que a resposta “fica mais consistente” após algumas semanas.",
+          "3) ~12 semanas (janela clássica para avaliar HbA1c/controle):",
+          "A HbA1c reflete a média de glicose dos ~3 meses anteriores; por isso, costuma ser mais informativo reavaliar após algumas semanas/meses, e não em poucos dias.",
+          "No próprio material regulatório há referência de avaliações farmacodinâmicas após 12 semanas incluindo escalonamento de dose em steady-state.",
+          "4) Meses (peso, CV e rim):",
+          "Peso e marcadores cardiometabólicos geralmente mudam ao longo de meses, e os estudos clínicos frequentemente medem desfechos em 30–56 semanas.",
+          "Redução de risco cardiovascular e renal é um objetivo de médio/longo prazo, dependente do perfil do paciente e da indicação específica em bula.",
+        ],
+      },
+      {
+        title: "2.4 Por que dieta e exercício são complementares (e não “opcionais”)?",
+        paragraphs: [
+          "A bula deixa explícito que o uso é adjuvante à dieta e ao exercício.",
+          "Na prática, isso faz sentido porque:",
+          "Semaglutida ajuda, mas não substitui: qualidade alimentar, regularidade de refeições, sono, estresse e rotina de atividade — que influenciam glicemia, pressão, lipídios e manutenção de resultados.",
+          "Atividade física aumenta a sensibilidade à insulina e pode reduzir glicose por até 24h ou mais após o treino (efeito “metabólico prolongado”).",
+          "Exercício também protege massa muscular e capacidade funcional (especialmente relevante quando há perda de peso), ajudando na sustentação de resultados a longo prazo.",
+          "Cuidados práticos (sem “dieta da moda”):",
+        ],
+        bullets: [
+          "Priorizar mudanças sustentáveis (alimentos minimamente processados, fibra, proteína adequada, hidratação).",
+          "Combinar aeróbico + força tende a ser uma estratégia bem fundamentada para metabolismo e composição corporal.",
+          "Ajustes individualizados são essenciais (principalmente se houver retinopatia, neuropatia, doença cardiovascular, etc.).",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "A semaglutida é um agonista do receptor de GLP-1 e reproduz/otimiza efeitos do GLP-1 endógeno:",
+          "↑ secreção de insulina e ↓ secreção de glucagon de forma dependente da glicose;",
+          "retarda o esvaziamento gástrico (impactando pico pós-prandial e saciedade, sobretudo no início);",
+          "atua em circuitos de apetite no SNC, reduzindo ingestão energética.",
+        ],
+      },
+      {
+        title: "4) O que o receptor de GLP-1 “faz” e por que isso importa clinicamente",
+        paragraphs: [
+          "Onde está o receptor GLP-1? (visão funcional)",
+          "Pâncreas: melhora resposta de insulina e reduz glucagon quando a glicose está elevada.",
+          "Trato gastrointestinal: modula motilidade/esvaziamento gástrico (efeitos pós-prandiais e GI).",
+          "SNC (fome/saciedade): contribui para menor apetite/ingesta.",
+          "Sistema CV/renal (em subgrupos): há indicações em bula para redução de risco CV e renal em populações específicas com DM2.",
+          "Tradução clínica: a cascata “receptor → efeito metabólico → desfecho” depende de aderência, dose/tempo, perfil do paciente e comorbidades. Em DM2, o efeito costuma ser mais previsível para glicemia; desfechos CV/renais dependem da indicação específica e do risco basal.",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        paragraphs: ["Absorção/Distribuição"],
+        bullets: [
+          "Exposição sustentada com pico tardio (tmax em torno de ~1–3 dias, dependendo do material regulatório) e alta ligação à albumina.",
+        ],
+      },
+      {
+        title: "Meia-vida e estado de equilíbrio",
+        bullets: [
+          "Meia-vida ~1 semana e steady-state em 4–5 semanas.",
+          "Após interrupção, a exposição pode persistir por semanas (relevante para planejamento clínico, especialmente em situações específicas como gestação planejada).",
+        ],
+      },
+      {
+        title: "Metabolismo/Eliminação",
+        bullets: [
+          "Por ser um peptídeo, a eliminação envolve vias proteolíticas e clearance sistêmico compatível com molécula de ação prolongada (detalhes completos variam entre documentos regulatórios).",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança (pontos essenciais)",
+        paragraphs: ["6.1 Eventos comuns (principalmente GI)"],
+        bullets: [
+          "Os mais característicos na classe GLP-1RA incluem náusea, vômitos, diarreia/constipação e desconforto abdominal (frequentemente mais intensos no início e durante escalonamento).",
+        ],
+      },
+      {
+        title: "6.2 Alertas relevantes (visão “de bula”)",
+        bullets: [
+          "Risco de tumores de células C da tireoide em roedores; contraindicado em quem tem história pessoal/familiar de carcinoma medular de tireoide ou MEN2.",
+          "Pancreatite aguda: atenção a sintomas compatíveis e conduta médica.",
+          "Doença da vesícula biliar (colelitíase/colecistite): risco aumentado em alguns cenários.",
+          "Complicações de retinopatia diabética: observadas/monitoradas em grupos de risco.",
+          "Desidratação/lesão renal aguda pode ocorrer secundariamente a efeitos GI importantes (vômitos/diarreia) — hidratação e acompanhamento são cruciais.",
+          "Reações GI graves / gastroparesia importante: há recomendações de cautela; não é recomendado em gastroparesia severa.",
+        ],
+      },
+      {
+        title: "6.3 Alerta farmacovigilância recente (olhos – NAION/NOIANA)",
+        paragraphs: [
+          "Agências regulatórias comunicaram que a neuropatia óptica isquêmica anterior não arterítica (NAION/NOIANA) foi considerada um evento muito raro associado à semaglutida e solicitaram atualização de informação de produto.",
+          "Mensagem prática para o site: se houver alteração visual súbita, é situação de avaliação médica imediata.",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        bullets: [
+          "Hipoglicemia quando combinado com insulina ou sulfonilureias: pode exigir ajuste pelo prescritor.",
+          "Esvaziamento gástrico mais lento pode alterar a absorção de alguns fármacos orais (a relevância clínica varia).",
+        ],
+      },
+      {
+        title: "8) Resumo “em uma frase”",
+        paragraphs: [
+          "Ozempic® (semaglutida) é um agonista de GLP-1 de ação prolongada que melhora controle glicêmico em DM2 (complementando dieta e exercício), pode reduzir risco cardiovascular e renal em subgrupos definidos em bula, e tem perfil de segurança dominado por efeitos gastrointestinais e alertas específicos de farmacovigilância.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. Ozempic (semaglutide) injection: Prescribing Information. (revisões e indicações em bula). Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "EUROPEAN MEDICINES AGENCY. Ozempic (INN-semaglutide): EPAR – Product Information. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "NATIONAL INSTITUTE OF DIABETES AND DIGESTIVE AND KIDNEY DISEASES (NIDDK). The A1C Test & Diabetes. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "CENTERS FOR DISEASE CONTROL AND PREVENTION (CDC). Physical activity and diabetes (Get Active). Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "AMERICAN DIABETES ASSOCIATION (ADA). Understanding your blood glucose and exercise. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "EUROPEAN MEDICINES AGENCY (EMA). PRAC concludes NAION is a very rare side effect of semaglutide medicines. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA (ANVISA). Alerta GGMON 06/2025: perda da visão (NOIANA) associada à semaglutida. Acesso em: 4 fev. 2026.",
+      },
+    ],
+  },
 ];
 
 const themes = ["Todos", "Antidepressivos", "Incretínicos"];
@@ -692,15 +878,17 @@ export default function MedicamentosHub() {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return posts.filter((post) => {
-      const themeOk = theme === "Todos" ? true : post.className === theme;
-      const queryOk =
-        !q ||
-        post.name.toLowerCase().includes(q) ||
-        post.summary.toLowerCase().includes(q) ||
-        post.className.toLowerCase().includes(q);
-      return themeOk && queryOk;
-    });
+    return posts
+      .filter((post) => {
+        const themeOk = theme === "Todos" ? true : post.className === theme;
+        const queryOk =
+          !q ||
+          post.name.toLowerCase().includes(q) ||
+          post.summary.toLowerCase().includes(q) ||
+          post.className.toLowerCase().includes(q);
+        return themeOk && queryOk;
+      })
+      .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
   }, [query, theme]);
 
   const selected = posts.find((post) => post.id === selectedId) ?? null;
