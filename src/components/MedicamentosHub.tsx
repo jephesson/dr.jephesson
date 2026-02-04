@@ -362,6 +362,19 @@ export default function MedicamentosHub() {
         </div>
       </div>
 
+      <div className="meds-available">
+        <p>Disponíveis agora:</p>
+        <ul>
+          {filtered.map((post) => (
+            <li key={post.id}>
+              <button type="button" onClick={() => setSelectedId(post.id)}>
+                {post.name}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       {selected ? (
         <article className="meds-article meds-article--full">
           <header>
