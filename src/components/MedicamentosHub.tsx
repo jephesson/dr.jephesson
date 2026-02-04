@@ -241,68 +241,47 @@ export default function MedicamentosHub() {
         </div>
       </div>
 
-      <div className="meds-grid">
-        <div className="meds-list">
-          {filtered.map((post) => (
-            <button
-              key={post.id}
-              type="button"
-              className={post.id === selected?.id ? "meds-card meds-card--active" : "meds-card"}
-              onClick={() => setSelectedId(post.id)}
-            >
-              <div className="meds-card__header">
-                <span>{post.category}</span>
-                <span className="meds-card__tag">{post.className}</span>
-              </div>
-              <h3>{post.name}</h3>
-              <p>{post.summary}</p>
-              <div className="meds-card__cta">Abrir</div>
-            </button>
-          ))}
-        </div>
+      {selected ? (
+        <article className="meds-article meds-article--full">
+          <header>
+            <div className="meds-article__meta">
+              <span>{selected.category}</span>
+              <span>{selected.className}</span>
+            </div>
+            <h3>{selected.name}</h3>
+            <p>{selected.summary}</p>
+          </header>
 
-        {selected ? (
-          <article className="meds-article">
-            <header>
-              <div className="meds-article__meta">
-                <span>{selected.category}</span>
-                <span>{selected.className}</span>
-              </div>
-              <h3>{selected.name}</h3>
-              <p>{selected.summary}</p>
-            </header>
-
-            {selected.sections.map((section) => (
-              <section key={section.title} className="meds-section">
-                <h4>{section.title}</h4>
-                {section.paragraphs?.map((text, index) => (
-                  <p key={index}>{text}</p>
-                ))}
-                {section.bullets ? (
-                  <ul>
-                    {section.bullets.map((bullet) => (
-                      <li key={bullet}>{bullet}</li>
-                    ))}
-                  </ul>
-                ) : null}
-              </section>
-            ))}
-
-            <section className="meds-section">
-              <h4>Referências (ABNT – NBR 6023:2018)</h4>
-              <ol>
-                {selected.references.map((ref) => (
-                  <li key={ref.href}>
-                    <a href={ref.href} target="_blank" rel="noreferrer">
-                      {ref.label}
-                    </a>
-                  </li>
-                ))}
-              </ol>
+          {selected.sections.map((section) => (
+            <section key={section.title} className="meds-section">
+              <h4>{section.title}</h4>
+              {section.paragraphs?.map((text, index) => (
+                <p key={index}>{text}</p>
+              ))}
+              {section.bullets ? (
+                <ul>
+                  {section.bullets.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+              ) : null}
             </section>
-          </article>
-        ) : null}
-      </div>
+          ))}
+
+          <section className="meds-section">
+            <h4>Referências (ABNT – NBR 6023:2018)</h4>
+            <ol>
+              {selected.references.map((ref) => (
+                <li key={ref.href}>
+                  <a href={ref.href} target="_blank" rel="noreferrer">
+                    {ref.label}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </section>
+        </article>
+      ) : null}
     </div>
   );
 }
