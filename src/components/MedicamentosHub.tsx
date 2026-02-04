@@ -1431,9 +1431,142 @@ const posts: Post[] = [
       },
     ],
   },
+  {
+    id: "quetiapina",
+    name: "Quetiapina (Seroquel® / Seroquel XR®)",
+    className: "Antipsicóticos",
+    category: "Farmacologia",
+    summary:
+      "A quetiapina é um antipsicótico atípico com ação multialvo em receptores dopaminérgicos, serotoninérgicos, histaminérgicos e adrenérgicos.",
+    sections: [
+      {
+        title: "Quetiapina (Seroquel® / Seroquel XR®): farmacologia completa para uso em site",
+        paragraphs: [
+          "A quetiapina é um antipsicótico atípico com ação “multialvo” em receptores dopaminérgicos, serotoninérgicos, histaminérgicos e adrenérgicos. Na prática, esse perfil ajuda a explicar por que ela aparece tanto no manejo de psicoses quanto de transtornos do humor (especialmente bipolaridade) — e por que seus efeitos variam muito conforme formulação (IR vs XR) e contexto clínico.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "Nos EUA, o fármaco está registrado como SEROQUEL (liberação imediata) e SEROQUEL XR (liberação prolongada), com aprovação inicial em 1997.",
+          "O rótulo do SEROQUEL XR (revisado em 03/2020) inclui, além de esquizofrenia e transtorno bipolar, a indicação de terapia adjuvante no transtorno depressivo maior (TDM).",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica (on-label) e usos discutidos (off-label)",
+        paragraphs: ["Indicações aprovadas (on-label) – visão geral (FDA/EUA)"],
+        bullets: [
+          "Esquizofrenia",
+          "Transtorno bipolar: episódios maníacos/mistos e episódios depressivos",
+          "Seroquel XR: adjuvante no TDM (associado a antidepressivos), conforme rótulo.",
+        ],
+      },
+      {
+        title: "Usos discutidos na prática (off-label) — sem aprovação regulatória (exemplos comuns)",
+        bullets: [
+          "Insônia: uso relativamente frequente, mas com evidência limitada e preocupação com efeitos metabólicos e necessidade de monitorização (não é “atalho inofensivo”).",
+          "Ansiedade em alguns cenários (p. ex., sintomas ansiosos em depressão bipolar), geralmente como extrapolação/estratégia clínica individualizada e não como indicação primária.",
+          "Observação editorial para site: ao citar off-label, vale sempre deixar explícito “discutido na prática / não aprovado” e evitar qualquer linguagem prescritiva.",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "3.1 Antagonismo dopaminérgico e serotoninérgico (núcleo antipsicótico/estabilizador)",
+          "O mecanismo exato não é totalmente conhecido, mas a quetiapina apresenta antagonismo em receptores 5-HT2A e D2, um eixo clássico dos antipsicóticos atípicos.",
+          "3.2 Afinidade por receptores “não clássicos” (sedação e efeitos autonômicos)",
+          "O perfil de ligação mostra afinidade relevante por:",
+          "H1 (histamina) → sedação/sonolência e aumento de apetite em parte dos pacientes",
+          "α1-adrenérgico → hipotensão ortostática/tontura",
+          "M1 (muscarínico) (menor, mas presente no perfil global) → boca seca/constipação/efeitos anticolinérgicos em suscetíveis",
+          "3.3 Efeitos “em rede” (downstream) e o papel do metabólito ativo (norquetiapina)",
+          "Além do “bloqueio D2/5-HT2”, a quetiapina tem um metabólito clinicamente relevante, a norquetiapina, cuja farmacologia ajuda a explicar a presença do fármaco em estratégias para humor:",
+          "A norquetiapina tem inibição de NET (transportador de noradrenalina) e interação com 5-HT1A, compondo um conjunto de alvos típico de fármacos com racional antidepressivo/anxiolítico.",
+          "Em modelos pré-clínicos, o conjunto NET + 5-HT1A + 5-HT2A/2C aparece como parte da hipótese para efeitos “além da psicose”, sem que isso transforme automaticamente a molécula em “antidepressivo puro” — é uma tradução farmacológica, não uma garantia clínica.",
+        ],
+      },
+      {
+        title: "4) O que cada receptor faz e seu possível envolvimento clínico",
+        paragraphs: [
+          "4.1 D2 (antagonismo)",
+          "Base do efeito antipsicótico; quetiapina tende a ter perfil de EPS mais baixo que antipsicóticos “típicos”, mas não é “zero risco”. (Detalhes e advertências ficam no rótulo.)",
+          "4.2 5-HT2A (antagonismo)",
+          "Marca dos atípicos: contribui para o equilíbrio dopamina/serotonina em circuitos corticoestriatais e está no racional de menor EPS em comparação a bloqueio D2 isolado.",
+          "4.3 H1 (antagonismo)",
+          "Associado a sonolência/sedação e possível aumento de apetite — muito citado quando se fala do “efeito de sono” em doses mais baixas.",
+          "4.4 α1 (antagonismo)",
+          "Explica tontura e hipotensão ortostática, sobretudo no início e em titulações mais rápidas/sensíveis.",
+          "4.5 NET e 5-HT1A (via norquetiapina)",
+          "Contribuem para hipóteses de efeitos em humor/ansiedade, particularmente no racional do uso em depressão (incluindo adjuvância no TDM na formulação XR).",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME) – destaques úteis para prática",
+        bullets: [
+          "Ligação a proteínas: ~83%.",
+          "Metabolismo: predominantemente via CYP3A4 (ponto central para interações).",
+          "Meia-vida: quetiapina ~7 h; norquetiapina ~12 h (valores aproximados reportados).",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        paragraphs: ["6.1 Efeitos comuns (práticos)"],
+        bullets: [
+          "Para Seroquel (IR), eventos comuns relatados incluem sonolência, boca seca, tontura, constipação, fraqueza e dor abdominal.",
+        ],
+      },
+      {
+        title: "6.2 Alertas relevantes (classe/medicamento)",
+        bullets: [
+          "Aumento de mortalidade em idosos com psicose relacionada à demência (não aprovado para essa indicação).",
+          "Pensamentos e comportamentos suicidas: alerta de antidepressivos em crianças/adolescentes/jovens adultos, com recomendação de monitorar piora clínica e surgimento de sintomas.",
+          "Metabólico: risco de hiperglicemia, dislipidemia e ganho de peso (monitorização é parte importante do uso seguro).",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        bullets: ["O ponto “rei” aqui é CYP3A4:", "Inibidores/indutores de CYP3A4 podem exigir ajuste de dose/reavaliação clínica conforme rótulo."],
+      },
+      {
+        title: "8) Um resumo “em uma frase”",
+        paragraphs: [
+          "A quetiapina combina antagonismo 5-HT2A/D2 com forte componente H1/α1 (sedação/autonômico) e um metabólito (norquetiapina) com ação em NET/5-HT1A, sustentando seu uso aprovado em esquizofrenia e bipolaridade e, na formulação XR, como adjuvante no TDM — com atenção especial a efeitos metabólicos e interações via CYP3A4.",
+        ],
+      },
+      {
+        title: "9) Curiosidade (para deixar o texto “vivo” no site)",
+        paragraphs: [
+          "Por que a quetiapina “dá sono” em doses baixas?",
+          "Porque, no perfil de receptores, ela tem afinidade muito alta por H1 e α1, que são alvos diretamente ligados a sonolência e tontura/hipotensão — efeitos que podem aparecer antes de qualquer objetivo terapêutico de humor/psicose. Isso ajuda a entender por que o uso “só para dormir” virou comum, mas também por que revisões alertam que a evidência para insônia é limitada e que os riscos metabólicos e a necessidade de monitorização não desaparecem só porque a dose é baixa.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "U.S. FOOD AND DRUG ADMINISTRATION (FDA). SEROQUEL (quetiapine fumarate) – prescribing information. (Revised 10/2020). Disponível em: Drugs@FDA. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label:
+          "U.S. FOOD AND DRUG ADMINISTRATION (FDA). SEROQUEL XR (quetiapine) extended-release tablets – prescribing information. (Revised 03/2020). Disponível em: Drugs@FDA. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label:
+          "DEVANE, C. L.; NEMEROFF, C. B. Clinical pharmacokinetics of quetiapine: an atypical antipsychotic. CNS Drugs, 2001. Disponível em: PubMed. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label:
+          "CROSS, A. J. et al. Quetiapine and its metabolite norquetiapine: translation from in vitro pharmacology to in vivo efficacy in rodent models. (Artigo em acesso livre). Disponível em: PubMed Central. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label:
+          "MODESTO-LOWE, V. et al. Quetiapine for primary insomnia: Consider the risks. Cleveland Clinic Journal of Medicine, 2021. Disponível em: PubMed. Acesso em: 4 fev. 2026.",
+      },
+    ],
+  },
 ];
 
-const themes = ["Todos", "Antidepressivos", "Anti-histamínicos", "Anticoagulantes", "Incretínicos"];
+const themes = ["Todos", "Antidepressivos", "Anti-histamínicos", "Anticoagulantes", "Antipsicóticos", "Incretínicos"];
 
 export default function MedicamentosHub() {
   const [query, setQuery] = useState("");
