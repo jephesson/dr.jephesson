@@ -250,9 +250,6 @@ export default function IncompatibilidadeYTool() {
             <button type="button" onClick={handleDownloadPdf} className="y-tool__btn y-tool__btn--ghost">
               Baixar PDF
             </button>
-            <button type="button" onClick={handlePrint} className="y-tool__btn">
-              Gerar PDF
-            </button>
           </div>
         </div>
       </div>
