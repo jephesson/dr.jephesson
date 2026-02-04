@@ -690,7 +690,7 @@ a{color:inherit;text-decoration:none}
 .espectro-lists{
   display:grid;
   gap:16px;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
 }
 
 .espectro-lists h4{
@@ -764,6 +764,69 @@ a{color:inherit;text-decoration:none}
   color:rgba(11,20,34,.6);
   text-transform:uppercase;
   letter-spacing:.08em;
+}
+
+.espectro-tree{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.espectro-node{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 14px;
+  border-radius:14px;
+  font-weight:700;
+  color:#0b1422;
+  background:#f1f5f9;
+  width:fit-content;
+}
+
+.espectro-node--bacteria{
+  background:linear-gradient(135deg,#e0f2fe,#f8fafc);
+  border:1px solid rgba(11,20,34,.12);
+}
+
+.espectro-node--antibiotic{
+  background:linear-gradient(135deg,#dcfce7,#f8fafc);
+  border:1px solid rgba(11,20,34,.12);
+}
+
+.espectro-branch{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding-left:18px;
+  border-left:2px solid rgba(15,23,42,.12);
+}
+
+.espectro-branch__label{
+  font-size:12px;
+  font-weight:700;
+  color:rgba(11,20,34,.6);
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.espectro-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.espectro-tag{
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:12px;
+  font-weight:700;
+}
+
+.espectro-tag--ok{
+  background:#dcfce7;
+  color:#166534;
+  border:1px solid #86efac;
 }
 
 .sonda-search{

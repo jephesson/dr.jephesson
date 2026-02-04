@@ -95,32 +95,22 @@ export default function EspectroAntimicrobianosTool() {
         />
       </div>
 
-      <div className="espectro-lists">
-        <div>
-          <h4>Bactérias disponíveis</h4>
-          <ul>
-            {bacteriaList.map((item) => (
-              <li key={item}>
-                <button type="button" onClick={() => setQuery(item)}>
-                  {item}
-                </button>
-              </li>
-            ))}
-          </ul>
+      {!query ? (
+        <div className="espectro-lists">
+          <div>
+            <h4>Bactérias disponíveis</h4>
+            <ul>
+              {bacteriaList.map((item) => (
+                <li key={item}>
+                  <button type="button" onClick={() => setQuery(item)}>
+                    {item}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-        <div>
-          <h4>Antimicrobianos disponíveis</h4>
-          <ul>
-            {antibioticList.map((item) => (
-              <li key={item}>
-                <button type="button" onClick={() => setQuery(item)}>
-                  {item}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+      ) : null}
 
       <div className="espectro-result">
         {!query ? (
@@ -128,26 +118,34 @@ export default function EspectroAntimicrobianosTool() {
         ) : null}
 
         {result?.type === "bacteria" ? (
-          <div>
-            <h3>{result.title}</h3>
-            <p>Antimicrobianos com cobertura:</p>
-            <ul>
-              {result.items.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
+          <div className="espectro-tree">
+            <div className="espectro-node espectro-node--bacteria">{result.title}</div>
+            <div className="espectro-branch">
+              <span className="espectro-branch__label">Cobre:</span>
+              <div className="espectro-tags">
+                {result.items.map((item) => (
+                  <span key={item} className="espectro-tag espectro-tag--ok">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         ) : null}
 
         {result?.type === "antibiotic" ? (
-          <div>
-            <h3>{result.title}</h3>
-            <p>Cobertura (bactérias):</p>
-            <ul>
-              {result.items.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
+          <div className="espectro-tree">
+            <div className="espectro-node espectro-node--antibiotic">{result.title}</div>
+            <div className="espectro-branch">
+              <span className="espectro-branch__label">Cobre:</span>
+              <div className="espectro-tags">
+                {result.items.map((item) => (
+                  <span key={item} className="espectro-tag espectro-tag--ok">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         ) : null}
 
