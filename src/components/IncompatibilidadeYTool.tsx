@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { parseCsv } from "@/lib/csv";
 
 type MatrixData = {
@@ -78,6 +78,7 @@ export default function IncompatibilidadeYTool() {
   const [council, setCouncil] = useState("");
   const [patient, setPatient] = useState("");
   const [record, setRecord] = useState("");
+  const reportRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     let mounted = true;
@@ -132,6 +133,45 @@ export default function IncompatibilidadeYTool() {
 
   function handlePrint() {
     window.print();
+  }
+
+  async function handleDownloadPdf() {
+    const element = reportRef.current;
+    if (!element) return;
+
+    const [{ default: html2canvas }, { jsPDF }] = await Promise.all([
+      import("html2canvas"),
+      import("jspdf"),
+    ]);
+
+    const canvas = await html2canvas(element, {
+      scale: 2,
+      useCORS: true,
+      backgroundColor: "#ffffff",
+    });
+
+    const imgData = canvas.toDataURL("image/png");
+    const pdf = new jsPDF("p", "pt", "a4");
+    const pageWidth = pdf.internal.pageSize.getWidth();
+    const pageHeight = pdf.internal.pageSize.getHeight();
+    const imgWidth = pageWidth;
+    const imgHeight = (canvas.height * imgWidth) / canvas.width;
+
+    let position = 0;
+    if (imgHeight <= pageHeight) {
+      pdf.addImage(imgData, "PNG", 0, 0, imgWidth, imgHeight);
+    } else {
+      while (position < imgHeight) {
+        pdf.addImage(imgData, "PNG", 0, -position, imgWidth, imgHeight);
+        position += pageHeight;
+        if (position < imgHeight) {
+          pdf.addPage();
+        }
+      }
+    }
+
+    const stamp = new Date().toISOString().slice(0, 10);
+    pdf.save(`incompatibilidade-via-y-${stamp}.pdf`);
   }
 
   return (
@@ -207,6 +247,9 @@ export default function IncompatibilidadeYTool() {
             <button type="button" onClick={() => setSelected([])} className="y-tool__btn y-tool__btn--ghost">
               Limpar
             </button>
+            <button type="button" onClick={handleDownloadPdf} className="y-tool__btn y-tool__btn--ghost">
+              Baixar PDF
+            </button>
             <button type="button" onClick={handlePrint} className="y-tool__btn">
               Gerar PDF
             </button>
@@ -214,7 +257,7 @@ export default function IncompatibilidadeYTool() {
         </div>
       </div>
 
-      <div className="print-area y-report">
+      <div className="print-area y-report" ref={reportRef}>
         <header className="y-report__header">
           <div>
             <h2>Incompatibilidade via Y</h2>
