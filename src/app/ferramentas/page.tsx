@@ -56,6 +56,21 @@ export default function Page() {
           <h3>Vancocinemia</h3>
           <p>Calcule ajuste pelo vale e AUC com duas medições.</p>
         </Link>
+
+        <Link
+          href="/ferramentas/espectro-antimicrobianos"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#0f172a",
+              "--card-to": "#14b8a6",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Ferramenta</span>
+          <h3>Espectro terapêutico</h3>
+          <p>Consulte cobertura por bactéria ou antimicrobiano.</p>
+        </Link>
       </div>
     </div>
   );
