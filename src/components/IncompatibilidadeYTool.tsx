@@ -294,10 +294,10 @@ export default function IncompatibilidadeYTool() {
         <div className="y-report__responsaveis">
           <h4>Farmacêuticos responsáveis</h4>
           <ul>
-            <li>Aline — CRF/PR XX.XXX</li>
-            <li>Willian — CRF/PR XX.XXXX</li>
-            <li>Camila — CRF/PR XX.XXX</li>
-            <li>Jephesson — CRF/RS XX.XXX</li>
+            <li>Aline de Fátima Bonetti — CRF/PR 26590</li>
+            <li>Camila dos Santos Bernardo — CRF/PR 31261</li>
+            <li>William Lucas Ferreira da Silva — CRF/PR 38218</li>
+            <li>Jephesson Alex Floriano dos Santos — CRF/RS 18913</li>
           </ul>
         </div>
 
