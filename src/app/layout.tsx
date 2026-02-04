@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 
 const bodyFont = DM_Sans({
   subsets: ["latin"],
@@ -36,7 +36,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </footer>
-        <GoogleAnalytics gaId="G-EPHKSR03J3" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-EPHKSR03J3"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-EPHKSR03J3');
+          `}
+        </Script>
       </body>
     </html>
   );

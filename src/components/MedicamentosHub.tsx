@@ -867,9 +867,198 @@ const posts: Post[] = [
       },
     ],
   },
+  {
+    id: "bilastina",
+    name: "Bilastina (Bilaxten®, Alektos®/Ilaxten®, Blexten®)",
+    className: "Anti-histamínicos",
+    category: "Farmacologia",
+    summary:
+      "A bilastina é um anti-histamínico de 2ª geração (antagonista/inverso agonista de receptores H1) com ação predominantemente periférica.",
+    sections: [
+      {
+        title: "Bilastina (ex.: Bilaxten®, Alektos®/Ilaxten®, Blexten®): farmacologia completa para uso em site",
+        paragraphs: [
+          "A bilastina é um anti-histamínico de 2ª geração (antagonista/inverso agonista de receptores H1) com ação predominantemente periférica, usado para alívio sintomático de doenças alérgicas como rinite e urticária. Seu perfil é desenhado para reduzir sintomas mediados por histamina (coceira, espirros, coriza, pápulas/urticas) com menor sedação do que anti-histamínicos de 1ª geração — embora sonolência ainda possa ocorrer em algumas pessoas.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "A bilastina foi desenvolvida como anti-histamínico H1 de 2ª geração, buscando alta seletividade periférica e baixa interferência em outros receptores (o que, em tese, reduz efeitos como sedação intensa e “efeitos anticolinérgicos” típicos de moléculas mais antigas). Em diversos países é comercializada em comprimidos de 20 mg para adultos/adolescentes e, em alguns mercados, há apresentações pediátricas.",
+        ],
+      },
+      {
+        title: "Dados da molécula (substância ativa)",
+        bullets: [
+          "Nome (DCI): bilastina",
+          "Nome químico (resumo): derivado benzimidazólico/piperidínico (ácido carboxílico)",
+          "Fórmula molecular: C₂₈H₃₇N₃O₃",
+          "Massa molecular: 463,61 g/mol",
+          "pKa (reportado): ~4,15 (métodos UV/HPLC)",
+          "Ligação a proteínas plasmáticas: 84–90%",
+          "Observação: valores físico-químicos (pKa/solubilidade etc.) variam conforme método e fonte; quando o objetivo é uso clínico, os itens mais “operacionais” costumam ser tempo de início, duração, interações com alimento/suco e transportadores.",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e “prazo para funcionar” (complementos: cuidados, dieta e exercício)",
+        paragraphs: ["Indicações (on-label; depende do país/bula)", "De forma geral, a bilastina é indicada para:"],
+        bullets: [
+          "Rinite alérgica (sintomas nasais e não-nasais; em algumas bulas, sazonal e/ou perene).",
+          "Urticária (incluindo urticária crônica espontânea): alívio de prurido e urticas/pápulas.",
+          "Exemplo (Canadá): rinite alérgica sazonal (≥12 anos) e urticária crônica espontânea (≥18 anos).",
+        ],
+      },
+      {
+        title: "Efeito terapêutico esperado (o que melhora)",
+        paragraphs: ["Rinite alérgica: redução de espirros, prurido nasal/ocular, coriza e parte dos sintomas oculares. Congestão nasal pode melhorar menos do que outros sintomas em alguns pacientes (muitas vezes responde melhor a corticoide intranasal, conforme avaliação clínica).", "Urticária: redução de coceira (prurido) e do número/intensidade das urticas."],
+      },
+      {
+        title: "Em quanto tempo começa a fazer efeito?",
+        bullets: [
+          "Início de ação: cerca de 1 hora após a tomada.",
+          "Duração do efeito: cerca de 24 horas (em monografias, efeito anti-histamínico pode persistir por ~26 horas).",
+          "Na prática: muita gente percebe melhora no mesmo dia; em quadros persistentes (p.ex., urticária crônica), a avaliação de controle costuma ser feita ao longo de dias a semanas, porque gatilhos e variabilidade do quadro influenciam os sintomas, mesmo com medicação.",
+        ],
+      },
+      {
+        title: "Cuidados de uso (e por que “dieta” importa aqui)",
+        paragraphs: [
+          "O ponto mais importante, e muitas vezes ignorado, é que alimento e sucos de fruta podem reduzir a absorção:",
+        ],
+        bullets: [
+          "Refeições podem reduzir Cmax/AUC (efeito observado tanto com refeições “gordurosas” quanto “leves”).",
+          "Suco de grapefruit reduziu a biodisponibilidade em ~30%; outros sucos também podem reduzir (mecanismo: inibição do transportador de captação OATP1A2, do qual a bilastina é substrato).",
+          "Implicação prática (educacional, não prescritiva): se a pessoa toma junto com comida/suco, pode ter menos efeito e achar que “não funciona”. Por isso, bulas/monografias frequentemente orientam tomar em jejum (ex.: 1 hora antes ou 2 horas após alimentos/sucos — ver orientação da bula local).",
+        ],
+      },
+      {
+        title: "Por que medidas complementares (ambiente, dieta, exercício) ajudam?",
+        paragraphs: [
+          "A bilastina controla principalmente a via da histamina (H1). Só que sintomas alérgicos também dependem de:",
+        ],
+        bullets: [
+          "Exposição ao gatilho (ácaros, pólen, mofo, pelos, irritantes), que continua ocorrendo;",
+          "Outros mediadores inflamatórios além da histamina;",
+          "Fatores de estilo de vida que modulam sintomas (sono ruim, estresse, álcool em alguns casos de urticária, etc.).",
+        ],
+      },
+      {
+        title: "Estratégias complementares",
+        bullets: [
+          "Rinite: redução de exposição (limpeza/ácaros), lavagem nasal com soro, e tratamento nasal direcionado quando indicado.",
+          "Urticária: tentar reconhecer gatilhos, registrar padrão de sintomas, e revisar medicamentos/irritantes com o profissional.",
+          "Exercício físico não “substitui” anti-histamínico, mas pode ajudar indiretamente (sono, estresse, saúde nasal/respiratória). Em algumas pessoas, exercício intenso pode piorar urticária colinérgica ou sintomas (por calor/sudorese), então o ideal é individualizar.",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "3.1 Bloqueio seletivo de receptores H1 periféricos",
+          "A bilastina exerce seus efeitos por inibição seletiva de receptores H1 periféricos, reduzindo a resposta à histamina liberada em reações alérgicas.",
+          "3.2 “Por que dá menos sono?”",
+          "Como anti-histamínico de 2ª geração, a bilastina foi desenhada para ter menor penetração no SNC do que anti-histamínicos antigos, o que tende a reduzir sedação. Ainda assim, sonolência pode ocorrer em uma minoria e deve-se ter cautela individual com dirigir/operar máquinas.",
+        ],
+      },
+      {
+        title: "4) O que o receptor H1 faz (e o que isso explica nos sintomas)",
+        paragraphs: [
+          "O receptor H1 media boa parte dos efeitos da histamina em alergias:",
+        ],
+        bullets: [
+          "Vasodilatação e aumento de permeabilidade → edema/coriza;",
+          "Estimulação de terminações nervosas → coceira (prurido);",
+          "Reflexos nasais → espirros;",
+          "Pele → pápulas/urticas na urticária.",
+        ],
+      },
+      {
+        title: "Ao bloquear H1",
+        paragraphs: ["A bilastina reduz principalmente prurido, espirros, coriza e urticas (controle sintomático)."],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        paragraphs: ["Absorção"],
+        bullets: [
+          "Tmax: ~1,1–1,3 h (absorção rápida).",
+          "Biodisponibilidade absoluta: ~61%.",
+          "Alimento reduz exposição; sucos de frutas podem reduzir biodisponibilidade (OATP1A2).",
+        ],
+      },
+      {
+        title: "Distribuição",
+        bullets: [
+          "Ligação a proteínas: 84–90%.",
+          "É substrato de transportadores P-gp e OATP (relevante para interações).",
+        ],
+      },
+      {
+        title: "Metabolismo",
+        bullets: [
+          "Pouco ou nenhum metabolismo significativo; não parece induzir/inibir CYP450 de forma relevante em estudos in vitro/in vivo descritos em monografia.",
+        ],
+      },
+      {
+        title: "Eliminação",
+        bullets: [
+          "Em estudo de balanço de massa, ~95% recuperado em urina (28,3%) e fezes (66,5%) como fármaco inalterado.",
+          "Meia-vida média: ~14,5 h.",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        paragraphs: ["6.1 Efeitos adversos comuns (tendência)", "Em estudos, eventos relatados incluem cefaleia, tontura e sonolência em parte dos usuários; também podem ocorrer queixas gastrointestinais (ex.: dor abdominal).", "6.2 Sonolência e desempenho (ponto prático)"],
+        bullets: [
+          "Em estudo de direção “em tempo real”, bilastina não diferiu de placebo em desempenho ao dirigir após 1 dia ou 1 semana, mas a monografia recomenda informar que raramente pode haver sonolência com impacto em atividades que exigem atenção.",
+        ],
+      },
+      {
+        title: "6.3 Segurança cardiovascular (QT)",
+        paragraphs: [
+          "Algumas monografias trazem alerta de prolongamento de QTc e recomendam evitar em pacientes com história de QT prolongado/torsades e ter cautela com fatores de risco (eletrólitos baixos, bradicardia importante, uso concomitante de outros fármacos que prolongam QT).",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas e com alimentos (principais)",
+        paragraphs: ["Interações com alimentos/sucos"],
+        bullets: [
+          "Refeições reduzem níveis plasmáticos (Cmax/AUC).",
+          "Grapefruit e possivelmente outros sucos reduzem biodisponibilidade (~30%) por OATP1A2.",
+        ],
+      },
+      {
+        title: "Interações com fármacos (transportadores)",
+        bullets: [
+          "Cetoconazol e eritromicina aumentaram AUC (~2x) e Cmax (2–3x), explicado por interação com transportadores intestinais (bilastina é substrato de P-gp e não é metabolizada de forma relevante).",
+          "Em insuficiência renal moderada/grave, recomenda-se evitar coadministração com inibidores de P-gp (ex.: alguns azólicos, macrolídeos, ciclosporina, ritonavir, diltiazem) por risco de aumentar níveis e efeitos adversos.",
+        ],
+      },
+      {
+        title: "8) Resumo “em uma frase”",
+        paragraphs: [
+          "A bilastina é um anti-histamínico H1 periférico de 2ª geração, indicado para rinite alérgica e urticária, com início em ~1 hora e ação por ~24 h, cuja eficácia depende bastante de tomar longe de comida e sucos (interação por transportadores), e com perfil geralmente pouco sedativo — mas com cautelas individuais e atenção a riscos/associações relacionados a QT conforme bula/monografia local.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "ARALEZ PHARMACEUTICALS CANADA INC. BLEXTEN® (bilastine) 20 mg tablets: Product Monograph. Mississauga, ON, 2018. Disponível em documento do Drug Product Database (Health Canada). Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "SANDOZ CANADA INC. M-BILASTINE (bilastine) Product Monograph. Disponível em: Sandoz Canada (PDF). Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "EUROFARMA. Bilastina: bula/paciente (Brasil). Disponível em: Eurofarma (PDF/HTML). Acesso em: 4 fev. 2026.",
+      },
+      {
+        label:
+          "RIDOLO, E. et al. Bilastine: new insight into antihistamine treatment. Allergy, Asthma & Clinical Immunology, 2021. Disponível em: PubMed Central. Acesso em: 4 fev. 2026.",
+      },
+    ],
+  },
 ];
 
-const themes = ["Todos", "Antidepressivos", "Incretínicos"];
+const themes = ["Todos", "Antidepressivos", "Incretínicos", "Anti-histamínicos"];
 
 export default function MedicamentosHub() {
   const [query, setQuery] = useState("");
