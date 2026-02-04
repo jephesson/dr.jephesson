@@ -1,39 +1,25 @@
 ﻿MEDICAMENTOS;PERMITIDO;PAUSA DIETA;OBSERVAÇÃO
 AAS 100mg;Sim;NÃO;Pode ser administrado junto com a nutrição enteral para minimizar efeitos GI.
 ABACAVIR 300mg;Sim;NÃO;Risco ocupacional para manipulação fora de ambiente controlado. Recomenda-se uso de luvas e máscara para manipulação. Monitorar administração diária de sorbitol no caso da solução.
-"ACETATO DE MEGESTROL
-160mg";Sim;NÃO;Risco ocupacional para o manipulador.  Usar luvas no momento da preparação e administração. O tempo de dissolução é de 2 a 5 minutos.
+ACETATO DE MEGESTROL 160mg;Sim;NÃO;Risco ocupacional para o manipulador.  Usar luvas no momento da preparação e administração. O tempo de dissolução é de 2 a 5 minutos.
 ACICLOVIR 200mg;Sim;NÃO;Pode ser necessário de 20 mL até 50 mL por comprimido para dissolver dependendo do fabricante.
 ACIDO ASCORBICO 500mg;Não;NÃO;Forma farmacêutica pode ser de desintegração lenta. 
 ACIDO FOLICO 5mg;Sim;NÃO;Dar preferência para solução oral
 ACIDO FOLINICO 15mg;Sim;NÃO;Risco de obstrução de sonda.
 ACIDO URSODESOXICOLICO 150mg;Sim;SIM;Admnistrar após alimentação
 ACIDO VALPROICO 250mg;Sim;NÃO;Apresentações de ácido valpróico em cápsula de liberação controlada não devem ser triturados ou abertos
-ACIDO VALPROICO 500mg;Não;NÃO;"Apresentações de ácido valpróico em comprimidos revestidos não devem ser triturados. A perda do revestimento entérico pela trituração pode propiciar a inativação do princípio ativo e/ou favorecer a irritação da mucosa gástrica. (4; 15; 22; 25; 31; 33)
-Risco de obstrução de sonda. (33)"
+ACIDO VALPROICO 500mg;Não;NÃO;"Apresentações de ácido valpróico em comprimidos revestidos não devem ser triturados. A perda do revestimento entérico pela trituração pode propiciar a inativação do princípio ativo e/ou favorecer a irritação da mucosa gástrica. (4; 15; 22; 25; 31; 33). Risco de obstrução de sonda. (33)"
 ALBENDAZOL 200 mg;Sim;NÃO;Administrar com alimentos de alto teor de gordura (aumenta a biodisponibilidade), se infecção sistêmica. Administrar em estômago vazio se infecção intraluminal. Preferir a suspensão.
-"ALENDRONATO DE SÓDIO
-70mg";Sim;NÃO;"Apresentações de alendronato de sódio em comprimidos revestidos não devem ser triturados, pois perdem as características de liberação controlada levando ao risco de toxicidade,  manutenção inadequada do nível sérico do fármaco, além do risco de obstrução da sonda. (4; 15)"
-ALOPURINOL 100mg;Sim;NÃO;"O tempo de dissolução é de 1 a 2 minutos para o comprimido de 100 mg e 2 a 5 minutos para meio comprimido de 300 mg. (9)
-Aumento de volume de água para diluição e para a irrigação do cateter após a administração devido pouca solubilidade. (17; 23)"
-ALOPURINOL 300mg;Sim;NÃO;"O tempo de dissolução é de 1 a 2 minutos para o comprimido de 100 mg e 2 a 5 minutos para meio comprimido de 300 mg. (9)
-Aumento de volume de água para diluição e para a irrigação do cateter após a administração devido pouca solubilidade. (17; 23)"
+ALENDRONATO DE SÓDIO 70mg;Sim;NÃO;"Apresentações de alendronato de sódio em comprimidos revestidos não devem ser triturados, pois perdem as características de liberação controlada levando ao risco de toxicidade,  manutenção inadequada do nível sérico do fármaco, além do risco de obstrução da sonda. (4; 15)"
+ALOPURINOL 100mg;Sim;NÃO;"O tempo de dissolução é de 1 a 2 minutos para o comprimido de 100 mg e 2 a 5 minutos para meio comprimido de 300 mg. (9) Aumento de volume de água para diluição e para a irrigação do cateter após a administração devido pouca solubilidade. (17; 23)"
+ALOPURINOL 300mg;Sim;NÃO;"O tempo de dissolução é de 1 a 2 minutos para o comprimido de 100 mg e 2 a 5 minutos para meio comprimido de 300 mg. (9) Aumento de volume de água para diluição e para a irrigação do cateter após a administração devido pouca solubilidade. (17; 23)"
 AMINOFILINA 100mg;Sim;NÃO;
-AMIODARONA 200mg;Não;;"Nos casos de indisponibilidade ou não recomendação das apresentações solução e injetável preparar a solução como recomendado.
-Não há estudos sobre eficácia, segurança que respaldem a alteração da forma farmacêutica. (4; 19; 22)
-Para solução: 20 mL de água para cada 6 gotas (22; 33)."
-AMITRIPTILINA 25mg;Sim;NÃO;"Administrar imediatamente para evitar
-degradação do fármaco e proteger da luz (4; 19)"
-"AMOXICILINA 250mg/5ml
-susp";Sim;NÃO;
-AMOXICILINA 500mg;Não;NÃO;"Não há estudos sobre eficácia, segurança e
-farmacocinética (4; 19)"
-"AMOXICILINA 500mg+CLAVUL.POT.125
-mg";Sim;NÃO;"Sempre dar preferência para a apresentação suspensão. (22)
-Risco de obstrução da sonda (23)"
-"ANAGRELIDA CLOR.
-0,5mg";Não;;"Em caso de dúvidas entrar em contato com a
-Farmácia Clínica"
+AMIODARONA 200mg;Não;;"Nos casos de indisponibilidade ou não recomendação das apresentações solução e injetável preparar a solução como recomendado. Não há estudos sobre eficácia, segurança que respaldem a alteração da forma farmacêutica. (4; 19; 22) Para solução: 20 mL de água para cada 6 gotas (22; 33)."
+AMITRIPTILINA 25mg;Sim;NÃO;"Administrar imediatamente para evitar degradação do fármaco e proteger da luz (4; 19)"
+AMOXICILINA 250mg/5ml susp;Sim;NÃO;
+AMOXICILINA 500mg;Não;NÃO;"Não há estudos sobre eficácia, segurança e farmacocinética (4; 19)"
+AMOXICILINA 500mg+CLAVULLANATO 125 mg;Sim;NÃO;Sempre dar preferência para a apresentação suspensão. (22) Risco de obstrução da sonda (23)
+ANAGRELIDA CLOR. 0,5mg;Não;;Em caso de dúvidas entrar em contato com a Farmácia Clínica da instituição.
 ANASTROZOL 1mg;Sim;NÃO;"Risco ocupacional para o manipulador. (15; 32)"
 ANLODIPINO 1mg/ml fr 250ml;Sim;NÃO;
 ANLODIPINO 5mg;Sim;NÃO;Administrar juntamente à NE para minimizar efeitos adversos no TGI (23)
@@ -472,3 +458,4 @@ VERAPAMIL 80mg;Sim;NÃO;"Apresentações de verapamil em comprimidos ou cápsula
 Apresentação disponível no hospital não apresenta tais características"
 VORICONAZOL 200mg;Sim;SIM;Redução de aproximadamente 22% da AUC em múltiplas doses quando administrado junto da alimentação em comparação à administração em jejum.
 ZIDOVUDINA 100mg;Sim;SIM;Para a administração via sonda nasogástrica, administrar o xarope diluído  em volume adequado de água para diminuir a viscosidade do líquido (uso imediato). No momento da administração, pausar  a dieta enteral preferencialmente 1 hora antes e reiniciá-la após 2 horas da administração
+VORTIOXETINA 10 mg;Sim;NÃO;Pode ser administrado via SNE. O revestimento tem função estética somente, conforme informado pelo fabricante (Brintellix)
