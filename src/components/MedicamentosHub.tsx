@@ -1247,6 +1247,190 @@ const posts: Post[] = [
       },
     ],
   },
+  {
+    id: "escitalopram",
+    name: "Escitalopram (Lexapro®, Cipralex®)",
+    className: "Antidepressivos",
+    category: "Farmacologia",
+    summary:
+      "O escitalopram é um ISRS altamente seletivo que aumenta a serotonina por inibição do SERT.",
+    sections: [
+      {
+        title: "Escitalopram (Lexapro®, Cipralex®): farmacologia completa para uso em site",
+        paragraphs: [
+          "O escitalopram é um ISRS (inibidor seletivo da recaptação de serotonina). Ele atua principalmente bloqueando o transportador de serotonina (SERT), aumentando a sinalização serotoninérgica no SNC. Diferente de fármacos “multimodais”, seu perfil é altamente seletivo para serotonina, com baixa afinidade por outros receptores — e isso ajuda a explicar tanto sua eficácia quanto parte do seu perfil de tolerabilidade.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "O escitalopram é o S-enantiômero (isômero ativo) do citalopram racêmico. A ideia do desenvolvimento foi “refinar” o citalopram, priorizando o componente com maior potência no SERT.",
+          "Nos EUA, o Lexapro® teve aprovação pela FDA em 14/08/2002.",
+        ],
+      },
+      {
+        title: "Dados da molécula (visão prática)",
+        bullets: [
+          "Nome (base): escitalopram",
+          "Forma comercial comum: oxalato de escitalopram",
+          "Fórmula (oxalato): C₂₀H₂₁FN₂O • C₂H₂O₄",
+          "Massa molecular (oxalato): 414,40",
+          "pKa (base, estimativa): ~9,78; logP ~3,58–3,76 (predições)",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e prazos (complementando com hábitos)",
+        paragraphs: ["2.1 Indicações “on-label” (variam por país)", "EUA (FDA – Lexapro®):"],
+        bullets: [
+          "TDM (depressão maior) em adultos e ≥12 anos",
+          "TAG (ansiedade generalizada) em adultos e ≥7 anos",
+          "Europa/Reino Unido (SmPC – Cipralex®): inclui, além de depressão, alguns transtornos de ansiedade (ex.: pânico, fobia social, TAG, TOC), mas o SmPC também registra que em geral não é recomendado para <18 anos por avaliação regulatória europeia (isso é um ponto importante para sites: aprovação ≠ universal).",
+        ],
+      },
+      {
+        title: "2.2 Efeito terapêutico esperado (o que costuma melhorar)",
+        bullets: [
+          "humor deprimido, anedonia, ruminação, irritabilidade",
+          "ansiedade persistente, tensão, preocupação e sintomas físicos associados",
+          "sintomas vegetativos (sono, apetite, energia), quando presentes",
+        ],
+      },
+      {
+        title: "2.3 Prazos realistas de resposta (sem “promessa”)",
+        bullets: [
+          "Primeiras mudanças podem surgir em 1–2 semanas (ex.: sono/ansiedade “de fundo”, energia), mas isso é variável.",
+          "Melhora mais nítida costuma aparecer entre 2–4 semanas, e pode continuar progredindo por 6–8+ semanas.",
+          "Em pânico, alguns guias regulatórios citam que o efeito pode levar 2–4 semanas, com benefício máximo mais tardio.",
+        ],
+      },
+      {
+        title: "2.4 Cuidados importantes (especialmente no início)",
+        bullets: [
+          "Adolescentes e adultos jovens: antidepressivos podem se associar a aumento de risco de pensamentos/comportamentos suicidas no curto prazo; recomenda-se monitoramento próximo, sobretudo nas primeiras semanas e após ajustes.",
+          "Não interromper abruptamente: pode ocorrer síndrome de descontinuação (por isso, ajustes devem ser guiados por profissional).",
+        ],
+      },
+      {
+        title: "2.5 Por que dieta, sono e exercício são complementares (e não “detalhe”)",
+        paragraphs: [
+          "O escitalopram atua em neurotransmissão serotoninérgica, mas sintomas e recaídas envolvem também sono, estresse, inflamação, condicionamento físico, hábitos e gatilhos comportamentais. Por isso, intervenções não-farmacológicas tendem a somar:",
+        ],
+        bullets: [
+          "Exercício físico: há evidência de benefício em sintomas depressivos (como intervenção terapêutica e adjuvante), além de efeitos em sono e ansiedade.",
+          "Psicoterapia: diretrizes clínicas frequentemente colocam terapia psicológica como parte central do cuidado, isolada ou combinada com fármacos conforme gravidade e contexto.",
+          "Padrão alimentar: estudos observacionais e revisões sugerem associação entre qualidade da dieta e saúde mental; não substitui tratamento, mas pode reduzir vulnerabilidades (energia, sono, estabilidade do dia a dia).",
+          "Em linguagem simples para o site: medicação ajusta o “volume químico”, enquanto terapia e hábitos reeducam circuitos e rotinas que sustentam o quadro — juntos, aumentam a chance de resposta sustentada.",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "3.1 Inibição do SERT (base do efeito)",
+          "O mecanismo antidepressivo é atribuído à potencialização da atividade serotoninérgica no SNC por inibição da recaptação neuronal de 5-HT.",
+          "3.2 Seletividade e “o que ele NÃO faz”",
+          "O escitalopram é descrito como um ISRS altamente seletivo, com mínimos efeitos sobre recaptação de noradrenalina/dopamina e baixa afinidade por receptores 5-HT (1–7) e por receptores histamínicos, muscarínicos, adrenérgicos etc.",
+          "3.3 Efeitos “em rede” (downstream) — de forma adequada para ISRS",
+          "Aqui o raciocínio é diferente do da vortioxetina:",
+          "o escitalopram não é “agonista/antagonista” desses receptores como estratégia principal;",
+          "porém, ao aumentar serotonina sináptica, ele modula indiretamente múltiplos receptores e circuitos (córtico-límbicos), e a melhora clínica depende de adaptações ao longo de semanas (plasticidade e recalibração de redes).",
+        ],
+      },
+      {
+        title: "4) “Alvos” relevantes e possível relação clínica (adaptado ao ISRS)",
+        paragraphs: [
+          "SERT: alvo central; aumento de 5-HT em sinapses → base para efeito antidepressivo/ansiolítico.",
+          "5-HT1A (indireto): com o tempo, adaptações em auto/heterorreceptores 5-HT1A são frequentemente usadas para explicar por que ISRS levam semanas para “virar a chave” clínica (modelo neurobiológico clássico).",
+          "Receptores muscarínicos/histamínicos (baixa afinidade): ajuda a entender por que, comparado a alguns antidepressivos, tende a ter menos sedação anticolinérgica “pura” (mas ainda pode dar sonolência/insônia por vias centrais).",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        paragraphs: ["Absorção"],
+        bullets: ["Tmax ~ 5 h; alimento não afeta de forma relevante."],
+      },
+      {
+        title: "Distribuição",
+        bullets: ["Ligação a proteínas ~56%."],
+      },
+      {
+        title: "Metabolismo",
+        bullets: [
+          "Metabólitos principais: S-DCT e S-DDCT (com pouca contribuição para o efeito).",
+          "Enzimas principais: CYP3A4 e CYP2C19 (N-desmetilação).",
+        ],
+      },
+      {
+        title: "Eliminação",
+        bullets: [
+          "Meia-vida terminal ~27–32 h; steady-state ~1 semana; excreção urinária parcial como fármaco/metabólitos.",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        paragraphs: ["6.1 Comuns (exemplos frequentes em bula)"],
+        bullets: ["Náusea, distúrbios do sono (insônia ou sonolência), fadiga, sudorese."],
+      },
+      {
+        title: "6.2 Disfunção sexual",
+        paragraphs: [
+          "A bula destaca disfunção sexual como alerta clínico relevante da classe (e pode ser causa importante de baixa adesão).",
+        ],
+      },
+      {
+        title: "6.3 Alertas importantes",
+        bullets: [
+          "Risco aumentado de pensamentos/comportamentos suicidas em populações jovens no início do tratamento (monitorar de perto).",
+          "Síndrome serotoninérgica (especialmente em combinações serotoninérgicas).",
+          "Hiponatremia/SIADH, sangramento (com AINEs/antiagregantes/anticoagulantes), mania/hipomania em suscetíveis, glaucoma de ângulo fechado em predispostos.",
+          "QT prolongado/arrítmias: o SmPC europeu traz atenção para risco de prolongamento de QT e cautela com fármacos que prolongam QT/condições predisponentes.",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        bullets: [
+          "IMAO e outras combinações serotoninérgicas relevantes: risco de síndrome serotoninérgica; seguir regras de troca/washout.",
+          "AINEs/aspirina/varfarina e afins: cautela por aumento de risco de sangramento.",
+          "CYP2C19/CYP3A4: como participa do metabolismo, mudanças por interações podem ocorrer (a bula descreve CYP3A4/CYP2C19 como principais isozimas).",
+          "QT-prolongadores: cautela em associação (SmPC).",
+        ],
+      },
+      {
+        title: "8) Resumo em uma frase",
+        paragraphs: [
+          "Escitalopram é um ISRS altamente seletivo que aumenta a serotonina por inibição do SERT, com baixa afinidade por outros receptores; a resposta costuma levar semanas e o cuidado inclui monitoramento no início (especialmente em jovens), manejo de interações e suporte complementar com psicoterapia e hábitos (sono, exercício e rotina).",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. Lexapro (escitalopram) Prescribing Information. Revised 05/2023.",
+      },
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. Lexapro (escitalopram) – FDA approval date (14 Aug 2002).",
+      },
+      {
+        label:
+          "ELECTRONIC MEDICINES COMPENDIUM (emc). Cipralex 10 mg film-coated tablets – SmPC (atualizado 21 jan. 2026).",
+      },
+      {
+        label: "MEDLINEPLUS. Escitalopram (informações ao paciente: tempo para efeito e alertas).",
+      },
+      {
+        label: "NHS. Escitalopram: about / how long it takes to work.",
+      },
+      {
+        label: "COCHRANE. Exercise for depression (revisão/atualização).",
+      },
+      {
+        label: "PARLETTA, N. et al. Food and mood: how do diet and nutrition affect mental wellbeing? BMJ, 2018.",
+      },
+      {
+        label: "DRUGBANK. Escitalopram oxalate – propriedades previstas (logP, pKa).",
+      },
+    ],
+  },
 ];
 
 const themes = ["Todos", "Antidepressivos", "Anti-histamínicos", "Anticoagulantes", "Incretínicos"];
