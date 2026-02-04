@@ -78,7 +78,6 @@ export default function IncompatibilidadeYTool() {
   const [council, setCouncil] = useState("");
   const [patient, setPatient] = useState("");
   const [record, setRecord] = useState("");
-  const [responsible, setResponsible] = useState("");
 
   useEffect(() => {
     let mounted = true;
@@ -160,24 +159,6 @@ export default function IncompatibilidadeYTool() {
             <label>
               Prontuário
               <input value={record} onChange={(e) => setRecord(e.target.value)} placeholder="Ex.: 000000" />
-            </label>
-            <label>
-              Gerado por (profissional)
-              <select value={responsible} onChange={(e) => setResponsible(e.target.value)}>
-                <option value="">Selecione</option>
-                <option value="Aline de Fátima Bonetti — CRF/PR 26590">
-                  Aline de Fátima Bonetti — CRF/PR 26590
-                </option>
-                <option value="Camila dos Santos Bernardo — CRF/PR 31261">
-                  Camila dos Santos Bernardo — CRF/PR 31261
-                </option>
-                <option value="William Lucas Ferreira da Silva — CRF/PR 38218">
-                  William Lucas Ferreira da Silva — CRF/PR 38218
-                </option>
-                <option value="Jephesson Alex Floriano dos Santos — CRF/RS 18913">
-                  Jephesson Alex Floriano dos Santos — CRF/RS 18913
-                </option>
-              </select>
             </label>
           </div>
           <p className="y-tool__note">Os dados preenchidos aqui não são armazenados.</p>
@@ -302,7 +283,7 @@ export default function IncompatibilidadeYTool() {
         </div>
 
         <p className="y-report__footer">
-          Gerado por {responsible || "—"} · {dateTime}
+          Gerado por {professional || "—"} · {council || "—"} · {dateTime}
         </p>
 
         <p className="y-report__disclaimer">Os dados informados não são armazenados neste site.</p>
