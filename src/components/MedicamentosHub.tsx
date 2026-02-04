@@ -10,7 +10,7 @@ type Section = {
 
 type Reference = {
   label: string;
-  href: string;
+  href?: string;
 };
 
 type Post = {
@@ -274,6 +274,182 @@ const posts: Post[] = [
       },
     ],
   },
+  {
+    id: "fluoxetina",
+    name: "Fluoxetina (Prozac®, Sarafem®)",
+    className: "Antidepressivos",
+    category: "Farmacologia",
+    summary:
+      "A fluoxetina é um antidepressivo da classe dos inibidores seletivos da recaptação de serotonina (ISRS).",
+    sections: [
+      {
+        title: "Fluoxetina (Prozac®, Sarafem®)",
+        paragraphs: [
+          "A fluoxetina é um antidepressivo da classe dos inibidores seletivos da recaptação de serotonina (ISRS). Seu efeito central é inibir o transportador de serotonina (SERT), aumentando a sinalização serotoninérgica no SNC. Diferente de fármacos “multimodais” (como a vortioxetina), a fluoxetina é, em essência, um ISRS “clássico” — mas com particularidades relevantes: metabólito ativo (norfluoxetina), meia-vida longa, e um perfil de interações importante por inibição de CYP2D6.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "A fluoxetina foi desenvolvida como um dos primeiros ISRS a alcançar uso amplo na prática clínica moderna, marcando uma transição dos antidepressivos tricíclicos (com maior carga anticolinérgica/sedativa) para fármacos com maior seletividade farmacológica. Ela se tornou conhecida mundialmente por marcas como Prozac®.",
+        ],
+      },
+      {
+        title: "Dados da molécula",
+        bullets: [
+          "Nome químico (genérico): fluoxetine (fluoxetina)",
+          "Forma comercial: geralmente cloridrato de fluoxetina (HCl)",
+          "Fórmula molecular (base livre): C₁₇H₁₈F₃NO",
+          "Fórmula do sal (HCl): C₁₇H₁₈F₃NO·HCl",
+          "Massa molecular (HCl): 345,79 g/mol",
+          "Mistura racêmica: R- e S-fluoxetina (50/50)",
+          "pKa (base monoprotica, aprox.): ~9,8",
+          "Lipofilicidade (logKow/logP, aprox.): ~4,1",
+          "Ligação a proteínas plasmáticas: ~94,5%",
+          "Boa penetração no SNC, coerente com seu perfil lipofílico e ação central (característica de ISRS).",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica (on-label) e usos discutidos (off-label)",
+        paragraphs: [
+          "Indicações aprovadas (on-label) — variam por país/marca",
+          "Conforme bula FDA de Prozac®:",
+        ],
+        bullets: [
+          "Transtorno depressivo maior (TDM) em adultos e em crianças/adolescentes (8 a 18 anos)",
+          "Transtorno obsessivo-compulsivo (TOC) em adultos e em crianças/adolescentes (7 a 17 anos)",
+          "Bulimia nervosa (redução de compulsão alimentar e vômitos) em adultos",
+          "Transtorno do pânico (com ou sem agorafobia) em adultos",
+          "Em combinação com olanzapina: episódios depressivos do transtorno bipolar I (inclui 10 a 17 anos) e depressão resistente ao tratamento em adultos",
+          "Obs.: a própria bula de Prozac cita que a fluoxetina também é comercializada para TDPM/PMDD sob a marca Sarafem®.",
+        ],
+      },
+      {
+        title: "Usos discutidos na prática (off-label) — sem aprovação universal",
+        bullets: [
+          "Transtornos de ansiedade (p. ex., TAG, fobia social), TEPT, entre outros — com necessidade de individualização e evidência variável por indicação.",
+          "Estratégias de troca/otimização quando há disfunção sexual ou tolerabilidade ruim com outro antidepressivo (decisão médica).",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "3.1 Inibição do SERT (transportador de serotonina)",
+          "O mecanismo central é a inibição da recaptação neuronal de serotonina (5-HT) no SNC, aumentando a disponibilidade sináptica e modulando a neurotransmissão em circuitos relacionados a humor, ansiedade e controle de impulsos.",
+          "3.2 “Acessórios” farmacodinâmicos relevantes",
+          "A bula descreve que a fluoxetina tem baixa afinidade (em comparação a tricíclicos) por receptores como muscarínicos, histaminérgicos e α1-adrenérgicos, o que ajuda a contextualizar um perfil tipicamente menos anticolinérgico/sedativo do que antidepressivos clássicos.",
+          "Além disso, bases de farmacologia molecular frequentemente descrevem antagonismo em 5-HT2C como um possível componente que diferencia a fluoxetina de outros ISRS em alguns modelos (mais como “nuance” do que como pilar terapêutico).",
+        ],
+      },
+      {
+        title: "3.3 Efeitos “em rede” (downstream) em outros sistemas",
+        paragraphs: [
+          "O efeito clínico de um ISRS raramente é “só serotonina”. Com o tempo, surgem adaptações de circuito (mudanças de sensibilidade, reorganização de microcircuitos e padrões de disparo), que podem influenciar sintomas emocionais e somáticos.",
+          "Em modelos experimentais, há evidência de que a fluoxetina pode aumentar noradrenalina e dopamina extracelulares no córtex pré-frontal, fenômeno discutido como potencialmente ligado a mecanismos indiretos (incluindo modulação 5-HT2C) e à forma como circuitos serotoninérgicos regulam interneurônios e vias catecolaminérgicas.",
+          "Importante: mecanismo → benefício clínico não é uma linha reta. A resposta depende de dose, tempo, diagnóstico, gravidade, comorbidades e variabilidade individual.",
+        ],
+      },
+      {
+        title: "4) “O que cada alvo faz” e possíveis correlações clínicas",
+        paragraphs: ["4.1 SERT (inibição)", "O que faz: reduz a recaptação de 5-HT, aumentando a sinalização serotoninérgica.", "Por que importa: base farmacológica para efeitos em humor, ansiedade, obsessões/compulsões e impulsividade (contexto do TOC e bulimia).", "4.2 5-HT2C (antagonismo — hipótese/nuance)", "O que é: receptor serotoninérgico envolvido em controle de circuitos que modulam dopamina/noradrenalina em algumas regiões.", "Por que aparece na fluoxetina: estudos sugerem que esse componente pode contribuir para efeitos mais “ativadores” e para mudanças catecolaminérgicas no córtex pré-frontal em modelos.", "4.3 Receptores muscarínicos, histaminérgicos e α1 (baixa afinidade)", "O que isso sugere: menor tendência a efeitos anticolinérgicos (boca seca intensa, constipação anticolinérgica marcada), sedação e certos efeitos cardiovasculares típicos de tricíclicos (comparativamente).", "4.4 Metabólito ativo (norfluoxetina) como “prolongador” de efeito", "O que é: metabólito ativo formado por desmetilação.", "Por que importa: contribui para persistência do efeito e para a necessidade de considerar interações por semanas após suspensão."],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        paragraphs: ["Absorção"],
+        bullets: [
+          "Após dose oral, picos plasmáticos são observados em ~6–8 horas.",
+          "Alimento não altera de forma clinicamente relevante a biodisponibilidade; pode apenas atrasar a absorção em ~1–2 horas.",
+        ],
+      },
+      {
+        title: "Distribuição",
+        bullets: ["Ligação a proteínas: ~94,5%."],
+      },
+      {
+        title: "Metabolismo",
+        bullets: [
+          "Metabolismo hepático extenso com formação de norfluoxetina (ativa).",
+          "Variabilidade por CYP2D6 (inclui “metabolizadores pobres” em uma fração da população), com implicações para exposição e interações.",
+        ],
+      },
+      {
+        title: "Eliminação e meia-vida",
+        bullets: [
+          "Fluoxetina: meia-vida de 1–3 dias (aguda) e 4–6 dias (crônica).",
+          "Norfluoxetina: meia-vida de 4–16 dias.",
+          "Steady-state: níveis de equilíbrio podem se aproximar do platô em 4–5 semanas; e o fármaco/metabólito podem persistir por semanas após interromper.",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        paragraphs: ["6.1 Efeitos adversos comuns (exemplos)", "Em estudos controlados, eventos frequentes incluem:"],
+        bullets: [
+          "Náusea, diarreia, anorexia, boca seca",
+          "Insônia, nervosismo/ansiedade, tremor, sonolência",
+          "Diminuição de libido (e outros efeitos sexuais em parte dos pacientes)",
+        ],
+      },
+      {
+        title: "6.2 Disfunção sexual (visão prática)",
+        paragraphs: [
+          "A disfunção sexual pode ocorrer com ISRS por efeitos serotoninérgicos em circuitos de desejo/recompensa e reflexos autonômicos. A intensidade é variável e pode depender de dose, quadro depressivo de base, comorbidades e tempo de uso. (Discussão/conduta sempre deve ser individualizada por profissional.)",
+        ],
+      },
+      {
+        title: "6.3 Alertas relevantes (classe/medicamento)",
+        bullets: [
+          "Alerta de segurança para antidepressivos: aumento de risco de pensamentos/comportamentos suicidas em crianças, adolescentes e adultos jovens, especialmente no início do tratamento ou ajuste de dose (monitoramento clínico é essencial).",
+          "Síndrome serotoninérgica (especialmente com combinações serotoninérgicas/IMAO).",
+          "Risco de sangramento (maior com AINEs/antiagregantes/anticoagulantes).",
+          "Ativação de mania/hipomania em suscetíveis.",
+          "Interações com risco cardíaco (p. ex., pimozida; tioridazina).",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        bullets: [
+          "CYP2D6: a fluoxetina impacta o sistema CYP2D6 e pode aumentar níveis de fármacos metabolizados por essa via (atenção maior com fármacos de índice terapêutico estreito).",
+          "Tioridazina: não usar com fluoxetina e não usar tioridazina dentro de 5 semanas após interromper fluoxetina, devido a risco de arritmias graves.",
+          "Pimozida: contraindicação por risco cardíaco importante.",
+          "IMAO/linezolida/azul de metileno (IV): risco elevado de toxicidade serotoninérgica — seguir regras de intervalo (washout) do material regulatório, lembrando a persistência longa da fluoxetina/norfluoxetina.",
+        ],
+      },
+      {
+        title: "8) Um resumo “em uma frase”",
+        paragraphs: [
+          "A fluoxetina é um ISRS que inibe o SERT, com metabólito ativo e meia-vida longa, o que sustenta eficácia em depressão/TOC e outras indicações, mas também exige atenção especial a interações (CYP2D6) e washout prolongado em trocas e combinações.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "TAKEDA/Eli Lilly (FDA). PROZAC (fluoxetine) – Prescribing Information. U.S. Food and Drug Administration, 2017.",
+      },
+      {
+        label: "HEAL, D. J. et al. Fluoxetine: the first selective serotonin reuptake inhibitor. A case history. Wiley, 2014.",
+      },
+      {
+        label: "SOHEL, A. J. et al. Fluoxetine. StatPearls/NCBI Bookshelf, 2024.",
+      },
+      {
+        label: "ROSSI, A. et al. Fluoxetine: a review on evidence based medicine. 2004 (PMC).",
+      },
+      {
+        label:
+          "BYMASTER, F. P. et al. Fluoxetine… increases norepinephrine and dopamine extracellular levels in prefrontal cortex. Psychopharmacology, 2002.",
+      },
+      {
+        label: "PUBCHEM/NIH. Fluoxetine – compound/substance records. National Library of Medicine.",
+      },
+      {
+        label: "CÂRCU-DOBRIN, M. et al. Enantioselective analysis of fluoxetine… (pKa 9,80). 2016 (PMC).",
+      },
+      {
+        label: "SOUZA-SILVA, G. et al. Ecotoxicity of Fluoxetine Hydrochloride… (pKa/logKow). MDPI, 2025.",
+      },
+    ],
+  },
 ];
 
 const themes = ["Todos", "Antidepressivos"];
@@ -406,10 +582,14 @@ export default function MedicamentosHub() {
             <h4>Referências (ABNT – NBR 6023:2018)</h4>
             <ol>
               {selected.references.map((ref) => (
-                <li key={ref.href}>
-                  <a href={ref.href} target="_blank" rel="noreferrer">
-                    {ref.label}
-                  </a>
+                <li key={ref.label}>
+                  {ref.href ? (
+                    <a href={ref.href} target="_blank" rel="noreferrer">
+                      {ref.label}
+                    </a>
+                  ) : (
+                    ref.label
+                  )}
                 </li>
               ))}
             </ol>
