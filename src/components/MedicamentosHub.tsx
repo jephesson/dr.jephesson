@@ -1056,9 +1056,200 @@ const posts: Post[] = [
       },
     ],
   },
+  {
+    id: "heparina-nao-fracionada",
+    name: "Heparina não fracionada (HNF / “heparin sodium”)",
+    className: "Anticoagulantes",
+    category: "Farmacologia",
+    summary:
+      "A heparina não fracionada (HNF) é um anticoagulante parenteral clássico que potencializa a antitrombina (ATIII), inibindo principalmente Xa e trombina.",
+    sections: [
+      {
+        title: "Heparina não fracionada (HNF / “heparin sodium”): farmacologia completa para uso em site",
+        paragraphs: [
+          "A heparina não fracionada (HNF) é um anticoagulante parenteral clássico, composto por uma mistura heterogênea de glicosaminoglicanos sulfatados. Seu efeito anticoagulante ocorre principalmente pela potencialização da antitrombina (ATIII), inibindo fatores-chave da coagulação (especialmente fator Xa e trombina/fator IIa). Ela não “dissolve” trombos já formados: o objetivo é evitar a progressão e novas formações, ganhando tempo para o organismo e/ou terapias definitivas atuarem.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "A heparina é usada há muitas décadas como anticoagulante hospitalar, com aprovação inicial nos EUA em 1939 e ampla utilização em situações agudas (tromboembolismo), procedimentos (cirurgia/dialise) e cenários que exigem controle rápido e reversível do efeito anticoagulante.",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e “prazos” de ação (complementos e cuidados)",
+        paragraphs: ["2.1 Indicações (on-label / bula – exemplos)", "A HNF é indicada (conforme bula) para:"],
+        bullets: [
+          "Profilaxia e tratamento de trombose venosa e embolia pulmonar",
+          "Prevenção de TVP/EP no pós-operatório em pacientes de risco",
+          "Fibrilação atrial com embolização",
+          "Coagulopatias consumptivas (ex.: CIVD)",
+          "Prevenção de coagulação em cirurgia arterial/cardiaca e em circuitos extracorpóreos (incluindo diálise)",
+          "Profilaxia e tratamento de embolia arterial periférica",
+        ],
+      },
+      {
+        title: "Observação prática",
+        paragraphs: [
+          "Em hospitais, a HNF também é usada em protocolos institucionais para cenários específicos (ex.: circulação extracorpórea/CRRT), sob monitorização.",
+        ],
+      },
+      {
+        title: "2.2 Efeito terapêutico esperado",
+        bullets: [
+          "Reduzir o risco de extensão do trombo e de novos eventos tromboembólicos.",
+          "Diminuir complicações associadas à hipercoagulabilidade em procedimentos/circuitos.",
+          "Em termos clínicos, o benefício costuma ser avaliado por: estabilidade/hemodinâmica, evolução de sintomas, exames de imagem quando indicados e parâmetros de anticoagulação (aPTT/anti-Xa/ACT, conforme o contexto).",
+        ],
+      },
+      {
+        title: "2.3 Prazos: início, pico e duração (no que dá pra “prometer” com segurança)",
+        bullets: [
+          "Início de ação IV: imediato (pico plasmático e início após administração intravenosa).",
+          "Duração/“desaparecimento” do efeito: curta e dependente de dose, com meia-vida plasmática em geral de ~0,5 a 2 horas (varia com dose e condições clínicas).",
+          "Impacto em sintomas (dor/edema/dispneia): pode levar dias, porque a HNF não é fibrinolítica (não lise coágulo); ela impede crescimento/propagação, enquanto o organismo e o manejo clínico resolvem o restante.",
+        ],
+      },
+      {
+        title: "2.4 Por que medidas “complementares” importam (e quando dieta/exercício entram)",
+        paragraphs: [
+          "Para anticoagulação, “dieta e exercício” não são a base do efeito do fármaco (como em GLP-1), mas medidas comportamentais e mecânicas influenciam muito o risco trombótico e a recuperação:",
+          "Complementares frequentes (conforme indicação clínica):",
+        ],
+        bullets: [
+          "Mobilização precoce quando liberada e segura (reduz estase venosa).",
+          "Hidratação adequada (em pacientes elegíveis) e manejo de fatores de risco.",
+          "Meias de compressão/dispositivos pneumáticos em profilaxia quando indicado.",
+          "Parar tabagismo, controlar comorbidades e seguir reavaliações.",
+        ],
+      },
+      {
+        title: "Por que isso é complementar",
+        paragraphs: [
+          "Trombose é multifatorial (estase, lesão endotelial, hipercoagulabilidade). A heparina atua no braço da coagulação, mas não corrige sozinha estase/lesão/fatores de risco.",
+        ],
+      },
+      {
+        title: "2.5 Cuidados essenciais de uso (segurança)",
+        paragraphs: [
+          "Anticoagulantes exigem monitorização e orientação clínica. Em regimes terapêuticos, a bula recomenda ajuste de dose com testes frequentes de coagulação e acompanhamento de plaquetas/hematócrito durante todo o curso.",
+          "Se ocorrer sangramento importante ou teste “excessivamente prolongado”, a bula orienta interromper prontamente e conduzir como urgência.",
+          "Não aplicar por via intramuscular (risco de hematoma no local).",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "3.1 Antitrombina (ATIII) como “amplificador” do efeito",
+          "A HNF interage com a antitrombina III, induzindo mudança conformacional que aumenta muito sua capacidade de inibir fatores ativados da coagulação, sobretudo Xa e IIa (trombina). Pequenas quantidades tendem a inibir mais Xa; quantidades maiores inibem também trombina.",
+          "3.2 O que ela NÃO faz: fibrinólise",
+          "A heparina não tem atividade fibrinolítica, portanto não lise trombos existentes; seu papel é prevenir crescimento/propagação.",
+        ],
+      },
+      {
+        title: "4) Farmacodinâmica: o que muda nos testes e como isso se liga ao efeito",
+        paragraphs: [
+          "Em doses terapêuticas, a HNF prolonga tempos de coagulação, incluindo aPTT (além de outros testes, a depender do método). Em doses baixas, esses tempos podem não ser “mensuravelmente” alterados.",
+          "A bula recomenda ajuste com testes frequentes quando usado regime de dose plena.",
+          "Em algumas situações (ex.: suspeita de “resistência” ou condições inflamatórias), pode-se discutir monitorização por anti-Fator Xa, conforme protocolos.",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        paragraphs: ["Absorção", "Não é absorvida pelo trato GI → uso apenas parenteral.", "IV: início imediato."],
+      },
+      {
+        title: "Distribuição",
+        bullets: [
+          "Alta ligação a proteínas e alvos plasmáticos (incluindo antitrombina e outras proteínas).",
+          "Volume de distribuição ~0,07 L/kg (pequeno, predominantemente intravascular).",
+        ],
+      },
+      {
+        title: "Metabolismo e eliminação",
+        bullets: [
+          "Depuração principalmente por captação hepática e por células do sistema reticuloendotelial, com eliminação bifásica (uma fase saturável e outra de primeira ordem).",
+          "Meia-vida plasmática dose-dependente ~0,5–2 h.",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        paragraphs: ["6.1 Sangramento (principal risco)", "Sangramento pode ocorrer em praticamente qualquer sítio e pode ser grave. A bula traz alerta para hemorragias inclusive fatais."],
+      },
+      {
+        title: "6.2 HIT/HITT (trombocitopenia induzida por heparina)",
+        paragraphs: [
+          "A HIT é reação imunomediada por anticorpos contra complexo PF4-heparina, levando à ativação plaquetária e risco de trombose (HITT). A bula destaca que pode ocorrer trombose venosa e arterial, e que HIT/HITT pode aparecer até semanas após suspensão. Se plaquetas caem (ex.: <100.000/mm³) ou ocorre trombose recorrente, a orientação é suspender prontamente e avaliar HIT/HITT, usando anticoagulante alternativo quando necessário.",
+        ],
+      },
+      {
+        title: "6.3 Outras reações relevantes (menção educacional)",
+        bullets: [
+          "Trombocitopenia (além de HIT), reações locais, hipersensibilidade (derivada de tecido animal).",
+          "Perda óssea/osteoporose com uso prolongado é um risco descrito na literatura (mais associado a cursos longos).",
+        ],
+      },
+      {
+        title: "6.4 Gravidez e lactação (ponto de segurança importante)",
+        paragraphs: [
+          "Diretrizes obstétricas destacam que heparina não fracionada e HBPM não atravessam a placenta, sendo opções clássicas quando anticoagulação é necessária na gestação.",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        bullets: [
+          "Somação de risco de sangramento com antiplaquetários, AINEs e outros anticoagulantes (decisão clínica individualizada).",
+          "Antitrombina III (humana) pode potencializar o efeito anticoagulante; a bula menciona que pode ser necessário reduzir dose para reduzir risco de sangramento.",
+          "“Resistência à heparina” e variabilidade de resposta existem em estados inflamatórios, trombose ativa e outros contextos, exigindo ajuste guiado por testes e avaliação de antitrombina.",
+        ],
+      },
+      {
+        title: "8) Reversão (antídoto) e condutas gerais em superanticoagulação",
+        paragraphs: [
+          "Em caso de sangramento com necessidade de reversão, a bula descreve protamina como agente neutralizante e ressalta administração lenta e risco de reações graves (tipo anafilactoide), devendo ser usada onde há suporte de ressuscitação.",
+          "A necessidade de protamina diminui com o tempo, pois a heparina é eliminada; a bula menciona meia-vida de referência para essa finalidade.",
+        ],
+      },
+      {
+        title: "9) Um resumo “em uma frase”",
+        paragraphs: [
+          "A heparina não fracionada é um anticoagulante parenteral de início imediato (IV) e meia-vida curta, que atua ao potencializar a antitrombina (ATIII) e inibir principalmente Xa e IIa, sendo valiosa quando se precisa de controle rápido, ajustável por testes e reversão (protamina), com atenção especial a sangramento e HIT/HITT.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. Heparin Sodium Injection: prescribing information (revisado jan. 2020). Silver Spring: FDA, 2020.",
+      },
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. Heparin Sodium Injection: Clinical Pharmacology (mecanismo, PK; meia-vida 0,5–2 h; início imediato IV). Silver Spring: FDA, 2020.",
+      },
+      {
+        label:
+          "NUTESCU, E. A. et al. Pharmacology of anticoagulants used in the treatment of venous thromboembolism. Vascular Health and Risk Management, 2016.",
+      },
+      {
+        label:
+          "AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS (ACOG). Practice Bulletin No. 196: Thromboembolism in Pregnancy. Obstetrics & Gynecology, 2018.",
+      },
+      {
+        label:
+          "SIGNORELLI, S. S. et al. Anticoagulants and Osteoporosis. International Journal of Molecular Sciences, 2019.",
+      },
+      {
+        label:
+          "YANG, S. et al. Effect of long-term use of unfractionated or low-molecular-weight heparin on bone. Journal of Clinical Pharmacy and Therapeutics, 2020.",
+      },
+      {
+        label: "AMERICAN SOCIETY OF HEMATOLOGY (ASH). Troubleshooting heparin resistance. Hematology, 2024.",
+      },
+    ],
+  },
 ];
 
-const themes = ["Todos", "Antidepressivos", "Incretínicos", "Anti-histamínicos"];
+const themes = ["Todos", "Antidepressivos", "Anti-histamínicos", "Anticoagulantes", "Incretínicos"];
 
 export default function MedicamentosHub() {
   const [query, setQuery] = useState("");
