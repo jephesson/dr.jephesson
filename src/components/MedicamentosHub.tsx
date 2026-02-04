@@ -450,9 +450,240 @@ const posts: Post[] = [
       },
     ],
   },
+  {
+    id: "tirzepatida",
+    name: "Tirzepatida (Mounjaro® / Zepbound®)",
+    className: "Incretínicos",
+    category: "Farmacologia",
+    summary:
+      "A tirzepatida é um fármaco injetável de ação “dupla incretina”: ela ativa os receptores de GIP e de GLP-1.",
+    sections: [
+      {
+        title: "Tirzepatida (Mounjaro® / Zepbound®): farmacologia completa para uso em site",
+        paragraphs: [
+          "A tirzepatida é um fármaco injetável de ação “dupla incretina”: ela ativa os receptores de GIP e de GLP-1. Esse perfil explica por que seus efeitos vão além da glicemia e envolvem apetite/ingestão calórica, peso corporal, secreção de insulina e glucagon, sensibilidade à insulina e esvaziamento gástrico.",
+          "Nota de marca/indicação: nos EUA, Mounjaro® é rotulado para diabetes tipo 2 (inclui ≥10 anos), enquanto Zepbound® é rotulado para controle crônico do peso e também para apneia obstrutiva do sono (AOS) moderada a grave em adultos com obesidade.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "A tirzepatida foi desenvolvida como um agonista “single-molecule” capaz de ativar simultaneamente GIPR e GLP-1R, buscando potencializar efeitos metabólicos (glicêmicos e de peso) observados nas incretinas. A aprovação inicial nos EUA como Mounjaro® ocorreu em 2022.",
+          "Para controle crônico do peso, a FDA aprovou Zepbound® (tirzepatida) em 2023.",
+          "No Brasil, a Anvisa aprovou Mounjaro® inicialmente para diabetes tipo 2 (2023) e publicou atualização de indicação para uso em manejo de peso em 2025.",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica (on-label) e usos discutidos (off-label)",
+        paragraphs: ["2.1 Indicações aprovadas (exemplos por jurisdição/rotulagem):"],
+        bullets: [
+          "Mounjaro® (EUA): adjuvante a dieta e exercício para melhorar controle glicêmico em adultos e pacientes pediátricos ≥10 anos com diabetes tipo 2.",
+          "Zepbound® (EUA): indicado para redução e manutenção de peso em adultos elegíveis e para AOS moderada a grave em adultos com obesidade (conforme bula vigente).",
+          "União Europeia (EMA): Mounjaro para adultos com diabetes tipo 2 insuficientemente controlado (detalhes e combinações no EPAR).",
+        ],
+      },
+      {
+        title: "Usos discutidos (off-label, sem necessariamente haver aprovação no seu país)",
+        paragraphs: [
+          "Na prática e na literatura, a tirzepatida é frequentemente estudada/discutida em cenários como esteatose hepática associada a disfunção metabólica, risco cardiovascular/metabólico e outras condições ligadas à obesidade — mas a adoção depende de evidência, bula local e avaliação médica. (Para descrever off-label no seu site, vale sempre deixar explícito que não é indicação regulatória.)",
+        ],
+      },
+      {
+        title: "2.2 Efeito terapêutico esperado (o “que melhora”)",
+        paragraphs: ["No diabetes tipo 2, espera-se:"],
+        bullets: [
+          "Redução da glicemia (jejum e pós-prandial), por efeitos incretínicos (insulina/glucagon) e por retardo do esvaziamento gástrico, que reduz absorção pós-refeição.",
+        ],
+      },
+      {
+        title: "No controle de peso, espera-se:",
+        bullets: [
+          "Redução de apetite/ingestão calórica e queda progressiva de peso, com manutenção quando o tratamento e o estilo de vida são sustentados. Em estudos de Zepbound, a eficácia foi avaliada em 72 semanas, com intervenção de estilo de vida desde o início.",
+        ],
+      },
+      {
+        title: "2.3 Prazos típicos para perceber efeitos (sem prometer resultado individual)",
+        paragraphs: [
+          "Os prazos variam bastante, mas um jeito útil (e honesto) de explicar em site é:",
+          "(a) Primeiras semanas (semanas 1–4)",
+          "É comum perceber mudanças em apetite e tolerabilidade gastrointestinal mais cedo, especialmente enquanto o organismo se adapta.",
+          "O efeito de retardo do esvaziamento gástrico tende a ser mais forte após a primeira dose e diminui com o tempo, o que ajuda a entender por que alguns efeitos GI são mais intensos no início.",
+          "Em rotulagem, a dose inicial (2,5 mg/semana) é descrita como fase de início e não é dose de manutenção (o objetivo principal aqui é adaptação/tolerância).",
+          "(b) 1–3 meses",
+          "Para diabetes, é comum que a melhora fique mais “visível” em marcadores como HbA1c depois de 8–12 semanas, porque a HbA1c reflete a média de glicose dos últimos ~3 meses (é um marcador “lento” por natureza).",
+          "(c) 3–12 meses e longo prazo",
+          "Para peso, a redução costuma ser progressiva por meses; nos estudos pivotais de Zepbound, a avaliação principal foi em 72 semanas, e os participantes ficaram ao menos 52 semanas em dose de manutenção. Isso reforça que é um tratamento de médio-longo prazo, não “efeito relâmpago”.",
+        ],
+      },
+      {
+        title: "2.4 Por que dieta e exercício são complementares (e não “detalhe”)",
+        paragraphs: [
+          "A própria indicação na bula já coloca o tratamento em conjunto com estilo de vida (diabetes: dieta/exercício; peso: dieta hipocalórica + atividade física).",
+          "Mas vale explicar o “porquê” de forma didática:",
+          "Dieta (redução calórica) complementa porque:",
+          "A tirzepatida facilita comer menos (apetite/saciedade), mas a qualidade e o planejamento alimentar ajudam a:",
+        ],
+        bullets: [
+          "Sustentar um déficit calórico consistente;",
+          "Manter proteína/fibras/micronutrientes adequados;",
+          "Reduzir desconfortos GI (ex.: refeições menores, menos gordura, mais fracionadas — conforme tolerância clínica).",
+        ],
+      },
+      {
+        title: "Nos estudos de Zepbound, a intervenção incluiu orientação para ~500 kcal/dia de déficit.",
+        paragraphs: ["Exercício complementa porque:"],
+        bullets: [
+          "Ajuda a preservar massa magra e melhora capacidade cardiorrespiratória, algo que o medicamento sozinho não “treina”.",
+          "Melhora sensibilidade à insulina e marcadores cardiometabólicos por vias independentes.",
+          "Nos estudos, houve recomendação de mínimo de 150 min/semana como parte do pacote de estilo de vida.",
+        ],
+      },
+      {
+        title: "Tradução prática para o leitor do site",
+        paragraphs: [
+          "O medicamento reduz barreiras biológicas (fome/saciedade e eixo incretínico), enquanto dieta e exercício criam e sustentam o ambiente para perda de peso/controle glicêmico com melhor qualidade e manutenção.",
+        ],
+      },
+      {
+        title: "2.5 Cuidados com uso (pontos de segurança e orientação geral)",
+        paragraphs: [
+          "Titulação gradual: a escalada de dose é usada para reduzir efeitos GI (náusea, vômitos etc.).",
+          "Contraceptivo oral: a bula orienta considerar método não oral ou barreira por 4 semanas após início e 4 semanas após cada aumento de dose (por impacto no esvaziamento gástrico/absorção).",
+          "Associação com outros agonistas GLP-1: não é recomendado combinar com outros produtos contendo tirzepatida ou com agonistas de GLP-1 (evitar duplicidade).",
+          "Atenção a sintomas importantes (alertas de bula): orientar o paciente a procurar avaliação médica se surgirem sinais compatíveis com eventos relevantes descritos na rotulagem (p.ex., pancreatite, desidratação por vômitos/diarreia, etc.). (Você pode listar de forma não alarmista, baseado na bula local.)",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: ["3.1 Agonismo de GIPR + GLP-1R (o “duplo incretínico”)"],
+        bullets: [
+          "A tirzepatida liga e ativa os receptores de GIP e GLP-1, que são alvos fisiológicos das incretinas endógenas.",
+          "Ela contém uma cadeia lipídica (C20) que favorece ligação à albumina e prolonga a meia-vida.",
+        ],
+      },
+      {
+        title: "3.2 Efeitos metabólicos centrais (glicemia e eixo insulina/glucagon)",
+        paragraphs: ["Em termos funcionais (descritos em bula), a tirzepatida:"],
+        bullets: [
+          "Aumenta a secreção de insulina (primeira e segunda fase) de modo glicose-dependente;",
+          "Reduz níveis de glucagon também de modo glicose-dependente;",
+          "Aumenta sensibilidade à insulina;",
+          "Retarda esvaziamento gástrico, sobretudo após a primeira dose, com atenuação ao longo do tempo.",
+        ],
+      },
+      {
+        title: "3.3 Efeitos “em rede” (downstream) em apetite, peso e circuitos de ingestão",
+        paragraphs: [
+          "Além do pâncreas e do fígado, o efeito clínico relevante envolve ingestão calórica e controle de apetite:",
+        ],
+        bullets: [
+          "O GLP-1 é regulador fisiológico de apetite e ingestão calórica;",
+          "Dados não clínicos sugerem que a adição de GIP pode contribuir adicionalmente para regulação de ingestão;",
+          "Receptores de GIP e GLP-1 estão presentes em áreas cerebrais de regulação do apetite, e estudos em animais mostram ativação de neurônios nessas regiões.",
+        ],
+      },
+      {
+        title: "4) O que cada receptor faz e seu possível envolvimento clínico",
+        paragraphs: ["4.1 GLP-1R (agonismo)", "GLP-1 participa de:"],
+        bullets: [
+          "Aumento de insulina glicose-dependente e redução de glucagon;",
+          "Retardo do esvaziamento gástrico;",
+          "Sinalização de saciedade e redução de ingestão.",
+        ],
+      },
+      {
+        title: "Tradução clínica típica",
+        paragraphs: ["Melhora de glicemias (jejum e pós-prandial) e suporte à redução de peso (via menor ingestão)."],
+      },
+      {
+        title: "4.2 GIPR (agonismo)",
+        paragraphs: [
+          "GIP é outra incretina com papel no eixo insulina/glucagon e, no contexto da tirzepatida, é descrito como componente que pode somar ao controle de ingestão e peso quando combinado ao GLP-1.",
+          "Tradução clínica (racional): potencial de efeito complementar ao GLP-1 em regulação metabólica e de apetite — ainda que a “parcela” exata de cada receptor nos desfechos finais possa variar e dependa de evidência clínica.",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        paragraphs: ["Absorção"],
+        bullets: ["SC; Tmax tipicamente entre 8–72 h; biodisponibilidade absoluta média ~80%."],
+      },
+      {
+        title: "Distribuição",
+        bullets: ["Vd aparente ~10 L (ordem de grandeza na bula); ligação à albumina ~99%."],
+      },
+      {
+        title: "Eliminação",
+        bullets: ["Depuração populacional ~0,06 L/h; meia-vida ~5 dias (Zepbound: ~5–6 dias), sustentando administração semanal."],
+      },
+      {
+        title: "Metabolismo/Excreção",
+        bullets: [
+          "Metabolizada por clivagem proteolítica do peptídeo, beta-oxidação da cadeia C20 e hidrólise; excreção de metabólitos por urina e fezes (tirzepatida intacta não é observada).",
+        ],
+      },
+      {
+        title: "Dados da molécula (descrição/bula)",
+        bullets: [
+          "Fórmula empírica: C₂₂₅H₃₄₈N₄₈O₆₈; massa molecular ~4813,5 Da; peptídeo baseado na sequência de GIP, com modificações e cadeia C20.",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança (visão geral de bula)",
+        paragraphs: ["Reações comuns (classe incretínica; frequência varia por dose/estudo):"],
+        bullets: [
+          "Gastrointestinais como náusea, diarreia, vômitos, constipação, dispepsia, dor abdominal, além de redução de apetite.",
+        ],
+      },
+      {
+        title: "Alertas importantes descritos em bula (principais pontos)",
+        bullets: [
+          "Risco de tumores de células C da tireoide em roedores (causalidade em humanos não estabelecida); contraindicado em histórico pessoal/familiar de carcinoma medular de tireoide ou MEN2 (conforme bula).",
+          "Pancreatite aguda: alerta de classe/medicamento (procura avaliação médica se sintomas ocorrerem).",
+          "Hipoglicemia quando associada a insulina ou secretagogos (ex.: sulfonilureias).",
+          "Retardo do esvaziamento gástrico e risco relacionado a aspiração em anestesia/sedação profunda (alerta descrito em bulas).",
+          "Para site: vale inserir um bloco fixo “uso sob prescrição e acompanhamento”, e lembrar que eventos e contraindicações dependem da bula local e do perfil do paciente.",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        paragraphs: [
+          "A tirzepatida retarda o esvaziamento gástrico e pode impactar a absorção de medicamentos orais.",
+          "Bula dos EUA descreve recomendação específica para contraceptivos hormonais orais durante início/escala de dose (devido à alteração de absorção), orientando método não oral ou método de barreira por período definido.",
+          "Estudos in vitro na bula apontam baixo potencial para inibir/induzir CYP de forma relevante; o ponto central prático costuma ser mesmo a absorção por via oral.",
+        ],
+      },
+      {
+        title: "8) Resumo “em uma frase”",
+        paragraphs: [
+          "A tirzepatida é um agonista duplo de GIPR e GLP-1R, com cadeia lipídica C20 que prolonga a meia-vida, promovendo melhora glicêmica glicose-dependente, retardo do esvaziamento gástrico e redução de ingestão calórica/peso, com perfil de segurança que exige atenção especial a tireoide (alerta de bula), pancreatite, hipoglicemia em combinações e efeitos GI.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "ELI LILLY AND COMPANY. MOUNJARO® (tirzepatide) injection: U.S. Prescribing Information. 2026. Disponível em: pi.lilly.com/us/mounjaro-uspi.pdf. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label:
+          "ELI LILLY AND COMPANY. ZEPBOUND® (tirzepatide) injection: U.S. Prescribing Information. Disponível em: pi.lilly.com/us/zepbound-uspi.pdf. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label:
+          "U.S. FOOD AND DRUG ADMINISTRATION (FDA). FDA approves new treatment for chronic weight management, first since 2014 (tirzepatide – Zepbound). 2023. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label:
+          "AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA (ANVISA). Mounjaro® (tirzepatida): nova indicação. 2025. Acesso em: 4 fev. 2026.",
+      },
+      {
+        label: "EUROPEAN MEDICINES AGENCY (EMA). Mounjaro – EPAR / Product information. Acesso em: 4 fev. 2026.",
+      },
+    ],
+  },
 ];
 
-const themes = ["Todos", "Antidepressivos"];
+const themes = ["Todos", "Antidepressivos", "Incretínicos"];
 
 export default function MedicamentosHub() {
   const [query, setQuery] = useState("");
