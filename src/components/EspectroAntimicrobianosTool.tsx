@@ -52,6 +52,16 @@ const entries: Entry[] = [
       "Linezolida",
     ],
   },
+  {
+    bacteria: "Enterococcus spp. (E. faecium)",
+    antibiotics: [
+      "Gentamicina",
+      "Tigeciclina",
+      "Vancomicina",
+      "Daptomicina",
+      "Linezolida",
+    ],
+  },
 ];
 
 function normalize(value: string): string {
