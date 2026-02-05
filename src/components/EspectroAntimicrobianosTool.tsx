@@ -7,6 +7,11 @@ type Entry = {
   antibiotics: string[];
 };
 
+const upToDateLinks: Record<string, string> = {
+  oxacilina:
+    "https://www.uptodate.com/contents/oxacillin-drug-information?search=oxacilina&source=panel_search_result&selectedTitle=1~76&usage_type=panel&kp_tab=drug_general&display_rank=1",
+};
+
 const entries: Entry[] = [
   {
     bacteria: "Staphylococcus aureus resistente à meticilina (MRSA)",
@@ -60,6 +65,26 @@ function normalize(value: string): string {
 
 function uniqueSorted(list: string[]) {
   return Array.from(new Set(list)).sort((a, b) => a.localeCompare(b, "pt-BR"));
+}
+
+function getUpToDateLink(name: string) {
+  return upToDateLinks[normalize(name)];
+}
+
+function renderAntibioticLabel(name: string) {
+  const link = getUpToDateLink(name);
+  if (!link) return name;
+  return (
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="espectro-tag espectro-tag--ok espectro-tag--link"
+      title="Link no UpToDate"
+    >
+      {name}
+    </a>
+  );
 }
 
 export default function EspectroAntimicrobianosTool() {
@@ -150,8 +175,12 @@ export default function EspectroAntimicrobianosTool() {
               <span className="espectro-branch__label">Cobre:</span>
               <div className="espectro-tags">
                 {result.items.map((item) => (
-                  <span key={item} className="espectro-tag espectro-tag--ok">
-                    {item}
+                  <span key={item}>
+                    {getUpToDateLink(item) ? (
+                      renderAntibioticLabel(item)
+                    ) : (
+                      <span className="espectro-tag espectro-tag--ok">{item}</span>
+                    )}
                   </span>
                 ))}
               </div>
@@ -161,7 +190,21 @@ export default function EspectroAntimicrobianosTool() {
 
         {result?.type === "antibiotic" ? (
           <div className="espectro-tree">
-            <div className="espectro-node espectro-node--antibiotic">{result.title}</div>
+            <div className="espectro-node espectro-node--antibiotic">
+              {getUpToDateLink(result.title) ? (
+                <a
+                  href={getUpToDateLink(result.title)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="espectro-tag espectro-tag--ok espectro-tag--link"
+                  title="Link no UpToDate"
+                >
+                  {result.title}
+                </a>
+              ) : (
+                result.title
+              )}
+            </div>
             <div className="espectro-branch">
               <span className="espectro-branch__label">Cobre:</span>
               <div className="espectro-tags">
