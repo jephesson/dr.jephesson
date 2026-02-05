@@ -839,6 +839,12 @@ a{color:inherit;text-decoration:none}
   box-shadow:0 0 0 2px rgba(22,101,52,.18);
 }
 
+.espectro-note{
+  margin-top:18px;
+  font-size:13px;
+  color:rgba(11,20,34,.6);
+}
+
 .sonda-search{
   display:flex;
   flex-direction:column;

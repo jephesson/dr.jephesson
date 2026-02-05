@@ -251,6 +251,13 @@ export default function EspectroAntimicrobianosTool() {
             </div>
           </div>
         ) : null}
+
+        {(result?.type === "bacteria" || result?.type === "antibiotic") && (
+          <p className="espectro-note">
+            Ao clicar no nome do medicamento, você será redirecionado ao UpToDate.
+            É necessário ter assinatura ativa ou login institucional.
+          </p>
+        )}
       </div>
     </div>
   );
