@@ -1564,9 +1564,130 @@ const posts: Post[] = [
       },
     ],
   },
+  {
+    id: "metoprolol-succinato",
+    name: "Succinato de Metoprolol (Selozok®, Seloken® ZOK, Toprol-XL®)",
+    className: "Betabloqueadores",
+    category: "Farmacologia",
+    summary:
+      "O succinato de metoprolol é um betabloqueador cardiosseletivo (β1) de liberação prolongada, padrão-ouro para proteção cardiovascular contínua.",
+    sections: [
+      {
+        title:
+          "Succinato de Metoprolol (Selozok®, Seloken® ZOK, Toprol-XL®)",
+        paragraphs: [
+          "Classe Terapêutica: Anti-hipertensivo / Antianginoso / Antiarrítmico / Cardioprotetor.",
+          "Subclasse: Antagonista seletivo dos receptores adrenérgicos β1 (Betabloqueador de 2ª geração).",
+        ],
+      },
+      {
+        title: "1. Dados da Molécula e Tecnologia Farmacêutica",
+        paragraphs: [
+          "Diferente do Tartarato de Metoprolol (sal convencional), o Succinato foi desenhado para ser um sistema de liberação controlada de ordem zero.",
+        ],
+        bullets: [
+          "Sal: Succinato de metoprolol (mais estável para formulações de liberação lenta).",
+          "Fórmula Molecular: (C15H25NO3)2 · C4H6O4",
+          "Massa Molecular: 652,8 g/mol.",
+          "O Sistema ZOK (Zero Order Kinetics): O comprimido não é apenas uma massa de pó. Ele é composto por centenas de microesferas (grânulos) de succinato de metoprolol, cada uma revestida por uma membrana de polímero que controla a taxa de difusão.",
+          "Vantagem: Após a ingestão, o comprimido se desintegra rapidamente e libera as microesferas ao longo do trato gastrointestinal, mantendo a liberação do fármaco constante por 20 a 24 horas, independente do pH ou do peristaltismo.",
+        ],
+      },
+      {
+        title: "2. Indicações Terapêuticas (Baseadas em Evidências)",
+        paragraphs: [
+          "O Succinato de Metoprolol é um dos poucos betabloqueadores aprovados para o tratamento da Insuficiência Cardíaca Congestiva (ICC), devido à sua capacidade de reduzir a mortalidade.",
+        ],
+        bullets: [
+          "Hipertensão Arterial: Como monoterapia ou em combinação.",
+          "Angina do Peito: Profilaxia de longo prazo.",
+          "Insuficiência Cardíaca Crônica (Classe II-IV NYHA): Estabilizado, para reduzir mortalidade e hospitalização.",
+          "Infarto Agudo do Miocárdio (IAM): Tratamento de manutenção após a fase aguda para prevenção de reinfarto.",
+          "Arritmias: Especialmente taquicardia supraventricular e controle de resposta ventricular na fibrilação atrial.",
+          "Distúrbios Cardíacos Funcionais com Palpitações.",
+          "Profilaxia da Enxaqueca: Uso off-label comum devido à sua lipossolubilidade moderada.",
+        ],
+      },
+      {
+        title: "3. Farmacodinâmica (Mecanismo de Ação Detalhado)",
+        paragraphs: ["3.1 Seletividade β1"],
+        bullets: [
+          "O metoprolol possui uma afinidade 20 a 50 vezes maior pelos receptores β1 (coração e rins) do que pelos receptores β2 (brônquios, vasos sanguíneos e fígado).",
+          "No Coração: Inibe a estimulação simpática (adrenalina/noradrenalina), reduzindo a frequência cardíaca (cronotropismo negativo), a força de contração (inotropismo negativo) e a velocidade de condução do impulso (dromotropismo negativo).",
+          "Nos Rins: Inibe a liberação de renina, bloqueando o início do sistema Renina-Angiotensina-Aldosterona (SRAA), o que contribui para a queda da pressão arterial a longo prazo.",
+          "3.2 Por que o Succinato é superior na ICC?",
+          "Na insuficiência cardíaca, o corpo tenta compensar a falha da bomba aumentando a adrenalina. Isso sobrecarrega o coração e causa “remodelamento cardíaco” (o coração deforma e cresce). O Succinato de Metoprolol bloqueia essa toxicidade adrenérgica de forma constante, permitindo que o ventrículo esquerdo recupere parte de sua função.",
+        ],
+      },
+      {
+        title: "4. Farmacocinética (ADME)",
+        bullets: [
+          "Absorção: Quase 100% absorvido, mas sofre efeito de primeira passagem hepática.",
+          "Biodisponibilidade: ~40% a 50%. A formulação em succinato evita os picos excessivos que o tartarato causa.",
+          "Tmax (Pico): Ocorre entre 4 a 6 horas após a ingestão (no tartarato ocorre em 1-2h).",
+          "Ligação Proteica: Baixa (~12%), principalmente à albumina humana.",
+          "Metabolismo: Hepático via CYP2D6 (Primário). Gera metabólitos inativos (α-hidroximetoprolol).",
+          "Meia-vida: A meia-vida plasmática é de 3-7 horas, mas o efeito clínico dura 24h devido à liberação controlada.",
+          "Excreção: >95% via renal (urina).",
+        ],
+      },
+      {
+        title: "5. Posologia e Administração Prática",
+        bullets: [
+          "Dose única diária: Geralmente pela manhã.",
+          "Fracionamento: O comprimido de succinato (tecnologia ZOK) possui um sulco e pode ser partido sem perder a propriedade de liberação prolongada, mas nunca deve ser mastigado ou esmagado.",
+          "Relação com Alimentos: A ingestão com alimentos não altera significativamente a AUC (área sob a curva), mas pode aumentar levemente o pico plasmático. Recomenda-se tomar sempre no mesmo horário para manter a constância.",
+        ],
+      },
+      {
+        title: "6. Efeitos Adversos e Contraindicações",
+        paragraphs: ["6.1 Efeitos Adversos Comuns"],
+        bullets: [
+          "Geral: Fadiga e tontura (devido à redução do débito cardíaco).",
+          "Cardiovascular: Bradicardia (batimentos lentos), hipotensão ortostática, extremidades frias.",
+          "SNC: Distúrbios do sono, pesadelos (devido à passagem pela barreira hematoencefálica), depressão leve.",
+          "Respiratório: Dispneia de esforço (em doses altas, perde-se a seletividade e pode haver leve broncoconstrição).",
+        ],
+      },
+      {
+        title: "6.2 Contraindicações Absolutas",
+        bullets: [
+          "Bloqueio atrioventricular (BAV) de 2º ou 3º grau.",
+          "Bradicardia sinusal severa (FC < 45-50 bpm).",
+          "Choque cardiogênico.",
+          "Asma brônquica grave ou DPOC descompensada.",
+          "Insuficiência cardíaca descompensada (edema agudo de pulmão).",
+        ],
+      },
+      {
+        title: "7. Interações Medicamentosas Críticas",
+        bullets: [
+          "Inibidores da CYP2D6 (Fluoxetina, Paroxetina, Bupropiona, Quinidina): aumentam drasticamente o nível de metoprolol (risco de bradicardia severa).",
+          "Bloqueadores de Cálcio (Verapamil, Diltiazem): risco de parada cardíaca ou bloqueio AV grave (efeito aditivo no nó sinusal).",
+          "Anti-inflamatórios (AINEs) (Ibuprofeno, Diclofenaco): podem diminuir o efeito anti-hipertensivo (retenção de sódio e inibição de prostaglandinas).",
+          "Clonidina: se interromper a clonidina antes do betabloqueador, há risco de crise hipertensiva fatal.",
+        ],
+      },
+      {
+        title: "8. Resumo “Super Completo”",
+        paragraphs: [
+          "O Succinato de Metoprolol é a evolução tecnológica do metoprolol convencional. Enquanto o tartarato é uma “montanha-russa” de níveis sanguíneos, o succinato é uma “linha reta”, proporcionando proteção estável contra arritmias e morte súbita por 24 horas. É seguro para diabéticos (com cautela, pois pode mascarar sintomas de hipoglicemia) e a primeira escolha para pacientes com coração dilatado ou pós-infarto que precisam de controle fino da frequência cardíaca sem as flutuações de picos de dose.",
+        ],
+      },
+    ],
+    references: [],
+  },
 ];
 
-const themes = ["Todos", "Antidepressivos", "Anti-histamínicos", "Anticoagulantes", "Antipsicóticos", "Incretínicos"];
+const themes = [
+  "Todos",
+  "Antidepressivos",
+  "Anti-histamínicos",
+  "Anticoagulantes",
+  "Antipsicóticos",
+  "Betabloqueadores",
+  "Incretínicos",
+];
 
 export default function MedicamentosHub() {
   const [query, setQuery] = useState("");
