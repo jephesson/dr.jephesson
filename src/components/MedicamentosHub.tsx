@@ -1565,6 +1565,325 @@ const posts: Post[] = [
     ],
   },
   {
+    id: "desvenlafaxina",
+    name: "Desvenlafaxina (Pristiq®, Khedezla®, Ixefo®)",
+    className: "Antidepressivos",
+    category: "Farmacologia",
+    summary:
+      "A desvenlafaxina (O-desmetilvenlafaxina; ODV) é um ISRSN desenvolvido para entregar o metabólito ativo da venlafaxina com posologia simplificada e menor dependência do CYP2D6.",
+    sections: [
+      {
+        title: "Desvenlafaxina: farmacologia comparativa e mecanismos de alto impacto na classe ISRS/ISRSN",
+        paragraphs: [
+          "A desvenlafaxina (O-desmetilvenlafaxina; “ODV”) é um antidepressivo da classe dos inibidores da recaptação de serotonina e noradrenalina (ISRSN/SNRI). Ela foi desenvolvida para entregar, de forma mais direta e previsível, o principal metabólito ativo da venlafaxina, com regime posológico simplificado (comumente 50 mg 1x/dia) e menor dependência de variabilidade farmacogenética associada ao CYP2D6.",
+        ],
+      },
+      {
+        title: "Dados da molécula (substância ativa)",
+        bullets: [
+          "Nome (DCI): Desvenlafaxina",
+          "Nomes comerciais: Pristiq®, Khedezla®, Ixefo® (e outros, conforme país)",
+          "Classe: ISRSN (SNRI)",
+          "Nome químico: (+)-4-[2-Dimetilamino-1-(1-hidroxiciclo-hexil)etil]fenol",
+          "Fórmula molecular: C16H25NO2",
+          "Massa molecular: 263,38 g/mol (base); ~279,38 g/mol (succinato monoidratado – forma de dosagem comum)",
+          "Ligação a proteínas plasmáticas: ~30% (baixa)",
+          "pKa: ~9,7 (amina) e ~11,2 (fenol)",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e “prazo para funcionar”",
+        paragraphs: ["2.1 Indicações aprovadas (variam por país/bula)"],
+        bullets: [
+          "Transtorno Depressivo Maior (TDM): tratamento agudo e, em algumas bulas, manutenção em adultos.",
+          "Transtorno de Ansiedade Generalizada (TAG): aprovado em alguns países; em outros, o uso pode ser off-label.",
+        ],
+      },
+      {
+        title: "2.2 Efeito terapêutico esperado",
+        bullets: [
+          "Melhora do humor e redução do sofrimento afetivo.",
+          "Redução da anedonia (maior capacidade de sentir prazer e interesse).",
+          "Ganho gradual de energia, motivação e desempenho atencional (em parte, pelo componente noradrenérgico).",
+          "Melhora do sono e do apetite quando a depressão os desorganiza (variável entre indivíduos).",
+          "Redução de sintomas ansiosos associados à depressão (ruminação, tensão, hiperalerta).",
+        ],
+      },
+      {
+        title: "2.3 Em quanto tempo começa a fazer efeito?",
+        bullets: [
+          "Primeiras 1–2 semanas: alguns pacientes percebem melhora inicial em ansiedade somática, sono, energia ou “clareza” mental.",
+          "4–8 semanas: intervalo típico para resposta antidepressiva mais robusta e estável.",
+          "Observação prática: a eficácia máxima exige uso contínuo conforme prescrito, com reavaliações clínicas periódicas.",
+        ],
+      },
+      {
+        title: "2.4 Por que “estilo de vida” importa aqui (medicação como parte do tratamento)",
+        paragraphs: [
+          "A desvenlafaxina trata sintomas biológicos relevantes, mas a recuperação plena costuma ser biopsicossocial:",
+        ],
+        bullets: [
+          "Psicoterapia: frequentemente potencializa resposta e reduz recaída (TCC e outras abordagens).",
+          "Exercício físico: adjuvante com impacto em sono, neuroplasticidade e humor.",
+          "Sono e rotina: depressão bagunça o relógio biológico; a organização potencializa o tratamento.",
+          "Alimentação: não “cura” depressão, mas ajuda energia, sono e tolerabilidade.",
+          "Álcool: tende a piorar sono, humor e pode aumentar efeitos adversos; evitar ou minimizar.",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação fundamental e implicações clínicas (alto impacto)",
+        paragraphs: ["3.1 Ação primária (transportadores)", "A desvenlafaxina atua principalmente nos transportadores pré-sinápticos:"],
+        bullets: [
+          "SERT: transportador de serotonina → aumenta 5-HT na fenda sináptica.",
+          "NET: transportador de noradrenalina → aumenta NA na fenda sináptica (em menor grau que SERT, mas clinicamente relevante em muitos pacientes).",
+          "Importante: não há atividade agonista/antagonista significativa em sistemas receptoriais como muscarínicos, histamínicos H1 ou alfa-1 (o que contribui para menor sedação e menor carga anticolinérgica quando comparada a classes como tricíclicos).",
+        ],
+      },
+      {
+        title: "3.2 Fisiologia de alto impacto (por que “dupla via” pode mudar o quadro)",
+        bullets: [
+          "Noradrenalina: projeções do locus coeruleus para córtex e sistema límbico modulam atenção, vigília, prontidão ao estresse e regulação emocional. Clinicamente, a via noradrenérgica se relaciona a energia, foco, drive motivacional e retardo psicomotor.",
+          "Serotonina: projeções dos núcleos da rafe modulam humor, ansiedade, impulsividade e funções neurovegetativas (sono, apetite, dor, sexualidade).",
+          "Implicação clínica: a ação combinada tende a ser útil quando a depressão vem com anedonia, fadiga, retardo psicomotor e dificuldade de concentração — sintomas em que a dimensão noradrenérgica frequentemente pesa — sem perder o “controle” sobre domínios tipicamente serotoninérgicos, como ansiedade e ruminação.",
+        ],
+      },
+      {
+        title: "4) Farmacocinética (ADME) e o que muda na prática",
+        paragraphs: ["4.1 Absorção"],
+        bullets: [
+          "Absorção rápida e quase completa.",
+          "Tmax: aproximadamente 7,5 horas após a dose oral (forma de liberação prolongada).",
+          "Alimentos: não alteram de forma clinicamente relevante → pode ser tomada com ou sem alimento.",
+        ],
+      },
+      {
+        title: "4.2 Distribuição",
+        bullets: [
+          "Volume de distribuição moderado (~3,4 L/kg).",
+          "Baixa ligação proteica (~30%) → reduz risco de interações por deslocamento.",
+        ],
+      },
+      {
+        title: "4.3 Metabolismo",
+        bullets: [
+          "Predominantemente por conjugação (glucuronidação via UGT; principais isoformas descritas incluem UGT1A1, 2B4, 2B15).",
+          "Oxidação em menor extensão (CYP3A4).",
+          "Ponto crítico: não é substrato primário do CYP2D6 → menor variabilidade interindividual e menor vulnerabilidade a interações típicas desse eixo (diferença importante em relação à venlafaxina).",
+        ],
+      },
+      {
+        title: "4.4 Eliminação",
+        bullets: [
+          "Principalmente renal (parte importante excretada inalterada).",
+          "Aproximadamente: ~45% excretada inalterada na urina; porções adicionais como conjugados.",
+          "Depuração depende da função renal (atenção especial em insuficiência renal).",
+        ],
+      },
+      {
+        title: "4.5 Meia-vida e posologia",
+        bullets: [
+          "Meia-vida: ~11 horas.",
+          "Regra prática: 1 vez ao dia.",
+          "Importante: não interromper abruptamente (risco de síndrome de descontinuação).",
+        ],
+      },
+      {
+        title: "5) Efeitos adversos e segurança (o que mais impacta no dia a dia)",
+        paragraphs: ["5.1 Efeitos adversos comuns (geralmente no início; muitos reduzem com semanas)"],
+        bullets: [
+          "Gastrointestinais: Náusea (muito comum no início), boca seca, constipação, anorexia/redução do apetite.",
+          "Sistema nervoso central: Tontura, cefaleia, insônia ou sonolência (variável), fadiga.",
+          "Autonômicos: Sudorese aumentada.",
+          "Sexuais (classe): Redução de libido, retardo ejaculatório/anorgasmia.",
+        ],
+      },
+      {
+        title: "5.2 Alertas e eventos importantes",
+        bullets: [
+          "Pressão arterial e frequência cardíaca: pode causar aumentos sustentados de PA (especialmente diastólica) e FC → monitorar, sobretudo em hipertensos.",
+          "Síndrome serotoninérgica: rara, mas potencialmente grave, especialmente em combinações serotoninérgicas.",
+          "Síndrome de descontinuação: mais provável se suspender abruptamente (tontura, parestesias tipo “choques”, irritabilidade, náusea, ansiedade).",
+          "Alerta em jovens: como antidepressivos em geral, há aviso em alguns países sobre possível piora de pensamentos autolesivos em crianças/adolescentes e adultos jovens (especialmente no início do tratamento e em mudanças de dose). Na prática: monitorar e acionar o médico se houver piora importante do estado mental.",
+        ],
+      },
+      {
+        title: "6) Interações medicamentosas (principais)",
+        bullets: [
+          "IMAOs: contraindicado. Necessário “washout” antes/depois (tipicamente 14 dias) por risco de toxicidade serotoninérgica.",
+          "Outros serotoninérgicos: cautela com triptanos, tramadol, linezolida, buspirona, entre outros (risco aumentado de síndrome serotoninérgica).",
+          "Anticoagulantes/antiagregantes: possível aumento de risco de sangramento (efeito em hemostasia plaquetária mediado por serotonina); monitorar quando aplicável.",
+          "Fármacos que prolongam QT: desvenlafaxina tem baixo risco isolado, mas atenção a somatório de risco em pacientes predispostos.",
+          "Álcool: evitar ou minimizar (piora sono/humor e tolerabilidade).",
+        ],
+      },
+      {
+        title: "7) Análise comparativa aprofundada na classe (e com ISRS de referência)",
+        paragraphs: ["7.1 Desvenlafaxina vs. Venlafaxina (precursor metabólico)", "A desvenlafaxina representa uma “evolução farmacocinética” da venlafaxina:"],
+        bullets: [
+          "Venlafaxina: depende de conversão metabólica (com participação relevante do CYP2D6) para formar ODV.",
+          "Desvenlafaxina: já é o metabólito ativo administrado diretamente.",
+          "Implicação clínica crítica:",
+          "Uma parcela de pacientes (especialmente em populações europeias) é metabolizadora pobre do CYP2D6 e/ou usa inibidores do CYP2D6 (ex.: bupropiona, fluoxetina, quinidina). Nesses cenários, a conversão e a exposição podem variar mais com venlafaxina, afetando resposta e tolerabilidade.",
+          "A desvenlafaxina reduz essa variabilidade, oferecendo farmacocinética mais previsível.",
+          "Perfil dose–resposta:",
+          "Venlafaxina: classicamente dose-dependente, com componente mais serotoninérgico em doses menores e maior recrutamento noradrenérgico em doses mais altas.",
+          "Desvenlafaxina: tende a manter um perfil SNRI mais direto na faixa usual, sem depender de “subir muito” para começar a ver benefícios ligados ao eixo noradrenérgico (ainda que SERT seja, em geral, mais fortemente inibido que NET).",
+          "Síndrome de descontinuação:",
+          "Ambas podem causar descontinuação significativa se interrompidas abruptamente.",
+          "Na prática, a previsibilidade da desvenlafaxina pode ser percebida como vantagem em alguns pacientes, mas o risco ainda exige desmame gradual.",
+        ],
+      },
+      {
+        title: "7.2 Desvenlafaxina vs. Duloxetina (ISRSN com forte “perfil analgésico”)",
+        paragraphs: ["Diferencial clínico da duloxetina:"],
+        bullets: [
+          "Forte evidência e uso em dor crônica, sobretudo dor neuropática (ex.: neuropatia diabética) e fibromialgia, por ação em vias descendentes inibitórias da dor (medulares e supramedulares).",
+          "Comparação prática:",
+          "Duloxetina: tende a ser preferida quando dor neuropática/fibromialgia domina o quadro, além de depressão/ansiedade.",
+          "Desvenlafaxina: foco mais centrado em TDM (e TAG em alguns locais), com evidência menos robusta para dor crônica.",
+          "Efeitos adversos e segurança:",
+          "Duloxetina costuma causar náusea e sudorese importantes no início em parte dos pacientes e traz alerta mais forte para raros casos de hepatotoxicidade (monitorização clínica é relevante, principalmente em fatores de risco).",
+          "Desvenlafaxina: náusea também é comum, mas tende a ter perfil de interações mais “limpo”.",
+          "Metabolismo:",
+          "Duloxetina: metabolismo importante por CYP1A2 e CYP2D6 → mais suscetível a interações (ex.: inibidores de 1A2, indução por tabagismo, etc.).",
+          "Desvenlafaxina: predomínio de UGT e menor dependência de CYP.",
+        ],
+      },
+      {
+        title: "7.3 Desvenlafaxina vs. Levomilnaciprano (predomínio noradrenérgico)",
+        paragraphs: ["O levomilnaciprano é o ISRSN com maior ênfase noradrenérgica na prática clínica:"],
+        bullets: [
+          "Ele apresenta maior potência relativa em NET do que em SERT (comumente descrito em torno de 2:1, variando conforme a métrica), o que o posiciona como mais “energizante” em alguns perfis.",
+          "Perfil sintomático-alvo:",
+          "Levomilnaciprano: útil quando fadiga intensa, lentificação cognitiva e retardo psicomotor são muito dominantes.",
+          "Desvenlafaxina: mais equilibrada e frequentemente mais versátil para quadros mistos (depressão com ansiedade/ruminação).",
+          "Efeitos adversos diferenciais:",
+          "Levomilnaciprano: maior incidência de efeitos autonômicos (aumento de FC, sudorese), midríase e constipação; em alguns casos, pode ter menor impacto sexual que ISRS clássicos, mas isso é variável.",
+          "Desvenlafaxina: perfil mais “central” da classe, com atenção a náusea inicial e PA/FC.",
+        ],
+      },
+      {
+        title: "7.4 Desvenlafaxina vs. Sertralina (ISRS de referência)",
+        paragraphs: ["A sertralina é um ISRS potente e seletivo (com afinidade residual por DAT, de relevância clínica debatida).", "Seletividade e circuitos:"],
+        bullets: [
+          "Sertralina: excelente para sintomas serotoninérgicos (ansiedade, irritabilidade, ruminação, sintomas obsessivo-compulsivos dependendo do quadro).",
+          "Desvenlafaxina: adiciona o eixo noradrenérgico, potencialmente útil para “componentes energéticos/cognitivos” da depressão (energia, foco, drive).",
+          "Metabolismo e interações:",
+          "Sertralina: metabolizada por múltiplas vias (CYP2B6, CYP2C9, CYP2C19, CYP2D6 e CYP3A4) e é inibidora moderada do CYP2D6.",
+          "Desvenlafaxina: metabolismo predominantemente por conjugação e baixo potencial de inibir CYP → perfil de interações frequentemente mais simples, especialmente em polimedicados/idosos.",
+          "Efeitos adversos:",
+          "Sertralina: maior tendência a desconforto gastrointestinal, especialmente diarreia no início, além de disfunção sexual.",
+          "Desvenlafaxina: náusea é o efeito adverso inicial mais típico; GI inferior costuma ser menos proeminente do que em alguns ISRS.",
+        ],
+      },
+      {
+        title: "8) Síntese clínica de alto impacto (como escolher na prática)",
+        paragraphs: ["Escolha a desvenlafaxina quando:"],
+        bullets: [
+          "A previsibilidade farmacocinética é prioridade (idosos, polimedicados, preocupação com variabilidade por CYP2D6).",
+          "Você busca um perfil SNRI “direto” desde o início, com regime simples e estável.",
+          "Há histórico de resposta insuficiente a ISRS puros, especialmente por persistência de falta de energia, anedonia e dificuldade de concentração.",
+          "Deseja-se um perfil de interações mais limpo em pacientes com múltiplas medicações.",
+          "Considere outras opções quando:",
+          "Dor neuropática/fibromialgia domina o quadro: duloxetina tende a ser superior.",
+          "Retardo psicomotor/apagamento energético extremos: levomilnaciprano pode ser útil (avaliando tolerabilidade cardiovascular).",
+          "Preferência por ISRS clássico com ampla experiência e múltiplas indicações: sertralina é excelente escolha.",
+          "Desejo de titulação muito ampla e “ajuste fino” de dose ao longo do tempo: venlafaxina pode ser opção, levando em conta variabilidade/interações.",
+        ],
+      },
+      {
+        title: "Nota de classe",
+        paragraphs: [
+          "ISRSN, como grupo, podem apresentar vantagem modesta em alguns cenários (especialmente depressões moderadas a graves) em comparação a ISRS em certas análises. Na clínica, a decisão costuma ser guiada por fenótipo sintomático, comorbidades, tolerabilidade, histórico de resposta e interações.",
+        ],
+      },
+      {
+        title: "9) Quadro comparativo (escrito, sem tabela)",
+        paragraphs: ["A seguir, um comparativo textual direto para copiar e colar no site:"],
+      },
+      {
+        title: "A) Desvenlafaxina (Pristiq®, Khedezla®, Ixefo®)",
+        bullets: [
+          "Forma: metabólito ativo (ODV), administrado pronto.",
+          "Perfil: ISRSN, com inibição de SERT mais forte e inibição de NET em menor grau, porém clinicamente relevante em muitos pacientes.",
+          "Metabolismo: predominância de conjugação (UGT); pouca dependência de CYP; menor variabilidade por CYP2D6.",
+          "Posologia: comumente 50 mg 1x/dia (regime simples).",
+          "Vantagens: farmacologia direta, previsível, perfil de interações frequentemente mais limpo.",
+          "Desvantagens: náusea inicial, possível elevação de PA/FC, risco de descontinuação se suspender abruptamente.",
+        ],
+      },
+      {
+        title: "B) Venlafaxina (Effexor® e outros)",
+        bullets: [
+          "Forma: precursor que depende mais de conversão metabólica para formar ODV.",
+          "Perfil: dose-dependente; mais serotoninérgica em doses menores, com maior recrutamento noradrenérgico em doses mais altas.",
+          "Metabolismo: maior relevância de CYP2D6 → variabilidade e interações em alguns cenários.",
+          "Posologia: geralmente requer titulação (faixa ampla).",
+          "Vantagens: histórico longo, possibilidade de ajuste fino pela dose.",
+          "Desvantagens: descontinuação pode ser muito pronunciada; maior variabilidade interindividual em alguns pacientes.",
+        ],
+      },
+      {
+        title: "C) Duloxetina (Cymbalta® e outros)",
+        bullets: [
+          "Forma: ativa.",
+          "Perfil: ISRSN com forte utilidade clínica em dor neuropática e fibromialgia, além de depressão/ansiedade, pela modulação de vias descendentes da dor.",
+          "Metabolismo: CYP1A2 e CYP2D6 → maior potencial de interações (tabagismo, inibidores/indutores).",
+          "Vantagens: excelente quando dor crônica/neuropática é componente central.",
+          "Desvantagens: náusea e sudorese iniciais podem ser mais marcantes; atenção a alertas hepáticos conforme contexto clínico.",
+        ],
+      },
+      {
+        title: "D) Levomilnaciprano (Fetzima® e outros)",
+        bullets: [
+          "Forma: ativa.",
+          "Perfil: ISRSN com maior ênfase noradrenérgica (NET > SERT), útil para quadros com fadiga intensa, lentificação e baixo drive.",
+          "Efeitos adversos diferenciais: maior chance de taquicardia/aumento de FC, sudorese, constipação e outros autonômicos.",
+          "Vantagens: pode ser especialmente útil em depressão com predomínio de sintomas “energéticos/cognitivos”.",
+          "Desvantagens: tolerabilidade cardiovascular e autonômica pode limitar em alguns perfis.",
+        ],
+      },
+      {
+        title: "E) Sertralina (Zoloft® e outros) – ISRS",
+        bullets: [
+          "Forma: ativa.",
+          "Perfil: ISRS potente, predominantemente serotoninérgico; excelente para ansiedade e sintomas relacionados à serotonina (ruminação, irritabilidade).",
+          "Metabolismo: múltiplas vias CYP; inibição moderada de CYP2D6.",
+          "Vantagens: grande experiência clínica, ampla disponibilidade e versatilidade em transtornos ansiosos/depressivos.",
+          "Desvantagens: diarreia e desconforto GI podem ser mais comuns no início; disfunção sexual é frequente na classe.",
+        ],
+      },
+      {
+        title: "10) Resumo “em uma frase”",
+        paragraphs: [
+          "A desvenlafaxina é um ISRSN de ação direta e posologia simples, com metabolismo mais previsível (baixa dependência de CYP2D6), indicado principalmente para TDM, com perfil típico da classe (náusea inicial, sudorese, disfunção sexual) e que exige desmame gradual e monitorização de pressão arterial/frequência cardíaca em pacientes predispostos.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "PFIZER. Monografia de Produto (Canadá): PRISTIQ® (desvenlafaxine succinate extended-release tablets). Pfizer Canada ULC, 2022.",
+      },
+      {
+        label:
+          "SOARES, C. N.; THASE, M. E. Efficacy of antidepressants in the treatment of depression in women: a systematic review. Drugs, v. 68, n. 15, p. 2195-2208, 2008.",
+      },
+      {
+        label:
+          "SINGH, D.; SAXENA, K. Desvenlafaxine: A New Serotonin-Norepinephrine Reuptake Inhibitor for the Treatment of Major Depressive Disorder. Pharmacotherapy, v. 29, n. 8, p. 945-956, 2009.",
+      },
+      {
+        label:
+          "MONTGOMERY, S. A. et al. Major depressive disorders: clinical efficacy and tolerability of desvenlafaxine in a randomized, double-blind, placebo-controlled study. Journal of Clinical Psychiatry, v. 70, n. 5, p. 677-688, 2009.",
+      },
+      {
+        label:
+          "ANVISA. Bula do Paciente: Pristiq® 50 mg (desvenlafaxina). Eurofarma Laboratórios S.A., 2021. Disponível em: Bulário Eletrônico da Anvisa. Acesso em: 05 fev. 2026.",
+      },
+    ],
+  },
+  {
     id: "metoprolol-succinato",
     name: "Succinato de Metoprolol (Selozok®, Seloken® ZOK, Toprol-XL®)",
     className: "Betabloqueadores",
