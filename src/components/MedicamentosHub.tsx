@@ -1996,6 +1996,624 @@ const posts: Post[] = [
     ],
     references: [],
   },
+  {
+    id: "talidomida",
+    name: "Talidomida (Thalomid®)",
+    className: "Imunomoduladores",
+    category: "Farmacologia",
+    summary:
+      "A talidomida é um agente imunomodulador e anti-angiogênico com história singular na medicina, que exige rígidos controles de segurança.",
+    sections: [
+      {
+        title: "Talidomida (Thalomid®)",
+        paragraphs: [
+          "A talidomida é um agente imunomodulador e anti-angiogênico com história singular na medicina: inicialmente comercializada como sedativo nos anos 1950, foi retirada do mercado após causar uma das maiores tragédias farmacêuticas da história (malformações congênitas graves em milhares de crianças), e posteriormente \"redescoberta\" para uso em condições inflamatórias e oncológicas, sob rígidos controles de segurança.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "1.1 A era do sedativo (1957–1961): lançamento e tragédia",
+          "Desenvolvimento inicial: A talidomida foi sintetizada em 1954 na Alemanha pela empresa Chemie Grünenthal e lançada em 1957 como sedativo/hipnótico de venda livre, comercializada também como antiemético para náuseas da gravidez.",
+          "Uso disseminado: Rapidamente se tornou popular em mais de 40 países por ser considerada \"segura\" (não causava overdose letal como barbitúricos) e foi amplamente prescrita para gestantes.",
+          "A catástrofe teratogênica (1957–1962): Entre 1957 e 1962, estima-se que 10.000 a 20.000 crianças nasceram com malformações graves — principalmente focomelia (ausência ou encurtamento severo de membros), além de defeitos em orelhas, olhos, coração, rins e sistema digestivo (1, 2).",
+          "Retirada do mercado: Em 1961, após relatórios de médicos alemães e australianos (especialmente William McBride e Widukind Lenz) estabelecerem a ligação causal, a talidomida foi retirada do mercado mundial. Nos EUA, a FDA não havia aprovado o medicamento graças à revisora Frances Oldham Kelsey, que exigiu mais dados de segurança (3).",
+          "1.2 Impacto regulatório e científico",
+          "Revolução na regulação de medicamentos: A tragédia da talidomida levou à criação de normas rigorosas de teste de teratogenicidade e farmacovigilância, incluindo a emenda Kefauver-Harris nos EUA (1962) e sistemas de monitoramento pós-comercialização em diversos países (2, 3).",
+          "Lições sobre diferenças entre espécies: Testes pré-clínicos em roedores não detectaram a teratogenicidade porque camundongos e ratos são muito menos sensíveis à talidomida do que humanos e primatas — uma lição crucial sobre extrapolação de dados animais (4, 5).",
+          "1.3 Redescoberta terapêutica (1965–1998)",
+          "Eritema nodoso hansênico (ENL): Em 1965, o médico israelense Jacob Sheskin usou talidomida empiricamente em um paciente com ENL (reação inflamatória grave da hanseníase) e observou melhora dramática. Estudos subsequentes confirmaram eficácia, e em 1998 a FDA aprovou a talidomida especificamente para tratamento de ENL moderado a grave (primeira aprovação regulatória pós-tragédia) (6, 7).",
+          "Mieloma múltiplo: No final dos anos 1990, pesquisadores (notavelmente Bart Barlogie e colegas) testaram talidomida em mieloma múltiplo refratário, demonstrando respostas clínicas significativas. Em 2006, a FDA aprovou talidomida em combinação com dexametasona para mieloma múltiplo recém-diagnosticado (8, 9).",
+          "Outras investigações: A talidomida foi estudada (off-label ou em ensaios clínicos) para diversas condições: síndrome mielodisplásica, caquexia oncológica, lúpus cutâneo, doença de Crohn, entre outras — com resultados variáveis (10).",
+          "1.4 Desenvolvimento de análogos (IMiDs)",
+          "A compreensão do mecanismo levou ao desenvolvimento de análogos imunomoduladores (IMiDs) de segunda geração: lenalidomida (Revlimid®) e pomalidomida (Pomalyst®), com perfis de eficácia/toxicidade otimizados e amplamente usados em mieloma múltiplo e outras neoplasias hematológicas (11, 12).",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e \"prazo para funcionar\"",
+        paragraphs: [
+          "2.1 Indicações aprovadas (on-label; FDA/EMA e principais agências)",
+          "A) Eritema nodoso hansênico (ENL)",
+          "Definição: Reação inflamatória aguda e dolorosa que ocorre em pacientes com hanseníase (lepra) multibacilar, caracterizada por nódulos subcutâneos eritematosos, febre, neurite e sintomas sistêmicos.",
+          "Indicação: Tratamento agudo de manifestações cutâneas moderadas a graves de ENL; também pode ser usado como terapia de manutenção para prevenção/supressão de recorrências (6, 7).",
+          "Dose típica: 100–300 mg/dia (ajustada conforme resposta); em casos graves, até 400 mg/dia podem ser usados inicialmente, com redução gradual após controle dos sintomas.",
+          "B) Mieloma múltiplo recém-diagnosticado",
+          "Indicação (FDA, 2006): Em combinação com dexametasona para tratamento de pacientes com mieloma múltiplo recém-diagnosticado (8, 9).",
+          "Esquema comum: Talidomida 200 mg/dia (via oral, à noite) + dexametasona 40 mg nos dias 1–4, 9–12 e 17–20 de cada ciclo de 28 dias, por 4–6 ciclos, frequentemente seguido de transplante autólogo de células-tronco em pacientes elegíveis.",
+          "Observação: Embora aprovada, a talidomida tem sido progressivamente substituída por lenalidomida e pomalidomida em muitos protocolos, devido a melhor perfil de eficácia/toxicidade (especialmente menor neuropatia periférica) (11, 12).",
+          "C) Usos off-label investigacionais",
+          "Síndrome mielodisplásica com deleção 5q (estudos iniciais; lenalidomida tornou-se o IMiD de escolha).",
+          "Lúpus eritematoso cutâneo refratário.",
+          "Doença de Crohn refratária (resultados mistos).",
+          "Caquexia/perda de peso em câncer avançado ou HIV (efeito sobre TNF-α) (10, 13).",
+          "2.2 Efeito terapêutico esperado (o que melhora)",
+          "Eritema nodoso hansênico (ENL)",
+          "Redução de sintomas inflamatórios: Diminuição rápida de febre, dor e sensibilidade dos nódulos cutâneos; melhora de neurite (dor/fraqueza por inflamação de nervos periféricos).",
+          "Prevenção de sequelas: Controle precoce reduz risco de dano neural permanente e deformidades.",
+          "Início de ação: Muitos pacientes relatam melhora significativa em 2–5 dias; o efeito máximo pode levar 1–2 semanas (6, 7).",
+          "Mieloma múltiplo",
+          "Resposta tumoral: Redução de paraproteína sérica (proteína M), melhora de anemia, redução de lesões ósseas e sintomas relacionados (dor óssea, fadiga).",
+          "Taxa de resposta: Em estudos pivotais (talidomida + dexametasona), taxas de resposta global de ~60–70% foram observadas, com cerca de 10–15% de respostas completas (8, 9).",
+          "Tempo para resposta: A resposta hematológica (queda da proteína M) geralmente é detectada após 1–3 meses de tratamento; a avaliação formal de resposta costuma ser feita a cada 2–3 ciclos (8–12 semanas).",
+          "2.3 Em quanto tempo começa a fazer efeito?",
+          "ENL: Início rápido — melhora clínica perceptível em 2–5 dias, com controle completo em 1–2 semanas na maioria dos casos.",
+          "Mieloma múltiplo: Efeito antitumoral mensurável em 4–12 semanas; benefício clínico (melhora de sintomas como dor/fadiga) pode ser percebido antes da resposta laboratorial completa.",
+          "Observação prática: A talidomida não é um medicamento de \"alívio imediato\" para sintomas agudos (como analgésicos); seu efeito é progressivo e depende de ação imunomoduladora/anti-angiogênica acumulada.",
+          "2.4 Cuidados de uso e por que \"dieta/estilo de vida\" importam",
+          "Absorção e interação com alimentos",
+          "Absorção: A talidomida é bem absorvida por via oral; alimentos não afetam significativamente a biodisponibilidade, mas a tomada à noite (horário do sono) é recomendada devido ao efeito sedativo (14, 15).",
+          "Não há restrição dietética específica relacionada à absorção (diferente da bilastina, por exemplo).",
+          "Por que medidas complementares ajudam?",
+          "A talidomida atua em vias inflamatórias e angiogênicas, mas o controle ótimo da doença de base (hanseníase, mieloma) depende de:",
+          "Adesão ao tratamento completo: Especialmente em ENL, onde recorrências são comuns se a talidomida for interrompida precocemente.",
+          "Monitoramento rigoroso de efeitos adversos: Neuropatia periférica, eventos tromboembólicos e outros (ver seção 6) exigem vigilância clínica e, quando necessário, ajustes de dose ou suspensão.",
+          "Suporte nutricional e atividade física: Em mieloma múltiplo, nutrição adequada e exercícios leves (conforme tolerado) ajudam a manter força muscular, densidade óssea e qualidade de vida — mas não substituem o tratamento oncológico (16).",
+          "Prevenção de trombose: Pacientes em uso de talidomida (especialmente com dexametasona ou quimioterapia) têm risco aumentado de tromboembolismo venoso (TEV); profilaxia com aspirina ou anticoagulantes pode ser indicada conforme fatores de risco (17, 18).",
+          "Cuidados especiais (não negociáveis)",
+          "Programa de prevenção de gravidez (REMS): Nos EUA, a prescrição de talidomida está sujeita ao THALOMID REMS® (Risk Evaluation and Mitigation Strategy), que exige:",
+          "Registro de prescritores, farmácias e pacientes.",
+          "Testes de gravidez obrigatórios antes do início e mensalmente durante o tratamento em mulheres em idade fértil.",
+          "Contracepção dupla (dois métodos simultâneos) ou abstinência sexual completa por pelo menos 4 semanas antes, durante e 4 semanas após o tratamento.",
+          "Consentimento informado assinado (19, 20).",
+          "Outros países: Programas similares existem na Europa (Pregnancy Prevention Programme), Brasil e outros locais, com exigências comparáveis (21).",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "A talidomida exerce múltiplos efeitos biológicos por meio de mecanismos moleculares distintos, mas inter-relacionados. A compreensão desses mecanismos evoluiu significativamente nas últimas duas décadas.",
+          "3.1 Ligação à cereblon (CRBN) e degradação proteica mediada por ubiquitina",
+          "Descoberta do alvo molecular (2010): Pesquisadores japoneses (Ito et al., 2010) identificaram cereblon (CRBN) como o alvo primário da talidomida. CRBN é uma proteína adaptadora do complexo de ubiquitina-ligase E3 CRL4^CRBN (Cullin-4A/DDB1/CRBN/Rbx1) (22, 23).",
+          "Mecanismo:",
+          "A talidomida se liga diretamente a CRBN, alterando a especificidade de substrato do complexo E3.",
+          "Isso leva à ubiquitinação e degradação proteossômica de proteínas específicas que normalmente não seriam alvos de CRBN.",
+          "Substratos conhecidos incluem:",
+          "IKZF1 (Ikaros) e IKZF3 (Aiolos): Fatores de transcrição essenciais para células B e células plasmáticas; sua degradação explica parte do efeito antitumoral no mieloma múltiplo (24, 25).",
+          "SALL4: Fator de transcrição crítico para o desenvolvimento embrionário; sua degradação em embriões humanos está implicada na teratogenicidade (defeitos de membros) (26, 27).",
+          "CK1α (caseína quinase 1α): Degradada por lenalidomida em síndrome mielodisplásica 5q- (11).",
+          "3.2 Inibição de angiogênese",
+          "Efeito anti-angiogênico: A talidomida inibe a formação de novos vasos sanguíneos (neovascularização), um processo essencial para crescimento tumoral e inflamação crônica (28, 29).",
+          "Mecanismos propostos:",
+          "Redução da expressão de VEGF (fator de crescimento endotelial vascular) e bFGF (fator de crescimento de fibroblastos básico).",
+          "Inibição da migração e proliferação de células endoteliais.",
+          "Modulação de integrinas e moléculas de adesão endotelial (28, 29).",
+          "Relevância clínica: O efeito anti-angiogênico contribui para a eficácia no mieloma múltiplo (tumores altamente vascularizados) e pode explicar parte da ação em outras neoplasias (30).",
+          "3.3 Modulação de citocinas e resposta imune",
+          "Inibição de TNF-α (fator de necrose tumoral-alfa):",
+          "A talidomida reduz a produção de TNF-α por monócitos/macrófagos, um efeito central na ação anti-inflamatória em ENL (31, 32).",
+          "O mecanismo envolve degradação acelerada do mRNA de TNF-α (aumento da instabilidade do transcrito) (31).",
+          "Efeitos sobre outras citocinas:",
+          "Redução: IL-1β, IL-6, IL-12 (citocinas pró-inflamatórias).",
+          "Aumento: IL-2, IFN-γ (citocinas Th1, potencialmente imunoestimulatórias) (33, 34).",
+          "Modulação de células T:",
+          "A talidomida aumenta a proliferação de células T CD8+ e células NK (natural killer), potencialmente contribuindo para efeitos antitumorais (35, 36).",
+          "Também modula a função de células T reguladoras (Tregs), com efeitos variáveis conforme contexto (37).",
+          "3.4 Efeitos sobre células do estroma da medula óssea",
+          "No mieloma múltiplo, a talidomida interfere na interação entre células plasmáticas malignas e células do estroma da medula óssea, reduzindo a secreção de citocinas de suporte tumoral (IL-6, VEGF) e induzindo apoptose de células tumorais (38, 39).",
+          "3.5 Por que a talidomida é teratogênica?",
+          "Degradação de SALL4: A ligação da talidomida a CRBN em células embrionárias humanas leva à degradação de SALL4, um fator de transcrição essencial para o desenvolvimento de membros, orelhas e outros órgãos. A perda de SALL4 resulta em focomelia (membros rudimentares) e outras malformações (26, 27).",
+          "Janela crítica de exposição: A teratogenicidade é máxima entre os dias 20–36 de gestação (período de formação de membros) (40).",
+          "Diferenças entre espécies: Roedores têm menor expressão de CRBN e/ou diferenças estruturais que reduzem a afinidade da talidomida, explicando por que camundongos e ratos não desenvolvem focomelia (resistência relativa) (4, 5).",
+        ],
+      },
+      {
+        title: "4) O que os alvos moleculares fazem (e o que isso explica nos sintomas)",
+        paragraphs: [
+          "Cereblon (CRBN)",
+          "Função normal: Componente de complexo E3 ubiquitina-ligase envolvido em controle de qualidade proteica e regulação de desenvolvimento.",
+          "Ao ser \"sequestrado\" pela talidomida: Passa a degradar proteínas \"erradas\" (IKZF1/3, SALL4), levando a:",
+          "Efeito antitumoral (degradação de Ikaros/Aiolos → morte de células plasmáticas no mieloma).",
+          "Teratogenicidade (degradação de SALL4 → malformações de membros no embrião).",
+          "TNF-α (fator de necrose tumoral-alfa)",
+          "Função normal: Citocina pró-inflamatória central em respostas imunes e inflamação.",
+          "Ao ser inibido pela talidomida:",
+          "Redução de febre, dor e inflamação sistêmica no ENL.",
+          "Potencial benefício em outras condições inflamatórias (lúpus cutâneo, doença de Crohn) (31, 32).",
+          "VEGF (fator de crescimento endotelial vascular)",
+          "Função normal: Estimula formação de novos vasos sanguíneos (angiogênese).",
+          "Ao ser inibido pela talidomida:",
+          "Redução de vascularização tumoral → menor suprimento de nutrientes/oxigênio ao tumor (mieloma múltiplo).",
+          "Redução de inflamação vascular em ENL (28, 29).",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        paragraphs: [
+          "5.1 Absorção",
+          "Via de administração: Oral (cápsulas de 50 mg, 100 mg, 150 mg, 200 mg).",
+          "Biodisponibilidade: Estimada em ~90% (alta absorção oral) (14, 15).",
+          "Tmax (tempo para concentração máxima): 2,9–5,7 horas (média ~4 horas) após dose única (14, 41).",
+          "Cmax e AUC: Após dose única de 200 mg em voluntários saudáveis, Cmax = 2,0 ± 0,55 mg/L; AUC∞ = 19,8 ± 3,61 mg·h/L (41).",
+          "Efeito de alimentos: Alimentos não alteram significativamente a biodisponibilidade, mas podem retardar ligeiramente a absorção (Tmax aumentado) (14, 15).",
+          "Recomendação prática: Tomar à noite, com ou sem alimentos, para aproveitar o efeito sedativo e melhorar a adesão.",
+          "5.2 Distribuição",
+          "Volume de distribuição (Vd): 70–120 litros (distribuição ampla nos tecidos) (14, 41).",
+          "Ligação a proteínas plasmáticas: 55–66% (ligação moderada; a fração livre é farmacologicamente ativa) (41).",
+          "Ligação varia entre enantiômeros: ~55% para (+)R-talidomida e ~66% para (−)S-talidomida (41).",
+          "Quiralidade e racemização: A talidomida é administrada como mistura racêmica (50:50 de enantiômeros R e S). No organismo, ocorre interconversão rápida entre enantiômeros (racemização in vivo), de modo que ambos estão presentes independentemente da forma inicial (42, 43).",
+          "Penetração no SNC: A talidomida atravessa a barreira hematoencefálica (efeito sedativo); também atravessa a barreira placentária (causa teratogenicidade) (40).",
+          "5.3 Metabolismo",
+          "Via principal: hidrólise não enzimática:",
+          "A talidomida sofre hidrólise espontânea (não enzimática) no plasma e tecidos, devido à instabilidade das ligações amida em pH fisiológico (14, 44).",
+          "Produtos de hidrólise incluem múltiplos metabólitos inativos (ácidos ftálico e glutâmico, entre outros) (44).",
+          "Metabolismo enzimático (menor):",
+          "Há evidências de hidroxilação mediada por CYP2C19 (formação de 5-hidroxitalidomida), mas essa via é quantitativamente menor em humanos (44, 45).",
+          "Estudos in vitro sugerem participação de CYP3A4/5 e CYP2C19, mas estudos in vivo mostram que inibidores de CYP não alteram significativamente a farmacocinética da talidomida, indicando que o metabolismo enzimático não é a via dominante (44, 45).",
+          "Diferenças entre espécies: Roedores dependem mais de metabolismo enzimático (CYP) do que humanos, o que contribui para diferenças em sensibilidade e toxicidade (4, 5).",
+          "5.4 Eliminação",
+          "Vias de eliminação:",
+          "Urina: Menos de 1% da dose é excretada inalterada na urina (eliminação renal direta é mínima) (14, 44).",
+          "Fezes: A maior parte dos metabólitos é excretada nas fezes (via biliar) (44).",
+          "Clearance (depuração oral): 10,5 ± 2,1 L/h (41).",
+          "Meia-vida de eliminação (t½): 5–7 horas (média ~6,2 horas) em voluntários saudáveis após dose única (41, 46).",
+          "Em uso crônico, a meia-vida pode ser ligeiramente mais longa devido a acúmulo tecidual (14).",
+          "Farmacocinética em populações especiais:",
+          "Insuficiência renal: Não há recomendação formal de ajuste de dose (eliminação renal direta é mínima), mas cautela é aconselhada devido a risco aumentado de efeitos adversos (neuropatia) (47).",
+          "Insuficiência hepática: Dados limitados; cautela recomendada (metabolismo hepático é menor, mas hidrólise plasmática pode ser afetada) (47).",
+          "Idosos: Farmacocinética semelhante a adultos jovens, mas maior susceptibilidade a efeitos adversos (sedação, neuropatia) (47).",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        paragraphs: [
+          "A talidomida apresenta um perfil de toxicidade significativo, que limita seu uso e exige monitoramento rigoroso.",
+          "6.1 Teratogenicidade (efeito adverso mais grave)",
+          "Risco: Extremamente alto — exposição fetal resulta em malformações graves em >20% dos casos (estimativas históricas sugerem até 40% de risco) (1, 40).",
+          "Malformações típicas:",
+          "Focomelia (membros rudimentares ou ausentes).",
+          "Amelia (ausência completa de membros).",
+          "Defeitos de orelha externa (anotia, microtia).",
+          "Defeitos oculares (microftalmia).",
+          "Malformações cardíacas, renais, gastrointestinais.",
+          "Período crítico: Dias 20–36 de gestação (3–5 semanas após concepção) (40).",
+          "Contracepção obrigatória: Programas de prevenção de gravidez (REMS, PPP) exigem:",
+          "Teste de gravidez negativo antes do início e mensalmente durante tratamento.",
+          "Dois métodos contraceptivos simultâneos (ou abstinência) por ≥4 semanas antes, durante e ≥4 semanas após tratamento (19, 20, 21).",
+          "Homens: Devem usar preservativo durante relações sexuais (a talidomida está presente no sêmen, embora o risco seja teórico) (19).",
+          "6.2 Neuropatia periférica",
+          "Incidência: 20–70% dos pacientes (varia conforme dose, duração e população estudada); em estudos de mieloma, ~30–50% desenvolvem neuropatia de algum grau (48, 49).",
+          "Características:",
+          "Neuropatia sensorial predominante (dormência, formigamento, queimação em mãos/pés, parestesias).",
+          "Início geralmente após 3–6 meses de tratamento, mas pode ocorrer mais cedo com doses altas (48).",
+          "Pode ser irreversível em ~50% dos casos, mesmo após descontinuação (49).",
+          "Fatores de risco: Dose cumulativa alta (>40 g total), uso prolongado, idade avançada, diabetes, uso concomitante de outros neurotóxicos (vincristina, bortezomibe) (48, 49).",
+          "Monitoramento: Avaliação neurológica basal e a cada 1–3 meses (exame clínico, questionários de sintomas); considerar eletroneuromiografia em casos suspeitos (49).",
+          "Manejo: Redução de dose ou descontinuação ao primeiro sinal de neuropatia; suporte sintomático (gabapentina, pregabalina, duloxetina para dor neuropática) (49).",
+          "6.3 Eventos tromboembólicos (tromboembolismo venoso, TEV)",
+          "Incidência: 10–25% em pacientes com mieloma múltiplo tratados com talidomida + dexametasona ou quimioterapia (sem profilaxia antitrombótica) (17, 18, 50).",
+          "Manifestações: Trombose venosa profunda (TVP), embolia pulmonar (EP); raramente, trombose arterial (17).",
+          "Mecanismo: Não completamente elucidado; envolve ativação endotelial, aumento de fator VIII, resistência à proteína C ativada, e efeitos pró-coagulantes da dexametasona e doença de base (mieloma) (50).",
+          "Profilaxia obrigatória (diretrizes atuais):",
+          "Baixo risco (≤1 fator de risco): Aspirina 81–325 mg/dia.",
+          "Alto risco (≥2 fatores de risco): Heparina de baixo peso molecular (HBPM) ou varfarina (INR 2–3) (17, 18, 50).",
+          "Fatores de risco: obesidade, imobilização, trombose prévia, cateter venoso central, uso de eritropoietina, quimioterapia concomitante.",
+          "6.4 Sedação e efeitos no sistema nervoso central",
+          "Incidência: 30–50% dos pacientes relatam sonolência, fadiga ou sedação (51).",
+          "Características: Efeito dose-dependente; geralmente mais pronunciado no início do tratamento e pode melhorar com o tempo (tolerância parcial).",
+          "Implicações: Risco de quedas (especialmente em idosos), prejuízo em tarefas que exigem atenção (dirigir, operar máquinas).",
+          "Manejo: Tomar à noite; evitar álcool e outros sedativos; considerar redução de dose se sedação for incapacitante (51).",
+          "6.5 Constipação",
+          "Incidência: 20–40% (52).",
+          "Mecanismo: Efeito anticolinérgico leve e redução da motilidade intestinal.",
+          "Manejo: Aumento de fibras na dieta, hidratação adequada, laxantes osmóticos (polietilenoglicol) ou estimulantes conforme necessário (52).",
+          "6.6 Neutropenia e toxicidade hematológica",
+          "Incidência: 10–30% de neutropenia (contagem de neutrófilos <1.500/μL); geralmente leve a moderada (53).",
+          "Outras citopenias: Anemia e trombocitopenia podem ocorrer, especialmente em combinação com quimioterapia (53).",
+          "Monitoramento: Hemograma completo basal e a cada 2–4 semanas (ou conforme protocolo de tratamento) (53).",
+          "Manejo: Redução de dose ou pausa temporária se neutropenia grave (<500/μL); uso de fator estimulante de colônias (G-CSF) em casos selecionados (53).",
+          "6.7 Outros efeitos adversos",
+          "Rash cutâneo: 5–30% (geralmente leve; raramente síndrome de Stevens-Johnson) (54).",
+          "Hipotensão ortostática, bradicardia: 5–10% (54).",
+          "Hipotireoidismo: 5–15% (monitorar TSH periodicamente) (55).",
+          "Disfunção erétil: Relatada em homens (mecanismo incerto) (56).",
+          "Síndrome de lise tumoral: Rara, mas possível em mieloma com alta carga tumoral (57).",
+          "6.8 Segurança cardiovascular",
+          "Prolongamento de QTc: Não há evidência consistente de prolongamento clinicamente significativo de QTc com talidomida (diferente de alguns IMiDs) (58).",
+          "Eventos cardiovasculares: Risco aumentado de eventos tromboembólicos (ver seção 6.3); dados sobre eventos arteriais (infarto, AVC) são limitados e conflitantes (17, 50).",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas e com alimentos",
+        paragraphs: [
+          "7.1 Interações farmacocinéticas (metabolismo e transporte)",
+          "Substratos, inibidores e indutores de CYP: Como a talidomida é metabolizada predominantemente por hidrólise não enzimática, interações com inibidores/indutores de CYP são clinicamente pouco relevantes (44, 45).",
+          "Estudos mostram que cetoconazol (inibidor potente de CYP3A4) e rifampicina (indutor de CYP3A4) não alteram significativamente a farmacocinética da talidomida (45).",
+          "Alimentos: Não afetam biodisponibilidade; podem retardar absorção (Tmax aumentado), mas sem impacto clínico relevante (14, 15).",
+          "7.2 Interações farmacodinâmicas (efeitos aditivos/sinérgicos)",
+          "A) Depressores do sistema nervoso central",
+          "Medicamentos: Álcool, benzodiazepínicos, opioides, antipsicóticos, anti-histamínicos sedativos.",
+          "Efeito: Sedação aditiva, aumento de risco de depressão respiratória, quedas e acidentes (59).",
+          "Recomendação: Evitar uso concomitante ou usar com extrema cautela; ajustar doses conforme necessário (59).",
+          "B) Medicamentos que aumentam risco de neuropatia periférica",
+          "Medicamentos: Vincristina, bortezomibe, cisplatina, oxaliplatina, paclitaxel, isoniazida, metronidazol (uso prolongado).",
+          "Efeito: Risco aumentado de neuropatia periférica (efeito cumulativo) (48, 49).",
+          "Recomendação: Monitoramento neurológico rigoroso; considerar alternativas ou ajuste de doses (49).",
+          "C) Medicamentos que aumentam risco de tromboembolismo",
+          "Medicamentos: Dexametasona (e outros corticosteroides), eritropoietina, contraceptivos orais combinados, terapia de reposição hormonal.",
+          "Efeito: Risco sinérgico de TEV (17, 50).",
+          "Recomendação: Profilaxia antitrombótica obrigatória (aspirina ou anticoagulação) conforme fatores de risco (ver seção 6.3) (17, 18, 50).",
+          "D) Doxorrubicina",
+          "Interação: Relatos de aumento de toxicidade cutânea (rash, síndrome mão-pé) quando talidomida é combinada com doxorrubicina lipossomal peguilada (60).",
+          "Recomendação: Monitoramento de pele; redução de dose de doxorrubicina se necessário (60).",
+          "E) Contraceptivos hormonais",
+          "Consideração importante: Contraceptivos orais combinados aumentam risco de TEV quando usados com talidomida; portanto, não devem ser usados isoladamente como método contraceptivo (19, 20).",
+          "Recomendação: Usar métodos de barreira (preservativo, diafragma) ou DIU como método contraceptivo primário; se contraceptivo hormonal for usado, deve ser combinado com método de barreira + profilaxia antitrombótica (19, 20).",
+          "7.3 Interações com álcool",
+          "Efeito: Potencialização de sedação e efeitos depressores do SNC; aumento de risco de hipotensão ortostática (59).",
+          "Recomendação: Evitar consumo de álcool durante tratamento com talidomida (59).",
+        ],
+      },
+      {
+        title: "8) Contraindicações e advertências (caixa preta / black box)",
+        paragraphs: [
+          "8.1 Contraindicações absolutas",
+          "Gravidez (categoria X da FDA — risco fetal comprovado; contraindicada em qualquer situação) (19, 20).",
+          "Mulheres em idade fértil que não possam ou não aceitem cumprir rigorosamente os requisitos do programa de prevenção de gravidez (testes, contracepção dupla) (19, 20).",
+          "Hipersensibilidade conhecida à talidomida ou a qualquer componente da formulação (19).",
+          "Homens que não aceitem usar preservativo durante relações sexuais (se parceira estiver em idade fértil) (19).",
+          "8.2 Advertências de caixa preta (black box warnings — FDA)",
+          "A bula da talidomida (THALOMID®) nos EUA contém duas advertências em caixa preta:",
+          "1. TERATOGENICIDADE (RISCO FETAL GRAVE)",
+          "\"THALOMID® (talidomida) pode causar defeitos congênitos graves e potencialmente fatais. A talidomida nunca deve ser usada por mulheres grávidas. Mesmo uma única dose (1 cápsula de 50 mg) tomada por uma mulher grávida durante a gravidez pode causar graves defeitos congênitos.\"",
+          "Programa THALOMID REMS® obrigatório para prescrição, dispensação e uso (19, 20).",
+          "Requisitos:",
+          "Mulheres em idade fértil: Teste de gravidez negativo (sensibilidade ≥50 mIU/mL) dentro de 10–14 dias antes do início e semanalmente durante o primeiro mês, depois mensalmente (ou a cada 4 semanas se ciclos irregulares).",
+          "Contracepção: Dois métodos simultâneos (um altamente eficaz + um de barreira) ou abstinência sexual completa, iniciando ≥4 semanas antes, durante e ≥4 semanas após tratamento.",
+          "Homens: Usar preservativo (mesmo se vasectomizados) durante relações sexuais com mulheres em idade fértil, durante e ≥4 semanas após tratamento (19, 20).",
+          "2. PROGRAMA THALOMID REMS® (RISK EVALUATION AND MITIGATION STRATEGY)",
+          "\"Devido ao potencial de teratogenicidade e para reduzir o risco de exposição fetal, a talidomida está disponível apenas através de um programa restrito de distribuição chamado THALOMID REMS®.\"",
+          "Componentes do programa:",
+          "Prescritores devem ser certificados (treinamento sobre riscos e manejo).",
+          "Pacientes devem ser registrados e assinar Termo de Consentimento Informado.",
+          "Farmácias devem ser certificadas e dispensar apenas para pacientes registrados.",
+          "Dispensação limitada a 28 dias de fornecimento (com nova prescrição e teste de gravidez) (19, 20).",
+          "8.3 Outras advertências importantes",
+          "Neuropatia periférica: Pode ser irreversível; monitoramento obrigatório (ver seção 6.2) (48, 49).",
+          "Tromboembolismo venoso: Profilaxia antitrombótica obrigatória em pacientes de risco (ver seção 6.3) (17, 18, 50).",
+          "Reações de hipersensibilidade graves: Síndrome de Stevens-Johnson, necrólise epidérmica tóxica (raras, mas potencialmente fatais) — descontinuar imediatamente se rash grave (54).",
+          "Bradicardia e síncope: Monitorar frequência cardíaca; cautela em pacientes com histórico de doença cardíaca (54).",
+          "Doação de sangue/sêmen: Proibida durante tratamento e por ≥4 semanas após descontinuação (risco de exposição fetal) (19).",
+        ],
+      },
+      {
+        title: "9) Considerações de dosagem e monitoramento",
+        paragraphs: [
+          "9.1 Dosagem típica (adultos)",
+          "Eritema nodoso hansênico (ENL)",
+          "Dose inicial: 100–300 mg/dia (via oral, à noite).",
+          "Casos graves: Iniciar com 400 mg/dia (ou dividir em 2 doses).",
+          "Manutenção: Após controle de sintomas (geralmente 1–2 semanas), reduzir gradualmente a dose em 50 mg a cada 2–4 semanas, até a menor dose eficaz (6, 7).",
+          "Duração: Variável; alguns pacientes necessitam terapia de manutenção por meses a anos para prevenir recorrências (6, 7).",
+          "Mieloma múltiplo recém-diagnosticado",
+          "Dose padrão: 200 mg/dia (via oral, à noite), em combinação com dexametasona (8, 9).",
+          "Dexametasona: 40 mg nos dias 1–4, 9–12 e 17–20 de cada ciclo de 28 dias (8, 9).",
+          "Duração: Geralmente 4–6 ciclos antes de transplante autólogo de células-tronco (em pacientes elegíveis); ou até progressão/toxicidade inaceitável (em pacientes não elegíveis) (8, 9).",
+          "Ajustes:",
+          "Neuropatia periférica grau 2: Reduzir para 100 mg/dia; se persistir, descontinuar (49).",
+          "Neuropatia grau ≥3: Descontinuar permanentemente (49).",
+          "Neutropenia grau 4: Pausar até recuperação; reduzir dose em 50 mg ao reiniciar (53).",
+          "9.2 Populações especiais",
+          "Idosos: Sem ajuste formal de dose, mas maior risco de efeitos adversos (sedação, neuropatia, quedas) — iniciar com doses baixas e titular cautelosamente (47).",
+          "Insuficiência renal: Sem recomendação formal de ajuste (eliminação renal direta é mínima), mas monitorar de perto (47).",
+          "Insuficiência hepática: Dados limitados; usar com cautela (47).",
+          "Crianças: Segurança e eficácia não estabelecidas; uso off-label em condições pediátricas selecionadas (ex.: ENL em adolescentes) deve ser feito por especialista (61).",
+          "9.3 Monitoramento obrigatório",
+          "Parâmetro | Frequência | Objetivo",
+          "Teste de gravidez (mulheres em idade fértil) | Basal (2 testes com 10–14 dias de intervalo), depois mensalmente (ou a cada 4 semanas) | Detectar gravidez precocemente; descontinuar imediatamente se positivo (19, 20)",
+          "Hemograma completo (CBC) | Basal, depois a cada 2–4 semanas (primeiros 3 meses), depois mensalmente | Detectar neutropenia, anemia, trombocitopenia (53)",
+          "Avaliação neurológica | Basal, depois mensalmente (ou a cada visita) | Detectar sinais precoces de neuropatia periférica (dormência, parestesias, fraqueza) (49)",
+          "Sinais de tromboembolismo | A cada visita (educação do paciente sobre sintomas: dor/inchaço em perna, falta de ar, dor torácica) | Detectar TVP/EP precocemente (17, 18)",
+          "Função tireoidiana (TSH) | Basal, depois a cada 2–3 meses (ou se sintomas) | Detectar hipotireoidismo (55)",
+          "Sinais vitais (FC, PA) | A cada visita | Detectar bradicardia, hipotensão ortostática (54)",
+          "9.4 Descontinuação",
+          "Descontinuar imediatamente se:",
+          "Teste de gravidez positivo.",
+          "Neuropatia periférica grau ≥3.",
+          "Reação cutânea grave (síndrome de Stevens-Johnson, necrólise epidérmica tóxica).",
+          "Evento tromboembólico grave (considerar reinício com anticoagulação plena após avaliação de risco-benefício).",
+          "Redução gradual não é necessária (não há síndrome de abstinência conhecida), mas em ENL a descontinuação abrupta pode levar a recorrência de sintomas (considerar desmame gradual) (6, 7).",
+        ],
+      },
+      {
+        title: "10) Dados da molécula (substância ativa)",
+        paragraphs: [
+          "Parâmetro | Valor",
+          "Nome (DCI/INN) | Talidomida (Thalidomide)",
+          "Nome químico (IUPAC) | 2-(2,6-dioxopiperidin-3-il)-1H-isoindol-1,3(2H)-diona",
+          "Fórmula molecular | C₁₃H₁₀N₂O₄",
+          "Massa molecular | 258,23 g/mol",
+          "Quiralidade | Mistura racêmica (50:50 de enantiômeros R e S); sofre racemização in vivo",
+          "pKa | Não disponível de forma consistente na literatura (composto neutro, sem grupos ionizáveis típicos)",
+          "Solubilidade | Praticamente insolúvel em água; solúvel em solventes orgânicos (DMSO, acetona) (62)",
+          "Ligação a proteínas plasmáticas | 55–66% (41)",
+          "Classificação química | Derivado de ftalimida (glutarimida-ftalimida)",
+          "Classe terapêutica (ATC) | L04AX02 (Imunomoduladores — outros)",
+        ],
+      },
+      {
+        title: "11) Resumo \"em uma frase\"",
+        paragraphs: [
+          "A talidomida é um agente imunomodulador e anti-angiogênico que, após causar uma das maiores tragédias farmacêuticas da história (teratogenicidade grave), foi \"redescoberta\" para tratamento de eritema nodoso hansênico e mieloma múltiplo, atuando por ligação à cereblon e degradação proteica mediada por ubiquitina, mas cujo uso exige programas rigorosíssimos de prevenção de gravidez e monitoramento contínuo de neuropatia periférica, tromboembolismo e outras toxicidades significativas.",
+        ],
+      },
+      {
+        title: "Nota final educacional",
+        paragraphs: [
+          "Este texto foi elaborado para fins informativos e educacionais, destinado a profissionais de saúde e estudantes. A talidomida é um medicamento de altíssimo risco, cujo uso exige rigoroso cumprimento de protocolos de segurança (programas REMS/PPP) e supervisão médica especializada. Jamais deve ser usada por mulheres grávidas ou que possam engravidar sem contracepção dupla e monitoramento rigoroso. Qualquer prescrição, dispensação ou uso deve seguir estritamente as normas regulatórias locais.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "ZHOU, S. et al. Thalidomide—a notorious sedative to a wonder anticancer drug. Current Medicinal Chemistry, v. 20, n. 33, p. 4102–4108, 2013. DOI: 10.2174/09298673113209990198. Disponível em: https://scispace.com/papers/thalidomide-a-notorious-sedative-to-a-wonder-anticancer-drug-24vz60a9l3. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "SAMPAIO, E. P. et al. Thalidomide: an overview of its pharmacological mechanisms of action. Anti-Inflammatory & Anti-Allergy Agents in Medicinal Chemistry, v. 5, n. 1, p. 77–87, 2006. DOI: 10.2174/187152306775537337. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "KIM, J. H.; SCIALLI, A. R. Thalidomide: the tragedy of birth defects and the effective treatment of disease. Toxicological Sciences, v. 122, n. 1, p. 1–6, 2011. DOI: 10.1093/toxsci/kfr088. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "KNOBLOCH, J.; JUNGCK, D.; KOCH, A. The molecular mechanisms of thalidomide teratogenicity and implications for modern medicine. Current Molecular Medicine, v. 17, n. 2, p. 108–117, 2017. DOI: 10.2174/1566524017666170331162315. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "VARGESSON, N. Chapter 26 – Thalidomide. In: Reproductive and Developmental Toxicology (2nd ed.), p. 471–488, 2017. DOI: 10.1016/B978-0-12-804239-7.00026-3. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "SHESKIN, J. Thalidomide in the treatment of lepra reactions. Clinical Pharmacology & Therapeutics, v. 6, p. 303–306, 1965.",
+      },
+      {
+        label:
+          "JACOBSON, J. M. et al. Thalidomide for the treatment of oral aphthous ulcers in patients with human immunodeficiency virus infection. New England Journal of Medicine, v. 336, n. 21, p. 1487–1493, 1997. DOI: 10.1056/NEJM199705223362103.",
+      },
+      {
+        label:
+          "SINGHAL, S. et al. Antitumor activity of thalidomide in refractory multiple myeloma. New England Journal of Medicine, v. 341, n. 21, p. 1565–1571, 1999. DOI: 10.1056/NEJM199911183412102.",
+      },
+      {
+        label:
+          "RAJKUMAR, S. V. et al. Combination therapy with lenalidomide plus dexamethasone (Rev/Dex) for newly diagnosed myeloma. Blood, v. 106, n. 13, p. 4050–4053, 2005. DOI: 10.1182/blood-2005-07-2817.",
+      },
+      {
+        label:
+          "JOGLEKAR, S.; LEVIN, M. The promise of thalidomide: evolving indications. Drugs of Today, v. 40, n. 3, p. 197–204, 2004. DOI: 10.1358/dot.2004.40.3.820083. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "KRONKE, J. et al. Lenalidomide causes selective degradation of IKZF1 and IKZF3 in multiple myeloma cells. Science, v. 343, n. 6168, p. 301–305, 2014. DOI: 10.1126/science.1244851.",
+      },
+      {
+        label:
+          "GANDHI, A. K. et al. Immunomodulatory agents lenalidomide and pomalidomide co-stimulate T cells by inducing degradation of T cell repressors Ikaros and Aiolos via modulation of the E3 ubiquitin ligase complex CRL4^CRBN. British Journal of Haematology, v. 164, n. 6, p. 811–821, 2014. DOI: 10.1111/bjh.12708.",
+      },
+      {
+        label:
+          "GORDON, J. N. et al. Thalidomide in the treatment of cancer cachexia: a randomised placebo controlled trial. Gut, v. 54, n. 4, p. 540–545, 2005. DOI: 10.1136/gut.2004.047563.",
+      },
+      {
+        label:
+          "CHEN, T. L. et al. Pharmacokinetics of thalidomide in healthy subjects and across patient populations. Clinical Pharmacokinetics, v. 42, n. 13, p. 1107–1121, 2003. DOI: 10.2165/00003088-200342130-00001.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide) capsules. Prescribing Information. Celgene Corporation, Summit, NJ, 2014. Disponível em: https://packageinserts.bms.com/pi/pi_thalomid.pdf. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "COLEMAN, E. A. et al. Fatigue, sleep, pain, mood, and performance status in patients with multiple myeloma. Cancer Nursing, v. 34, n. 3, p. 219–227, 2011. DOI: 10.1097/NCC.0b013e3181f9904d.",
+      },
+      {
+        label:
+          "PALUMBO, A. et al. Prevention of thalidomide- and lenalidomide-associated thrombosis in myeloma. Leukemia, v. 22, n. 2, p. 414–423, 2008. DOI: 10.1038/sj.leu.2405062.",
+      },
+      {
+        label:
+          "CARRIER, M. et al. Apixaban to prevent venous thromboembolism in patients with cancer. New England Journal of Medicine, v. 380, n. 8, p. 711–719, 2019. DOI: 10.1056/NEJMoa1814468.",
+      },
+      {
+        label:
+          "U.S. FOOD AND DRUG ADMINISTRATION (FDA). THALOMID REMS® (Risk Evaluation and Mitigation Strategy). Disponível em: https://www.fda.gov/drugs/drug-safety-and-availability/thalomid-thalidomide-rems. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "CELGENE CORPORATION. THALOMID® (thalidomide) REMS Program — Prescriber Brochure. 2020. Disponível em: https://www.celgeneriskmanagement.com/. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "EUROPEAN MEDICINES AGENCY (EMA). Thalidomide Celgene — Pregnancy Prevention Programme. Disponível em: https://www.ema.europa.eu/. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "ITO, T. et al. Identification of a primary target of thalidomide teratogenicity. Science, v. 327, n. 5971, p. 1345–1350, 2010. DOI: 10.1126/science.1177319.",
+      },
+      {
+        label:
+          "FISCHER, E. S. et al. Structure of the DDB1–CRBN E3 ubiquitin ligase in complex with thalidomide. Nature, v. 512, n. 7512, p. 49–53, 2014. DOI: 10.1038/nature13527.",
+      },
+      {
+        label:
+          "KRONKE, J. et al. Lenalidomide causes selective degradation of IKZF1 and IKZF3 in multiple myeloma cells. Science, v. 343, n. 6168, p. 301–305, 2014. DOI: 10.1126/science.1244851.",
+      },
+      {
+        label:
+          "LU, G. et al. The myeloma drug lenalidomide promotes the cereblon-dependent destruction of Ikaros proteins. Science, v. 343, n. 6168, p. 305–309, 2014. DOI: 10.1126/science.1244917.",
+      },
+      {
+        label:
+          "DONOVAN, K. A. et al. Thalidomide promotes degradation of SALL4, a transcription factor implicated in Duane radial ray syndrome. eLife, v. 7, e38430, 2018. DOI: 10.7554/eLife.38430.",
+      },
+      {
+        label:
+          "MATYSKIELA, M. E. et al. SALL4 mediates teratogenicity as a thalidomide-dependent cereblon substrate. Nature Chemical Biology, v. 14, n. 10, p. 981–987, 2018. DOI: 10.1038/s41589-018-0129-x.",
+      },
+      {
+        label:
+          "D'AMATO, R. J. et al. Thalidomide is an inhibitor of angiogenesis. Proceedings of the National Academy of Sciences, v. 91, n. 9, p. 4082–4085, 1994. DOI: 10.1073/pnas.91.9.4082.",
+      },
+      {
+        label:
+          "KENYON, B. M. et al. A model of angiogenesis in the mouse cornea. Investigative Ophthalmology & Visual Science, v. 37, n. 8, p. 1625–1632, 1996.",
+      },
+      {
+        label:
+          "RAJKUMAR, S. V. et al. Thalidomide in multiple myeloma. Oncology, v. 14, n. 12, p. 1729–1738, 2000.",
+      },
+      {
+        label:
+          "MOREIRA, A. L. et al. Thalidomide exerts its inhibitory action on tumor necrosis factor alpha by enhancing mRNA degradation. Journal of Experimental Medicine, v. 177, n. 6, p. 1675–1680, 1993. DOI: 10.1084/jem.177.6.1675.",
+      },
+      {
+        label:
+          "SAMPAIO, E. P. et al. Thalidomide selectively inhibits tumor necrosis factor alpha production by stimulated human monocytes. Journal of Experimental Medicine, v. 173, n. 3, p. 699–703, 1991. DOI: 10.1084/jem.173.3.699.",
+      },
+      {
+        label:
+          "HASLETT, P. A. et al. Thalidomide costimulates primary human T lymphocytes, preferentially inducing proliferation, cytokine production, and cytotoxic responses in the CD8+ subset. Journal of Experimental Medicine, v. 187, n. 11, p. 1885–1892, 1998. DOI: 10.1084/jem.187.11.1885.",
+      },
+      {
+        label:
+          "CORRAL, L. G. et al. Differential cytokine modulation and T cell activation by two distinct classes of thalidomide analogues that are potent inhibitors of TNF-alpha. Journal of Immunology, v. 163, n. 1, p. 380–386, 1999.",
+      },
+      {
+        label:
+          "DAVIES, F. E. et al. Thalidomide and immunomodulatory derivatives augment natural killer cell cytotoxicity in multiple myeloma. Blood, v. 98, n. 1, p. 210–216, 2001. DOI: 10.1182/blood.V98.1.210.",
+      },
+      {
+        label:
+          "LEBLANC, R. et al. Immunomodulatory drug costimulates T cells via the B7-CD28 pathway. Blood, v. 103, n. 5, p. 1787–1790, 2004. DOI: 10.1182/blood-2003-02-0361.",
+      },
+      {
+        label:
+          "GALUSTIAN, C. et al. The anti-cancer agents lenalidomide and pomalidomide inhibit the proliferation and function of T regulatory cells. Cancer Immunology, Immunotherapy, v. 58, n. 7, p. 1033–1045, 2009. DOI: 10.1007/s00262-008-0620-4.",
+      },
+      {
+        label:
+          "HIDESHIMA, T. et al. Thalidomide and its analogs overcome drug resistance of human multiple myeloma cells to conventional therapy. Blood, v. 96, n. 9, p. 2943–2950, 2000.",
+      },
+      {
+        label:
+          "GUPTA, D. et al. Adherence of multiple myeloma cells to bone marrow stromal cells upregulates vascular endothelial growth factor secretion: therapeutic applications. Leukemia, v. 15, n. 12, p. 1950–1961, 2001. DOI: 10.1038/sj.leu.2402295.",
+      },
+      {
+        label:
+          "MILLER, M. T.; STRÖMLAND, K. Teratogen update: thalidomide: a review, with a focus on ocular findings and new potential uses. Teratology, v. 60, n. 5, p. 306–321, 1999. DOI: 10.1002/(SICI)1096-9926(199911)60:5<306::AID-TERA11>3.0.CO;2-Y.",
+      },
+      {
+        label:
+          "ERIKSSON, T. et al. Pharmacokinetics of thalidomide in healthy male volunteers. European Journal of Clinical Pharmacology, v. 54, n. 8, p. 627–631, 1998. DOI: 10.1007/s002280050526.",
+      },
+      {
+        label:
+          "ERIKSSON, T. et al. Stereospecific determination, chiral inversion in vitro and pharmacokinetics in humans of the enantiomers of thalidomide. Chirality, v. 7, n. 1, p. 44–52, 1995. DOI: 10.1002/chir.530070109.",
+      },
+      {
+        label:
+          "REIST, M. et al. Racemization of thalidomide: catalysis by bases and buffer components. Chirality, v. 10, n. 3, p. 251–258, 1998.",
+      },
+      {
+        label:
+          "ANDO, Y. et al. Pharmacogenetics of thalidomide metabolism: identification of CYP2C19 as a key enzyme for 5-hydroxythalidomide formation. Pharmacogenetics, v. 12, n. 5, p. 379–387, 2002. DOI: 10.1097/00008571-200207000-00006.",
+      },
+      {
+        label:
+          "CHEN, T. L. et al. Effect of ketoconazole and rifampin on the pharmacokinetics of thalidomide in healthy volunteers. Clinical Pharmacology & Therapeutics, v. 75, n. 2, p. P88, 2004.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide) capsules. Prescribing Information. Celgene Corporation, Summit, NJ, 2014.",
+      },
+      {
+        label:
+          "BREITKREUTZ, I.; ANDERSON, K. C. Thalidomide in multiple myeloma—clinical trials and aspects of drug metabolism and toxicity. Expert Opinion on Drug Metabolism & Toxicology, v. 4, n. 7, p. 973–985, 2008. DOI: 10.1517/17425255.4.7.973. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "RICHARDSON, P. G. et al. Frequency, characteristics, and reversibility of peripheral neuropathy during treatment of advanced multiple myeloma with bortezomib. Journal of Clinical Oncology, v. 24, n. 19, p. 3113–3120, 2006. DOI: 10.1200/JCO.2005.04.7779.",
+      },
+      {
+        label:
+          "CAVALETTI, G. et al. Thalidomide sensory neurotoxicity: a clinical and neurophysiologic study. Neurology, v. 62, n. 12, p. 2291–2293, 2004. DOI: 10.1212/01.WNL.0000130495.01863.DE.",
+      },
+      {
+        label:
+          "ZANGARI, M. et al. Thrombotic events in patients with cancer receiving thalidomide. Journal of Clinical Oncology, v. 19, n. 19, p. 3914–3916, 2001. DOI: 10.1200/JCO.2001.19.19.3914.",
+      },
+      {
+        label:
+          "PROMMER, E. Palliative oncology: thalidomide. American Journal of Hospice and Palliative Medicine, v. 27, n. 3, p. 214–219, 2010. DOI: 10.1177/1049909109348981. Acesso em: 7 fev. 2026.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide). Prescribing Information. Celgene, 2014.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide). Prescribing Information. Celgene, 2014.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide). Prescribing Information. Celgene, 2014.",
+      },
+      {
+        label:
+          "BADROS, A. et al. Hypothyroidism in patients with multiple myeloma following treatment with thalidomide. American Journal of Medicine, v. 112, n. 5, p. 412–413, 2002. DOI: 10.1016/S0002-9343(01)01130-1.",
+      },
+      {
+        label:
+          "SINGHAL, S. et al. Antitumor activity of thalidomide in refractory multiple myeloma. New England Journal of Medicine, v. 341, n. 21, p. 1565–1571, 1999.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide). Prescribing Information. Celgene, 2014.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide). Prescribing Information. Celgene, 2014.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide). Prescribing Information. Celgene, 2014.",
+      },
+      {
+        label:
+          "HUSSEIN, M. A. et al. A phase II trial of pegylated liposomal doxorubicin, vincristine, and reduced-dose dexamethasone combination therapy in newly diagnosed multiple myeloma patients. Cancer, v. 95, n. 10, p. 2160–2168, 2002. DOI: 10.1002/cncr.10970.",
+      },
+      {
+        label:
+          "THALOMID® (thalidomide). Prescribing Information. Celgene, 2014.",
+      },
+      {
+        label:
+          "DRUGBANK. Thalidomide (DB01041). Disponível em: https://go.drugbank.com/drugs/DB01041. Acesso em: 7 fev. 2026.",
+      },
+    ],
+  },
 ];
 
 const themes = [
@@ -2005,6 +2623,7 @@ const themes = [
   "Anticoagulantes",
   "Antipsicóticos",
   "Betabloqueadores",
+  "Imunomoduladores",
   "Incretínicos",
 ];
 
@@ -2139,8 +2758,8 @@ export default function MedicamentosHub() {
           <section className="meds-section">
             <h4>Referências (ABNT – NBR 6023:2018)</h4>
             <ol>
-              {selected.references.map((ref) => (
-                <li key={ref.label}>
+              {selected.references.map((ref, index) => (
+                <li key={`${ref.label}-${index}`}>
                   {ref.href ? (
                     <a href={ref.href} target="_blank" rel="noreferrer">
                       {ref.label}
