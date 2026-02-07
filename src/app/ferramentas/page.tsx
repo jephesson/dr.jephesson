@@ -86,6 +86,21 @@ export default function Page() {
           <h3>Espectro terapêutico</h3>
           <p>Consulte cobertura por bactéria ou antimicrobiano.</p>
         </Link>
+
+        <Link
+          href="/ferramentas/calculo-gotejamento"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#0b3a2f",
+              "--card-to": "#84cc16",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Calculadora</span>
+          <h3>Cálculo de gotejamento</h3>
+          <p>Estime dose, volume total e frascos necessários.</p>
+        </Link>
       </div>
     </div>
   );
