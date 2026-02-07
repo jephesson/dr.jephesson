@@ -58,6 +58,21 @@ export default function Page() {
         </Link>
 
         <Link
+          href="/ferramentas/calculadoras-nefrologicas"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#0b2f3a",
+              "--card-to": "#38bdf8",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Calculadora</span>
+          <h3>Calculadoras nefrológicas</h3>
+          <p>CKD-EPI, MDRD e Cockcroft-Gault com comparativo prático.</p>
+        </Link>
+
+        <Link
           href="/ferramentas/espectro-antimicrobianos"
           className="tool-card"
           style={
