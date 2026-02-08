@@ -26,251 +26,822 @@ type Post = {
 const posts: Post[] = [
   {
     id: "vortioxetina",
-    name: "Vortioxetina (Trintellix®)",
+    name: "Vortioxetina (Trintellix®, Brintellix®)",
     className: "Antidepressivos",
     category: "Farmacologia",
     summary:
-      "A vortioxetina é um antidepressivo de ação multimodal: além de inibir o transportador de serotonina (SERT), ela modula diretamente vários receptores serotoninérgicos.",
+      "A vortioxetina é um antidepressivo de nova geração com perfil farmacológico único: combina inibição do transportador de serotonina (SERT) com atividade moduladora direta sobre múltiplos receptores serotoninérgicos (5-HT), resultando em efeitos sobre diversos sistemas de neurotransmissores.",
     sections: [
       {
-        title: "Vortioxetina (Trintellix®): farmacologia completa para uso em site",
+        title: "Vortioxetina (Trintellix®, Brintellix®)",
         paragraphs: [
-          "A vortioxetina é um antidepressivo de ação multimodal: além de inibir o transportador de serotonina (SERT), ela modula diretamente vários receptores serotoninérgicos. Esse “pacote” farmacológico ajuda a explicar por que, na prática clínica, o medicamento costuma ser discutido não só como um ISRS “clássico”, mas como um modulador mais amplo de circuitos ligados a humor, ansiedade, cognição, sono e sintomas somáticos.",
+          `A vortioxetina é um antidepressivo de nova geração com perfil farmacológico único: combina inibição do transportador de serotonina (SERT) com atividade moduladora direta sobre múltiplos receptores serotoninérgicos (5-HT), resultando em efeitos sobre diversos sistemas de neurotransmissores. Esse mecanismo "multimodal" distingue a vortioxetina dos antidepressivos tradicionais (ISRSs e IRSNs) e está associado a benefícios específicos sobre sintomas cognitivos da depressão, além do efeito antidepressivo clássico.`,
         ],
       },
       {
         title: "1) História e contexto de desenvolvimento",
         paragraphs: [
-          "A vortioxetina (código de desenvolvimento Lu AA21004) foi desenvolvida como um antidepressivo com proposta de combinar inibição de recaptação de serotonina com modulação de receptores 5-HT, visando efeitos mais amplos em redes neurais relacionadas a depressão e sintomas associados.",
-          "Nos EUA, o medicamento está registrado como TRINTELLIX (vortioxetine) e tem aprovação inicial em 2013 para depressão maior em adultos; o documento regulatório disponível indica revisão em 08/2023.",
+          `1.1 Desenvolvimento e aprovação regulatória
+Código de desenvolvimento: Lu AA21004 (designação usada em ensaios clínicos e literatura científica inicial) (1, 2).
+Fabricante: Desenvolvida pela Lundbeck (H. Lundbeck A/S, Dinamarca) e posteriormente comercializada em parceria com a Takeda Pharmaceuticals nos Estados Unidos.
+Aprovações regulatórias:
+FDA (EUA): Aprovada em setembro de 2013 para tratamento de transtorno depressivo maior (TDM) em adultos.
+EMA (Europa): Aprovada em dezembro de 2013 com a mesma indicação.
+Outras agências: Aprovada em diversos países, incluindo Canadá, Austrália (TGA), Brasil (Anvisa) e outros (3, 4).
+Nome comercial: Inicialmente comercializada como Brintellix® nos EUA; em 2016, o nome foi alterado para Trintellix® para evitar confusão de nomenclatura com outro medicamento (Brilinta®, um antiagregante plaquetário). Fora dos EUA, o nome Brintellix® ainda é usado em alguns mercados (5).
+
+1.2 Contexto do desenvolvimento: necessidade de novos antidepressivos
+Limitações dos ISRSs/IRSNs tradicionais: Embora eficazes para muitos pacientes, os inibidores seletivos de recaptação de serotonina (ISRSs) e inibidores de recaptação de serotonina-noradrenalina (IRSNs) apresentam limitações:
+Taxas de remissão completa relativamente baixas (~30–40% em muitos estudos).
+Efeitos adversos significativos (disfunção sexual, ganho de peso, sedação).
+Impacto limitado sobre sintomas cognitivos da depressão (déficits de atenção, memória, função executiva), que persistem mesmo após melhora do humor e afetam funcionalidade (6, 7).
+Hipótese multimodal: A vortioxetina foi desenhada com base na hipótese de que a modulação simultânea de múltiplos alvos serotoninérgicos (além da simples inibição de SERT) poderia melhorar eficácia, tolerabilidade e efeitos sobre cognição (1, 8).
+
+1.3 Programa de desenvolvimento clínico
+Ensaios de fase III: Mais de 10 estudos randomizados, duplo-cegos, controlados por placebo (RCTs) foram conduzidos, com mais de 7.000 pacientes adultos com TDM (9, 10).
+Resultados: A maioria dos estudos demonstrou superioridade da vortioxetina (5–20 mg/dia) sobre placebo na redução de sintomas depressivos (escalas MADRS, HAM-D), embora alguns estudos individuais não tenham atingido significância estatística (heterogeneidade de resultados) (9, 10, 11).
+Estudos de cognição: Ensaios específicos (ex.: FOCUS, CONNECT) demonstraram melhora em testes objetivos de função cognitiva (velocidade de processamento, memória verbal, função executiva) e funcionalidade ocupacional, independente do efeito antidepressivo (12, 13).`,
         ],
       },
       {
-        title: "Dados da molécula",
-        bullets: [
-          "Nome químico: vortioxetine",
-          "Fórmula molecular (base livre): C₁₈H₂₂N₂S",
-          "Massa molecular: ~298,45 g/mol",
-          "Forma comercial: geralmente como bromidrato de vortioxetina",
-          "Massa molecular do sal: ~379,3 g/mol",
-          "pKa aproximado: ~9,1",
-          "LogP (lipofilicidade): ~3,5–3,8",
-          "Alta permeabilidade através da barreira hematoencefálica",
-          "Ligação a proteínas plasmáticas: ≈98%",
-          "Essas propriedades explicam sua boa absorção oral, ampla distribuição tecidual e meia-vida prolongada.",
-        ],
-      },
-      {
-        title: "2) Indicação terapêutica (on-label) e usos discutidos (off-label)",
+        title: "2) Indicação terapêutica, efeito esperado e \"prazo para funcionar\"",
         paragraphs: [
-          "Indicação aprovada (on-label)",
-          "Transtorno depressivo maior (TDM) em adultos.",
-          "Usos discutidos na prática (off-label) — sem aprovação regulatória",
-          "Na literatura e na prática clínica, a vortioxetina é frequentemente estudada/discutida para:",
-        ],
-        bullets: [
-          "Sintomas ansiosos associados ao TDM e, em alguns cenários, transtornos de ansiedade (p. ex., TAG), com resultados variáveis entre estudos e necessidade de individualização.",
-          "Sintomas cognitivos em depressão (atenção, velocidade de processamento, funções executivas), tema recorrente em revisões mecanísticas/translacionais.",
-          "Disfunção sexual induzida por antidepressivos (como estratégia de troca/otimização), tópico comum em discussões clínicas — embora isso dependa muito do contexto e de avaliação médica.",
+          `2.1 Indicações aprovadas (on-label)
+A) Transtorno depressivo maior (TDM) em adultos
+Indicação principal: Tratamento de episódios depressivos maiores em adultos (aprovada por FDA, EMA, TGA, Anvisa e outras agências) (3, 4, 14).
+Fases do tratamento:
+Agudo: Tratamento de episódio depressivo atual (6–12 semanas).
+Continuação: Prevenção de recaída (4–9 meses após remissão).
+Manutenção: Prevenção de recorrência (≥12 meses em pacientes com histórico de múltiplos episódios) (14, 15).
+População: Adultos (≥18 anos); não aprovada para uso em crianças e adolescentes (segurança e eficácia não estabelecidas nessa faixa etária) (14).
+B) Transtorno de ansiedade generalizada (TAG)
+Status regulatório: Não aprovada para TAG pela FDA ou EMA (3, 4).
+Evidências clínicas: Ensaios clínicos para TAG produziram resultados mistos — alguns estudos mostraram superioridade sobre placebo, outros não (16, 17).
+Uso off-label: Alguns clínicos podem considerar vortioxetina para TAG comórbido com depressão, mas isso não é uma indicação aprovada (16).
+
+2.2 Efeito terapêutico esperado (o que melhora)
+Sintomas depressivos (humor)
+Redução de sintomas nucleares: Humor deprimido, anedonia (perda de prazer), sentimentos de culpa/inutilidade, ideação suicida, alterações de sono/apetite, fadiga.
+Escalas de avaliação: Redução significativa em escalas como MADRS (Montgomery-Åsberg Depression Rating Scale) e HAM-D (Hamilton Depression Rating Scale) em estudos clínicos (9, 10).
+Taxas de resposta e remissão (dados agregados de ensaios clínicos):
+Resposta (≥50% de redução em MADRS): ~50–60% dos pacientes em vortioxetina vs. ~30–40% em placebo (9, 10).
+Remissão (MADRS ≤10): ~30–40% em vortioxetina vs. ~20–25% em placebo (9, 10).
+Observação: Taxas variam conforme dose, gravidade inicial e população estudada (11).
+Sintomas cognitivos (diferencial da vortioxetina)
+Domínios cognitivos melhorados:
+Velocidade de processamento (rapidez mental).
+Memória verbal (aprendizado e recordação de informações).
+Atenção e concentração.
+Função executiva (planejamento, organização, flexibilidade mental) (12, 13, 18).
+Evidências:
+Estudos FOCUS e CONNECT demonstraram melhora em testes objetivos (ex.: DSST - Digit Symbol Substitution Test, Rey Auditory Verbal Learning Test) e questionários subjetivos (PDQ - Perceived Deficits Questionnaire) (12, 13).
+Análises sugerem que o efeito procognitivo é parcialmente independente da melhora do humor (ou seja, não é apenas secundário à redução da depressão) (12, 18).
+Impacto funcional: Melhora em funcionalidade ocupacional e qualidade de vida relacionada à cognição (capacidade de trabalhar, estudar, realizar tarefas complexas) (13, 18).
+
+2.3 Em quanto tempo começa a fazer efeito?
+Sintomas depressivos (humor)
+Início de ação: Melhora mensurável em escalas de depressão pode ser detectada a partir da semana 2 de tratamento em alguns pacientes, mas o efeito antidepressivo completo geralmente requer 4–8 semanas (9, 10, 19).
+Avaliação clínica: A maioria dos ensaios clínicos avaliou eficácia em 6–8 semanas (fase aguda); se não houver melhora significativa após 6–8 semanas, considerar ajuste de dose ou mudança de estratégia (14, 19).
+Resposta tardia: Alguns pacientes podem continuar melhorando após 8 semanas; em estudos de longo prazo, benefícios adicionais foram observados até 6 meses (15).
+Sintomas cognitivos
+Início de melhora cognitiva: Efeitos sobre cognição foram detectados já na semana 2–4 em alguns estudos, com benefícios máximos em 8–12 semanas (12, 13).
+Observação prática: Pacientes podem relatar melhora subjetiva de "névoa mental" ou dificuldade de concentração antes de perceberem melhora completa do humor (12).
+
+2.4 Cuidados de uso e por que "dieta/estilo de vida" importam
+Absorção e interação com alimentos
+Absorção: A vortioxetina é bem absorvida por via oral; alimentos não afetam significativamente a biodisponibilidade (14, 20).
+Recomendação prática: Pode ser tomada com ou sem alimentos, em qualquer momento do dia. Muitos pacientes preferem tomar pela manhã (se não causar sedação) ou à noite (se causar sonolência) (14).
+Por que medidas complementares ajudam?
+A vortioxetina atua sobre neurotransmissores cerebrais, mas a recuperação completa da depressão envolve múltiplos fatores:
+
+Adesão ao tratamento: A eficácia depende de uso regular e contínuo; interrupções frequentes ou descontinuação precoce reduzem chance de remissão (21).
+Psicoterapia: Combinação de medicação com terapia cognitivo-comportamental (TCC) ou outras psicoterapias aumenta taxas de remissão e reduz risco de recaída (22, 23).
+Exercício físico: Atividade física regular (aeróbica moderada, 3–5x/semana) tem efeito antidepressivo comprovado e melhora cognição (sinergismo com vortioxetina) (24, 25).
+Higiene do sono: Depressão frequentemente cursa com insônia ou hipersonia; estabelecer rotina de sono regular potencializa recuperação (26).
+Nutrição: Dieta equilibrada (rica em ômega-3, vitaminas B, magnésio) e evitar álcool (depressor do SNC) ajudam na estabilização do humor (27).
+Estresse e suporte social: Redução de estressores crônicos e fortalecimento de rede de apoio são fatores protetores importantes (28).
+Cuidados especiais (segurança)
+Risco de suicídio em jovens adultos: Como todos os antidepressivos, a vortioxetina tem advertência de caixa preta (black box warning) da FDA sobre aumento de risco de pensamentos/comportamentos suicidas em crianças, adolescentes e adultos jovens (18–24 anos), especialmente nas primeiras semanas de tratamento (14, 29).
+Monitoramento obrigatório: Avaliação clínica frequente (semanal nas primeiras 4 semanas, depois quinzenal até 12 semanas) em pacientes de risco (14, 29).
+Triagem para transtorno bipolar: Antes de iniciar vortioxetina, descartar história de mania/hipomania (risco de precipitar episódio maníaco em pacientes com transtorno bipolar não diagnosticado) (14).
+Síndrome serotoninérgica: Evitar combinação com outros serotoninérgicos (IMAOs, ISRSs/IRSNs, triptanos, tramadol, linezolida) sem supervisão rigorosa (ver seção 7) (14, 30).`,
         ],
       },
       {
         title: "3) Mecanismo de ação detalhado",
-        paragraphs: ["3.1 Inibição do SERT (transportador de serotonina)", "O componente “base” é a inibição da recaptação de serotonina, elevando a sinalização serotoninérgica no SNC. A bula descreve alta afinidade pelo SERT e ocupação do transportador em estudos de PET, aumentando conforme a dose.", "3.2 Ações em receptores 5-HT (o “multimodal”)", "A vortioxetina apresenta, além do SERT, um perfil funcional em receptores 5-HT com antagonismo/agonismo (conforme descrito no documento regulatório):"],
-        bullets: ["Antagonista 5-HT3", "Agonista 5-HT1A", "Antagonista 5-HT7", "Antagonista 5-HT1D", "Agonista parcial 5-HT1B", "A própria bula ressalta que a contribuição exata dessas ações receptoras para o efeito antidepressivo não é totalmente estabelecida."],
-      },
-      {
-        title: "3.3 Efeitos “em rede” (downstream) em outros sistemas neurotransmissores",
         paragraphs: [
-          "Além do aumento direto da serotonina sináptica por inibição do SERT, a vortioxetina promove uma reorganização funcional de redes neuronais por meio da sua ação simultânea em múltiplos receptores 5-HT. Esse efeito combinado gera alterações “downstream” em diversos sistemas neurotransmissores, fenômeno frequentemente descrito como modulação de circuitos ou efeito em rede.",
-          "Em modelos pré-clínicos e em revisões translacionais, essa modulação multimodal é associada a mudanças na atividade de:",
-        ],
-        bullets: [
-          "Noradrenalina (especialmente em córtex pré-frontal e hipocampo)",
-          "Dopamina (em vias mesocorticais ligadas à motivação e função executiva)",
-          "Acetilcolina (importante para atenção e memória)",
-          "Histamina (vigília e energia)",
-          "Glutamato (plasticidade sináptica e cognição)",
-          "além da própria serotonina, agora redistribuída de forma diferente entre circuitos",
-        ],
-      },
-      {
-        title: "Mecanismos integrados e impacto clínico",
-        paragraphs: [
-          "Esses efeitos emergem principalmente de três mecanismos integrados:",
-          "1. Desinibição cortical via antagonismo 5-HT3, reduzindo o controle GABAérgico sobre neurônios piramidais e facilitando transmissão glutamatérgica em regiões corticais;",
-          "2. Modulação do feedback serotoninérgico pré-sináptico (5-HT1B e 5-HT1D), alterando o padrão de liberação de serotonina e de outros neurotransmissores em microcircuitos específicos;",
-          "3. Regulação de circuitos límbico-corticais por meio do agonismo 5-HT1A e antagonismo 5-HT7, impactando reatividade ao estresse, ritmo circadiano, arquitetura do sono e integração cognitivo-emocional.",
-          "O resultado não é simplesmente “mais serotonina”, mas sim uma recalibração da comunicação entre redes frontais, límbicas e hipocampais, com potencial aumento de sinalização dopaminérgica e colinérgica em áreas relacionadas à atenção, memória de trabalho, velocidade de processamento e flexibilidade cognitiva.",
-          "Essa reorganização de rede é uma das principais bases neurobiológicas propostas para o interesse na vortioxetina em sintomas cognitivos associados à depressão, incluindo déficits de concentração, lentificação mental e comprometimento executivo — dimensões que frequentemente persistem mesmo após melhora do humor.",
-          "É fundamental ressaltar, entretanto, que essa cadeia “mecanismo molecular → modulação de circuito → benefício clínico” não é linear nem garantida. A tradução desses efeitos neuroquímicos em melhora cognitiva mensurável depende de múltiplos fatores, incluindo gravidade do quadro, variabilidade individual, dose, tempo de tratamento e características basais do paciente. Assim, embora o racional farmacológico seja consistente, o impacto clínico deve sempre ser avaliado com base em desfechos objetivos e resposta individual.",
-        ],
-      },
-      {
-        title: "4) O que cada receptor faz e seu possível envolvimento clínico",
-        paragraphs: [
-          "4.1 5-HT3 (antagonismo)",
-          "O que é: o 5-HT3 é um receptor serotoninérgico “diferente” da maioria: em vez de ser acoplado à proteína G, ele é um canal iônico (ligante-dependente). Ele aparece em circuitos centrais (ex.: interneurônios) e também em vias periféricas relacionadas a náusea/vômito.",
-          "O que tende a modular: excitabilidade neuronal e liberação de neurotransmissores via interneurônios, com implicações para ansiedade, humor, sintomas somáticos e comorbidades. Revisões apontam o antagonismo 5-HT3 como estratégia com potencial em depressão e condições associadas.",
-          "Por que pode importar na vortioxetina:",
-        ],
-        bullets: [
-          "Pode contribuir para um “rebalanço” de redes excitatórias/inibitórias em circuitos corticolímbicos (hipótese mecanística em revisões).",
-          "É um alvo clássico para antieméticos (p. ex., ondansetrona), o que ajuda a contextualizar por que esse receptor é tão citado quando se fala de tolerabilidade GI (embora a vortioxetina, na prática, ainda tenha náusea como evento comum).",
-        ],
-      },
-      {
-        title: "4.2 5-HT1A (agonismo)",
-        paragraphs: [
-          "O que é: receptor acoplado à proteína G (Gi/Go), com duas populações funcionais muito discutidas:",
-        ],
-        bullets: [
-          "Autorreceptores (no núcleo da rafe): quando ativados, reduzem a taxa de disparo dos neurônios serotoninérgicos e modulam a liberação de 5-HT.",
-          "Heterorreceptores (pós-sinápticos em regiões como hipocampo/córtex): relacionados a efeitos em humor e ansiedade.",
-          "Por que é importante em humor/ansiedade: revisões destacam que a distinção auto vs. heterorreceptor ajuda a entender por que a sinalização 5-HT1A está fortemente ligada a fenótipos de ansiedade e comportamentos tipo-depressivos, e como adaptações ao longo do tempo podem influenciar resposta a antidepressivos.",
-          "Na vortioxetina: o agonismo 5-HT1A é frequentemente apontado como um componente que pode favorecer efeitos ansiolíticos e modulação de circuitos límbicos, dentro da proposta multimodal.",
-        ],
-      },
-      {
-        title: "4.3 5-HT7 (antagonismo)",
-        paragraphs: [
-          "O que é: receptor acoplado à proteína G (Gs), com presença em circuitos relacionados a ritmos circadianos, arquitetura do sono e processos cognitivos.",
-          "O que tende a modular: sono/vigília, sincronização circadiana e aspectos de aprendizagem/memória, além de interação com vias serotoninérgicas ligadas a humor. Revisões do 5-HT7 discutem esse alvo como promissor em condições do SNC.",
-          "Na vortioxetina: o antagonismo 5-HT7 entra como possível peça para efeitos em sono/circadiano e dimensões cognitivas relatadas em estudos e discussões translacionais.",
-        ],
-      },
-      {
-        title: "4.4 5-HT1D (antagonismo)",
-        paragraphs: [
-          "O que é: receptor Gi/Go com papel relevante em vias serotoninérgicas presinápticas e circuitos que também aparecem como pano de fundo em enxaqueca, pois receptores 5-HT1B/1D são alvos de triptanos (agonistas).",
-          "Por que isso aparece em farmacologia: a referência a triptanos ajuda a entender a fisiologia 1B/1D em controle de liberação de neuropeptídeos e modulação vascular/neural em cefaleias. (Uso como contexto fisiológico, não como indicação da vortioxetina.)",
-          "Na vortioxetina: o antagonismo 5-HT1D é citado no perfil farmacodinâmico regulatório; em termos clínicos, é geralmente tratado como parte do “ajuste fino” multimodal da neurotransmissão.",
+          `A vortioxetina é classificada como "modulador e estimulador de serotonina" (serotonin modulator and stimulator) ou "antidepressivo multimodal", refletindo seu perfil farmacológico único (1, 8, 31).
+
+3.1 Perfil de ligação a receptores e transportadores (afinidades)
+A vortioxetina interage com sete alvos serotoninérgicos distintos, com afinidades (Ki) variadas (1, 8, 32):
+
+Alvo | Tipo de atividade | Ki (nM) | Relevância funcional
+SERT (transportador de serotonina) | Inibição | 1,6 | Aumenta serotonina sináptica (mecanismo ISRS clássico)
+5-HT₁A | Agonismo | 15 | Efeito ansiolítico, antidepressivo, procognitivo
+5-HT₁B | Agonismo parcial | 33 | Modulação de liberação de serotonina (autorreceptor)
+5-HT₁D | Antagonismo | 54 | Modulação de liberação de serotonina
+5-HT₃ | Antagonismo | 3,7 | Efeito antinauseante, procognitivo, ansiolítico
+5-HT₇ | Antagonismo | 19 | Efeito procognitivo, antidepressivo
+NET (transportador de noradrenalina) | Inibição fraca | ~113 | Atividade mínima (diferente de IRSNs)
+DAT (transportador de dopamina) | Sem atividade | >1.000 | Sem efeito direto sobre recaptação de dopamina
+Fonte: (1, 8, 32)
+
+3.2 Inibição do transportador de serotonina (SERT)
+Mecanismo: A vortioxetina bloqueia SERT (localizado em neurônios serotoninérgicos), impedindo a recaptação de serotonina da fenda sináptica de volta ao neurônio pré-sináptico (1, 33).
+Consequência: Aumento de serotonina extracelular em regiões cerebrais envolvidas na regulação do humor (córtex pré-frontal, hipocampo, amígdala) (1, 33).
+Ocupação de SERT por dose (dados de PET em humanos):
+5 mg/dia: ~50% de ocupação de SERT.
+10 mg/dia: ~65% de ocupação.
+20 mg/dia: ~80% de ocupação (1, 34).
+Comparação com ISRSs: A ocupação de SERT da vortioxetina é comparável à de ISRSs tradicionais (ex.: sertralina, escitalopram), mas o perfil clínico difere devido às ações adicionais em receptores 5-HT (1, 8).
+
+3.3 Agonismo de receptores 5-HT₁A
+Localização: Receptores 5-HT₁A estão presentes como:
+Autorreceptores em neurônios serotoninérgicos do núcleo da rafe (controlam liberação de serotonina).
+Heterorreceptores em neurônios pós-sinápticos (córtex, hipocampo) (35).
+Efeito da vortioxetina: Agonismo de 5-HT₁A pós-sináptico contribui para efeito antidepressivo e ansiolítico; agonismo de autorreceptores (em doses baixas) pode inicialmente reduzir liberação de serotonina, mas há dessensibilização com uso crônico (35, 36).
+Relevância clínica: Agonismo de 5-HT₁A está associado a menor disfunção sexual (comparado a ISRSs puros) e efeitos procognitivos (35, 37).
+
+3.4 Antagonismo de receptores 5-HT₃
+Função do 5-HT₃: Único receptor serotoninérgico ionotrópico (canal iônico); presente em neurônios GABAérgicos e colinérgicos (38).
+Efeito da vortioxetina: Bloqueio de 5-HT₃ aumenta liberação de acetilcolina, dopamina e noradrenalina em córtex pré-frontal e hipocampo (1, 8, 38).
+Consequências clínicas:
+Efeito procognitivo: Aumento de acetilcolina melhora memória e atenção (38, 39).
+Efeito antinauseante: Antagonismo de 5-HT₃ reduz náusea (mesmo mecanismo de ondansetrona, usada para náusea de quimioterapia) — paradoxalmente, náusea é o efeito adverso mais comum da vortioxetina, provavelmente por ação em 5-HT₃ periférico antes de atingir steady-state cerebral (14, 38).
+
+3.5 Antagonismo de receptores 5-HT₇
+Função do 5-HT₇: Receptor acoplado a proteína G; presente em hipocampo, córtex, hipotálamo; envolvido em ritmo circadiano, cognição e humor (40).
+Efeito da vortioxetina: Bloqueio de 5-HT₇ aumenta transmissão de glutamato (via NMDA) e GABA em hipocampo e córtex, facilitando plasticidade sináptica (potenciação de longo prazo, LTP) (1, 40, 41).
+Relevância clínica: Efeito procognitivo (melhora de memória e aprendizado) e antidepressivo (neuroplasticidade) (40, 41).
+
+3.6 Efeitos sobre outros neurotransmissores (downstream)
+Estudos pré-clínicos (microdiálise em roedores) e translacionais mostram que a vortioxetina aumenta níveis extracelulares de múltiplos neurotransmissores em regiões cerebrais relevantes (1, 8, 42):
+
+Serotonina (5-HT): Aumento em córtex pré-frontal, hipocampo (via inibição de SERT) (1).
+Noradrenalina (NA): Aumento em córtex pré-frontal, hipocampo (via antagonismo de 5-HT₃ e 5-HT₇) (1, 42).
+Dopamina (DA): Aumento em córtex pré-frontal (via antagonismo de 5-HT₃ e 5-HT₁D) (1, 42).
+Acetilcolina (ACh): Aumento em córtex e hipocampo (via antagonismo de 5-HT₃) — chave para efeitos procognitivos (1, 38, 39).
+Glutamato: Modulação de transmissão glutamatérgica (via antagonismo de 5-HT₇ e interações com receptores NMDA/AMPA) — importante para plasticidade sináptica e cognição (1, 40, 41).
+GABA: Modulação de interneurônios GABAérgicos (via 5-HT₃, 5-HT₇) — contribui para regulação de excitabilidade cortical (1, 8).
+Histamina: Aumento reportado em estudos pré-clínicos (mecanismo incerto; pode contribuir para vigilância/alerta) (1).
+
+3.7 Por que a vortioxetina melhora cognição? (hipótese integrativa)
+A melhora cognitiva (diferencial da vortioxetina vs. ISRSs tradicionais) é atribuída à combinação sinérgica de múltiplos mecanismos (12, 18, 39, 43):
+
+Aumento de acetilcolina (via antagonismo de 5-HT₃) → melhora memória, atenção (sistema colinérgico é crucial para cognição) (38, 39).
+Modulação de glutamato/GABA (via antagonismo de 5-HT₇) → facilita plasticidade sináptica (LTP) e processamento de informação no hipocampo/córtex (40, 41).
+Aumento de dopamina/noradrenalina no córtex pré-frontal → melhora função executiva, motivação, atenção sustentada (42, 43).
+Agonismo de 5-HT₁A → neuroproteção, neurogênese hipocampal (importante para memória) (35, 36).
+Ausência de efeitos anticolinérgicos (diferente de antidepressivos tricíclicos) → não prejudica cognição (44).
+Evidência clínica: Estudos FOCUS e CONNECT demonstraram que a melhora cognitiva com vortioxetina é parcialmente independente da melhora do humor (análises estatísticas de mediação), sugerindo efeito procognitivo direto (12, 13, 18).`,
         ],
       },
       {
-        title: "4.5 5-HT1B (agonismo parcial)",
+        title: "4) O que os receptores fazem (e o que isso explica nos sintomas)",
         paragraphs: [
-          "O que é: receptor Gi/Go frequentemente descrito como auto/heterorreceptor que modula liberação de neurotransmissores (incluindo 5-HT) em diferentes regiões.",
-          "Relevância em depressão: revisões discutem o 5-HT1B como alvo potencial para efeito antidepressivo, justamente por sua capacidade de modular circuitos e liberação sináptica.",
-          "Agonismo parcial: por que isso importa?",
-          "Agonistas parciais podem atuar como “moduladores” que não empurram o sistema ao máximo (em comparação a agonistas plenos), o que, em teoria, pode favorecer estabilidade de rede e reduzir extremos de sinalização — um raciocínio comum em farmacologia de receptores.",
-          "Na vortioxetina: o agonismo parcial 5-HT1B é parte do perfil multimodal descrito na bula.",
+          `5-HT₁A (agonismo)
+Função normal: Regulação de humor, ansiedade, resposta ao estresse; modulação de neurogênese hipocampal.
+Ao ser ativado pela vortioxetina: Efeito antidepressivo, ansiolítico, neuroprotetor; menor disfunção sexual (comparado a ISRSs puros) (35, 37).
+
+5-HT₃ (antagonismo)
+Função normal: Receptor ionotrópico em neurônios GABAérgicos/colinérgicos; regula liberação de neurotransmissores.
+Ao ser bloqueado pela vortioxetina: Aumento de acetilcolina (melhora cognição), dopamina/noradrenalina (melhora humor/motivação); efeito antinauseante (embora náusea inicial possa ocorrer) (38, 39).
+
+5-HT₇ (antagonismo)
+Função normal: Modulação de ritmo circadiano, cognição, plasticidade sináptica.
+Ao ser bloqueado pela vortioxetina: Aumento de glutamato/GABA → facilita LTP (aprendizado/memória); efeito antidepressivo (40, 41).
+
+SERT (inibição)
+Função normal: Recapta serotonina da fenda sináptica, terminando sinalização serotoninérgica.
+Ao ser bloqueado pela vortioxetina: Aumento de serotonina extracelular → efeito antidepressivo (mecanismo clássico de ISRSs) (1, 33).`,
         ],
       },
       {
         title: "5) Farmacocinética (ADME)",
-        paragraphs: ["Absorção:"],
-        bullets: [
-          "Pico de concentração (Tmax) em torno de 7–11 horas após a dose.",
-          "Biodisponibilidade ~75%.",
-          "Alimento não altera de forma clinicamente relevante a farmacocinética.",
-        ],
-      },
-      {
-        title: "Distribuição",
-        bullets: [
-          "Ligação a proteínas plasmáticas ~98%.",
-          "Volume de distribuição elevado, sugerindo ampla distribuição extravascular.",
-        ],
-      },
-      {
-        title: "Metabolismo",
-        bullets: [
-          "Metabolizada principalmente por oxidação via CYP2D6 (principal), com participação de CYP3A4/5, CYP2C19, CYP2C9, CYP2A6, CYP2C8, CYP2B6, seguida de conjugação.",
-        ],
-      },
-      {
-        title: "Eliminação",
-        bullets: [
-          "Meia-vida terminal média ~66 horas; estado de equilíbrio tipicamente em ~2 semanas.",
-          "Excreção predominantemente como metabólitos (urina e fezes).",
-        ],
-      },
-      {
-        title: "Interações (destaques)",
-        bullets: [
-          "Inibidores fortes de CYP2D6 aumentam níveis de vortioxetina → pode ser necessário ajuste de dose.",
-          "Indutores fortes de CYP podem reduzir níveis → pode ser necessário ajuste clínico.",
-          "Em metabolizadores pobres de CYP2D6, a exposição pode ser maior.",
+        paragraphs: [
+          `5.1 Absorção
+Via de administração: Oral (comprimidos de 5 mg, 10 mg, 20 mg).
+Biodisponibilidade absoluta: 75% (boa absorção oral) (20, 45).
+Tmax (tempo para concentração máxima): 7–11 horas após dose única; em steady-state (doses múltiplas), Tmax é 7–8 horas (20, 45, 46).
+Cmax em steady-state (após doses múltiplas):
+5 mg/dia: ~9 ng/mL.
+10 mg/dia: ~18 ng/mL.
+20 mg/dia: ~33 ng/mL (46).
+Efeito de alimentos: Não há efeito clinicamente significativo de alimentos sobre biodisponibilidade ou Cmax; pode ser tomada com ou sem alimentos (14, 20, 45).
+Linearidade: Farmacocinética linear na faixa de doses terapêuticas (2,5–60 mg/dia em estudos de dose-resposta) (20, 45).
+
+5.2 Distribuição
+Volume de distribuição (Vd): 2.600 litros (distribuição extravascular extensa; indica alta penetração tecidual, incluindo SNC) (46).
+Ligação a proteínas plasmáticas: 98–99% (ligação alta; fração livre ~1–2%) (20, 45, 46).
+Ligação é independente da concentração plasmática (não saturável na faixa terapêutica) (46).
+Penetração no SNC: A vortioxetina atravessa a barreira hematoencefálica eficientemente (necessário para ação antidepressiva) (1).
+
+5.3 Metabolismo
+Via principal: Metabolismo hepático oxidativo via citocromo P450, seguido de conjugação com ácido glicurônico (20, 45, 46).
+Enzimas CYP envolvidas (contribuição relativa):
+CYP2D6: Principal via metabólica (~60–70% do metabolismo total) (20, 45, 47).
+CYP3A4/5: Contribuição secundária (~15–20%) (20, 45).
+CYP2C19, CYP2C9, CYP2A6, CYP2C8, CYP2B6: Contribuições menores (20, 45, 46).
+Metabólito principal: Lu AA34443 (metabólito oxidado), que é farmacologicamente inativo (não contribui para efeito terapêutico) (46, 48).
+Interações metabólicas:
+Vortioxetina não inibe ou induz CYPs de forma clinicamente relevante (estudos in vitro e in vivo) → baixo potencial de causar interações farmacocinéticas com outros medicamentos (14, 20, 45).
+Vortioxetina não é substrato ou inibidor significativo de P-gp (glicoproteína-P) → sem interações relevantes com substratos de P-gp (46).
+
+5.4 Eliminação
+Meia-vida de eliminação (t½): 66 horas (~2,75 dias) em voluntários saudáveis metabolizadores extensivos de CYP2D6 (20, 45, 46).
+Implicação: Meia-vida longa permite dose única diária e resulta em acúmulo com doses repetidas (steady-state atingido em ~2 semanas) (20, 46).
+Clearance oral: 33 L/h em metabolizadores extensivos (46).
+Vias de excreção:
+Urina: ~59% da dose (principalmente como metabólitos inativos conjugados; <1% como vortioxetina inalterada) (46, 48).
+Fezes: ~26% da dose (metabólitos; quantidade negligível de vortioxetina inalterada) (46, 48).
+Tempo para steady-state: Aproximadamente 2 semanas (13,5–19 dias) de doses diárias (20, 46).
+
+5.5 Farmacocinética em populações especiais
+A) Polimorfismo de CYP2D6
+Metabolizadores pobres (PM) de CYP2D6 (~7–10% da população caucasiana; ~2% de asiáticos):
+Aumento de exposição: AUC e Cmax da vortioxetina aumentam ~2 vezes em PMs vs. metabolizadores extensivos (EMs) (47, 49).
+Meia-vida prolongada: t½ pode chegar a 100–120 horas em PMs (vs. 66h em EMs) (47).
+Recomendação de dose: Dose máxima de 10 mg/dia em PMs conhecidos (vs. 20 mg/dia em EMs) (14, 47).
+Metabolizadores ultrarrápidos (UM): Exposição reduzida; pode haver necessidade de doses maiores para eficácia (dados limitados) (47).
+B) Idosos (≥65 anos)
+Farmacocinética: Exposição (AUC e Cmax) aumenta em até 27% em idosos vs. adultos jovens (≤45 anos) (46, 50).
+Mecanismo: Redução de clearance relacionada à idade (declínio de função hepática/renal) (50).
+Recomendação: Não há ajuste formal de dose, mas iniciar com doses baixas (5–10 mg/dia) e titular cautelosamente; monitorar efeitos adversos (sedação, hiponatremia) (14, 50).
+C) Insuficiência renal
+Farmacocinética: Insuficiência renal leve a moderada não altera significativamente a exposição à vortioxetina (eliminação renal direta é mínima) (14, 46).
+Recomendação: Não há ajuste de dose em insuficiência renal leve/moderada; dados em insuficiência grave/diálise são limitados (usar com cautela) (14).
+D) Insuficiência hepática
+Farmacocinética: Insuficiência hepática leve a moderada (Child-Pugh A/B) não altera significativamente a farmacocinética (46).
+Recomendação: Não há ajuste de dose em insuficiência leve/moderada; não recomendada em insuficiência hepática grave (Child-Pugh C) devido a dados insuficientes (14, 46).`,
         ],
       },
       {
         title: "6) Efeitos adversos e segurança",
-        paragraphs: ["6.1 Efeitos adversos comuns", "Os eventos adversos mais frequentemente relatados incluem náusea (muito comum, especialmente no início), além de sintomas gastrointestinais como constipação e vômitos (frequência varia por estudo/dose).", "6.2 Disfunção sexual (versão aprimorada)", "A disfunção sexual é um efeito adverso possível com antidepressivos que aumentam a neurotransmissão serotoninérgica, pois a serotonina pode inibir componentes da resposta sexual (por exemplo, reduzindo interesse sexual e dificultando a resposta sexual em alguns indivíduos), além de interagir com dopamina e noradrenalina em circuitos de recompensa/motivação. Em termos clínicos, pode se manifestar como redução de libido e dificuldade de desempenho sexual, em intensidade variável.", "Na vortioxetina, estudos e revisões comparativas sugerem que:"],
-        bullets: [
-          "A taxa e o padrão de disfunção sexual podem ser diferentes de alguns SSRIs/SNRIs em certos contextos, mas não é “zero” e varia com dose, população, método de avaliação e presença de depressão ativa (a própria depressão pode causar disfunção sexual).",
-          "Em pesquisas clínicas, a avaliação frequentemente usa escalas padronizadas (por exemplo, instrumentos de função sexual), o que reduz subjetividade, mas ainda assim há grande variabilidade individual.",
-          "Pontos práticos para comunicação em saúde (sem prescrição):",
-          "Disfunção sexual é uma das principais causas de baixa adesão ao antidepressivo; vale orientar pacientes a relatar abertamente o sintoma para ajuste terapêutico com segurança.",
-          "Estratégias clínicas comuns (definidas pelo médico) incluem reavaliar dose, tempo de adaptação, comorbidades e interações — e, quando indicado, considerar troca para fármaco com melhor tolerabilidade individual.",
-        ],
-      },
-      {
-        title: "6.3 Alertas relevantes (classe/medicamento)",
-        bullets: [
-          "Risco aumentado de ideação/comportamento suicida em crianças, adolescentes e adultos jovens (alerta de antidepressivos).",
-          "Síndrome serotoninérgica, especialmente em combinações com outros serotoninérgicos/IMAO.",
-          "Sangramento (maior risco quando associado a AINEs/antiagregantes/anticoagulantes).",
-          "Hiponatremia/SIADH (atenção especial em idosos e pacientes de risco).",
-          "Ativação de mania/hipomania em indivíduos suscetíveis.",
-          "Glaucoma de ângulo fechado em predispostos (precaução).",
-        ],
-      },
-      {
-        title: "7) Interações medicamentosas (principais)",
-        bullets: [
-          "Inibidores fortes de CYP2D6 (p. ex., bupropiona, fluoxetina, paroxetina, quinidina) podem aumentar a exposição à vortioxetina; pode ser necessário ajuste de dose conforme orientação clínica.",
-          "Indutores fortes de enzimas (p. ex., rifampicina, carbamazepina, fenitoína) podem reduzir níveis e exigir reavaliação terapêutica.",
-          "IMAO e combinações serotoninérgicas relevantes exigem cuidado por risco de síndrome serotoninérgica (seguir regras de intervalo/washout do material regulatório).",
-        ],
-      },
-      {
-        title: "8) Um resumo “em uma frase”",
         paragraphs: [
-          "A vortioxetina combina inibição do SERT com um perfil multirreceptor (5-HT3/5-HT7/5-HT1D antagonismo; 5-HT1A agonismo; 5-HT1B agonismo parcial), o que sustenta o racional de modulação mais ampla de redes ligadas a humor, ansiedade, sono e cognição — ainda que a contribuição exata de cada receptor para o efeito antidepressivo não seja completamente definida na bula.",
+          `A vortioxetina é geralmente bem tolerada, com perfil de efeitos adversos mais favorável do que muitos ISRSs tradicionais (especialmente em relação a disfunção sexual e ganho de peso) (51, 52, 53).
+
+6.1 Efeitos adversos mais comuns (≥5% e 2× placebo)
+Dados de ensaios clínicos controlados (pool de estudos de fase III) (14, 51, 54):
+
+Efeito adverso | Incidência (vortioxetina) | Incidência (placebo) | Observação
+Náusea | 21–32% | 9–12% | Mais comum; geralmente transitória (1–2 semanas); dose-dependente
+Constipação | 6–11% | 3–5% | Geralmente leve
+Vômito | 5–6% | 2–3% | Relacionado à náusea inicial
+Diarreia | 7–10% | 6–7% | Menos comum que náusea
+Boca seca (xerostomia) | 6–7% | 4–5% | Leve (menor que tricíclicos)
+Tontura | 6–9% | 4–6% | Pode ocorrer no início
+Sonolência/sedação | 5–8% | 3–4% | Dose-dependente
+Prurido (coceira) | 3–4% | 1–2% | Raro, mas reportado
+Fonte: (14, 51, 54)
+
+6.2 Disfunção sexual (diferencial importante)
+Incidência: Disfunção sexual é significativamente menor com vortioxetina do que com ISRSs tradicionais (sertralina, paroxetina, escitalopram) (52, 55, 56).
+Estudos comparativos: ~16–20% com vortioxetina vs. 30–50% com ISRSs (52, 55).
+Mecanismos: Agonismo de 5-HT₁A e ausência de bloqueio de 5-HT₂ (receptores envolvidos em função sexual) podem explicar menor impacto (37, 52).
+Tipos de disfunção: Redução de libido, disfunção erétil, anorgasmia, retardo de ejaculação (menos frequentes que com ISRSs) (52, 55).
+Relevância clínica: Disfunção sexual é uma das principais causas de descontinuação de ISRSs; perfil mais favorável da vortioxetina pode melhorar adesão (52, 56).
+
+6.3 Ganho de peso
+Incidência: Mínimo ou nenhum ganho de peso em ensaios de curto prazo (6–8 semanas) e longo prazo (52 semanas) (51, 53, 57).
+Variação média de peso: +0,1 a +0,5 kg (não significativamente diferente de placebo) (51, 57).
+Comparação com ISRSs: ISRSs como paroxetina e sertralina estão associados a ganho de peso médio de 2–5 kg em 6–12 meses; vortioxetina não apresenta esse padrão (53, 57).
+
+6.4 Síndrome de descontinuação
+Definição: Sintomas que ocorrem após interrupção abrupta de antidepressivos (tontura, náusea, parestesias, irritabilidade, insônia, "choques elétricos" na cabeça) (58, 59).
+Incidência com vortioxetina: Baixa a moderada (devido à meia-vida longa de 66h, que funciona como "autodesmame") (14, 58).
+Estudos de descontinuação abrupta: ~10–15% de pacientes relataram sintomas leves de descontinuação (vs. 5–8% em placebo) (14, 58).
+Recomendação: Para doses de 15–20 mg/dia, reduzir para 10 mg/dia por 1 semana antes de descontinuar completamente (se possível); para doses de 5–10 mg, pode descontinuar diretamente (14, 59).
+
+6.5 Risco de sangramento
+Mecanismo: ISRSs (incluindo vortioxetina) inibem recaptação de serotonina em plaquetas, reduzindo agregação plaquetária → aumento de risco de sangramento (especialmente gastrointestinal) (60, 61).
+Incidência: Risco absoluto é baixo (~1–2% em monoterapia), mas aumenta com:
+Uso concomitante de AINEs (ibuprofeno, naproxeno): risco aumenta 2–3 vezes (60, 61).
+Anticoagulantes (varfarina, rivaroxabana): risco aumenta 1,5–2 vezes (60).
+Antiplaquetários (aspirina, clopidogrel): risco aumenta 1,5–2 vezes (60).
+Recomendação: Monitorar sinais de sangramento (sangramento gengival, hematomas, melena); considerar proteção gástrica (inibidor de bomba de prótons) em pacientes de alto risco (14, 60, 61).
+
+6.6 Hiponatremia
+Incidência: Hiponatremia (sódio sérico <135 mEq/L) ocorre em <1% dos pacientes, mas pode ser grave (sódio <120 mEq/L → confusão, convulsões) (14, 62).
+Mecanismo: Síndrome de secreção inapropriada de hormônio antidiurético (SIADH) induzida por serotoninérgicos (62).
+Fatores de risco: Idosos, uso de diuréticos, baixa ingestão de sódio, volume intravascular reduzido (14, 62).
+Monitoramento: Considerar dosagem de sódio sérico em idosos ou pacientes sintomáticos (confusão, fraqueza, náusea) (14, 62).
+
+6.7 Síndrome serotoninérgica
+Definição: Condição potencialmente fatal causada por excesso de atividade serotoninérgica no SNC (tríade: alteração mental, hiperatividade autonômica, anormalidades neuromusculares) (30, 63).
+Incidência: Rara em monoterapia com vortioxetina; risco aumenta com combinação de serotoninérgicos (30, 63).
+Sintomas: Agitação, confusão, taquicardia, hipertensão, sudorese, tremor, hiperreflexia, mioclonia, hipertermia (30, 63).
+Fatores de risco: Combinação com IMAOs, ISRSs/IRSNs, triptanos (enxaqueca), tramadol, linezolida, fentanil, dextrometorfano, erva-de-são-joão (30, 63).
+Manejo: Descontinuar todos serotoninérgicos imediatamente; suporte (hidratação, resfriamento); benzodiazepínicos para agitação; ciproheptadina (antagonista 5-HT) em casos graves (30, 63).
+
+6.8 Ativação de mania/hipomania
+Incidência: ~0,1–0,3% em pacientes com TDM (sem diagnóstico prévio de transtorno bipolar) (14, 64).
+Risco: Maior em pacientes com transtorno bipolar não diagnosticado (especialmente tipo II) (64).
+Sintomas: Humor elevado/irritável, aumento de energia, redução de necessidade de sono, impulsividade, pensamento acelerado (64).
+Recomendação: Triagem para história de mania/hipomania antes de iniciar vortioxetina; descontinuar se mania emergir (14, 64).
+
+6.9 Glaucoma de ângulo fechado
+Mecanismo: Serotoninérgicos podem causar midríase (dilatação pupilar) → bloqueio de drenagem de humor aquoso em pacientes com ângulo estrecho (65).
+Incidência: Rara, mas potencialmente grave (dor ocular, visão turva, náusea, aumento de pressão intraocular) (14, 65).
+Recomendação: Evitar em pacientes com glaucoma de ângulo fechado não tratado; considerar avaliação oftalmológica em pacientes de risco (14, 65).
+
+6.10 Advertência de caixa preta (black box warning)
+Suicidalidade em crianças, adolescentes e adultos jovens
+
+"Antidepressivos aumentam o risco de pensamentos e comportamentos suicidas em crianças, adolescentes e adultos jovens (18–24 anos) em estudos de curto prazo. Monitorar de perto para piora clínica e emergência de suicidalidade, especialmente durante os primeiros meses de tratamento e após mudanças de dose. Vortioxetina não é aprovada para uso em pacientes pediátricos." (14, 29)
+
+Dados: Metanálises de ensaios clínicos mostraram aumento de risco de ideação/comportamento suicida em jovens (18–24 anos) nas primeiras 4–8 semanas de tratamento (risco relativo ~1,5–2×) (29, 66).
+Monitoramento obrigatório: Avaliação clínica frequente (semanal nas primeiras 4 semanas, quinzenal até 12 semanas) em pacientes ≤24 anos (14, 29).
+Paradoxo: Em adultos ≥25 anos, antidepressivos reduzem risco de suicídio a longo prazo (efeito protetor após melhora da depressão) (29, 66).`,
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas e com alimentos",
+        paragraphs: [
+          `7.1 Interações farmacocinéticas (metabolismo via CYP2D6)
+A) Inibidores fortes de CYP2D6
+Medicamentos: Bupropiona, fluoxetina, paroxetina, quinidina, duloxetina (67, 68).
+Efeito: Aumento de exposição à vortioxetina (AUC e Cmax aumentam ~2 vezes) (67, 68).
+Recomendação: Reduzir dose de vortioxetina pela metade quando coadministrada com inibidor forte de CYP2D6 (ex.: se tomando 20 mg/dia, reduzir para 10 mg/dia) (14, 67).
+Exemplo clínico: Paciente em vortioxetina 15 mg/dia inicia bupropiona (para cessação tabágica) → reduzir vortioxetina para 7,5 mg/dia (ou 10 mg, se 7,5 não disponível) (14).
+B) Indutores fortes de CYP (CYP3A4 e outros)
+Medicamentos: Rifampicina, carbamazepina, fenitoína, erva-de-são-joão (Hypericum perforatum) (14, 69).
+Efeito: Redução de exposição à vortioxetina (AUC pode cair 50–70%) → risco de perda de eficácia (69).
+Recomendação: Considerar aumento de dose de vortioxetina se indutor for usado por >14 dias (dose máxima não deve exceder 3× a dose original; ex.: se tomando 10 mg, pode aumentar até 30 mg — mas dose máxima aprovada é 20 mg na maioria das bulas) (14, 69).
+Alternativa: Evitar indutores fortes quando possível; se necessário, monitorar resposta clínica e ajustar dose (14, 69).
+C) Metabolizadores pobres de CYP2D6
+População: ~7–10% de caucasianos, ~2% de asiáticos (polimorfismo genético) (47, 49).
+Efeito: Exposição à vortioxetina aumenta ~2 vezes (AUC e Cmax) (47, 49).
+Recomendação: Dose máxima de 10 mg/dia em metabolizadores pobres conhecidos (vs. 20 mg/dia em metabolizadores extensivos) (14, 47).
+Teste genético: Genotipagem de CYP2D6 pode ser considerada em pacientes com efeitos adversos desproporcionais ou resposta inadequada (47).
+
+7.2 Interações farmacodinâmicas (efeitos aditivos/sinérgicos)
+A) Inibidores da monoamina oxidase (IMAOs)
+Medicamentos: Fenelzina, tranilcipromina, isocarboxazida, selegilina (oral), linezolida, azul de metileno (70).
+Efeito: Risco de síndrome serotoninérgica grave (potencialmente fatal) (30, 63, 70).
+Contraindicação: Não usar vortioxetina com IMAOs ou dentro de 14 dias após descontinuar IMAO (14, 70).
+Washout: Aguardar ≥14 dias após parar IMAO antes de iniciar vortioxetina; aguardar ≥14 dias após parar vortioxetina antes de iniciar IMAO (14, 70).
+Exceção (linezolida/azul de metileno): Se uso urgente for necessário, descontinuar vortioxetina e iniciar IMAO com monitoramento rigoroso (14, 70).
+B) Outros serotoninérgicos
+Medicamentos: ISRSs, IRSNs, triptanos (sumatriptano, rizatriptano), tramadol, fentanil, dextrometorfano, triptofano, erva-de-são-joão (30, 63, 71).
+Efeito: Risco aumentado de síndrome serotoninérgica (efeito aditivo) (30, 63, 71).
+Recomendação: Evitar combinação quando possível; se necessário, usar doses baixas e monitorar sintomas de síndrome serotoninérgica (agitação, tremor, hiperreflexia, sudorese, hipertermia) (14, 30, 63).
+C) Anticoagulantes e antiplaquetários
+Medicamentos: Varfarina, rivaroxabana, apixabana, aspirina, clopidogrel, AINEs (ibuprofeno, naproxeno) (60, 61).
+Efeito: Risco aumentado de sangramento (efeito sinérgico sobre função plaquetária) (60, 61).
+Recomendação: Monitorar INR (se varfarina); observar sinais de sangramento (hematomas, sangramento gengival, melena); considerar proteção gástrica com inibidor de bomba de prótons (14, 60, 61).
+D) Álcool e depressores do SNC
+Efeito: Potencialização de sedação e prejuízo cognitivo/motor (14, 72).
+Recomendação: Evitar consumo de álcool durante tratamento com vortioxetina; cautela com benzodiazepínicos, opioides, anti-histamínicos sedativos (14, 72).
+E) Buspirona (agonista 5-HT₁A)
+Efeito: Efeito serotoninérgico aditivo (ambos ativam 5-HT₁A); risco teórico de síndrome serotoninérgica (embora raro com buspirona) (73).
+Recomendação: Usar com cautela; monitorar sintomas serotoninérgicos (14, 73).
+
+7.3 Interações com alimentos
+Efeito de alimentos: Nenhuma interação clinicamente significativa; pode ser tomada com ou sem alimentos (14, 20, 45).
+Grapefruit/pomelo: Não há dados específicos sobre interação com grapefruit, mas como CYP3A4 é via metabólica secundária, efeito seria mínimo (14).`,
+        ],
+      },
+      {
+        title: "8) Contraindicações e advertências",
+        paragraphs: [
+          `8.1 Contraindicações absolutas
+Hipersensibilidade à vortioxetina ou a qualquer componente da formulação (14).
+Uso concomitante com IMAOs (ou dentro de 14 dias após descontinuar IMAO ou vortioxetina) — risco de síndrome serotoninérgica (14, 70).
+
+8.2 Advertências importantes (além de black box)
+Síndrome serotoninérgica: Risco aumentado com combinação de serotoninérgicos; monitorar sintomas (agitação, tremor, hipertermia) (14, 30, 63).
+Risco de sangramento: Especialmente com anticoagulantes/antiplaquetários/AINEs; monitorar sinais de sangramento (14, 60, 61).
+Ativação de mania: Triagem para transtorno bipolar antes de iniciar; descontinuar se mania emergir (14, 64).
+Descontinuação: Reduzir dose gradualmente (10 mg × 1 semana) se tomando 15–20 mg/dia (14, 59).
+Hiponatremia: Monitorar sódio sérico em idosos ou pacientes sintomáticos (14, 62).
+Glaucoma de ângulo fechado: Evitar em pacientes com ângulo estreito não tratado (14, 65).
+Gravidez e lactação: Dados limitados; usar apenas se benefício superar risco; considerar risco de hipertensão pulmonar persistente no recém-nascido (exposição no 3º trimestre) (14, 74).`,
+        ],
+      },
+      {
+        title: "9) Considerações de dosagem e monitoramento",
+        paragraphs: [
+          `9.1 Dosagem típica (adultos)
+Dose inicial
+Recomendação padrão: 10 mg/dia (via oral, dose única, com ou sem alimentos) (14, 75).
+Alternativa: Iniciar com 5 mg/dia em pacientes idosos, com múltiplas comorbidades ou sensíveis a efeitos adversos (14, 75).
+Titulação
+Aumento de dose: Após 1–2 semanas em 10 mg/dia, pode aumentar para 20 mg/dia (dose máxima aprovada) se tolerado e resposta for insuficiente (14, 75).
+Redução de dose: Se efeitos adversos (náusea, sedação) forem intoleráveis, considerar 5 mg/dia (dose mínima eficaz em alguns estudos) (14, 75).
+Dose de manutenção
+Faixa terapêutica: 5–20 mg/dia (14, 75).
+Dose mais comum: 10 mg/dia (eficácia demonstrada na maioria dos estudos) (9, 10, 75).
+Dose máxima: 20 mg/dia (14, 75).
+Duração do tratamento
+Fase aguda: 6–12 semanas (até remissão de sintomas) (14, 75).
+Continuação: 4–9 meses após remissão (prevenir recaída) (14, 75).
+Manutenção: ≥12 meses em pacientes com histórico de múltiplos episódios depressivos (prevenir recorrência) (14, 15, 75).
+
+9.2 Ajustes de dose em populações especiais
+Metabolizadores pobres de CYP2D6
+Dose máxima: 10 mg/dia (vs. 20 mg/dia em metabolizadores extensivos) (14, 47).
+Uso com inibidores fortes de CYP2D6
+Ajuste: Reduzir dose pela metade (ex.: 20 mg → 10 mg; 10 mg → 5 mg) (14, 67).
+Uso com indutores fortes de CYP
+Ajuste: Considerar aumento de dose após 14 dias de uso do indutor (máximo 3× a dose original, mas não exceder 20 mg/dia conforme bula) (14, 69).
+Idosos (≥65 anos)
+Dose inicial: Considerar 5 mg/dia (exposição aumenta ~27% em idosos) (14, 50).
+Titulação: Aumentar cautelosamente conforme tolerabilidade (14, 50).
+Insuficiência renal
+Leve a moderada: Sem ajuste de dose (14, 46).
+Grave/diálise: Dados insuficientes; usar com cautela (14).
+Insuficiência hepática
+Leve a moderada (Child-Pugh A/B): Sem ajuste de dose (14, 46).
+Grave (Child-Pugh C): Não recomendada (dados insuficientes) (14, 46).
+
+9.3 Descontinuação
+Doses de 5–10 mg/dia: Pode descontinuar abruptamente (meia-vida longa minimiza síndrome de descontinuação) (14, 59).
+Doses de 15–20 mg/dia: Reduzir para 10 mg/dia por 1 semana antes de descontinuar completamente (se possível) (14, 59).
+Sintomas de descontinuação: Tontura, náusea, parestesias, irritabilidade (geralmente leves e transitórios) (14, 58, 59).
+
+9.4 Monitoramento clínico
+Parâmetro | Frequência | Objetivo
+Avaliação de suicidalidade | Semanal (primeiras 4 semanas), quinzenal (até 12 semanas), depois conforme necessário | Detectar emergência de ideação/comportamento suicida (especialmente em jovens ≤24 anos) (14, 29)
+Sintomas depressivos (escalas PHQ-9, MADRS) | Basal, semanas 2, 4, 6, 8, depois mensalmente | Avaliar resposta ao tratamento; ajustar dose se resposta insuficiente (14, 75)
+Efeitos adversos (náusea, sedação, tontura) | A cada visita | Avaliar tolerabilidade; ajustar dose ou descontinuar se intoleráveis (14, 75)
+Sinais de mania/hipomania | Basal (triagem), depois a cada visita | Detectar ativação maníaca (especialmente em pacientes com risco de transtorno bipolar) (14, 64)
+Sódio sérico | Basal (idosos, uso de diuréticos), depois se sintomas de hiponatremia (confusão, fraqueza) | Detectar hiponatremia (especialmente em idosos) (14, 62)
+Sinais de sangramento | A cada visita (se uso concomitante de anticoagulantes/AINEs) | Detectar sangramento anormal (hematomas, sangramento gengival, melena) (14, 60)
+Função cognitiva (opcional) | Basal, semanas 8–12 | Avaliar melhora cognitiva (diferencial da vortioxetina); usar escalas como DSST, PDQ (12, 13)`,
+        ],
+      },
+      {
+        title: "10) Dados da molécula (substância ativa)",
+        paragraphs: [
+          `Parâmetro | Valor
+Nome (DCI/INN) | Vortioxetina (Vortioxetine)
+Nome químico (IUPAC) | 1-[2-(2,4-dimetilfenil)sulfanil]fenil]piperazina
+Fórmula molecular | C₁₈H₂₂N₂S
+Massa molecular | 298,44 g/mol (base livre); 379,33 g/mol (hidrobrometo)
+Quiralidade | Aquiral (não possui centros estereogênicos)
+pKa | ~9,8 (base fraca) (76)
+Solubilidade | Praticamente insolúvel em água; solúvel em solventes orgânicos (formulada como hidrobrometo para melhorar solubilidade) (76)
+Ligação a proteínas plasmáticas | 98–99% (20, 45, 46)
+Classificação química | Derivado de fenilpiperazina (arilsulfanil-fenil-piperazina)
+Classe terapêutica (ATC) | N06AX26 (Outros antidepressivos)
+Código de desenvolvimento | Lu AA21004 (1, 2)
+CAS Number | 508233-74-7 (base livre); 960203-27-4 (hidrobrometo)`,
+        ],
+      },
+      {
+        title: "11) Eficácia clínica (dados de ensaios)",
+        paragraphs: [
+          `11.1 Eficácia antidepressiva (sintomas de humor)
+Estudos pivotais: >10 RCTs de fase III, 6–8 semanas, n total >7.000 pacientes adultos com TDM (9, 10, 11).
+Resultado primário: Redução de sintomas depressivos (escalas MADRS, HAM-D).
+Eficácia vs. placebo:
+Diferença média em MADRS: −2 a −4 pontos vs. placebo (estatisticamente significativa, mas magnitude modesta) (9, 10).
+Taxas de resposta (≥50% redução em MADRS): ~50–60% vortioxetina vs. ~30–40% placebo (9, 10).
+Taxas de remissão (MADRS ≤10): ~30–40% vortioxetina vs. ~20–25% placebo (9, 10).
+Heterogeneidade de resultados: Alguns estudos individuais não atingiram significância estatística (especialmente em doses baixas, 2,5–5 mg); eficácia mais consistente com 10–20 mg/dia (9, 11).
+Comparação com ISRSs: Estudos head-to-head mostraram eficácia comparável a escitalopram, sertralina, venlafaxina, duloxetina (não inferioridade) (77, 78).
+
+11.2 Eficácia procognitiva (sintomas cognitivos)
+Estudos específicos: FOCUS (2016), CONNECT (2018) — RCTs desenhados para avaliar cognição como desfecho primário (12, 13).
+Testes objetivos:
+DSST (Digit Symbol Substitution Test): Melhora significativa vs. placebo (velocidade de processamento) (12, 13).
+Rey AVLT (Auditory Verbal Learning Test): Melhora em memória verbal (12).
+TMT (Trail Making Test): Melhora em função executiva (12).
+Questionários subjetivos:
+PDQ (Perceived Deficits Questionnaire): Melhora em percepção subjetiva de déficits cognitivos (12, 13).
+Análises de mediação: Efeito sobre cognição é parcialmente independente da melhora do humor (12–30% do efeito é direto, não mediado por redução de depressão) (12, 18).
+Impacto funcional: Melhora em funcionalidade ocupacional (capacidade de trabalhar, realizar tarefas complexas) em estudo CONNECT (13).
+
+11.3 Prevenção de recaída/recorrência
+Estudo de prevenção de recaída (2012): RCT de 24–64 semanas em pacientes com TDM em remissão (15).
+Resultado: Vortioxetina reduziu risco de recaída em ~50% vs. placebo (hazard ratio ~0,5) (15).
+Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15).`,
+        ],
+      },
+      {
+        title: "12) Resumo \"em uma frase\"",
+        paragraphs: [
+          `A vortioxetina é um antidepressivo multimodal de nova geração que combina inibição do transportador de serotonina (SERT) com atividade moduladora direta sobre múltiplos receptores serotoninérgicos (5-HT₁A agonismo, 5-HT₃ e 5-HT₇ antagonismo), resultando em efeitos sobre diversos neurotransmissores (serotonina, noradrenalina, dopamina, acetilcolina, glutamato), com eficácia antidepressiva comparável a ISRSs tradicionais, mas com diferencial clínico importante de melhora de sintomas cognitivos (memória, atenção, função executiva), menor incidência de disfunção sexual e ganho de peso, farmacocinética caracterizada por meia-vida longa (66 horas) e metabolismo predominante via CYP2D6 (exigindo ajustes de dose em metabolizadores pobres ou uso com inibidores/indutores de CYP), e perfil de segurança geralmente favorável, com náusea transitória como efeito adverso mais comum e advertência de caixa preta sobre risco de suicidalidade em jovens (18–24 anos) nas primeiras semanas de tratamento.`,
+        ],
+      },
+      {
+        title: "Nota final educacional",
+        paragraphs: [
+          `Este texto foi elaborado para fins informativos e educacionais, destinado a profissionais de saúde e estudantes. A vortioxetina é um medicamento de prescrição que deve ser usado apenas sob supervisão médica. Qualquer decisão de iniciar, ajustar ou descontinuar tratamento deve ser feita em conjunto com profissional de saúde qualificado, considerando características individuais, comorbidades e riscos específicos de cada paciente.`,
         ],
       },
     ],
     references: [
       {
         label:
-          "TAKEDA PHARMACEUTICALS AMERICA, INC. TRINTELLIX (vortioxetine) tablets, for oral use: prescribing information. Silver Spring: U.S. Food and Drug Administration, 2023. Disponível em: https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/204447s026lbl.pdf. Acesso em: 4 fev. 2026.",
-        href: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/204447s026lbl.pdf",
+          "LINCOLN, J.; WEHLER, C. Vortioxetine for major depressive disorder. Current Psychiatry, v. 13, n. 2, p. 31–38, 2014. Disponível em: https://scispace.com/papers/vortioxetine-for-major-depressive-disorder-7u9a6vpaqg. Acesso em: 7 fev. 2026.",
+        href: "https://scispace.com/papers/vortioxetine-for-major-depressive-disorder-7u9a6vpaqg",
       },
       {
         label:
-          "SÁNCHEZ, C.; ASÍN, K. E.; ARTIGAS, F. Vortioxetine, a novel antidepressant with multimodal activity: review of preclinical and clinical data. Pharmacology & Therapeutics, v. 145, p. 43–57, 2015. DOI: 10.1016/j.pharmthera.2014.07.001. Disponível em: https://pubmed.ncbi.nlm.nih.gov/25016186/. Acesso em: 4 fev. 2026.",
-        href: "https://pubmed.ncbi.nlm.nih.gov/25016186/",
+          "GONDA, X. et al. Vortioxetine: a novel antidepressant for the treatment of major depressive disorder. Expert Opinion on Drug Discovery, v. 14, n. 1, p. 81–89, 2019. DOI: 10.1080/17460441.2019.1546691. Acesso em: 7 fev. 2026.",
       },
       {
         label:
-          "GARCIA-GARCIA, A.; NEWMAN-TANCREDI, A.; LEONARDO, E. D. 5-HT1A receptors in mood and anxiety: recent insights into autoreceptor versus heteroreceptor function. Psychopharmacology (Berl), v. 231, n. 4, p. 623–636, 2014. DOI: 10.1007/s00213-013-3389-x. Disponível em: https://pmc.ncbi.nlm.nih.gov/articles/PMC3927969/. Acesso em: 4 fev. 2026.",
-        href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3927969/",
+          "U.S. FOOD AND DRUG ADMINISTRATION (FDA). TRINTELLIX® (vortioxetine) tablets: Prescribing Information. 2021. Disponível em: https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/204447s021s022lbl.pdf. Acesso em: 7 fev. 2026.",
+        href: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/204447s021s022lbl.pdf",
       },
       {
         label:
-          "TIGER, M.; VARNÄS, K.; OKUBO, Y.; LUNDBERG, J. The 5-HT1B receptor: a potential target for antidepressant treatment. Psychopharmacology (Berl), v. 235, n. 5, p. 1317–1334, 2018. DOI: 10.1007/s00213-018-4868-8. Disponível em: https://pmc.ncbi.nlm.nih.gov/articles/PMC5919989/. Acesso em: 4 fev. 2026.",
-        href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5919989/",
+          "EUROPEAN MEDICINES AGENCY (EMA). Brintellix (vortioxetine): European Public Assessment Report (EPAR). 2013. Disponível em: https://www.ema.europa.eu/. Acesso em: 7 fev. 2026.",
+        href: "https://www.ema.europa.eu/",
       },
       {
         label:
-          "NIKIFORUK, A.; POPIK, P. Targeting the serotonin 5-HT7 receptor in the search for treatments for CNS disorders: rationale and progress to date. Disponível em: https://pmc.ncbi.nlm.nih.gov/articles/PMC4555343/. Acesso em: 4 fev. 2026.",
-        href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4555343/",
+          "TAKEDA PHARMACEUTICALS. TRINTELLIX® (vortioxetine) — Name Change Announcement. 2016. Disponível em: https://www.trintellixhcp.com/. Acesso em: 7 fev. 2026.",
+        href: "https://www.trintellixhcp.com/",
       },
       {
         label:
-          "BHATT, S.; DEVADOSS, T.; MANJULA, S. N.; RAJANGAM, J. 5-HT3 receptor antagonism: a potential therapeutic approach for the treatment of depression and other disorders. Current Neuropharmacology, v. 19, n. 9, p. 1545–1559, 2021. DOI: 10.2174/1570159X18666201015155816. Disponível em: https://pmc.ncbi.nlm.nih.gov/articles/PMC8762176/. Acesso em: 4 fev. 2026.",
-        href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8762176/",
+          "MCINTYRE, R. S. et al. Cognitive deficits and functional outcomes in major depressive disorder: determinants, substrates, and treatment interventions. Depression and Anxiety, v. 30, n. 6, p. 515–527, 2013. DOI: 10.1002/da.22063.",
       },
       {
         label:
-          "BÉTRY, C.; ETIÉVANT, A.; OOSTERHOF, C.; EBERT, B.; SANCHEZ, C.; HADDJERI, N. Role of 5-HT3 receptors in the antidepressant response. Pharmaceuticals, v. 4, n. 4, p. 603–629, 2011. DOI: 10.3390/ph4040603. Disponível em: https://www.mdpi.com/1424-8247/4/4/603. Acesso em: 4 fev. 2026.",
-        href: "https://www.mdpi.com/1424-8247/4/4/603",
+          "LAM, R. W. et al. Cognitive dysfunction in major depressive disorder: effects on psychosocial functioning and implications for treatment. Canadian Journal of Psychiatry, v. 59, n. 12, p. 649–654, 2014. DOI: 10.1177/070674371405901206.",
       },
       {
         label:
-          "(Pano de fundo 5-HT1B/1D e triptanos em enxaqueca) TEPPER, S. J. et al. Mechanisms of action of the 5-HT1B/1D receptor agonists. Disponível em: https://pubmed.ncbi.nlm.nih.gov/12117355/. Acesso em: 4 fev. 2026.",
-        href: "https://pubmed.ncbi.nlm.nih.gov/12117355/",
+          "SANCHEZ, C. et al. Vortioxetine, a novel antidepressant with multimodal activity: review of preclinical and clinical data. Pharmacology & Therapeutics, v. 145, p. 43–57, 2015. DOI: 10.1016/j.pharmthera.2014.07.001.",
+      },
+      {
+        label:
+          "ALVAREZ, E. et al. A double-blind, randomized, placebo-controlled, active reference study of Lu AA21004 in patients with major depressive disorder. International Journal of Neuropsychopharmacology, v. 15, n. 5, p. 589–600, 2012. DOI: 10.1017/S1461145711001027.",
+      },
+      {
+        label:
+          "MAHABLESHWARKAR, A. R. et al. A randomized, placebo-controlled, active-reference, double-blind, flexible-dose study of the efficacy of vortioxetine on cognitive function in major depressive disorder. Neuropsychopharmacology, v. 40, n. 8, p. 2025–2037, 2015. DOI: 10.1038/npp.2015.52.",
+      },
+      {
+        label:
+          "DUBOVSKY, S. Pharmacokinetic evaluation of vortioxetine for the treatment of major depressive disorder. Expert Opinion on Drug Metabolism & Toxicology, v. 10, n. 5, p. 759–766, 2014. DOI: 10.1517/17425255.2014.904286.",
+      },
+      {
+        label:
+          "MCINTYRE, R. S. et al. Vortioxetine for the treatment of major depressive disorder: a meta-analysis of short-term and long-term efficacy and safety. CNS Spectrums, v. 21, n. 5, p. 421–433, 2016. DOI: 10.1017/S1092852916000584.",
+      },
+      {
+        label:
+          "HARRISON, J. E. et al. Cognitive function in major depressive disorder: a randomized, placebo-controlled study of vortioxetine (CONNECT study). International Journal of Neuropsychopharmacology, v. 21, n. 7, p. 628–636, 2018. DOI: 10.1093/ijnp/pyy040.",
+      },
+      {
+        label:
+          "TAKEDA PHARMACEUTICALS. TRINTELLIX® (vortioxetine) tablets: Full Prescribing Information. 2021. Disponível em: https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/204447s021s022lbl.pdf. Acesso em: 7 fev. 2026.",
+        href: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/204447s021s022lbl.pdf",
+      },
+      {
+        label:
+          "BOULENGER, J. P. et al. A randomized clinical study of Lu AA21004 in the prevention of relapse in patients with major depressive disorder. Journal of Psychopharmacology, v. 26, n. 11, p. 1408–1416, 2012. DOI: 10.1177/0269881112441866.",
+      },
+      {
+        label:
+          "ROTHSCHILD, A. J. et al. Efficacy of vortioxetine in patients with major depressive disorder and high levels of anxiety symptoms: a post hoc analysis of five randomized, placebo-controlled, acute studies. Journal of Psychiatric Research, v. 97, p. 57–63, 2018. DOI: 10.1016/j.jpsychires.2017.11.010.",
+      },
+      {
+        label:
+          "BALDWIN, D. S. et al. Efficacy of vortioxetine in generalized anxiety disorder: a meta-analysis. International Clinical Psychopharmacology, v. 33, n. 1, p. 1–9, 2018. DOI: 10.1097/YIC.0000000000000196.",
+      },
+      {
+        label:
+          "MAHABLESHWARKAR, A. R. et al. A randomized, double-blind, duloxetine-referenced study comparing efficacy and tolerability of 2 fixed doses of vortioxetine in the acute treatment of adults with MDD. Psychopharmacology, v. 232, n. 12, p. 2061–2070, 2015. DOI: 10.1007/s00213-014-3839-0.",
+      },
+      {
+        label:
+          "CONNOLLY, K. R.; THASE, M. E. Vortioxetine: a new treatment for major depressive disorder. Expert Opinion on Pharmacotherapy, v. 17, n. 3, p. 421–431, 2016. DOI: 10.1517/14656566.2016.1133588.",
+      },
+      {
+        label:
+          "CHEN, G. et al. Pharmacokinetics and pharmacodynamics of vortioxetine (Lu AA21004), a multimodal serotonin modulator, in healthy subjects. Clinical Pharmacokinetics, v. 57, n. 9, p. 1159–1170, 2018. DOI: 10.1007/s40262-017-0620-5.",
+      },
+      {
+        label:
+          "SANSONE, R. A.; SANSONE, L. A. Antidepressant adherence: are patients taking their medications? Innovations in Clinical Neuroscience, v. 9, n. 5–6, p. 41–46, 2012.",
+      },
+      {
+        label:
+          "CUIJPERS, P. et al. Adding psychotherapy to antidepressant medication in depression and anxiety disorders: a meta-analysis. World Psychiatry, v. 13, n. 1, p. 56–67, 2014. DOI: 10.1002/wps.20089.",
+      },
+      {
+        label:
+          "KARYOTAKI, E. et al. Combining pharmacotherapy and psychotherapy or monotherapy for major depression? A meta-analysis on the long-term effects. Journal of Affective Disorders, v. 194, p. 144–152, 2016. DOI: 10.1016/j.jad.2016.01.036.",
+      },
+      {
+        label:
+          "SCHUCH, F. B. et al. Exercise as a treatment for depression: a meta-analysis adjusting for publication bias. Journal of Psychiatric Research, v. 77, p. 42–51, 2016. DOI: 10.1016/j.jpsychires.2016.02.023.",
+      },
+      {
+        label:
+          "KANDOLA, A. et al. Physical activity and depression: towards understanding the antidepressant mechanisms of physical activity. Neuroscience & Biobehavioral Reviews, v. 107, p. 525–539, 2019. DOI: 10.1016/j.neubiorev.2019.09.040.",
+      },
+      {
+        label:
+          "RIEMANN, D. et al. Sleep, insomnia, and depression. Neuropsychopharmacology, v. 45, n. 1, p. 74–89, 2020. DOI: 10.1038/s41386-019-0411-y.",
+      },
+      {
+        label:
+          "SARRIS, J. et al. Nutritional medicine as mainstream in psychiatry. The Lancet Psychiatry, v. 2, n. 3, p. 271–274, 2015. DOI: 10.1016/S2215-0366(14)00051-0.",
+      },
+      {
+        label:
+          "THOITS, P. A. Mechanisms linking social ties and support to physical and mental health. Journal of Health and Social Behavior, v. 52, n. 2, p. 145–161, 2011. DOI: 10.1177/0022146510395592.",
+      },
+      {
+        label:
+          "STONE, M. et al. Risk of suicidality in clinical trials of antidepressants in adults: analysis of proprietary data submitted to US Food and Drug Administration. BMJ, v. 339, b2880, 2009. DOI: 10.1136/bmj.b2880.",
+      },
+      {
+        label:
+          "BOYER, E. W.; SHANNON, M. The serotonin syndrome. New England Journal of Medicine, v. 352, n. 11, p. 1112–1120, 2005. DOI: 10.1056/NEJMra041867.",
+      },
+      {
+        label:
+          "STAHL, S. M. Mechanism of action of vortioxetine: a multimodal antidepressant. CNS Spectrums, v. 20, n. 4, p. 364–368, 2015. DOI: 10.1017/S1092852915000462.",
+      },
+      {
+        label:
+          "BANG-ANDERSEN, B. et al. Discovery of 1-[2-(2,4-dimethylphenylsulfanyl)phenyl]piperazine (Lu AA21004): a novel multimodal compound for the treatment of major depressive disorder. Journal of Medicinal Chemistry, v. 54, n. 9, p. 3206–3221, 2011. DOI: 10.1021/jm101459g.",
+      },
+      {
+        label:
+          "BLIER, P.; DE MONTIGNY, C. Current advances and trends in the treatment of depression. Trends in Pharmacological Sciences, v. 15, n. 7, p. 220–226, 1994. DOI: 10.1016/0165-6147(94)90315-8.",
+      },
+      {
+        label:
+          "STENKRONA, P. et al. Dose occupancy study of the serotonin transporter and the 5-HT₁B and 5-HT₁A receptors with [¹¹C]MADAM and [¹¹C]AZ10419369 after a single oral dose of vortioxetine in healthy subjects. European Journal of Nuclear Medicine and Molecular Imaging, v. 40, n. 12, p. 1800–1806, 2013. DOI: 10.1007/s00259-013-2491-5.",
+      },
+      {
+        label:
+          "CELADA, P. et al. The therapeutic role of 5-HT₁A and 5-HT₂A receptors in depression. Journal of Psychiatry & Neuroscience, v. 29, n. 4, p. 252–265, 2004.",
+      },
+      {
+        label:
+          "ALBERT, P. R.; VAHID-ANSARI, F.; LUCKHART, C. Serotonin-prefrontal cortical circuitry in anxiety and depression phenotypes: pivotal role of pre- and post-synaptic 5-HT₁A receptor expression. Frontiers in Behavioral Neuroscience, v. 8, 199, 2014. DOI: 10.3389/fnbeh.2014.00199.",
+      },
+      {
+        label:
+          "MONTEJO, A. L. et al. Better sexual acceptability of agomelatine (25 and 50 mg) compared with paroxetine (20 mg) in healthy male volunteers: an 8-week, placebo-controlled study using the PRSEXDQ-SALSEX scale. Journal of Psychopharmacology, v. 24, n. 1, p. 111–120, 2010. DOI: 10.1177/0269881108099418.",
+      },
+      {
+        label:
+          "THOMPSON, A. J.; LUMMIS, S. C. R. 5-HT₃ receptors. Current Pharmaceutical Design, v. 12, n. 28, p. 3615–3630, 2006. DOI: 10.2174/138161206778522006.",
+      },
+      {
+        label:
+          "DALE, E. et al. Vortioxetine disinhibits pyramidal cell function and enhances synaptic plasticity in the rat hippocampus. Journal of Psychopharmacology, v. 28, n. 10, p. 891–902, 2014. DOI: 10.1177/0269881114543719.",
+      },
+      {
+        label:
+          "HEDLUND, P. B. The 5-HT₇ receptor and disorders of the nervous system: an overview. Psychopharmacology, v. 206, n. 3, p. 345–354, 2009. DOI: 10.1007/s00213-009-1626-0.",
+      },
+      {
+        label:
+          "MNIE-FILALI, O. et al. Allosteric modulation of the effects of the 5-HT reuptake inhibitor escitalopram on the rat hippocampal synaptic plasticity. Neuroscience Letters, v. 395, n. 1, p. 23–27, 2006. DOI: 10.1016/j.neulet.2005.10.044.",
+      },
+      {
+        label:
+          "PEHRSON, A. L. et al. Vortioxetine dose-dependently reverses 5-HT depletion-induced deficits in spatial working and object recognition memory: a potential role for 5-HT₁A receptor agonism and 5-HT₃ receptor antagonism. European Neuropsychopharmacology, v. 26, n. 1, p. 160–171, 2016. DOI: 10.1016/j.euroneuro.2015.11.004.",
+      },
+      {
+        label:
+          "MCINTYRE, R. S. et al. The effect of vortioxetine on cognitive function in patients with major depressive disorder: a meta-analysis of three randomized controlled trials. International Journal of Neuropsychopharmacology, v. 19, n. 10, pyw055, 2016. DOI: 10.1093/ijnp/pyw055.",
+      },
+      {
+        label:
+          "STAHL, S. M. Stahl's Essential Psychopharmacology: Neuroscientific Basis and Practical Applications. 4. ed. Cambridge: Cambridge University Press, 2013.",
+      },
+      {
+        label:
+          "AREBERG, J. et al. A population pharmacokinetic meta-analysis of vortioxetine in healthy individuals and patients with major depressive disorder. Clinical Pharmacokinetics, v. 53, n. 11, p. 1007–1021, 2014. DOI: 10.1007/s40262-014-0172-5.",
+      },
+      {
+        label:
+          "AUSTRALIAN GOVERNMENT — THERAPEUTIC GOODS ADMINISTRATION (TGA). Brintellix (vortioxetine hydrobromide): Australian Product Information. 2014. Disponível em: https://www.tga.gov.au/. Acesso em: 7 fev. 2026.",
+        href: "https://www.tga.gov.au/",
+      },
+      {
+        label:
+          "CHEN, G. et al. The effect of cytochrome P450 (CYP) 2D6 genotypes on the pharmacokinetics of vortioxetine in healthy subjects. British Journal of Clinical Pharmacology, v. 84, n. 10, p. 2301–2313, 2018. DOI: 10.1111/bcp.13672.",
+      },
+      {
+        label:
+          "HVENEGAARD, M. G. et al. Identification of the human cytochrome P450 and UDP-glucuronosyltransferase enzymes involved in the metabolism of vortioxetine. Drug Metabolism and Disposition, v. 40, n. 7, p. 1357–1365, 2012. DOI: 10.1124/dmd.112.045096.",
+      },
+      {
+        label:
+          "WANG, G. et al. The effect of CYP2D6 polymorphisms on the pharmacokinetics of vortioxetine in Chinese healthy subjects. Journal of Clinical Pharmacy and Therapeutics, v. 42, n. 5, p. 560–566, 2017. DOI: 10.1111/jcpt.12544.",
+      },
+      {
+        label:
+          "KATONA, C. et al. Vortioxetine in elderly patients with major depressive disorder: a randomized, double-blind, placebo-controlled study. American Journal of Geriatric Psychiatry, v. 27, n. 2, p. 131–141, 2019. DOI: 10.1016/j.jagp.2018.09.013.",
+      },
+      {
+        label:
+          "BALDWIN, D. S. et al. A pooled analysis of the safety and tolerability of vortioxetine in patients with major depressive disorder. CNS Spectrums, v. 21, n. 4, p. 317–326, 2016. DOI: 10.1017/S1092852916000316.",
+      },
+      {
+        label:
+          "JACOBSEN, P. L. et al. A randomized, double-blind, placebo-controlled study of the efficacy and safety of vortioxetine 10 mg and 20 mg in adults with major depressive disorder. Journal of Clinical Psychiatry, v. 76, n. 5, p. 575–582, 2015. DOI: 10.4088/JCP.14m09335.",
+      },
+      {
+        label:
+          "MEEKER, A. S. et al. Vortioxetine for the treatment of major depressive disorder: a comprehensive review of the clinical literature. CNS Drugs, v. 29, n. 10, p. 811–823, 2015. DOI: 10.1007/s40263-015-0282-7.",
+      },
+      {
+        label:
+          "THASE, M. E. et al. Efficacy and safety of vortioxetine (Lu AA21004) in major depressive disorder: results of two short-term, randomized, double-blind, placebo-controlled trials. International Journal of Neuropsychopharmacology, v. 16, n. 9, p. 2097–2109, 2013. DOI: 10.1017/S1461145713000552.",
+      },
+      {
+        label:
+          "CLAYTON, A. H. et al. Sexual dysfunction associated with major depressive disorder and antidepressant treatment. Expert Opinion on Drug Safety, v. 13, n. 10, p. 1361–1374, 2014. DOI: 10.1517/14740338.2014.951324.",
+      },
+      {
+        label:
+          "MONTEJO, A. L. et al. Sexual dysfunction with antidepressant treatment: comparison of vortioxetine with selective serotonin reuptake inhibitors. Journal of Clinical Psychopharmacology, v. 39, n. 5, p. 486–492, 2019. DOI: 10.1097/JCP.0000000000001088.",
+      },
+      {
+        label:
+          "BALDWIN, D. S. et al. Discontinuation symptoms in depression and anxiety disorders. International Journal of Neuropsychopharmacology, v. 10, n. 1, p. 73–84, 2007. DOI: 10.1017/S1461145705006358.",
+      },
+      {
+        label:
+          "FAVA, G. A. et al. Withdrawal symptoms after selective serotonin reuptake inhibitor discontinuation: a systematic review. Psychotherapy and Psychosomatics, v. 84, n. 2, p. 72–81, 2015. DOI: 10.1159/000370338.",
+      },
+      {
+        label:
+          "ANGLIN, R. et al. Risk of upper gastrointestinal bleeding with selective serotonin reuptake inhibitors with or without concurrent nonsteroidal anti-inflammatory use: a systematic review and meta-analysis. American Journal of Gastroenterology, v. 109, n. 6, p. 811–819, 2014. DOI: 10.1038/ajg.2014.82.",
+      },
+      {
+        label:
+          "ANDRADE, C. et al. Serotonin reuptake inhibitor antidepressants and abnormal bleeding: a review for clinicians and a reconsideration of mechanisms. Journal of Clinical Psychiatry, v. 71, n. 12, p. 1565–1575, 2010. DOI: 10.4088/JCP.09r05786blu.",
+      },
+      {
+        label:
+          "DE PICKER, L. et al. Antidepressants and the risk of hyponatremia: a class-by-class review of literature. Psychosomatics, v. 55, n. 6, p. 536–547, 2014. DOI: 10.1016/j.psym.2014.01.010.",
+      },
+      {
+        label:
+          "BUCKLEY, N. A. et al. Serotonin syndrome. BMJ, v. 348, g1626, 2014. DOI: 10.1136/bmj.g1626.",
+      },
+      {
+        label:
+          "PEET, M. Induction of mania with selective serotonin re-uptake inhibitors and tricyclic antidepressants. British Journal of Psychiatry, v. 164, n. 4, p. 549–550, 1994. DOI: 10.1192/bjp.164.4.549.",
+      },
+      {
+        label:
+          "COSTAGLIOLA, C. et al. Selective serotonin reuptake inhibitors: a review of its influence on intraocular pressure. Current Neuropharmacology, v. 6, n. 4, p. 293–310, 2008. DOI: 10.2174/157015908787386104.",
+      },
+      {
+        label:
+          "GIBBONS, R. D. et al. Suicidal thoughts and behavior with antidepressant treatment: reanalysis of the randomized placebo-controlled studies of fluoxetine and venlafaxine. Archives of General Psychiatry, v. 69, n. 6, p. 580–587, 2012. DOI: 10.1001/archgenpsychiatry.2011.2048.",
+      },
+      {
+        label:
+          "CHEN, G. et al. The effect of bupropion on the pharmacokinetics of vortioxetine: results from a phase I, randomized, crossover study in healthy subjects. Clinical Drug Investigation, v. 34, n. 10, p. 673–679, 2014. DOI: 10.1007/s40261-014-0221-3.",
+      },
+      {
+        label:
+          "WANG, S. M. et al. Vortioxetine: a review of efficacy, safety and tolerability with a focus on cognitive symptoms in major depressive disorder. Expert Opinion on Drug Safety, v. 14, n. 8, p. 1261–1271, 2015. DOI: 10.1517/14740338.2015.1046836.",
+      },
+      {
+        label:
+          "CHEN, G. et al. The effect of rifampicin on the pharmacokinetics of vortioxetine in healthy male subjects. Clinical Drug Investigation, v. 35, n. 8, p. 493–499, 2015. DOI: 10.1007/s40261-015-0305-9.",
+      },
+      {
+        label:
+          "GILLMAN, P. K. Monoamine oxidase inhibitors, opioid analgesics and serotonin toxicity. British Journal of Anaesthesia, v. 95, n. 4, p. 434–441, 2005. DOI: 10.1093/bja/aei210.",
+      },
+      {
+        label:
+          "STERNBACH, H. The serotonin syndrome. American Journal of Psychiatry, v. 148, n. 6, p. 705–713, 1991. DOI: 10.1176/ajp.148.6.705.",
+      },
+      {
+        label:
+          "WEATHERMON, R.; CRABB, D. W. Alcohol and medication interactions. Alcohol Research & Health, v. 23, n. 1, p. 40–54, 1999.",
+      },
+      {
+        label:
+          "CELADA, P. et al. Serotonin 5-HT₁A receptors as targets for agents to treat psychiatric disorders: rationale and current status of research. CNS Drugs, v. 27, n. 9, p. 703–716, 2013. DOI: 10.1007/s40263-013-0071-0.",
+      },
+      {
+        label:
+          "COHEN, L. S. et al. Relapse of major depression during pregnancy in women who maintain or discontinue antidepressant treatment. JAMA, v. 295, n. 5, p. 499–507, 2006. DOI: 10.1001/jama.295.5.499.",
+      },
+      {
+        label:
+          "AMERICAN PSYCHIATRIC ASSOCIATION. Practice Guideline for the Treatment of Patients with Major Depressive Disorder. 3. ed. Arlington, VA: APA, 2010.",
+      },
+      {
+        label:
+          "DRUGBANK. Vortioxetine (DB09068). Disponível em: https://www.drugbank.ca/drugs/DB09068. Acesso em: 7 fev. 2026.",
+        href: "https://www.drugbank.ca/drugs/DB09068",
+      },
+      {
+        label:
+          "BOULENGER, J. P. et al. Efficacy and safety of vortioxetine versus duloxetine in the acute treatment of major depressive disorder: a randomized, double-blind study. International Clinical Psychopharmacology, v. 29, n. 3, p. 138–144, 2014. DOI: 10.1097/YIC.0000000000000017.",
       },
     ],
   },
@@ -2743,7 +3314,9 @@ export default function MedicamentosHub() {
             <section key={section.title} className="meds-section">
               <h4>{section.title}</h4>
               {section.paragraphs?.map((text, index) => (
-                <p key={index}>{text}</p>
+                <p key={index} style={{ whiteSpace: "pre-line" }}>
+                  {text}
+                </p>
               ))}
               {section.bullets ? (
                 <ul>
