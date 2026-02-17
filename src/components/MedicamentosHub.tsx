@@ -2136,6 +2136,147 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
     ],
   },
   {
+    id: "lurasidona",
+    name: "Lurasidona (Latuda®)",
+    className: "Antipsicóticos",
+    category: "Farmacologia",
+    summary:
+      "A lurasidona é um antipsicótico atípico (segunda geração) com perfil receptor “limpo”, baixa afinidade histaminérgica/muscarínica e bom perfil metabólico.",
+    sections: [
+      {
+        title: "Lurasidona (Latuda®)",
+        paragraphs: [
+          `A lurasidona é um antipsicótico atípico (segunda geração) da classe dos derivados benzoisotiazólicos. Destaca-se no cenário psicofarmacológico por seu perfil de ligação receptor “limpo” (baixa afinidade histaminérgica e muscarínica), o que lhe confere um perfil metabólico favorável e benefícios cognitivos potenciais.`,
+          `A lurasidona foi desenvolvida com o objetivo de manter a eficácia antipsicótica enquanto minimiza os efeitos adversos metabólicos (ganho de peso, dislipidemia) e cardiovasculares comuns em outros atípicos. Na prática clínica, ela ocupa um lugar de destaque no tratamento da Depressão Bipolar, sendo uma das poucas opções de primeira linha ("Tier 1") para essa fase do transtorno.`,
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "Aprovada pelo FDA nos EUA em 2010 para esquizofrenia e em 2013 para depressão bipolar, a lurasidona chegou ao mercado como uma resposta à necessidade de tratamentos que não induzissem a “Síndrome Metabólica” associada a drogas como olanzapina e quetiapina.",
+          "No Brasil, é comercializada sob o nome de referência Latuda®.",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica (on-label) e usos discutidos (off-label)",
+        paragraphs: ["Indicações aprovadas (on-label) – visão geral (FDA/Anvisa)"],
+        bullets: [
+          "Esquizofrenia: tratamento de adolescentes (13-17 anos) e adultos.",
+          "Depressão Bipolar (Tipo I): aprovada tanto em monoterapia quanto como terapia adjuvante (associada a lítio ou valproato). É considerada uma das terapias padrão-ouro para episódios depressivos agudos no transtorno bipolar.",
+        ],
+      },
+      {
+        title: "Usos discutidos na prática (off-label) — sem aprovação regulatória",
+        bullets: [
+          "Depressão Unipolar Resistente: uso como estratégia de potencialização de antidepressivos em TDM que não responde à monoterapia convencional.",
+          "Transtorno de Personalidade Borderline: utilizada para manejo de desregulação emocional e raiva, especialmente em pacientes que não podem ganhar peso, embora a evidência seja menos robusta que para outros antipsicóticos.",
+          "Irritabilidade no Autismo: estudada, mas geralmente reservada para quando risperidona ou aripiprazol não são tolerados.",
+          "Observação editorial: o uso off-label deve ser sempre pautado em decisão clínica individualizada e revisão da literatura vigente.",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "3.1 Antagonismo Dopaminérgico e Serotoninérgico (O núcleo atípico)",
+          "Como outros atípicos, a lurasidona é um antagonista potente de D2 (dopamina) e 5-HT2A (serotonina). A alta afinidade por D2 explica sua eficácia antipsicótica robusta, enquanto o bloqueio 5-HT2A auxilia na mitigação de sintomas extrapiramidais e melhora de sintomas negativos.",
+          "3.2 Antagonismo 5-HT7 (O diferencial cognitivo e de humor)",
+          "A lurasidona possui uma afinidade muito alta (antagonista) pelos receptores 5-HT7. Estudos sugerem que o bloqueio deste receptor está envolvido na regulação do ritmo circadiano, melhora da memória/cognição e efeitos antidepressivos, sendo um dos trunfos da molécula para a depressão bipolar.",
+          "3.3 Agonismo Parcial 5-HT1A",
+          "Atua como agonista parcial nos receptores 5-HT1A (similar à buspirona e ao aripiprazol), contribuindo para efeitos ansiolíticos e reforçando a ação antidepressiva.",
+          "3.4 O que ela NÃO bloqueia (A vantagem metabólica)",
+          "Diferente da Quetiapina ou Olanzapina, a Lurasidona tem afinidade desprezível por:",
+          "H1 (Histamina): Resultando em baixa sedação e menor estímulo de apetite.",
+          "M1 (Muscarínico): Resultando em ausência de efeitos anticolinérgicos (boca seca severa, constipação, confusão mental).",
+        ],
+      },
+      {
+        title: "4) Comparativo Clínico: Lurasidona vs. Outros Antipsicóticos",
+        paragraphs: [
+          "Lurasidona vs. Antipsicóticos Típicos (ex: Haloperidol)",
+          "Vantagem: A lurasidona tem muito menos risco de discinesia tardia a longo prazo e atua melhor em sintomas negativos e afetivos da esquizofrenia.",
+          "Desvantagem: O custo da lurasidona é significativamente maior.",
+          "Lurasidona vs. Atípicos Sedativos (ex: Quetiapina, Olanzapina)",
+          "Peso e Metabolismo: A lurasidona é muito superior (\"metabolicamente neutra\"). Enquanto quetiapina e olanzapina frequentemente causam ganho de peso significativo e dislipidemia, a lurasidona geralmente mantém esses parâmetros estáveis.",
+          "Sedação: A lurasidona é muito menos sedativa. Pacientes que precisam de ajuda para dormir podem preferir a quetiapina; pacientes que precisam ficar alertas (\"funcionais\") durante o dia se beneficiam mais da lurasidona.",
+          "Depressão Bipolar: Ambas (lurasidona e quetiapina) funcionam, mas a lurasidona é frequentemente escolhida para evitar ganho de peso.",
+          "Lurasidona vs. Atípicos Ativadores (ex: Aripiprazol)",
+          "Perfil: Ambos são considerados \"metabolicamente amigáveis\" e menos sedativos.",
+          "Acatisia: Ambos têm risco relevante de acatisia (inquetação motora), sendo este o principal efeito colateral limitante de ambos.",
+          "Eficácia: A lurasidona tem dados mais robustos especificamente para Depressão Bipolar, enquanto o aripiprazol é frequentemente mais usado em Mania ou como adjuvante em depressão unipolar.",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME) – A \"Regra das Calorias\"",
+        paragraphs: [
+          "Absorção (Food Effect): A biodisponibilidade da lurasidona é dependente de alimento. Ela DEVE ser administrada com uma refeição de, no mínimo, 350 calorias.",
+          "Sem alimento: A absorção (AUC e Cmax) cai em cerca de 50%. Ou seja, tomar o remédio em jejum é o mesmo que tomar metade da dose, tornando o tratamento ineficaz.",
+          "Metabolismo: Exclusivamente via CYP3A4.",
+          "Meia-vida: Aproximadamente 18 horas (permite dose única diária).",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        paragraphs: ["6.1 Efeitos comuns (Práticos)"],
+        bullets: [
+          "Acatisia: É o efeito adverso mais problemático. Manifesta-se como uma inquietude interna, incapacidade de ficar parado e angústia. É dose-dependente e ocorre principalmente nas primeiras semanas.",
+          "Náusea: Comum no início, devido à ação serotoninérgica. Tomar com o jantar ajuda a mitigar.",
+          "Sonolência: Embora menos sedativa que outros, pode causar sonolência inicial.",
+        ],
+      },
+      {
+        title: "6.2 Alertas relevantes",
+        bullets: [
+          "Metabólico: Embora o risco seja baixo, o monitoramento de peso e glicose é padrão para qualquer antipsicótico.",
+          "Prolactina: Pode ocorrer elevação de prolactina (galactorreia/amenorreia), sendo mais comum que com aripiprazol ou quetiapina, mas menos que com risperidona.",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (Principais)",
+        paragraphs: ["Como é metabolizada pela CYP3A4, as interações são contraindicações formais em muitos casos:"],
+        bullets: [
+          "Inibidores Fortes da CYP3A4 (ex: Cetoconazol, Claritromicina, Ritonavir): aumentam drasticamente o nível de lurasidona no sangue. O uso concomitante é contraindicado.",
+          "Indutores Fortes da CYP3A4 (ex: Rifampicina, Carbamazepina, Fenitoína): reduzem o nível de lurasidona, anulando o efeito terapêutico. O uso concomitante é contraindicado.",
+          "Suco de Toranja (Grapefruit): deve ser evitado.",
+        ],
+      },
+      {
+        title: "8) Um resumo “em uma frase”",
+        paragraphs: [
+          "A lurasidona é um antipsicótico de \"perfil receptor limpo\" (sem bloqueio histaminérgico/muscarínico), sendo a escolha preferencial para depressão bipolar e esquizofrenia quando se deseja evitar ganho de peso e sedação excessiva, desde que o paciente cumpra rigorosamente a ingestão com 350 calorias.",
+        ],
+      },
+      {
+        title: "9) Curiosidade (para deixar o texto “vivo” no site)",
+        paragraphs: [
+          "Por que exatamente 350 calorias?",
+          "Não se trata apenas de \"forrar o estômago\". A lurasidona é uma molécula lipofílica (gosta de gordura). As 350 calorias garantem a liberação de bile e alterações no pH gástrico necessárias para solubilizar a droga. Uma maçã ou um café com bolacha não são suficientes. Se o paciente relata que \"o remédio parou de funcionar\", a primeira pergunta clínica deve ser: \"Você parou de jantar ou começou uma dieta restritiva?\". A falha terapêutica na lurasidona é, muitas vezes, uma falha calórica.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "U.S. FOOD AND DRUG ADMINISTRATION (FDA). LATUDA (lurasidone hydrochloride) tablets – prescribing information. (Revised 12/2020). Disponível em: Drugs@FDA. Acesso em: fev. 2026.",
+      },
+      {
+        label:
+          "STAHL, S. M. Stahl's Essential Psychopharmacology: Neuroscientific Basis and Practical Applications. 4. ed. New York: Cambridge University Press, 2013.",
+      },
+      {
+        label:
+          "LOEBEL, A. et al. Efficacy and safety of lurasidone in the treatment of bipolar depression. American Journal of Psychiatry, v. 171, n. 2, p. 160-168, 2014.",
+      },
+      {
+        label:
+          "MEYER, J. M. Lurasidone: a new drug for the treatment of schizophrenia. Expert Opinion on Pharmacotherapy, v. 12, n. 16, p. 2567-2576, 2011.",
+      },
+      {
+        label:
+          "CITROME, L. Lurasidone for schizophrenia and bipolar depression: a review of the efficacy and safety profile for this newly approved second-generation antipsychotic. International Journal of Clinical Practice, v. 67, n. 12, p. 1240-1249, 2013.",
+      },
+    ],
+  },
+  {
     id: "desvenlafaxina",
     name: "Desvenlafaxina (Pristiq®, Khedezla®, Ixefo®)",
     className: "Antidepressivos",
