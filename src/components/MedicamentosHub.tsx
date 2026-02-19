@@ -3513,57 +3513,65 @@ export default function MedicamentosHub() {
             <p>{selected.summary}</p>
           </header>
 
-          {selected.sections.length > 1 ? (
-            <nav className="meds-index">
-              <p>Índice</p>
-              <div className="meds-index__list">
-                {selected.sections.map((section, index) => (
-                  <a key={`${section.title}-${index}`} href={`#${sectionAnchor(section.title, index)}`}>
-                    {section.title}
-                  </a>
-                ))}
-              </div>
-            </nav>
-          ) : null}
-
-          {selected.sections.map((section, index) => (
-            <section
-              id={sectionAnchor(section.title, index)}
-              key={`${section.title}-${index}`}
-              className="meds-section"
-            >
-              <h4>{section.title}</h4>
-              {section.paragraphs?.map((text, index) => (
-                <p key={index} style={{ whiteSpace: "pre-line" }}>
-                  {text}
-                </p>
-              ))}
-              {section.bullets ? (
-                <ul>
-                  {section.bullets.map((bullet) => (
-                    <li key={bullet}>{bullet}</li>
+          <div
+            className={
+              selected.sections.length > 1 ? "meds-article__body meds-article__body--with-index" : "meds-article__body"
+            }
+          >
+            <div className="meds-content">
+              {selected.sections.map((section, index) => (
+                <section
+                  id={sectionAnchor(section.title, index)}
+                  key={`${section.title}-${index}`}
+                  className="meds-section"
+                >
+                  <h4>{section.title}</h4>
+                  {section.paragraphs?.map((text, index) => (
+                    <p key={index} style={{ whiteSpace: "pre-line" }}>
+                      {text}
+                    </p>
                   ))}
-                </ul>
-              ) : null}
-            </section>
-          ))}
-
-          <section className="meds-section">
-            <h4>Referências (ABNT – NBR 6023:2018)</h4>
-            <ol>
-              {selected.references.map((ref, index) => (
-                <li key={`${ref.label}-${index}`}>
-                  {ref.href ? (
-                    <a href={ref.href} target="_blank" rel="noreferrer">
-                      {ref.label}
-                    </a>
-                  ) : (
-                    ref.label
-                  )}
-                </li>
+                  {section.bullets ? (
+                    <ul>
+                      {section.bullets.map((bullet) => (
+                        <li key={bullet}>{bullet}</li>
+                      ))}
+                    </ul>
+                  ) : null}
+                </section>
               ))}
-            </ol>
-          </section>
+
+              <section className="meds-section">
+                <h4>Referências (ABNT – NBR 6023:2018)</h4>
+                <ol>
+                  {selected.references.map((ref, index) => (
+                    <li key={`${ref.label}-${index}`}>
+                      {ref.href ? (
+                        <a href={ref.href} target="_blank" rel="noreferrer">
+                          {ref.label}
+                        </a>
+                      ) : (
+                        ref.label
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            </div>
+
+            {selected.sections.length > 1 ? (
+              <aside className="meds-index meds-index--side">
+                <p>Índice</p>
+                <div className="meds-index__list">
+                  {selected.sections.map((section, index) => (
+                    <a key={`${section.title}-${index}`} href={`#${sectionAnchor(section.title, index)}`}>
+                      {section.title}
+                    </a>
+                  ))}
+                </div>
+              </aside>
+            ) : null}
+          </div>
         </article>
       ) : (
         <div className="meds-article meds-article--full">

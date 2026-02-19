@@ -29,6 +29,13 @@ function cleanLine(line) {
     .trim();
 }
 
+function normalizeSectionTitle(title) {
+  if (/^8\.1\s+Com\s+ou\s+sem\s+alimentos$/i.test(title)) {
+    return "8.1 Interação com a dieta";
+  }
+  return title;
+}
+
 function parseDocx(filePath) {
   const fileName = path.basename(filePath);
   const displayName = fileName.replace(/\.docx$/i, "").normalize("NFC").trim();
@@ -51,7 +58,7 @@ function parseDocx(filePath) {
         if (!current.bullets.length) delete current.bullets;
         sections.push(current);
       }
-      current = { title: line, paragraphs: [], bullets: [] };
+      current = { title: normalizeSectionTitle(line), paragraphs: [], bullets: [] };
       continue;
     }
 
