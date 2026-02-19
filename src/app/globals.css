@@ -637,6 +637,9 @@ a{color:inherit;text-decoration:none}
 
 .meds-content{
   min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
 }
 
 .meds-index--side{
