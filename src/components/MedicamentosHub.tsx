@@ -1,6 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import bibliotecaPostsData from "@/data/bibliotecaMedicamentos.json";
 
 type Section = {
   title: string;
@@ -3345,6 +3347,7 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
 
 const themes = [
   "Todos",
+  "Antimicrobianos",
   "Antidepressivos",
   "Anti-histamínicos",
   "Anticoagulantes",
@@ -3357,14 +3360,27 @@ const themes = [
 const getBlockKey = (post: Post): BlockKey =>
   post.category === "Uso hospitalar" ? "bulasTecnicas" : "farmacologiaReview";
 
+const allPosts: Post[] = [...posts, ...(bibliotecaPostsData as Post[])];
+
+function sectionAnchor(title: string, index: number) {
+  const slug = title
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  return `sec-${index + 1}-${slug || "topico"}`;
+}
+
 export default function MedicamentosHub() {
+  const searchParams = useSearchParams();
   const [query, setQuery] = useState("");
   const [theme, setTheme] = useState("Todos");
   const [selectedId, setSelectedId] = useState("");
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return posts
+    return allPosts
       .filter((post) => {
         const themeOk = theme === "Todos" ? true : post.className === theme;
         const queryOk =
@@ -3377,7 +3393,10 @@ export default function MedicamentosHub() {
       .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
   }, [query, theme]);
 
-  const selected = posts.find((post) => post.id === selectedId) ?? null;
+  const selectedIdFromUrl = searchParams.get("id") ?? "";
+  const effectiveSelectedId =
+    selectedId || (allPosts.some((post) => post.id === selectedIdFromUrl) ? selectedIdFromUrl : "");
+  const selected = allPosts.find((post) => post.id === effectiveSelectedId) ?? null;
 
   const filteredByBlock = useMemo(() => {
     const grouped: Record<BlockKey, Post[]> = {
@@ -3395,7 +3414,7 @@ export default function MedicamentosHub() {
   const dropdownOptions = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (q.length < 2) return [];
-    return posts.filter((post) => post.name.toLowerCase().includes(q)).slice(0, 6);
+    return allPosts.filter((post) => post.name.toLowerCase().includes(q)).slice(0, 6);
   }, [query]);
 
   return (
@@ -3494,8 +3513,25 @@ export default function MedicamentosHub() {
             <p>{selected.summary}</p>
           </header>
 
-          {selected.sections.map((section) => (
-            <section key={section.title} className="meds-section">
+          {selected.sections.length > 1 ? (
+            <nav className="meds-index">
+              <p>Índice</p>
+              <div className="meds-index__list">
+                {selected.sections.map((section, index) => (
+                  <a key={`${section.title}-${index}`} href={`#${sectionAnchor(section.title, index)}`}>
+                    {section.title}
+                  </a>
+                ))}
+              </div>
+            </nav>
+          ) : null}
+
+          {selected.sections.map((section, index) => (
+            <section
+              id={sectionAnchor(section.title, index)}
+              key={`${section.title}-${index}`}
+              className="meds-section"
+            >
               <h4>{section.title}</h4>
               {section.paragraphs?.map((text, index) => (
                 <p key={index} style={{ whiteSpace: "pre-line" }}>

@@ -14,6 +14,27 @@ const upToDateLinks: Record<string, string> = {
     "https://www.uptodate.com/contents/oxacillin-drug-information?search=oxacilina&source=panel_search_result&selectedTitle=1~76&usage_type=panel&kp_tab=drug_general&display_rank=1",
 };
 
+const medicamentoTecnicoIds: Record<string, string> = {
+  oxacilina: "bula-oxacilina",
+  "amoxicilina-clavulanato": "bula-amoxicilina-e-clavulanato",
+  "ampicilina-sulbactam": "bula-ampicilina-e-sulbactam",
+  cefazolina: "bula-cefazolina",
+  cefuroxima: "bula-cefuroxima",
+  ceftriaxona: "bula-ceftriaxona",
+  cefepime: "bula-cefepime",
+  ceftarolina: "bula-ceftarolina",
+  clindamicina: "bula-clindamicina",
+  "acido fusidico": "bula-acido-fusidico",
+  gentamicina: "bula-gentamicina",
+  amicacina: "bula-amicacina",
+  ciprofloxacino: "bula-ciprofloxacino",
+  levofloxacino: "bula-levofloxacino",
+  moxifloxacino: "bula-moxifloxacino",
+  vancomicina: "bula-vancomicina",
+  linezolida: "bula-linezolida",
+  daptomicina: "bula-daptomicina",
+};
+
 const entries: Entry[] = [
   {
     bacteria: "Staphylococcus aureus sensível à meticilina (MSSA)",
@@ -302,19 +323,38 @@ function getUpToDateLink(name: string) {
   return upToDateLinks[normalize(name)];
 }
 
+function getMedicamentoLink(name: string) {
+  const base = normalize(name.replace(/\([^)]*\)/g, ""));
+  const id = medicamentoTecnicoIds[base];
+  return id ? `/medicamentos?id=${id}` : undefined;
+}
+
 function renderAntibioticLabel(name: string) {
-  const link = getUpToDateLink(name);
-  if (!link) return name;
+  const localLink = getMedicamentoLink(name);
+  const upToDateLink = getUpToDateLink(name);
+  if (!localLink && !upToDateLink) return <span className="espectro-tag espectro-tag--ok">{name}</span>;
+
   return (
-    <a
-      href={link}
-      target="_blank"
-      rel="noreferrer"
-      className="espectro-tag espectro-tag--ok espectro-tag--link"
-      title="Link no UpToDate"
-    >
-      {name}
-    </a>
+    <span className="espectro-tagset">
+      {localLink ? (
+        <a href={localLink} className="espectro-tag espectro-tag--ok espectro-tag--link">
+          {name}
+        </a>
+      ) : (
+        <span className="espectro-tag espectro-tag--ok">{name}</span>
+      )}
+      {upToDateLink ? (
+        <a
+          href={upToDateLink}
+          target="_blank"
+          rel="noreferrer"
+          className="espectro-tag espectro-tag--outline espectro-tag--link"
+          title="Abrir referência no UpToDate"
+        >
+          UpToDate
+        </a>
+      ) : null}
+    </span>
   );
 }
 
@@ -406,13 +446,7 @@ export default function EspectroAntimicrobianosTool() {
               <span className="espectro-branch__label">Cobre:</span>
               <div className="espectro-tags">
                 {result.items.map((item) => (
-                  <span key={item}>
-                    {getUpToDateLink(item) ? (
-                      renderAntibioticLabel(item)
-                    ) : (
-                      <span className="espectro-tag espectro-tag--ok">{item}</span>
-                    )}
-                  </span>
+                  <span key={item}>{renderAntibioticLabel(item)}</span>
                 ))}
               </div>
             </div>
@@ -422,19 +456,7 @@ export default function EspectroAntimicrobianosTool() {
         {result?.type === "antibiotic" ? (
           <div className="espectro-tree">
             <div className="espectro-node espectro-node--antibiotic">
-              {getUpToDateLink(result.title) ? (
-                <a
-                  href={getUpToDateLink(result.title)}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="espectro-tag espectro-tag--ok espectro-tag--link"
-                  title="Link no UpToDate"
-                >
-                  {result.title}
-                </a>
-              ) : (
-                result.title
-              )}
+              {renderAntibioticLabel(result.title)}
             </div>
             <div className="espectro-branch">
               <span className="espectro-branch__label">Cobre:</span>
@@ -485,8 +507,8 @@ export default function EspectroAntimicrobianosTool() {
 
         {(result?.type === "bacteria" || result?.type === "antibiotic") && (
           <p className="espectro-note">
-            Ao clicar no nome do medicamento, você será redirecionado ao UpToDate.
-            É necessário ter assinatura ativa ou login institucional.
+            Clique no nome do antimicrobiano para abrir a ficha técnica em Medicamentos.
+            Quando disponível, o botão UpToDate abre a referência externa (requer assinatura/login institucional).
           </p>
         )}
       </div>
