@@ -23,6 +23,21 @@ type Post = {
   references: Reference[];
 };
 
+type BlockKey = "farmacologiaReview" | "bulasTecnicas";
+
+const blockDefinitions: { key: BlockKey; title: string; emptyText: string }[] = [
+  {
+    key: "farmacologiaReview",
+    title: "Farmacologia e review",
+    emptyText: "Nenhum medicamento encontrado neste bloco com os filtros atuais.",
+  },
+  {
+    key: "bulasTecnicas",
+    title: "Bulas, indicações e dados técnicos",
+    emptyText: "Sem medicamentos cadastrados neste bloco no momento.",
+  },
+];
+
 const posts: Post[] = [
   {
     id: "vortioxetina",
@@ -3339,6 +3354,9 @@ const themes = [
   "Incretínicos",
 ];
 
+const getBlockKey = (post: Post): BlockKey =>
+  post.category === "Uso hospitalar" ? "bulasTecnicas" : "farmacologiaReview";
+
 export default function MedicamentosHub() {
   const [query, setQuery] = useState("");
   const [theme, setTheme] = useState("Todos");
@@ -3360,6 +3378,19 @@ export default function MedicamentosHub() {
   }, [query, theme]);
 
   const selected = posts.find((post) => post.id === selectedId) ?? null;
+
+  const filteredByBlock = useMemo(() => {
+    const grouped: Record<BlockKey, Post[]> = {
+      farmacologiaReview: [],
+      bulasTecnicas: [],
+    };
+
+    filtered.forEach((post) => {
+      grouped[getBlockKey(post)].push(post);
+    });
+
+    return grouped;
+  }, [filtered]);
 
   const dropdownOptions = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -3426,17 +3457,29 @@ export default function MedicamentosHub() {
       </div>
 
       {!selected ? (
-        <div className="meds-available">
-          <p>Disponíveis agora:</p>
-          <ul>
-            {filtered.map((post) => (
-              <li key={post.id}>
-                <button type="button" onClick={() => setSelectedId(post.id)}>
-                  {post.name}
-                </button>
-              </li>
-            ))}
-          </ul>
+        <div className="meds-blocks">
+          {blockDefinitions.map((block) => (
+            <section key={block.key} className="meds-block">
+              <div className="meds-block__header">
+                <p>{block.title}</p>
+                <span>{filteredByBlock[block.key].length}</span>
+              </div>
+
+              {filteredByBlock[block.key].length > 0 ? (
+                <ul>
+                  {filteredByBlock[block.key].map((post) => (
+                    <li key={post.id}>
+                      <button type="button" onClick={() => setSelectedId(post.id)}>
+                        {post.name}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="meds-block__empty">{block.emptyText}</p>
+              )}
+            </section>
+          ))}
         </div>
       ) : null}
 
