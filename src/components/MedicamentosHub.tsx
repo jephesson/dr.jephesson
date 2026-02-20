@@ -30,6 +30,7 @@ type Post = {
 };
 
 type BlockKey = "farmacologiaReview" | "bulasTecnicas";
+type BulletGroup = { heading?: string; items: string[] };
 
 const blockDefinitions: { key: BlockKey; title: string; emptyText: string }[] = [
   {
@@ -3376,6 +3377,47 @@ function sectionAnchor(title: string, index: number) {
   return `sec-${index + 1}-${slug || "topico"}`;
 }
 
+function isLikelyBulletSubheading(text: string) {
+  const value = text.trim();
+  if (!value) return false;
+
+  if (/:$/.test(value)) return true;
+  if (/[.;]$/.test(value)) return false;
+  if (/^\d/.test(value)) return false;
+  if (/[=<>→]/.test(value)) return false;
+  if (/\b(q\d+h|mg|g|mcg|ug|ml|mL|ui|kg|h)\b/i.test(value) && /\d/.test(value)) return false;
+
+  const words = value.split(/\s+/).length;
+  return words <= 14;
+}
+
+function groupBullets(bullets: string[]): BulletGroup[] {
+  const groups: BulletGroup[] = [];
+  let current: BulletGroup = { items: [] };
+
+  for (const bullet of bullets) {
+    if (isLikelyBulletSubheading(bullet)) {
+      if (current.heading || current.items.length) {
+        groups.push(current);
+      }
+      current = { heading: bullet.replace(/:\s*$/, ""), items: [] };
+      continue;
+    }
+    current.items.push(bullet);
+  }
+
+  if (current.heading || current.items.length) {
+    groups.push(current);
+  }
+
+  const hasHeading = groups.some((group) => group.heading);
+  if (!hasHeading) {
+    return [{ items: bullets }];
+  }
+
+  return groups;
+}
+
 export default function MedicamentosHub() {
   const searchParams = useSearchParams();
   const [query, setQuery] = useState("");
@@ -3536,11 +3578,38 @@ export default function MedicamentosHub() {
                     </p>
                   ))}
                   {section.bullets ? (
-                    <ul>
-                      {section.bullets.map((bullet) => (
-                        <li key={bullet}>{bullet}</li>
-                      ))}
-                    </ul>
+                    (() => {
+                      const groupedBullets = groupBullets(section.bullets);
+                      const hasGroupedHeadings =
+                        groupedBullets.length > 1 && groupedBullets.some((group) => group.heading);
+
+                      if (!hasGroupedHeadings) {
+                        return (
+                          <ul>
+                            {section.bullets.map((bullet, bulletIndex) => (
+                              <li key={`${section.title}-bullet-${bulletIndex}`}>{bullet}</li>
+                            ))}
+                          </ul>
+                        );
+                      }
+
+                      return (
+                        <div className="meds-bullet-groups">
+                          {groupedBullets.map((group, groupIndex) => (
+                            <div key={`${section.title}-group-${groupIndex}`} className="meds-bullet-group">
+                              {group.heading ? <p className="meds-bullet-heading">{group.heading}</p> : null}
+                              {group.items.length ? (
+                                <ul>
+                                  {group.items.map((item, itemIndex) => (
+                                    <li key={`${section.title}-group-${groupIndex}-item-${itemIndex}`}>{item}</li>
+                                  ))}
+                                </ul>
+                              ) : null}
+                            </div>
+                          ))}
+                        </div>
+                      );
+                    })()
                   ) : null}
                   {section.tables?.map((table, tableIndex) => (
                     <div key={`${section.title}-table-${tableIndex}`} className="meds-table-wrap">
