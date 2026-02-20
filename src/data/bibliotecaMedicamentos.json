@@ -4,7 +4,7 @@
     "name": "Ácido fusídico",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Indicado para infecções estafilocócicas por microrganismos sensíveis, incluindo (exemplos citados no SmPC):",
+    "summary": "Antibiótico com atividade predominante contra Staphylococcus spp., incluindo muitas cepas de S. aureus (o espectro é mais “antiestafilocócico” do que amplo).",
     "sections": [
       {
         "title": "1) Nome do fármaco",
@@ -295,11 +295,10 @@
         "title": "6.2 Pediatria — dose por faixa etária/peso",
         "paragraphs": [
           "Preferir intervalo estendido (do trecho):",
-          "Convencional:",
           "Indicações pediátricas do trecho (exemplos):"
         ],
         "bullets": [
-          "15–30 mg/kg/dose q24h (IV/IM) (pode precisar mais em críticos/CF/queimados/MIC≥4)",
+          "15–30 mg/kg/dose q24h (IV/IM) (pode precisar mais em críticos/CF/queimados/MIC≥4)Convencional:",
           "15–22,5 mg/kg/dia dividido q8–12h",
           "Meningite: 20–30 mg/kg/dia dividido q8h",
           "Fibrose cística exacerbação: 30–35 mg/kg/dose q24h (até 40 mg/kg se MIC≥8)",
@@ -333,9 +332,7 @@
           "Convencional (adulto, opinião derivada no texto):",
           "Hemodiálise intermitente (adulto):",
           "DP (adulto IV/IM):",
-          "Peritonite em DP (intraperitoneal): ver seção 6.1",
           "CRRT (adulto):",
-          "PIRRT: 15–25 mg/kg q48h; administrar 30–60 min antes da sessão no dia de PIRRT",
           "Pediatria – ajuste por GFR (baseado em 5–7,5 mg/kg q8h):"
         ],
         "bullets": [
@@ -348,8 +345,8 @@
           "20–<40 → 5–7,5 mg/kg q24h",
           "<20 → 5–7,5 mg/kg uma vez; depois por níveis",
           "5–12,5 mg/kg/dose 3x/semana após diálise; redosar conforme níveis (alvos no trecho)",
-          "5–12,5 mg/kg/dose q48–72h, ajustar por níveis",
-          "CVVH/CVVHD/CVVHDF: 15–25 mg/kg q48h (ajustar por níveis)",
+          "5–12,5 mg/kg/dose q48–72h, ajustar por níveisPeritonite em DP (intraperitoneal): ver seção 6.1",
+          "CVVH/CVVHD/CVVHDF: 15–25 mg/kg q48h (ajustar por níveis)PIRRT: 15–25 mg/kg q48h; administrar 30–60 min antes da sessão no dia de PIRRT",
           "GFR >50: sem ajuste",
           "30–50: q12–18h",
           "10–29: q18–24h",
@@ -421,12 +418,9 @@
       },
       {
         "title": "9.3 Eventos que exigem suspensão imediata",
-        "paragraphs": [
-          "→ descontinuar ou ajustar dose"
-        ],
         "bullets": [
           "Evidência de ototoxicidade (tontura/vertigem/tinnitus/perda auditiva)",
-          "Evidência de nefrotoxicidade (piora renal)"
+          "Evidência de nefrotoxicidade (piora renal)→ descontinuar ou ajustar dose"
         ]
       },
       {
@@ -603,7 +597,7 @@
     "name": "Amoxicilina e Clavulanato",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Amoxicillin and clavulanate: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026.",
+    "summary": "Canadá: Clavulin (e variações), além de diversos genéricos (ex.: APO-, AURO-, SANDOZ, JAMP-, PRO- etc.).",
     "sections": [
       {
         "title": "1. Identificação"
@@ -1062,7 +1056,7 @@
     "name": "Ampicilina e Sulbactam",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Ampicillin and sulbactam: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026.",
+    "summary": "Ampicilina/sulbactam combina atividade da ampicilina com o bloqueio de beta-lactamases pelo sulbactam, ampliando cobertura contra alguns produtores de beta-lactamase e anaeróbios em vários cenários clínicos.",
     "sections": [
       {
         "title": "1. Identificação"
@@ -1220,26 +1214,6 @@
         "title": "7.1 Insuficiência renal / diálises (adulto)",
         "paragraphs": [
           "Ajuste para dose “padrão” (infusão tradicional ≤30 min):",
-          "ClCr (mL/min)",
-          "Se dose usual seria 1,5 g q6h",
-          "Se dose usual seria 3 g q6h",
-          "≥30",
-          "sem ajuste",
-          "sem ajuste",
-          "15–29",
-          "1,5 g q12h"
-        ]
-      },
-      {
-        "title": "3 g q12h",
-        "paragraphs": [
-          "<15",
-          "1,5 g q24h"
-        ]
-      },
-      {
-        "title": "3 g q24h",
-        "paragraphs": [
           "Hemodiálise intermitente (3x/semana):",
           "Diálise peritoneal:",
           "CRRT:",
@@ -1254,6 +1228,32 @@
           "Regra do trecho: dose de ataque 3 g, depois 1,5–3 g q8–12h, preferindo uma dose após a sessão quando possível; em dias sem PIRRT, ajustar como função renal muito baixa quando indicado.",
           "Há tabelas específicas (intermitente/estendida/contínua) no trecho com recomendações por ClCr, baseadas em modelagem PK/PD e opinião de especialistas (com ressalva de ausência de dados clínicos robustos).",
           "Se você quiser, eu posso transformar aquela tabela “dose alta” em uma tabela limpa em português (sem copiar), mas ela é longa."
+        ],
+        "tables": [
+          {
+            "headers": [
+              "ClCr (mL/min)",
+              "Se dose usual seria 1,5 g q6h",
+              "Se dose usual seria 3 g q6h"
+            ],
+            "rows": [
+              [
+                "≥30",
+                "sem ajuste",
+                "sem ajuste"
+              ],
+              [
+                "15–29",
+                "1,5 g q12h",
+                "3 g q12h"
+              ],
+              [
+                "<15",
+                "1,5 g q24h",
+                "3 g q24h"
+              ]
+            ]
+          }
         ]
       },
       {
@@ -1396,7 +1396,7 @@
     "name": "Bilastina",
     "className": "Anti-histamínicos",
     "category": "Uso hospitalar",
-    "summary": "APO-Bilastine; AURO-Bilastine; Blexten; GLN-Bilastine; JAMP-Bilastine; M-Bilastine; MAR-Bilastine; NRA-Bilastine; SANDOZ Bilastine",
+    "summary": "Nomes comerciais (Canadá):APO-Bilastine; AURO-Bilastine; Blexten; GLN-Bilastine; JAMP-Bilastine; M-Bilastine; MAR-Bilastine; NRA-Bilastine; SANDOZ Bilastine",
     "sections": [
       {
         "title": "1. Identificação"
@@ -1420,8 +1420,7 @@
         "paragraphs": [
           "Disponibilidade/país: Não disponível nos Estados Unidos.",
           "Formas farmacêuticas (Canadá):",
-          "Nomes comerciais (Canadá):",
-          "APO-Bilastine; AURO-Bilastine; Blexten; GLN-Bilastine; JAMP-Bilastine; M-Bilastine; MAR-Bilastine; NRA-Bilastine; SANDOZ Bilastine"
+          "Nomes comerciais (Canadá):APO-Bilastine; AURO-Bilastine; Blexten; GLN-Bilastine; JAMP-Bilastine; M-Bilastine; MAR-Bilastine; NRA-Bilastine; SANDOZ Bilastine"
         ],
         "bullets": [
           "Comprimido VO: 20 mg (Blexten; genérico 20 mg)",
@@ -1785,7 +1784,7 @@
     "name": "Cefazolina",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Observação: abaixo, doses adulto IV intermitente assumem infusão tradicional (30–60 min), salvo quando indicado IV push.",
+    "summary": "Parenteral (principal): pó para reconstituição IV/IM (ex.: 500 mg, 1 g, 2 g, 3 g; tamanhos maiores para uso institucional).",
     "sections": [
       {
         "title": "1. Identificação"
@@ -1948,11 +1947,9 @@
         "title": "7. Ajustes de dose"
       },
       {
-        "title": "7.1 Insuficiência renal (CrCl/GFR; hemodiálise; DP)"
-      },
-      {
-        "title": "Referência do trecho: ajustes tomando como base o regime usual 1–2 g IV q8h (primeiro dar uma dose “cheia” se infecção grave, depois ajustar).",
+        "title": "7.1 Insuficiência renal (CrCl/GFR; hemodiálise; DP)",
         "paragraphs": [
+          "Referência do trecho: ajustes tomando como base o regime usual 1–2 g IV q8h (primeiro dar uma dose “cheia” se infecção grave, depois ajustar).",
           "Hemodiálise intermitente (3x/semana; dialisável):",
           "Diálise peritoneal (IV):",
           "CRRT (CVVH/CVVHD/CVVHDF):"
@@ -2188,14 +2185,11 @@
       },
       {
         "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência:Cefazolin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
         "bullets": [
           "Onde houver CRRT/ARC e alvos PK/PD agressivos, considerar protocolos locais (infusão prolongada/contínua, monitorização, etc.)."
-        ]
-      },
-      {
-        "title": "Referência:",
-        "paragraphs": [
-          "Cefazolin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
         ]
       }
     ],
@@ -2204,7 +2198,7 @@
         "label": "Fonte interna: Cefazolina.docx (Biblioteca)."
       },
       {
-        "label": "Cefazolin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        "label": "Referência:Cefazolin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ]
   },
@@ -2213,7 +2207,7 @@
     "name": "Cefepime",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Observação do texto: doses são apresentadas assumindo infusão intermitente em 30 min, salvo quando descrito como estendida (3–4 h) ou contínua (24 h).",
+    "summary": "Antibiótico – Cefalosporina de 4ª geração (“Antibiotic, Cephalosporin (Fourth Generation)”).",
     "sections": [
       {
         "title": "1. Identificação"
@@ -2350,12 +2344,11 @@
         "title": "6.2 Pediatria — dose por faixa etária/peso",
         "paragraphs": [
           "Regra geral (infusão intermitente):",
-          "Infusão estendida (dados limitados): 50 mg/kg/dose em 3–4 h a cada 8 h (máx. 2.000 mg/dose).",
           "Exemplos por indicação (do texto):"
         ],
         "bullets": [
           "Não-Pseudomonas: 50 mg/kg/dose 12/12 h (máx. 2.000 mg/dose).",
-          "Pseudomonas suspeita/confirmada: 50 mg/kg/dose 8/8 h (máx. 2.000 mg/dose).",
+          "Pseudomonas suspeita/confirmada: 50 mg/kg/dose 8/8 h (máx. 2.000 mg/dose).Infusão estendida (dados limitados): 50 mg/kg/dose em 3–4 h a cada 8 h (máx. 2.000 mg/dose).",
           "Meningite (inclui associada a saúde): 50 mg/kg/dose 8/8 h, máx. 2 g/dose; duração individualizar (GN mín. 10–14 dias; alguns ≥21 dias e ≥14 dias após 1ª cultura LCR negativa).",
           "Pneumonia: 50 mg/kg/dose; Pseudomonas: 8/8 h por 10 dias; sem Pseudomonas: 12/12 h por 10 dias.",
           "ITU: 50 mg/kg/dose 8/8–12/12 h (limites de dose conforme gravidade citados)."
@@ -2629,7 +2622,7 @@
     "name": "Ceftarolina",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Indicações em bula (patógenos listados):",
+    "summary": "Ceftaroline (forma clínica: ceftaroline fosamil, pró-fármaco inativo convertido em ceftarolina ativa no plasma).",
     "sections": [
       {
         "title": "1. Identificação"
@@ -3142,8 +3135,7 @@
       {
         "title": "2.2 “Pearls” de prescrição",
         "paragraphs": [
-          "✅ Administração usual 1 vez ao dia na maioria das infecções",
-          "✅ Boa penetração em:",
+          "✅ Administração usual 1 vez ao dia na maioria das infecções✅ Boa penetração em:",
           "⚠️ Não coadministrar com soluções contendo cálcio (risco de precipitação)",
           "⚠️ Em neonatos: risco de deslocamento da bilirrubina (kernicterus)"
         ],
@@ -3600,11 +3592,7 @@
       {
         "title": "17.1 Erros comuns de prescrição",
         "paragraphs": [
-          "🚨 Misturar com cálcio IV",
-          "🚨 Usar em neonatos hiperbilirrubinêmicos",
-          "🚨 Esquecer cobertura para Chlamydia em IST",
-          "🚨 Usar como monoterapia em infecções anaeróbias",
-          "🚨 Subdosar em meningite"
+          "🚨 Misturar com cálcio IV🚨 Usar em neonatos hiperbilirrubinêmicos🚨 Esquecer cobertura para Chlamydia em IST🚨 Usar como monoterapia em infecções anaeróbias🚨 Subdosar em meningite"
         ]
       },
       {
@@ -3637,7 +3625,7 @@
     "name": "Cefuroxima",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Cefalosporina de 2ª geração usada em infecções respiratórias, urinárias, pele/partes moles e algumas situações específicas (ex.: doença de Lyme), além de profilaxia cirúrgica em cenários selecionados.",
+    "summary": "IV/IM (cefuroxima sódica, pó para reconstituição): 750 mg; 1,5 g (há outras apresentações por mercado)",
     "sections": [
       {
         "title": "1. Identificação"
@@ -4085,38 +4073,66 @@
         "title": "17.3 Observações institucionais",
         "paragraphs": [
           "Tabela rápida de abreviações/símbolos (para padronizar seus materiais)",
-          "Sigla",
-          "Significado",
-          "IV",
-          "intravenoso",
-          "IM",
-          "intramuscular",
-          "VO/PO",
-          "via oral",
-          "CrCl",
-          "clearance de creatinina",
-          "GFR/TFG",
-          "taxa de filtração glomerular",
-          "DPOC",
-          "doença pulmonar obstrutiva crônica",
-          "AOM",
-          "otite média aguda",
-          "CRRT",
-          "terapia renal substitutiva contínua",
-          "PIRRT",
-          "terapia renal prolongada/intermitente",
-          "MIC",
-          "concentração inibitória mínima",
-          "fT>MIC",
-          "tempo (fração) com concentração livre acima da MIC",
-          "Faixas etárias (sugestão padrão para seus resumos; pode variar por diretriz): neonato (0–28 dias), lactente (1–12 meses), criança (1–11 anos), adolescente (12–18 anos)."
+          "Faixas etárias (sugestão padrão para seus resumos; pode variar por diretriz): neonato (0–28 dias), lactente (1–12 meses), criança (1–11 anos), adolescente (12–18 anos).",
+          "Referência (como você pediu): Cefuroxime: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
         ],
         "bullets": [
           "Ideal alinhar com protocolos locais, perfil de resistência e disponibilidade de formulações no seu serviço."
+        ],
+        "tables": [
+          {
+            "headers": [
+              "Sigla",
+              "Significado"
+            ],
+            "rows": [
+              [
+                "IV",
+                "intravenoso"
+              ],
+              [
+                "IM",
+                "intramuscular"
+              ],
+              [
+                "VO/PO",
+                "via oral"
+              ],
+              [
+                "CrCl",
+                "clearance de creatinina"
+              ],
+              [
+                "GFR/TFG",
+                "taxa de filtração glomerular"
+              ],
+              [
+                "DPOC",
+                "doença pulmonar obstrutiva crônica"
+              ],
+              [
+                "AOM",
+                "otite média aguda"
+              ],
+              [
+                "CRRT",
+                "terapia renal substitutiva contínua"
+              ],
+              [
+                "PIRRT",
+                "terapia renal prolongada/intermitente"
+              ],
+              [
+                "MIC",
+                "concentração inibitória mínima"
+              ],
+              [
+                "fT>MIC",
+                "tempo (fração) com concentração livre acima da MIC"
+              ]
+            ]
+          }
         ]
-      },
-      {
-        "title": "Referência (como você pediu): Cefuroxime: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ],
     "references": [
@@ -4133,7 +4149,7 @@
     "name": "Ciprofloxacino",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Adultos (tratamento): ITU, cistite aguda não complicada (mulheres), prostatite bacteriana crônica, exacerbação bacteriana aguda de bronquite crônica, rinossinusite bacteriana aguda, infecções de pele/partes moles, ossos/articulações, intra-abdominal complicada (com metronidazol), diarreia infecciosa, febre tifóide, pneumonia hospitalar, gonorreia cervical/uretral não complicada.",
+    "summary": "VO (IR): comprimidos 250 mg, 500 mg (Cipro); genéricos 250 mg, 500 mg, 750 mg (100 mg [DSC])",
     "sections": [
       {
         "title": "1.1 Nome genérico / sinônimos",
@@ -4219,9 +4235,7 @@
       {
         "title": "5.1 Indicações em bula (citadas)",
         "paragraphs": [
-          "Adultos (tratamento): ITU, cistite aguda não complicada (mulheres), prostatite bacteriana crônica, exacerbação bacteriana aguda de bronquite crônica, rinossinusite bacteriana aguda, infecções de pele/partes moles, ossos/articulações, intra-abdominal complicada (com metronidazol), diarreia infecciosa, febre tifóide, pneumonia hospitalar, gonorreia cervical/uretral não complicada.",
-          "Crianças/adolescentes: ITU complicada e pielonefrite por E. coli (não é droga de primeira escolha).",
-          "Todas as idades: profilaxia pós-inalação por Bacillus anthracis; profilaxia e tratamento da peste.",
+          "Adultos (tratamento): ITU, cistite aguda não complicada (mulheres), prostatite bacteriana crônica, exacerbação bacteriana aguda de bronquite crônica, rinossinusite bacteriana aguda, infecções de pele/partes moles, ossos/articulações, intra-abdominal complicada (com metronidazol), diarreia infecciosa, febre tifóide, pneumonia hospitalar, gonorreia cervical/uretral não complicada.Crianças/adolescentes: ITU complicada e pielonefrite por E. coli (não é droga de primeira escolha).Todas as idades: profilaxia pós-inalação por Bacillus anthracis; profilaxia e tratamento da peste.",
           "Limitações de uso (segurança): por reações graves potencialmente irreversíveis, reservar para cistite não complicada, rinossinusite e exacerbação de bronquite crônica quando não houver alternativa."
         ]
       },
@@ -4238,26 +4252,6 @@
         "title": "6.1 Adultos — dose usual e por indicação (com duração)",
         "paragraphs": [
           "(VO IR, salvo indicado; IV quando indicado)",
-          "Imunocomprometidos: VO/IV 500 mg 12/12 h por 7 dias → manutenção 500 mg 3x/semana em cenários específicos.",
-          "HIV: VO 500–750 mg 12/12 h ou IV 400 mg 12/12 h, 7–10 dias (≥14 dias se bacteremia + aminoglicosídeo).",
-          "Sem HIV: VO 750 mg dose única ou 500 mg 12/12 h por 3 dias.",
-          "HIV: VO 500–750 mg 12/12 h ou IV 400 mg 12/12 h; 5–10 dias (≥14 se bacteremia; até 6 semanas se recorrência com CD4 baixo).",
-          "Sem HIV: VO 500 mg 12/12 h ou 750 mg 1x/dia por 3 dias (S. dysenteriae 1: 5–7 dias; bacteremia: 14 dias).",
-          "S. aureus MSSA step-down (alternativa): VO 750 mg 12/12 h + rifampina, total 6 semanas.",
-          "Colecistite: IV 400 mg 12/12 h ou VO 500 mg 12/12 h; até 1 dia após colecistectomia ou resolução clínica.",
-          "Outras (ex.: diverticulite/apendicite/abscesso): IV 400 mg 12/12 h + metronidazol ou VO 500 mg 12/12 h + metronidazol; 4–5 dias após controle de foco (varia conforme cenário).",
-          "Supressão crônica (hardware retido): VO 250–500 mg 12/12 h.",
-          "PEP: VO 500–750 mg 12/12 h (gestantes: 500 mg 8/8 h ou 750 mg 12/12 h) por 7 dias.",
-          "Tratamento (sem meningite): VO 750 mg 12/12 h (gestantes: 500 mg 8/8 h); IV 400 mg 8/8 h; 7–14 dias.",
-          "Aguda: VO 500 mg 12/12 h por 2–4 semanas; IV 400 mg 12/12 h por 2–4 semanas.",
-          "Crônica: VO 500 mg 12/12 h por 4–6 semanas; IV 400 mg 12/12 h por 4–6 semanas.",
-          "Gram-negativos: VO 750 mg 12/12 h; IV 400 mg 12/12 h (Pseudomonas: alguns preferem 400 mg 8/8 h).",
-          "S. aureus (continuação oral): VO 500–750 mg 12/12 h + rifampina, ≥3 meses.",
-          "Supressão Pseudomonas: VO 250–500 mg 12/12 h.",
-          "Cancroide: VO 500 mg 12/12 h por 3 dias.",
-          "Gonorreia não complicada (se suscetível): VO 500 mg dose única.",
-          "Cistite não complicada (alternativa; desencorajada): VO 250 mg 12/12 h (ou 500 mg 12/12 h em resistentes/masculino/suspeita próstata). ER (Canadá): 500 mg 24/24 h. Duração: 3 dias (mulheres) ou 5 dias (homens).",
-          "ITU complicada/pielonefrite: VO 500–750 mg 12/12 h (resistentes: 750 mg 12/12 h). ER (Canadá): 1 g 24/24 h. IV 400 mg 12/12 h (resistentes: 400 mg 8/8 h). Duração: se melhora em ~48 h, total 5 dias.",
           "Dose esquecida"
         ],
         "bullets": [
@@ -4271,32 +4265,32 @@
           "DPOC exacerbação (off-label; risco de Pseudomonas): VO 750 mg 12/12 h (ou 500 mg 12/12 h se sem P. aeruginosa); 5–7 dias.",
           "Crohn – fístula perianal simples (adjuvante): VO 500 mg 12/12 h por 4 semanas (até 8 semanas).",
           "Pé diabético: VO 500 mg 12/12 h (ou 750 mg 12/12 h se suspeita Pseudomonas). IV 400 mg 12/12 h (ou 400 mg 8/8 h se Pseudomonas). 2–4 semanas (sem osteomielite).",
-          "Cistoisosporíase (alternativa): VO 500 mg 12/12 h por 7 dias (imunocompetente; pode não precisar).",
-          "Campylobacter (alternativa):",
+          "Cistoisosporíase (alternativa): VO 500 mg 12/12 h por 7 dias (imunocompetente; pode não precisar).Imunocomprometidos: VO/IV 500 mg 12/12 h por 7 dias → manutenção 500 mg 3x/semana em cenários específicos.",
+          "Campylobacter (alternativa):HIV: VO 500–750 mg 12/12 h ou IV 400 mg 12/12 h, 7–10 dias (≥14 dias se bacteremia + aminoglicosídeo).Sem HIV: VO 750 mg dose única ou 500 mg 12/12 h por 3 dias.",
           "Salmonella gastroenterite (grave ou alto risco): VO 500–750 mg 12/12 h ou IV 400 mg 12/12 h; 7–14 dias (ou 2–6 semanas se CD4 <200).",
           "Salmonella bacteremia: VO 500–750 mg 12/12 h ou IV 400 mg 12/12 h; 10–14 dias (mais se imunossuprimido/foco extraintestinal).",
           "Febre tifóide (se MIC ≤0,06): VO 500 mg 12/12 h por 7–10 dias; IV 400 mg 12/12 h por 7–10 dias.",
-          "Shigella (se MIC <0,12):",
-          "Endocardite – HACEK (alternativa): VO 500–750 mg 12/12 h por 4 semanas (válvula nativa) ou 6 semanas (prótese); IV 400 mg 8–12/12 h por mesmas durações.",
-          "Infecção intra-abdominal:",
+          "Shigella (se MIC <0,12):HIV: VO 500–750 mg 12/12 h ou IV 400 mg 12/12 h; 5–10 dias (≥14 se bacteremia; até 6 semanas se recorrência com CD4 baixo).Sem HIV: VO 500 mg 12/12 h ou 750 mg 1x/dia por 3 dias (S. dysenteriae 1: 5–7 dias; bacteremia: 14 dias).",
+          "Endocardite – HACEK (alternativa): VO 500–750 mg 12/12 h por 4 semanas (válvula nativa) ou 6 semanas (prótese); IV 400 mg 8–12/12 h por mesmas durações.S. aureus MSSA step-down (alternativa): VO 750 mg 12/12 h + rifampina, total 6 semanas.",
+          "Infecção intra-abdominal:Colecistite: IV 400 mg 12/12 h ou VO 500 mg 12/12 h; até 1 dia após colecistectomia ou resolução clínica.Outras (ex.: diverticulite/apendicite/abscesso): IV 400 mg 12/12 h + metronidazol ou VO 500 mg 12/12 h + metronidazol; 4–5 dias após controle de foco (varia conforme cenário).",
           "Meningite bacteriana (alternativa): IV 400 mg 8–12/12 h (sempre em combinação).",
           "Profilaxia meningocócica (off-label): VO 500 mg dose única (com ressalvas epidemiológicas de resistência).",
           "Profilaxia antibacteriana na neutropenia de alto risco: VO 500–750 mg 12/12 h.",
           "Febre neutropênica baixo risco (empírico): VO 750 mg 12/12 h + amoxicilina/clavulanato.",
-          "Osteomielite: VO 500–750 mg 12/12 h (Pseudomonas: 750 mg 12/12 h por ≥6 semanas). IV 400 mg 12/12 h (Pseudomonas: 400 mg 8/8 h por ≥6 semanas).",
-          "Peste:",
+          "Osteomielite: VO 500–750 mg 12/12 h (Pseudomonas: 750 mg 12/12 h por ≥6 semanas). IV 400 mg 12/12 h (Pseudomonas: 400 mg 8/8 h por ≥6 semanas).Supressão crônica (hardware retido): VO 250–500 mg 12/12 h.",
+          "Peste:PEP: VO 500–750 mg 12/12 h (gestantes: 500 mg 8/8 h ou 750 mg 12/12 h) por 7 dias.Tratamento (sem meningite): VO 750 mg 12/12 h (gestantes: 500 mg 8/8 h); IV 400 mg 8/8 h; 7–14 dias.",
           "Pneumonia por Pseudomonas (componente terapêutico): VO 750 mg 12/12 h; IV 400 mg 8/8 h; típico 7 dias.",
           "Pouchite aguda: VO 500 mg 12/12 h por 14 dias; refratária: 28 dias (em combinação apropriada).",
-          "Prostatite:",
-          "Infecção de prótese articular (off-label):",
+          "Prostatite:Aguda: VO 500 mg 12/12 h por 2–4 semanas; IV 400 mg 12/12 h por 2–4 semanas.Crônica: VO 500 mg 12/12 h por 4–6 semanas; IV 400 mg 12/12 h por 4–6 semanas.",
+          "Infecção de prótese articular (off-label):Gram-negativos: VO 750 mg 12/12 h; IV 400 mg 12/12 h (Pseudomonas: alguns preferem 400 mg 8/8 h).S. aureus (continuação oral): VO 500–750 mg 12/12 h + rifampina, ≥3 meses.Supressão Pseudomonas: VO 250–500 mg 12/12 h.",
           "Rinossinusite bacteriana aguda (alternativa; reservar): VO 500 mg 12/12 h por 5–7 dias; IV 400 mg 12/12 h por 5–7 dias.",
           "Artrite séptica (alternativa para gram-negativo suscetível): VO 750 mg 12/12 h; IV 400 mg 8–12/12 h; 3–4 semanas.",
-          "IST:",
+          "IST:Cancroide: VO 500 mg 12/12 h por 3 dias.Gonorreia não complicada (se suscetível): VO 500 mg dose única.",
           "Infecção pele/partes moles (incisional cirúrgica): VO 750 mg 12/12 h + metronidazol; IV 400 mg 12/12 h + metronidazol.",
           "Profilaxia PBE (alternativa): VO 500 mg 1x/dia (alguns: 500 mg 12/12 h após prof. parenteral em HDA) total 7 dias em cenários específicos.",
           "Profilaxia cirúrgica (off-label): IV 400 mg até 120 min antes da incisão; VO 500 mg até 120 min antes (em procedimentos urológicos selecionados).",
           "Tularemia: IV 400 mg 8/8 h ou VO 750 mg 12/12 h; 10 dias (neuroinvasiva: mais tempo). PEP: VO 500 mg 12/12 h por 7 dias.",
-          "ITU:",
+          "ITU:Cistite não complicada (alternativa; desencorajada): VO 250 mg 12/12 h (ou 500 mg 12/12 h em resistentes/masculino/suspeita próstata). ER (Canadá): 500 mg 24/24 h. Duração: 3 dias (mulheres) ou 5 dias (homens).ITU complicada/pielonefrite: VO 500–750 mg 12/12 h (resistentes: 750 mg 12/12 h). ER (Canadá): 1 g 24/24 h. IV 400 mg 12/12 h (resistentes: 400 mg 8/8 h). Duração: se melhora em ~48 h, total 5 dias.",
           "VO IR: tomar assim que possível se faltar ≥6 h para próxima; senão pular (não dobrar).",
           "VO ER (Canadá): usar janela ≥8 h."
         ]
@@ -4595,12 +4589,12 @@
       },
       {
         "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Ciprofloxacin (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
         "bullets": [
           "Considerar protocolos de sonda/enteral, bariátrica e políticas locais sobre pausar dieta enteral."
         ]
-      },
-      {
-        "title": "Referência: Ciprofloxacin (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ],
     "references": [
@@ -4617,7 +4611,7 @@
     "name": "Clindamicina",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "IM/IV – solução injetável (fosfato; como base): 300 mg/2 mL; 600 mg/4 mL; 900 mg/6 mL; 9 g/60 mL (algumas apresentações genéricas DSC)",
+    "summary": "Formas: clindamicina HCl (VO); clindamicina fosfato (IV/IM, pró-fármaco convertido em ativo); clindamicina palmitato HCl (solução VO; pró-fármaco)",
     "sections": [
       {
         "title": "1. Identificação"
@@ -4638,11 +4632,7 @@
       {
         "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
         "paragraphs": [
-          "EUA (marcas): Cleocin, Cleocin Phosphate",
-          "VO – cápsulas (como base): 75 mg, 150 mg, 300 mg (marca e genéricos)",
-          "VO – suspensão reconstituída (palmitato): 75 mg/5 mL",
-          "IM/IV – solução injetável (fosfato; como base): 300 mg/2 mL; 600 mg/4 mL; 900 mg/6 mL; 9 g/60 mL (algumas apresentações genéricas DSC)",
-          "IV – bolsas prontas (genéricas): 600 mg/50 mL e 900 mg/50 mL (D5W); e várias opções preservative free em D5W ou NaCl 0,9% (300/600/900 mg em 50 mL)"
+          "EUA (marcas): Cleocin, Cleocin PhosphateVO – cápsulas (como base): 75 mg, 150 mg, 300 mg (marca e genéricos)VO – suspensão reconstituída (palmitato): 75 mg/5 mLIM/IV – solução injetável (fosfato; como base): 300 mg/2 mL; 600 mg/4 mL; 900 mg/6 mL; 9 g/60 mL (algumas apresentações genéricas DSC)IV – bolsas prontas (genéricas): 600 mg/50 mL e 900 mg/50 mL (D5W); e várias opções preservative free em D5W ou NaCl 0,9% (300/600/900 mg em 50 mL)"
         ]
       },
       {
@@ -5058,7 +5048,7 @@
     "name": "Daptomicina",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Segurança: fabricante recomenda evitar <12 meses (efeitos músculo/neurológicos em modelos animais).",
+    "summary": "Solução IV pronta (preservative-free) (genéricos): 350 mg/50 mL, 500 mg/50 mL, 700 mg/100 mL, 1000 mg/100 mL",
     "sections": [
       {
         "title": "1.1 Nome genérico / sinônimos",
@@ -5505,17 +5495,15 @@
       },
       {
         "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Daptomycin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026.",
+          "Parte superior do formulário",
+          "Parte inferior do formulário"
+        ],
         "bullets": [
           "Preferir daptomicina para Gram-positivos resistentes (MRSA) em bacteremia/endocardite quando vancomicina não é adequada.",
           "Em VRE grave ou MIC alto: considerar dose alta e combinação (conforme equipe de infecto/ASP).",
           "Padronizar: CPK semanal mínimo (e mais frequente em alto risco)."
-        ]
-      },
-      {
-        "title": "Referência: Daptomycin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026.",
-        "paragraphs": [
-          "Parte superior do formulário",
-          "Parte inferior do formulário"
         ]
       }
     ],
@@ -5533,7 +5521,7 @@
     "name": "Gentamicina",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "P. aeruginosa, Proteus spp. (indol +/−), E. coli, Klebsiella, Enterobacter, Serratia, Citrobacter, Staphylococcus (coagulase +/−).",
+    "summary": "IV preservative-free (bolsa): 60 mg/50 mL; 80 mg/50–100 mL; 100 mg/50–100 mL; 120 mg/100 mL",
     "sections": [
       {
         "title": "1. Identificação"
@@ -5597,12 +5585,8 @@
       },
       {
         "title": "4.1 Micro-organismos-alvo",
-        "paragraphs": [
-          "P. aeruginosa, Proteus spp. (indol +/−), E. coli, Klebsiella, Enterobacter, Serratia, Citrobacter, Staphylococcus (coagulase +/−).",
-          "Além disso, uso em endocardite por enterococos (em combinação)."
-        ],
         "bullets": [
-          "Microrganismos listados como suscetíveis nas indicações:"
+          "Microrganismos listados como suscetíveis nas indicações:P. aeruginosa, Proteus spp. (indol +/−), E. coli, Klebsiella, Enterobacter, Serratia, Citrobacter, Staphylococcus (coagulase +/−).Além disso, uso em endocardite por enterococos (em combinação)."
         ]
       },
       {
@@ -5984,12 +5968,12 @@
       },
       {
         "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Gentamicin (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
         "bullets": [
           "Muitos ajustes dependem de políticas institucionais e nomogramas; o texto reforça que nomogramas podem falhar em PK alterada."
         ]
-      },
-      {
-        "title": "Referência: Gentamicin (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ],
     "references": [
@@ -6006,7 +5990,7 @@
     "name": "Levofloxacino",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Fluoroquinolona de amplo espectro indicada para diversas infecções bacterianas, incluindo pneumonia comunitária, ITU, prostatite, infecções de pele e profilaxia/tratamento de antraz e peste.",
+    "summary": "Limitação importante: devido ao risco de eventos adversos graves e potencialmente irreversíveis, deve ser reservada quando não houver alternativas adequadas em:",
     "sections": [
       {
         "title": "1. Identificação"
@@ -6026,10 +6010,7 @@
         ]
       },
       {
-        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
-        "paragraphs": [
-          "Estados Unidos (genéricos):"
-        ],
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)Estados Unidos (genéricos):",
         "bullets": [
           "Comprimido VO: 250 mg; 500 mg; 750 mg",
           "Solução oral: 25 mg/mL",
@@ -6044,9 +6025,8 @@
         "title": "2. Introdução e pontos-chave"
       },
       {
-        "title": "2.1 O que é e para que serve (visão geral)",
+        "title": "2.1 O que é e para que serve (visão geral)Fluoroquinolona de amplo espectro indicada para diversas infecções bacterianas, incluindo pneumonia comunitária, ITU, prostatite, infecções de pele e profilaxia/tratamento de antraz e peste.",
         "paragraphs": [
-          "Fluoroquinolona de amplo espectro indicada para diversas infecções bacterianas, incluindo pneumonia comunitária, ITU, prostatite, infecções de pele e profilaxia/tratamento de antraz e peste.",
           "Limitação importante: devido ao risco de eventos adversos graves e potencialmente irreversíveis, deve ser reservada quando não houver alternativas adequadas em:"
         ],
         "bullets": [
@@ -6524,13 +6504,13 @@
       },
       {
         "title": "17.3 Observações institucionais",
+        "paragraphs": [
+          "Referência: Levofloxacin (systemic): Drug information. In: UpToDate/Lexidrug, Post TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
         "bullets": [
           "Reservar uso quando alternativas não disponíveis",
           "Atenção especial em idosos e pacientes de risco"
         ]
-      },
-      {
-        "title": "Referência: Levofloxacin (systemic): Drug information. In: UpToDate/Lexidrug, Post TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ],
     "references": [
@@ -6547,7 +6527,7 @@
     "name": "Linezolida",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Regra geral (adulto): 600 mg a cada 12 h VO/IV na maioria das infecções por Gram-positivos resistentes.",
+    "summary": "Observações de excipientes: algumas suspensões podem conter aspartame e benzoato; há apresentações IV com dextrose.",
     "sections": [
       {
         "title": "1. Identificação"
@@ -6651,8 +6631,7 @@
       {
         "title": "6. Posologia",
         "paragraphs": [
-          "Regra geral (adulto): 600 mg a cada 12 h VO/IV na maioria das infecções por Gram-positivos resistentes.",
-          "Atenção: não é agente preferido quando o curso será prolongado."
+          "Regra geral (adulto): 600 mg a cada 12 h VO/IV na maioria das infecções por Gram-positivos resistentes.Atenção: não é agente preferido quando o curso será prolongado."
         ]
       },
       {
@@ -6946,15 +6925,12 @@
       },
       {
         "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência (no seu padrão):Linezolid: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
         "bullets": [
           "Reservar para Gram-positivos resistentes e/ou quando alternativas não são viáveis.",
           "Considerar TDM em: disfunção renal, terapia prolongada, MIC alto, toxicidade/ineficácia."
-        ]
-      },
-      {
-        "title": "Referência (no seu padrão):",
-        "paragraphs": [
-          "Linezolid: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
         ]
       }
     ],
@@ -6963,7 +6939,7 @@
         "label": "Fonte interna: Linezolida.docx (Biblioteca)."
       },
       {
-        "label": "Linezolid: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        "label": "Referência (no seu padrão):Linezolid: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ]
   },
@@ -7066,10 +7042,7 @@
       {
         "title": "4.2 Lacunas de cobertura / quando não usar",
         "paragraphs": [
-          "❌ Pseudomonas aeruginosa",
-          "❌ Algumas enterobactérias resistentes",
-          "⚠️ Resistência crescente de Bacteroides em alguns locais",
-          "⚠️ Evitar quando risco de Pseudomonas"
+          "❌ Pseudomonas aeruginosa❌ Algumas enterobactérias resistentes⚠️ Resistência crescente de Bacteroides em alguns locais⚠️ Evitar quando risco de Pseudomonas"
         ]
       },
       {
@@ -7183,11 +7156,8 @@
       },
       {
         "title": "7.2 Insuficiência hepática",
-        "paragraphs": [
-          "⚠️ Usar com cautela (risco de QT)"
-        ],
         "bullets": [
-          "Sem ajuste formal"
+          "Sem ajuste formal⚠️ Usar com cautela (risco de QT)"
         ]
       },
       {
@@ -7198,11 +7168,8 @@
       },
       {
         "title": "7.4 Idoso",
-        "paragraphs": [
-          "⚠️ Maior risco de:"
-        ],
         "bullets": [
-          "Dose usual",
+          "Dose usual⚠️ Maior risco de:",
           "QT prolongado",
           "ruptura de tendão",
           "dissecção de aorta",
@@ -7322,13 +7289,7 @@
       {
         "title": "11.2 Riscos específicos",
         "paragraphs": [
-          "⚠️ QT prolongado (mais pronunciado que outras quinolonas)",
-          "⚠️ Aneurisma/dissecção de aorta",
-          "⚠️ Disglicemia",
-          "⚠️ Neurotoxicidade",
-          "⚠️ Tendinopatia",
-          "⚠️ Fotossensibilidade",
-          "⚠️ Superinfecção (incluindo C. difficile)"
+          "⚠️ QT prolongado (mais pronunciado que outras quinolonas)⚠️ Aneurisma/dissecção de aorta⚠️ Disglicemia⚠️ Neurotoxicidade⚠️ Tendinopatia⚠️ Fotossensibilidade⚠️ Superinfecção (incluindo C. difficile)"
         ]
       },
       {
@@ -7520,7 +7481,7 @@
     "name": "Oxacilina",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "Abaixo é um “guia rápido” (adulto/pediatria) para você reaproveitar no seu modelo. Ajustes finos variam por protocolo/local e gravidade.",
+    "summary": "Uso parenteral (IV/IM): pó para solução injetável (frascos) e, em alguns mercados, apresentações prontas para infusão.",
     "sections": [
       {
         "title": "Visão geral",
@@ -7881,7 +7842,7 @@
     "name": "Vancomicina",
     "className": "Antimicrobianos",
     "category": "Uso hospitalar",
-    "summary": "VO (solução reconstituída): ex.: Firvanq 25 mg/mL e 50 mg/mL; genéricos 25 mg/mL, 50 mg/mL, 250 mg/5 mL.",
+    "summary": "VO (cápsulas): 125 mg, 250 mg (ex.: Vancocin e genéricos).VO (solução reconstituída): ex.: Firvanq 25 mg/mL e 50 mg/mL; genéricos 25 mg/mL, 50 mg/mL, 250 mg/5 mL.IV (solução pronta / premix): várias apresentações (ex.: 500 mg/100 mL; 1 g/200 mL; 1,25 g/250 mL; 1,5 g/300 mL; 2 g/400 mL; em D5W ou SF 0,9% dependendo do produto).IV (pó para reconstituição): 500 mg, 1 g, 1,5 g, 5 g, 10 g etc. (inclui versões “preservative-free”).Marcas (EUA): Firvanq; Tyzavan; Vancocin.Marcas (Canadá): JAMP Vancomycin; PMS/PMSC-Vancomycin; Vancocin; Vancomycin HCl.",
     "sections": [
       {
         "title": "1.1 Nome genérico / sinônimos",
@@ -7898,12 +7859,7 @@
       {
         "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
         "paragraphs": [
-          "VO (cápsulas): 125 mg, 250 mg (ex.: Vancocin e genéricos).",
-          "VO (solução reconstituída): ex.: Firvanq 25 mg/mL e 50 mg/mL; genéricos 25 mg/mL, 50 mg/mL, 250 mg/5 mL.",
-          "IV (solução pronta / premix): várias apresentações (ex.: 500 mg/100 mL; 1 g/200 mL; 1,25 g/250 mL; 1,5 g/300 mL; 2 g/400 mL; em D5W ou SF 0,9% dependendo do produto).",
-          "IV (pó para reconstituição): 500 mg, 1 g, 1,5 g, 5 g, 10 g etc. (inclui versões “preservative-free”).",
-          "Marcas (EUA): Firvanq; Tyzavan; Vancocin.",
-          "Marcas (Canadá): JAMP Vancomycin; PMS/PMSC-Vancomycin; Vancocin; Vancomycin HCl."
+          "VO (cápsulas): 125 mg, 250 mg (ex.: Vancocin e genéricos).VO (solução reconstituída): ex.: Firvanq 25 mg/mL e 50 mg/mL; genéricos 25 mg/mL, 50 mg/mL, 250 mg/5 mL.IV (solução pronta / premix): várias apresentações (ex.: 500 mg/100 mL; 1 g/200 mL; 1,25 g/250 mL; 1,5 g/300 mL; 2 g/400 mL; em D5W ou SF 0,9% dependendo do produto).IV (pó para reconstituição): 500 mg, 1 g, 1,5 g, 5 g, 10 g etc. (inclui versões “preservative-free”).Marcas (EUA): Firvanq; Tyzavan; Vancocin.Marcas (Canadá): JAMP Vancomycin; PMS/PMSC-Vancomycin; Vancocin; Vancomycin HCl."
         ]
       },
       {
@@ -7978,8 +7934,7 @@
       {
         "title": "6.1 Adultos — dose usual e por indicação (com duração)",
         "paragraphs": [
-          "VO (geral): 125–500 mg 4x/dia.",
-          "CDI (tratamento, adulto):",
+          "VO (geral): 125–500 mg 4x/dia.CDI (tratamento, adulto):",
           "IV (intermitente – regra geral):",
           "Dose de ataque (adulto, MRSA grave / paciente muito grave):",
           "IV contínua (adulto, alternativa em críticos):",
@@ -8006,13 +7961,11 @@
       {
         "title": "6.2 Pediatria — dose por faixa etária/peso",
         "paragraphs": [
-          "Geral (IV): 45–60 mg/kg/dia dividido a cada 6–8 h; individualizar por níveis.",
-          "MRSA grave (alvo por AUC24):",
-          "CDI (pediatria, guideline): 10 mg/kg/dose 4x/dia por 10 dias (máx 125 mg/dose); fulminante: 10 mg/kg/dose 4x/d (máx 500 mg/dose) ± metronidazol IV; retal com volumes por idade (1–3a: 50 mL; 4–9a: 75 mL; >10a: 100 mL)."
+          "Geral (IV): 45–60 mg/kg/dia dividido a cada 6–8 h; individualizar por níveis.MRSA grave (alvo por AUC24):"
         ],
         "bullets": [
           "≥3 meses e <12 anos: 60–80 mg/kg/dia dividido q6h (máx 3.600 mg/dia).",
-          "≥12 anos/adolescentes: 60–70 mg/kg/dia dividido q6–8h (máx 3.600 mg/dia)."
+          "≥12 anos/adolescentes: 60–70 mg/kg/dia dividido q6–8h (máx 3.600 mg/dia).CDI (pediatria, guideline): 10 mg/kg/dose 4x/dia por 10 dias (máx 125 mg/dose); fulminante: 10 mg/kg/dose 4x/d (máx 500 mg/dose) ± metronidazol IV; retal com volumes por idade (1–3a: 50 mL; 4–9a: 75 mL; >10a: 100 mL)."
         ]
       },
       {
@@ -8045,11 +7998,7 @@
         "paragraphs": [
           "Adulto – intermitente (tabela do trecho):",
           "Adulto – infusão contínua (exemplo do trecho):",
-          "ARC (clearance aumentado): pode exigir 15–20 mg/kg q8h ou até q6h, com monitorização frequente.",
-          "HD intermitente (3x/semana): esquemas por “low flux/high flux” e timing (pós-diálise vs intradialítico) com LD ~25–35 mg/kg e manutenção ~7,5–15 mg/kg (conforme tabela do trecho) e alvo predialítico 15–20 mg/L como proxy de AUC 400–600.",
-          "Diálise peritoneal:",
-          "CRRT (adulto): LD 20–25 mg/kg; manutenção 7,5–10 mg/kg q12h com monitorização mais frequente.",
-          "PIRRT: LD 20–25 mg/kg; depois 15 mg/kg após cada sessão (ou no final), com monitorização.",
+          "ARC (clearance aumentado): pode exigir 15–20 mg/kg q8h ou até q6h, com monitorização frequente.HD intermitente (3x/semana): esquemas por “low flux/high flux” e timing (pós-diálise vs intradialítico) com LD ~25–35 mg/kg e manutenção ~7,5–15 mg/kg (conforme tabela do trecho) e alvo predialítico 15–20 mg/L como proxy de AUC 400–600.Diálise peritoneal:",
           "VO em IR: sem ajuste formal (baixa absorção), mas pode haver absorção em colite grave + IR → considerar nível."
         ],
         "bullets": [
@@ -8061,7 +8010,7 @@
           "CrCl >50–80: 25 mg/kg/24h",
           "CrCl 25–50: 14 mg/kg/24h",
           "CrCl <25: 7 mg/kg/24h",
-          "Adulto: LD 20–25 mg/kg; dosar nível em 48–72h e redosar (geralmente 10–15 mg/kg) conforme alvo."
+          "Adulto: LD 20–25 mg/kg; dosar nível em 48–72h e redosar (geralmente 10–15 mg/kg) conforme alvo.CRRT (adulto): LD 20–25 mg/kg; manutenção 7,5–10 mg/kg q12h com monitorização mais frequente.PIRRT: LD 20–25 mg/kg; depois 15 mg/kg após cada sessão (ou no final), com monitorização."
         ]
       },
       {
@@ -8135,13 +8084,10 @@
       },
       {
         "title": "9.3 Eventos que exigem suspensão imediata",
-        "paragraphs": [
-          "(Conduta institucional pode variar; o trecho não traz “mandatório”, mas reforça risco.)"
-        ],
         "bullets": [
           "Anafilaxia/reações graves de hipersensibilidade (DRESS, SJS/TEN).",
           "Suspeita forte de trombocitopenia imune grave ou citopenias importantes.",
-          "LRA significativa atribuível + impossibilidade de ajustar/monitorar adequadamente."
+          "LRA significativa atribuível + impossibilidade de ajustar/monitorar adequadamente.(Conduta institucional pode variar; o trecho não traz “mandatório”, mas reforça risco.)"
         ]
       },
       {
@@ -8198,8 +8144,7 @@
       {
         "title": "13.1 Gestação (segurança, quando usar/evitar)",
         "paragraphs": [
-          "ALERTA (Boxed Warning – EUA): risco de toxicidade embriofetal por excipientes em uma formulação de vancomicina injetável contendo PEG 400 e N-acetil-D-alanina (NADA), com malformações em estudos animais em exposições maiores. Se precisar de vancomicina no 1º ou 2º trimestre, usar outras formulações disponíveis.",
-          "Outros pontos do trecho: atravessa placenta; não há relato de ototoxicidade/nefromorbidade fetal no 2º/3º trimestre; PK pode mudar na gestação → pode necessitar dose maior + monitorização."
+          "ALERTA (Boxed Warning – EUA): risco de toxicidade embriofetal por excipientes em uma formulação de vancomicina injetável contendo PEG 400 e N-acetil-D-alanina (NADA), com malformações em estudos animais em exposições maiores. Se precisar de vancomicina no 1º ou 2º trimestre, usar outras formulações disponíveis.Outros pontos do trecho: atravessa placenta; não há relato de ototoxicidade/nefromorbidade fetal no 2º/3º trimestre; PK pode mudar na gestação → pode necessitar dose maior + monitorização."
         ]
       },
       {
@@ -8292,12 +8237,9 @@
       },
       {
         "title": "17.2 Dicas de orientação ao paciente",
-        "paragraphs": [
-          "(Conteúdo do trecho é mais técnico; orientações podem ser adaptadas ao seu padrão institucional.)"
-        ],
         "bullets": [
           "VO: usar conforme prescrito; monitorar GI (diarreia, náusea).",
-          "Lactação: observar bebê para diarreia/candidíase."
+          "Lactação: observar bebê para diarreia/candidíase.(Conteúdo do trecho é mais técnico; orientações podem ser adaptadas ao seu padrão institucional.)"
         ]
       },
       {

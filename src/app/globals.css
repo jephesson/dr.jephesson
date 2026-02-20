@@ -701,6 +701,39 @@ a{color:inherit;text-decoration:none}
   text-decoration:underline;
 }
 
+.meds-table-wrap{
+  margin:10px 0 12px;
+  width:100%;
+  overflow-x:auto;
+}
+
+.meds-table{
+  width:100%;
+  border-collapse:collapse;
+  min-width:520px;
+  font-size:13px;
+  color:rgba(11,20,34,.8);
+}
+
+.meds-table th,
+.meds-table td{
+  border:1px solid rgba(11,20,34,.16);
+  padding:8px 10px;
+  text-align:left;
+  vertical-align:top;
+  line-height:1.45;
+}
+
+.meds-table th{
+  background:#e9f0fb;
+  color:#0b1422;
+  font-weight:700;
+}
+
+.meds-table tr:nth-child(even) td{
+  background:#f8fbff;
+}
+
 @media (max-width: 900px){
   .meds-filters{
     grid-template-columns:1fr;

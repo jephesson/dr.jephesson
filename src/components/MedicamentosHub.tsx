@@ -8,6 +8,10 @@ type Section = {
   title: string;
   paragraphs?: string[];
   bullets?: string[];
+  tables?: {
+    headers: string[];
+    rows: string[][];
+  }[];
 };
 
 type Reference = {
@@ -3538,6 +3542,30 @@ export default function MedicamentosHub() {
                       ))}
                     </ul>
                   ) : null}
+                  {section.tables?.map((table, tableIndex) => (
+                    <div key={`${section.title}-table-${tableIndex}`} className="meds-table-wrap">
+                      <table className="meds-table">
+                        <thead>
+                          <tr>
+                            {table.headers.map((header, headerIndex) => (
+                              <th key={`${section.title}-table-${tableIndex}-header-${headerIndex}`}>{header}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {table.rows.map((row, rowIndex) => (
+                            <tr key={`${section.title}-table-${tableIndex}-row-${rowIndex}`}>
+                              {row.map((cell, cellIndex) => (
+                                <td key={`${section.title}-table-${tableIndex}-row-${rowIndex}-cell-${cellIndex}`}>
+                                  {cell}
+                                </td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  ))}
                 </section>
               ))}
 
