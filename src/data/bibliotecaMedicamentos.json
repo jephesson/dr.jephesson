@@ -5517,6 +5517,419 @@
     ]
   },
   {
+    "id": "bula-ertapenem",
+    "name": "Ertapenem",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Carbapenêmico usado geralmente como opção reservada para patógenos resistentes (ex.: produtores de ESBL).",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimos",
+        "bullets": [
+          "Ertapenem (ertapenem sódico)"
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATC",
+        "bullets": [
+          "Antibiótico, carbapenêmico (Carbapenem)"
+        ]
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "Injetável (pó para reconstituição): 1 g (frasco-ampola)",
+          "US: genérico 1 g; INVanz 1 g",
+          "Canadá: INVanz 1 g (3,2 mL); genérico 1 g",
+          "Vias: IV e IM (não há VO)"
+        ]
+      },
+      {
+        "title": "2. Introdução e pontos-chave"
+      },
+      {
+        "title": "2.1 O que é e para que serve (visão geral)",
+        "bullets": [
+          "Carbapenêmico usado geralmente como opção reservada para patógenos resistentes (ex.: produtores de ESBL).",
+          "Não cobre Pseudomonas aeruginosa (diferente de outros carbapenêmicos)."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Evitar em doença crítica ou hipoalbuminemia quando em bacteremia por GN suscetível (nota do tópico).",
+          "Atenção: sem atividade contra Pseudomonas.",
+          "Interação importante: carbapenêmicos podem reduzir valproato e aumentar risco de crise convulsiva (evitar se possível).",
+          "Risco de neurotoxicidade aumenta em IR/hemodiálise (monitorar)."
+        ]
+      },
+      {
+        "title": "3. Mecanismo de ação",
+        "bullets": [
+          "Inibe síntese da parede celular bacteriana ao se ligar a PBPs, bloqueando a transpeptidação final do peptidoglicano → lise bacteriana por autolisinas."
+        ]
+      },
+      {
+        "title": "4. Espectro / Cobertura"
+      },
+      {
+        "title": "4.1 Micro-organismos-alvo",
+        "bullets": [
+          "Ativo em múltiplos GN/anaeróbios (ex.: em indicações rotuladas: E. coli, K. pneumoniae, Proteus mirabilis, Bacteroides fragilis e outros anaeróbios; S. pneumoniae apenas isolados penicilino-sensíveis; MSSA em algumas SSTI/DFI sem osteomielite)."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Resistentes: MRSA, Enterococcus spp, Acinetobacter, Pseudomonas aeruginosa, S. pneumoniae penicilino-resistente.",
+          "Não usar para pneumonia por Pseudomonas (não cobre)."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)",
+        "bullets": [
+          "Observação do tópico: a maioria das bactérias produtoras de ESBL permanece sensível ao ertapenem (mas depende do antibiograma e cenário)."
+        ]
+      },
+      {
+        "title": "5. Indicações terapêuticas"
+      },
+      {
+        "title": "5.1 Indicações em bula (Use: Labeled Indications)",
+        "bullets": [
+          "Infecção intra-abdominal complicada (agentes listados no texto).",
+          "Infecção pélvica aguda (inclui endomiometrite pós-parto, aborto séptico, infecções ginecológicas pós-cirúrgicas).",
+          "Pneumonia comunitária (S. pneumoniae penicilino-sensível; H. influenzae beta-lactamase negativo; Moraxella).",
+          "Infecção de pele e partes moles complicada (inclui pé diabético sem osteomielite, MSSA e outros patógenos listados).",
+          "Profilaxia cirúrgica (cirurgia colorretal eletiva).",
+          "ITU complicada / pielonefrite (E. coli, K. pneumoniae)."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (Use: Off-Label: Adult)",
+        "bullets": [
+          "Mordida (animal/humana), tratamento.",
+          "Bacteremia por GN suscetível (evitar em crítico/hipoalbuminemia).",
+          "Osteomielite/discite por GN suscetível.",
+          "PAV/HAP por ESBL (direcionado).",
+          "Infecção de prótese articular por GN suscetível."
+        ]
+      },
+      {
+        "title": "6. Posologia"
+      },
+      {
+        "title": "6.1 Adultos — dose usual e por indicação (com duração)",
+        "paragraphs": [
+          "Dose padrão (adulto): 1 g IV/IM 1x/dia (salvo ajuste renal)"
+        ],
+        "bullets": [
+          "Infecção por mordida (off-label, alternativa): 1 g IV 1x/dia; 5–14 dias (pode ter step-down VO).",
+          "Bacteremia (off-label): 1 g IV 1x/dia; 7–14 dias (7 dias em Enterobacterales não complicada com controle de foco e boa resposta). Evitar em crítico/hipoalbuminemia.",
+          "Pé diabético moderado-grave: 1 g IM/IV 1x/dia; 2–4 semanas se sem osteomielite (pode step-down VO).",
+          "Intra-abdominal comunitária leve-moderada sem fatores de resistência (alternativa): 1 g IM/IV 1x/dia.",
+          "Colecistite aguda: 1 g IV 1x/dia; manter 1 dia após colecistectomia ou até resolução se não operado.",
+          "Outras IIA (apendicite perfurada/abscesso, colangite, diverticulite): 1 g IM/IV 1x/dia; 4–5 dias após controle de foco; sem intervenção pode variar 4–14 dias; após apendicectomia laparoscópica perfurada, 2–4 dias podem bastar.",
+          "Osteomielite/discite (off-label): 1 g IV 1x/dia; tipicamente 6 semanas (pode transição VO; menor se osso ressecado por amputação).",
+          "Infecções pélvicas agudas (alternativa): 1 g IM/IV 1x/dia; duração varia.",
+          "Pneumonia:",
+          "CAP (internado sem risco de Pseudomonas): 1 g IM/IV 1x/dia em combinação; mínimo 5 dias e suspender após estabilidade clínica.",
+          "HAP/VAP por ESBL (off-label, direcionado): 1 g IV 1x/dia; geralmente 7 dias.",
+          "Infecção de prótese articular (off-label): 1 g IV a cada 24h; geralmente 4–6 semanas (após ressecção).",
+          "SSTI moderada-grave: 1 g IV 1x/dia (frequentemente em combinação); 5–14 dias; necrosante: até não precisar mais desbridamento e afebril 48–72 h.",
+          "Profilaxia colorretal (alternativa): 1 g IV até 60 min antes da incisão (profilaxia pós-op não recomendada; há preocupação de resistência).",
+          "ITU complicada (pielonefrite/ITU com sinais sistêmicos): 1 g IV/IM 1x/dia; se melhora em ~48 h, 5–7 dias total (7 dias se completar com ertapenem)."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/peso",
+        "bullets": [
+          "Geral:",
+          "Lactentes e crianças: 15 mg/kg/dose IV/IM a cada 12 h (máx 500 mg/dose)",
+          "Adolescentes: 1.000 mg 1x/dia",
+          "Indicações pediátricas no texto (mesmas doses acima):",
+          "IIA complicada: típico 4–7 dias (5–14 na bula; casos selecionados ≤24 h pós-cirurgia em apendicite aguda/gangrenosa sem perfuração).",
+          "Infecção pélvica aguda: 3–10 dias.",
+          "CAP: tradicionalmente 10 dias foi mais estudado; dados atuais suportam 5 dias em doença não complicada com boa resposta; bula 10–14 dias com step-down VO; complicadas podem exigir mais.",
+          "SSTI complicada/necrosante: 7–14 dias; necrosante em combinação anti-MRSA e até melhora + afebril 48–72 h.",
+          "Profilaxia cirúrgica: 15 mg/kg dose única até 60 min antes (máx 1 g).",
+          "ITU/pielonefrite: cistite não complicada ≥2 meses: ~5 dias pode bastar; complicada/pielonefrite 7–10 dias; bula 10–14."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "Não há esquema neonatal fornecido no texto acima."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão",
+        "bullets": [
+          "IV: infundir em 30 min; pode fazer IV push em 5 min.",
+          "IM (adulto): injeção IM profunda em grande massa muscular; não injetar em vaso; preparo IM usa lidocaína (checar alergia a anestésico amida); não administrar IV a preparação reconstituída para IM."
+        ]
+      },
+      {
+        "title": "7. Ajustes de dose"
+      },
+      {
+        "title": "7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+        "bullets": [
+          "CrCl >30 mL/min: sem ajuste.",
+          "CrCl ≤30 mL/min: 500 mg 1x/dia.",
+          "Hemodiálise intermitente (3x/semana):",
+          "Dosing diário: 500 mg 1x/dia; se cair em dia de HD: dar ≥6 h antes ou após; se dado <6 h antes, dose suplementar 150 mg pós-HD.",
+          "3x/semana pós-HD: 500 mg ou 1 g 3x/semana após HD (considerar peso, gravidade, função residual).",
+          "Diálise peritoneal: 500 mg 1x/dia.",
+          "CRRT: 1 g 1x/dia (depende de efluente/filtro; monitorar resposta e neurotoxicidade por acúmulo).",
+          "PIRRT: 500 mg inicial, depois 500 mg pós-sessão ou 1 g 1x/dia (monitorar)."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "bullets": [
+          "Child-Turcotte-Pugh A–C: sem ajuste (alta ligação à albumina; eliminação renal)."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)",
+        "bullets": [
+          "Não informado no texto acima."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)",
+        "bullets": [
+          "“Refer to adult dosing”; considerar redução por função renal em idosos (nota)."
+        ]
+      },
+      {
+        "title": "8. Administração e compatibilidades"
+      },
+      {
+        "title": "8.1 Interação com a dieta",
+        "bullets": [
+          "Não aplicável (parenteral)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)",
+        "bullets": [
+          "Não aplicável."
+        ]
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)",
+        "bullets": [
+          "Não informado no texto acima."
+        ]
+      },
+      {
+        "title": "9. Efeitos adversos"
+      },
+      {
+        "title": "9.1 Comuns (≥1%)",
+        "bullets": [
+          "GI: diarreia 9–12%; náusea (adultos 6–9%); vômitos 4–10%; dor abdominal 4–5%; constipação 2–4%.",
+          "Sistema nervoso: alteração do estado mental 3–5%; cefaleia 4–7%; insônia ≤3%.",
+          "Hematológicos: queda de Hb (5%), Ht (3%); trombocitemia (adultos 4–7%); neutrófilos ↓ (pedi 6%).",
+          "Hepáticos: ALT ↑ 4–9%, AST ↑ 4–8%, FA ↑ (adultos 4–7%).",
+          "Locais/infusão: complicação de veia infundida 5–7%; dor no local (pedi 7%); eritema local (pedi 4%).",
+          "Febre: 2–5%."
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "C. difficile / CDAD/CDI (inclui colite; risco maior com profilaxia cirúrgica; fatores de risco listados).",
+          "Neurotoxicidade/CNS: encefalopatia, delirium, alucinações, convulsões (risco ↑ em IR/HD; geralmente 5–7 dias de início; melhora 2–14 dias após suspender).",
+          "Hipersensibilidade imediata e tardia: anafilaxia/urticária; SCARs (ex.: AGEP, DRESS)."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Anafilaxia/hipersensibilidade imediata.",
+          "Suspeita de SCAR (AGEP/DRESS) ou rash grave.",
+          "Neurotoxicidade importante (alteração mental, alucinações, convulsão) sugerindo relação com carbapenêmico, especialmente com acúmulo.",
+          "Diarreia importante com suspeita de CDI (avaliar e manejar conforme protocolo)."
+        ]
+      },
+      {
+        "title": "10. Contraindicações",
+        "bullets": [
+          "Hipersensibilidade a componentes ou à classe; anafilaxia prévia a beta-lactâmicos.",
+          "Hipersensibilidade a anestésicos locais tipo amida (quando uso IM devido à lidocaína como diluente)."
+        ]
+      },
+      {
+        "title": "11. Advertências e precauções"
+      },
+      {
+        "title": "11.1 Populações especiais",
+        "bullets": [
+          "Renal: ajustar dose; risco de convulsão ↑ em disfunção renal.",
+          "Idosos: frequentemente precisam de doses menores conforme função renal.",
+          "IM: checar alergia a lidocaína/anestésico amida."
+        ]
+      },
+      {
+        "title": "11.2 Risco de superinfecção, QT, convulsão, hepatotoxicidade etc.",
+        "bullets": [
+          "CDI: pode ocorrer entre 5–30 dias após início; fatores de risco listados (antibiótico, internação prolongada, idosos, imunossupressão, PPIs/H2, quimioterapia, etc.).",
+          "CNS/neurotoxicidade: encefalopatia/convulsões; observar especialmente em IR/HD."
+        ]
+      },
+      {
+        "title": "12. Interações medicamentosas"
+      },
+      {
+        "title": "12.1 Interações clinicamente relevantes",
+        "bullets": [
+          "Valproato/divalproato: carbapenêmicos ↓ concentração → risco de crise (geralmente não recomendado).",
+          "Probenecida: ↑ concentração de ertapenem (evitar/alternativas).",
+          "Tacrolimo: pode ↑ concentração (monitorar).",
+          "Vacinas orais vivas: BCG intravesical (evitar); cólera (evitar); tifoide Ty21a (evitar durante antibiótico; adiar/intervalos conforme orientação no texto).",
+          "Microbiota fecal viva (oral/retal): evitar (reduz efeito).",
+          "Outros listados como OAT1/3: risco de aumento de exposição (monitorar conforme categoria)."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Valproato + carbapenêmico: preferir alternativa; se inevitável, considerar antiepiléptico adicional.",
+          "Probenecida: evitar combinação quando possível.",
+          "Tacrolimo: monitorar níveis/efeitos.",
+          "Vacinas vivas orais/BCG intravesical: evitar/postergar conforme descrito."
+        ]
+      },
+      {
+        "title": "13. Gestação e lactação"
+      },
+      {
+        "title": "13.1 Gestação",
+        "bullets": [
+          "Aprovado para endomiometrite pós-parto etc.; pode ser alternativa em corioamnionite/intraamniótica (ACOG 712 2017 citado no texto)."
+        ]
+      },
+      {
+        "title": "13.2 Lactação",
+        "bullets": [
+          "Presente no leite humano; em 5 lactantes pós-dose 1 g IV, concentrações em 24 h variaram de <0,13 a 0,38 mcg/mL; não detectável em 4 e <LLOQ em 1 até o dia 5 pós-última dose.",
+          "Conduta: ponderar risco/benefício; monitorar lactente para candidíase oral (sapinho) e diarreia."
+        ]
+      },
+      {
+        "title": "14. Farmacocinética / Farmacodinâmica"
+      },
+      {
+        "title": "14.1 Absorção, distribuição, metabolismo, eliminação",
+        "bullets": [
+          "IM: absorção quase completa; biodisponibilidade ~90%.",
+          "Distribuição (Vdss): crianças ~0,2 L/kg; adolescentes ~0,16 L/kg; adultos ~0,12 L/kg.",
+          "Ligação proteica (albumina, dependente da concentração): 85% (300 mcg/mL) a 95% (<100 mcg/mL).",
+          "Metabolismo: hidrólise não-CYP para metabólito inativo.",
+          "Excreção: urina ~80% (inalterado + metabólito); fezes ~10%."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "t½: lactentes/crianças ~2,5 h; adolescentes/adultos ~4 h.",
+          "Tmax IM: ~2,3 h.",
+          "Cmax dose única:",
+          "3–23 meses (IV 15 mg/kg, máx 1 g): 103,8 mg/L",
+          "2–12 anos (IV 15 mg/kg, máx 1 g): 113,2 mg/L",
+          "13–17 anos (IV 1 g): 155,9 mg/L",
+          "Adultos: IV 1 g 155 mg/L; IM 1 g 67 mg/L",
+          "Em IR: AUC livre aumenta (1,5–2,3x em leve/moderada; 4,4–7,6x em avançada/DRT)."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD",
+        "bullets": [
+          "Dependente de tempo: fT > MIC.",
+          "GN (E. coli/Klebsiella): alvo bactericida ≥40% fT>MIC.",
+          "S. pneumoniae: ≥30% fT>MIC.",
+          "Crítico em UTI: mínimo ≥50%, preferido ≥100% fT>MIC; alguns experts preferem ≥100% fT>4×MIC.",
+          "PAE: mínimo; S. aureus ~1,5 h; S. pneumoniae ~2,4 h; GN ≤0,7 h."
+        ]
+      },
+      {
+        "title": "15. Monitorização"
+      },
+      {
+        "title": "15.1 O que monitorar e com que frequência",
+        "bullets": [
+          "Renal, hepática e hematopoiética periodicamente em terapia prolongada.",
+          "Avaliação neurológica/estado mental (especialmente em IR/HD ou sinais de neurotoxicidade)."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Resposta clínica e estabilidade (ex.: em CAP: manter mínimo 5 dias e suspender quando estável).",
+          "Em ITU complicada: reavaliar após ~48 h; se melhora, curso total 5–7 dias (conforme descrito)."
+        ]
+      },
+      {
+        "title": "16. Segurança e gestão de eventos"
+      },
+      {
+        "title": "16.1 Conduta em alergia/anafilaxia",
+        "bullets": [
+          "Suspender em reação imediata grave; considerar histórico de beta-lactâmicos. Observação: cross-reatividade penicilinas/cefalosporinas ↔ carbapenêmicos descrita como ≤1%; há relatos de reações seletivas entre carbapenêmicos."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreia",
+        "bullets": [
+          "Considerar CDI (pode ocorrer 5–30 dias); avaliar e conduzir conforme protocolo institucional; atenção a fatores de risco (internação prolongada, idosos, imunossuprimidos, PPIs etc.)."
+        ]
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)",
+        "bullets": [
+          "Monitorar enzimas hepáticas em uso prolongado; avaliar elevações e contexto clínico (dados de aumento de ALT/AST/FA no texto)."
+        ]
+      },
+      {
+        "title": "17. Notas práticas"
+      },
+      {
+        "title": "17.1 Erros comuns de prescrição",
+        "bullets": [
+          "Usar ertapenem pensando cobrir Pseudomonas (não cobre).",
+          "Esquecer ajuste renal (CrCl ≤30 → 500 mg/dia; particularidades em HD).",
+          "Associar com valproato sem plano de mitigação (risco de crise)."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Se em uso domiciliar (OPAT): orientar sinais de diarreia importante, rash, alteração mental/convulsão e procurar serviço."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Ertapenem: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
+        "bullets": [
+          "Profilaxia com ertapenem em cirurgia: alguns especialistas desencorajam por preocupação com resistência; profilaxia pós-op não recomendada."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Ertapenem.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Ertapenem: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
     "id": "bula-gentamicina",
     "name": "Gentamicina",
     "className": "Antimicrobianos",
@@ -5982,6 +6395,557 @@
       },
       {
         "label": "Referência: Gentamicin (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
+    "id": "bula-imipenem",
+    "name": "Imipenem",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Imipenem/cilastatina é um antibiótico carbapenêmico IV de amplo espectro. A cilastatina inibe a deidropeptidase I no túbulo renal, reduzindo o metabolismo renal do imipenem e aumentando sua disponibilidade. É opção para infecções graves por gram-negativos (incluindo Pseudomonas aeruginosa), gram-positivos selecionados e anaeróbios, com uso frequente em terapia empírica de UTI e em infecções associadas à assistência à saúde, quando há risco de patógenos resistentes.",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimos",
+        "paragraphs": [
+          "Imipenem + cilastatina (imipenem/cilastatin; imipeném/cilastatina).",
+          "As doses sempre são expressas em componente imipenem."
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATC",
+        "bullets": [
+          "Carbapenêmico (beta-lactâmico) + inibidor de deidropeptidase renal (cilastatina).",
+          "ATC (comum): J01DH51 (combinações de carbapenêmicos)."
+        ]
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "IV apenas (não há VO).",
+          "Frasco-ampola para reconstituição (padrão): imipenem 500 mg + cilastatina 500 mg.",
+          "Alguns mercados também têm 250 mg/250 mg (pó para reconstituição).",
+          "Não administrar IV push (preferir infusão)."
+        ]
+      },
+      {
+        "title": "2. Introdução e pontos-chave"
+      },
+      {
+        "title": "2.1 O que é e para que serve (visão geral)",
+        "paragraphs": [
+          "Imipenem/cilastatina é um antibiótico carbapenêmico IV de amplo espectro. A cilastatina inibe a deidropeptidase I no túbulo renal, reduzindo o metabolismo renal do imipenem e aumentando sua disponibilidade. É opção para infecções graves por gram-negativos (incluindo Pseudomonas aeruginosa), gram-positivos selecionados e anaeróbios, com uso frequente em terapia empírica de UTI e em infecções associadas à assistência à saúde, quando há risco de patógenos resistentes."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Tempo-dependente (fT>MIC): em pacientes críticos, MIC elevada ou patógeno menos sensível, considerar infusão estendida (3 h) para aumentar chance de atingir alvo PK/PD.",
+          "Ajuste renal é crítico: acúmulo aumenta risco de neurotoxicidade/convulsões.",
+          "Não usar se CrCl ≤15 mL/min a menos que hemodiálise seja iniciada em até 48 h (recomendação de segurança).",
+          "Evitar em infecções do SNC em pediatria pelo risco de convulsões.",
+          "Interação importante: reduz níveis de valproato → risco de crise."
+        ]
+      },
+      {
+        "title": "3. Mecanismo de ação",
+        "bullets": [
+          "Imipenem: inibe síntese da parede bacteriana ao se ligar a PBPs → bloqueia transpeptidação do peptidoglicano e leva à lise.",
+          "Cilastatina: não é antibiótico; inibe a deidropeptidase renal, reduzindo a degradação do imipenem no rim."
+        ]
+      },
+      {
+        "title": "4. Espectro / Cobertura"
+      },
+      {
+        "title": "4.1 Micro-organismos-alvo (visão prática)",
+        "bullets": [
+          "Gram-negativos: Enterobacterales (inclui muitos ESBL), Pseudomonas aeruginosa (dependendo de sensibilidade/MIC), algumas cepas de Acinetobacter (variável).",
+          "Gram-positivos: estreptococos; Enterococcus faecalis pode ser coberto (varia com sensibilidade); MSSA pode ser coberto, mas não é “primeira linha” se alvo isolado.",
+          "Anaeróbios: bom espectro (ex.: Bacteroides fragilis)."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Não cobre MRSA.",
+          "Cobertura pobre/ausente para atípicos (Mycoplasma/Chlamydia/Legionella), Stenotrophomonas maltophilia.",
+          "Pode falhar em carbapenemases (KPC/NDM/OXA-48 etc.).",
+          "Pediatria (SNC): evitar como opção de rotina em meningite/infecções SNC por maior risco de convulsões."
+        ]
+      },
+      {
+        "title": "4.3 Resistência",
+        "bullets": [
+          "Carbapenemases, perda de porinas/efluxo e outros mecanismos. Em MIC alta, considerar infusão estendida, dose otimizada e/ou terapia combinada conforme patógeno e foco."
+        ]
+      },
+      {
+        "title": "5. Indicações terapêuticas"
+      },
+      {
+        "title": "5.1 Indicações em bula (as mais comuns)",
+        "paragraphs": [
+          "Pode variar por país, mas em geral inclui tratamento de:"
+        ],
+        "bullets": [
+          "Bacteremia/sepse por patógenos sensíveis, incluindo gram-negativos e anaeróbios.",
+          "Infecções ósseas e articulares.",
+          "Infecções ginecológicas.",
+          "Infecções intra-abdominais.",
+          "Pneumonia (inclui associada à assistência, conforme sensibilidade).",
+          "Infecções de pele e partes moles (moderadas a graves).",
+          "Infecção urinária (complicada e não complicada)."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns",
+        "bullets": [
+          "Sepse/choque séptico (cobertura ampla incluindo Pseudomonas)",
+          "Neutropenia febril (alto risco) – terapia empírica",
+          "Antraz sistêmico (incluindo meningite) em combinação",
+          "Melioidose/glanders (alternativa; muitas vezes prefere-se meropenem)",
+          "Nocardiose grave (em combinação)",
+          "Infecção necrosante de pele/partes moles",
+          "Peritonite em diálise peritoneal (preferência por via intraperitoneal quando possível)",
+          "Micobacterioses de crescimento rápido (em combinação, com especialista)"
+        ]
+      },
+      {
+        "title": "6. Posologia"
+      },
+      {
+        "title": "6.1 Adultos — dose usual e por indicação (com duração)"
+      },
+      {
+        "title": "6.1.0 Esquemas e métodos de infusão (adulto)",
+        "paragraphs": [
+          "Infusão intermitente (padrão):",
+          "Infusão estendida (off-label):",
+          "Alguns especialistas usam 500 mg 6/6 h em 3 h para patógenos menos sensíveis/resistentes selecionados.",
+          "Faixa de dose usual (adulto):"
+        ],
+        "bullets": [
+          "Não fazer IV push.",
+          "Doses ≤500 mg: infundir em 20–30 min.",
+          "Doses >500 mg: infundir em 40–60 min (se náusea/vômito, reduzir velocidade).",
+          "500 mg a 1 g a cada 6 h em 3 horas.",
+          "Pode fazer dose de ataque 500 mg a 1 g em 30 min se necessidade de atingir alvo rápido (ex.: sepse).",
+          "500 mg IV 6/6 h (muito comum) OU",
+          "1 g IV a cada 6–8 h (conforme gravidade, foco e MIC)."
+        ]
+      },
+      {
+        "title": "6.1.1 Patologias / síndromes (adulto)",
+        "bullets": [
+          "Bacteremia gram-negativa (inclui Pseudomonas)",
+          "Dose: 500 mg IV 6/6 h.",
+          "Em doença crítica, MIC elevada ou patógeno menos sensível: considerar infusão estendida (ex.: 500 mg 6/6 h em 3 h) e/ou escolher o esquema de maior intensidade quando indicado.",
+          "Duração: em geral 7–14 dias, conforme foco, patógeno, extensão e resposta; 7 dias pode bastar em Enterobacterales não complicada com boa resposta.",
+          "Sepse e choque séptico (cobertura ampla incluindo Pseudomonas)",
+          "Dose: 500 mg IV 6/6 h OU 1 g IV 8/8 h, em combinação quando aplicável.",
+          "Estratégia: em UTI/alta gravidade, muitos preferem infusão estendida para aumentar fT>MIC.",
+          "Duração: depende do foco e resposta; preferir cursos mais curtos quando apropriado e descalonar com culturas.",
+          "Pneumonia",
+          "CAP com risco de MDR/gram-negativo (incl. Pseudomonas) em internado: 500 mg IV 6/6 h como parte de esquema combinado conforme risco.",
+          "Duração: mínimo 5 dias; maior se imunossuprimido, grave/complicada, ou Pseudomonas.",
+          "HAP/VAP (ESBL, Pseudomonas, Acinetobacter – quando indicado): 500 mg IV 6/6 h.",
+          "Duração: tipicamente 7 dias, ajustando pela evolução e patógeno.",
+          "Nota: em crítico/MIC elevada, considerar infusão estendida.",
+          "Infecção intra-abdominal (alto risco comunitária ou associada à assistência)",
+          "Colecistite aguda não complicada: 500 mg 6/6 h OU 1 g 8/8 h; manter 1 dia após colecistectomia ou até resolução se manejo não operatório.",
+          "Outras (colangite, apendicite complicada, diverticulite, abscesso intra-abdominal): 500 mg 6/6 h OU 1 g 8/8 h.",
+          "Duração: após controle de foco adequado, geralmente 4–5 dias; pode variar (ex.: diverticulite/appendicite sem intervenção: 4–14 dias; apendicite perfurada pós-lap: alguns usam 2–4 dias).",
+          "Infecção de pele e partes moles",
+          "Não necrosante (moderada a grave): 500 mg IV 6/6 h.",
+          "Necrosante (off-label; em combinação e com cirurgia): 1 g IV a cada 6–8 h.",
+          "Duração: necrosante: manter até não precisar de novo desbridamento, melhora clínica e afebril ≥48 h; não necrosante: geralmente 5–14 dias.",
+          "Infecção do pé diabético (moderada a grave)",
+          "Dose: 500 mg IV 6/6 h (em pacientes com risco para Pseudomonas ou gram-negativos resistentes).",
+          "Duração: tipicamente 2–4 semanas se sem osteomielite (ajustar pela resposta e manejo do foco).",
+          "Endocardite (por gram-negativos resistentes, incluindo Pseudomonas; em combinação)",
+          "Dose: 500 mg 6/6 h OU 1 g 8/8 h como parte de esquema combinado.",
+          "Duração: geralmente 6 semanas (conforme diretrizes e situação clínica).",
+          "Infecção urinária complicada / pielonefrite com sinais sistêmicos",
+          "Dose: 500 mg 6/6 h OU 1 g 8/8 h (reservar para crítico ou MDR/ESBL conforme risco).",
+          "Duração: se melhora em ~48 h, usualmente 5–7 dias (muitos usam 7 dias se completar o curso todo com imipenem/cilastatina), podendo fazer step-down quando apropriado.",
+          "Febre neutropênica (alto risco) – terapia empírica (off-label)",
+          "Dose: 500 mg IV 6/6 h até afebril ≥48 h e resolução da neutropenia (ANC ≥500 e em ascensão) ou duração padrão do foco identificado se maior.",
+          "Considerar infusão estendida em crítico.",
+          "Nocardiose grave (off-label; sempre com teste de sensibilidade e infectologia)",
+          "Dose: 500 mg IV 6/6 h em combinação.",
+          "Duração: prolongada (≈ 6 meses a ≥1 ano), com fase IV inicial de semanas e manutenção (geralmente VO) depois.",
+          "Antraz sistêmico (incl. meningite) – off-label, em combinação",
+          "Dose: 1 g IV 6/6 h + outros agentes por ≥2 semanas (meningite: alguns sugerem ≥3 semanas).",
+          "Após exposição por aerossol: pode exigir estratégia com transição e duração total 60 dias (conforme recomendação de saúde pública).",
+          "Fibrose cística – exacerbação pulmonar (off-label)",
+          "Dose: 500 mg a 1 g IV 6/6 h, geralmente em combinação.",
+          "Duração: tipicamente 10–14 dias (pode variar com resposta; alguns protocolos estendem).",
+          "Melioidose / glanders (alternativa; muitas vezes prefere-se meropenem)",
+          "Terapia intensiva inicial: 25 mg/kg (máx 1 g) IV a cada 6–8 h por 14 dias (pode precisar mais conforme gravidade/foco).",
+          "Após fase IV: terapia de erradicação VO por ≥12 semanas (conforme protocolos e infectologia).",
+          "Em foco CNS/prostata/osso/articulação/pele/partes moles, pode-se associar TMP-SMX conforme especialistas.",
+          "Micobacteriose por micobactérias não tuberculosas de crescimento rápido (off-label; em combinação)",
+          "Dose: 500 mg a 1 g IV 2x/dia; alguns especialistas consideram até 3x/dia conforme caso.",
+          "Duração: muito variável; frequentemente 2–12 semanas de fase IV, seguida de manutenção oral prolongada; deve ser conduzido com infectologia.",
+          "Peritonite em diálise peritoneal (off-label, via intraperitoneal preferida se sem sepse)",
+          "Intermitente (a cada outra troca): 500 mg no dialisato a cada outra troca, dwell ≥6 h.",
+          "Contínuo (cada troca CAPD): dose de ataque 250 mg/L na 1ª troca; depois manutenção 50 mg/L em cada troca subsequente.",
+          "Duração: ≥3 semanas; se sem melhora em 5 dias, remover cateter e tratar com antibiótico sistêmico por 14 dias após remoção."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/peso",
+        "paragraphs": [
+          "Não recomendado em infecções do SNC (meningite) em pediatria pelo risco de convulsões.",
+          "Dose geral (infantes, crianças e adolescentes):",
+          "Por indicação (pediatria):"
+        ],
+        "bullets": [
+          "15 a 25 mg/kg/dose IV 6/6 h (máx 1.000 mg/dose).",
+          "Preferir o topo da faixa (25 mg/kg 6/6 h) quando Pseudomonas aeruginosa sensível é alvo provável.",
+          "Fibrose cística – exacerbação pulmonar: 25 mg/kg/dose 6/6 h (máx 1.000 mg/dose); duração típica 10–21 dias.",
+          "Infecção intra-abdominal complicada: 15–25 mg/kg/dose 6/6 h (máx 500 mg/dose); duração usual 4–7 dias se controle de foco adequado (em algumas situações pós-cirúrgicas selecionadas, ≤24 h).",
+          "Melioidose (fase intensiva): 25 mg/kg/dose 6/6 h (máx 1.000 mg/dose), geralmente ≥14 dias e depois erradicação VO.",
+          "Micobacteriose NTM em FC (pulmonar): 15–20 mg/kg/dose 12/12 h (máx 1.000 mg/dose) em combinação; fase parenteral 3–12 semanas; tratamento total costuma ser ≥12 meses após conversão de cultura (com especialista).",
+          "Febre neutropênica empírica (dados limitados): 15–25 mg/kg/dose 6/6 h (máx 1.000 mg/dose) até culturas negativas 48 h e paciente bem/afebril ≥24 h com recuperação medular (ou conforme foco).",
+          "Peritonite em DP (intraperitoneal, contínuo): ataque 250 mg/L e manutenção 50 mg/L no dialisato (conforme protocolo)."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "O texto que você trouxe traz PK neonatal (t½ maior) e eventos (convulsão neonatal relatada), mas não detalha um esquema neonatal padrão completo na mesma seção. Na prática, neonatologia costuma seguir protocolos institucionais com ajuste por idade gestacional/pós-natal e função renal.",
+          "Particularidades relevantes: maior Vd e meia-vida em neonatos; monitorar SNC e função renal com rigor."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão",
+        "bullets": [
+          "Somente IV por infusão; não administrar IV push.",
+          "Adulto/pediatria:",
+          "≤500 mg: 20–30 min",
+          ">500 mg: 40–60 min",
+          "Se náusea/vômito durante infusão, reduzir velocidade.",
+          "Infusão estendida (off-label): 3 horas (considerar estabilidade em temperatura ambiente)."
+        ]
+      },
+      {
+        "title": "7. Ajustes de dose"
+      },
+      {
+        "title": "7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)"
+      },
+      {
+        "title": "7.1.1 Adulto — insuficiência renal (CrCl por Cockcroft-Gault)",
+        "paragraphs": [
+          "As recomendações abaixo são para infusão intermitente e baseadas em opinião especializada e estudos clássicos (podem diferir da bula). Escolha a coluna conforme a dose usual pretendida:",
+          "Se a dose usual seria 500 mg IV 6/6 h:",
+          "Se a dose usual seria 1 g IV 8/8 h:",
+          "Se a dose usual seria 1 g IV 6/6 h (regime desenhado para alvo PK/PD com MIC 4 mg/L em algumas simulações):",
+          "Nota prática: nessa faixa (15–<30), o esquema mais frequente pode reduzir risco de toxicidade em comparação com intervalos mais longos, mas ainda exige vigilância clínica.",
+          "Observação importante (AKI vs DRC): em injúria renal aguda, pode haver clearance não renal relativamente maior do que em DRC; se falha clínica, pode ser necessário reavaliar dose ou considerar alternativa."
+        ],
+        "bullets": [
+          "CrCl ≥60 a <130 mL/min: sem ajuste",
+          "CrCl ≥30 a <60: 250 mg 6/6 h OU 500 mg 8/8 h",
+          "CrCl ≥15 a <30: 250 mg 8/8 h OU 500 mg 12/12 h",
+          "CrCl <15: não administrar a menos que hemodiálise seja instituída em até 48 h",
+          "CrCl ≥60 a <130: sem ajuste",
+          "CrCl ≥30 a <60: 500 mg 8/8 h",
+          "CrCl ≥15 a <30: 250 mg 8/8 h OU 500 mg 12/12 h",
+          "CrCl <15: não administrar a menos que hemodiálise em até 48 h",
+          "CrCl ≥60 a <130: sem ajuste",
+          "CrCl ≥30 a <60: 500 mg 6/6 h",
+          "CrCl ≥15 a <30: 250 mg 6/6 h",
+          "CrCl <15: não administrar a menos que hemodiálise em até 48 h"
+        ]
+      },
+      {
+        "title": "7.1.2 ARC (adulto)",
+        "paragraphs": [
+          "CrCl urinário medido ≥130 mL/min/1,73 m² (ARC):"
+        ],
+        "bullets": [
+          "1 g IV 6/6 h."
+        ]
+      },
+      {
+        "title": "7.1.3 Hemodiálise intermitente (adulto)",
+        "bullets": [
+          "Droga é dialisável.",
+          "250 a 500 mg IV 12/12 h, dependendo do tipo e gravidade da infecção.",
+          "Quando coincidir dose em dia de diálise: programar uma das doses após a diálise, se possível."
+        ]
+      },
+      {
+        "title": "7.1.4 Diálise peritoneal (adulto)",
+        "bullets": [
+          "250 a 500 mg IV 12/12 h."
+        ]
+      },
+      {
+        "title": "7.1.5 CRRT (adulto)",
+        "paragraphs": [
+          "(Depende de fluxo e técnica; recomendações assumem filtros de alto fluxo e efluente ~20–25 mL/kg/h):"
+        ],
+        "bullets": [
+          "1 g IV dose única, depois 250 mg 6/6 h OU 500 mg a cada 6–8 h.",
+          "Monitorar resposta e sinais de neurotoxicidade."
+        ]
+      },
+      {
+        "title": "7.1.6 PIRRT / SLED (adulto)",
+        "bullets": [
+          "500 mg a 1 g dose única, depois 250 mg 6/6 h OU 500 mg 8/8 h, tentando agendar uma das doses após PIRRT nos dias de sessão.",
+          "Nota crítica: esquemas “seguros” podem não atingir alvos PK/PD para MIC alta; doses maiores (ex.: 750 mg 6/6 h ou 1 g 8/8 h) aumentam chance de alvo, mas elevam muito o risco de neurotoxicidade/convulsões — às vezes é melhor escolher antimicrobiano alternativo."
+        ]
+      },
+      {
+        "title": "7.1.7 Pediatria — insuficiência renal (GFR)",
+        "paragraphs": [
+          "As recomendações abaixo são baseadas em dose usual pediátrica de 15–25 mg/kg 6/6 h.O fabricante não recomenda uso em <30 kg com insuficiência renal (por falta de dados), mas na prática há esquemas de referência."
+        ],
+        "bullets": [
+          "GFR 30–50 mL/min/1,73 m²: 7 a 13 mg/kg/dose IV 8/8 h",
+          "GFR 10–29: 7,5 a 12,5 mg/kg/dose IV 12/12 h",
+          "GFR <10: 7,5 a 12,5 mg/kg/dose IV 24/24 hHemodiálise pediatria: 7,5 a 12,5 mg/kg 24/24 h (administrar após HD nos dias de diálise).DP pediatria: 7,5 a 12,5 mg/kg 24/24 h.CRRT pediatria: 7 a 13 mg/kg/dose 8/8 h."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "bullets": [
+          "Não há ajuste padronizado fornecido na bula; na prática, como a eliminação é majoritariamente renal, foco é ajuste por rim e monitorização clínica/laboratorial."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica",
+        "bullets": [
+          "Ajuste guiado principalmente por função renal e gravidade/MIC. Considerar infusão estendida em crítico."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade",
+        "bullets": [
+          "Ajustar por CrCl (frequentemente reduzido) e monitorar SNC (confusão, mioclonia, convulsão)."
+        ]
+      },
+      {
+        "title": "8. Administração e compatibilidades"
+      },
+      {
+        "title": "8.1 Interação com a dieta",
+        "bullets": [
+          "Não se aplica (IV)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)",
+        "bullets": [
+          "Não se aplica diretamente (IV)."
+        ]
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV",
+        "bullets": [
+          "Atenção: estabilidade limitada em temperatura ambiente, especialmente em infusão estendida → seguir protocolo de farmácia (diluente, concentração, tempo máximo)."
+        ]
+      },
+      {
+        "title": "9. Efeitos adversos"
+      },
+      {
+        "title": "9.1 Comuns (≥1%)",
+        "bullets": [
+          "Flebite no local de infusão (2–3%).",
+          "Diarreia (~2% em adultos; 3–4% em pediatria).",
+          "Náusea (~2%).",
+          "Rash (≤2%).",
+          "Alterações laboratoriais em pediatria podem ser frequentes: aumento de AST/ALT, eosinofilia, alterações hematológicas (dependendo da faixa etária)."
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Convulsões / neurotoxicidade (risco maior em disfunção renal; também relatado sem risco aparente).",
+          "Anafilaxia/angioedema.",
+          "C. difficile (colite, inclusive tardia).",
+          "Reações cutâneas graves: SJS/TEN, eritema multiforme (raras).",
+          "Hepatite/insuficiência hepática fulminante (muito raro, relatos)."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Anafilaxia/angioedema, broncoespasmo importante.",
+          "Suspeita de SJS/TEN.",
+          "Convulsão atribuída ao fármaco (reavaliar dose/renal e necessidade de trocar).",
+          "Diarreia grave com suspeita de C. difficile (conduta conforme protocolo)."
+        ]
+      },
+      {
+        "title": "10. Contraindicações",
+        "bullets": [
+          "Hipersensibilidade a imipenem/cilastatina ou componentes da formulação."
+        ]
+      },
+      {
+        "title": "11. Advertências e precauções"
+      },
+      {
+        "title": "11.1 Populações especiais",
+        "bullets": [
+          "Renal: ajustar sempre; não usar se CrCl ≤15 sem diálise em 48 h.",
+          "CNS: cautela em epilepsia, lesões cerebrais, histórico de convulsão.",
+          "Pediatria: evitar em infecções do SNC.",
+          "Hemodiálise: usar quando benefício superar risco de convulsões."
+        ]
+      },
+      {
+        "title": "11.2 Riscos específicos",
+        "bullets": [
+          "CNS (confusão/mioclonia/convulsão), principalmente por acúmulo.",
+          "Superinfecção e C. difficile (inclusive >2 meses após antibiótico)."
+        ]
+      },
+      {
+        "title": "12. Interações medicamentosas"
+      },
+      {
+        "title": "12.1 Interações clinicamente relevantes",
+        "bullets": [
+          "Valproato/divalproato: queda importante de níveis → risco de convulsão.",
+          "Ganciclovir/valganciclovir: pode aumentar risco de convulsões (evitar se possível).",
+          "Ciclosporina: potencial aumento de neurotoxicidade (monitorar).",
+          "Probenecida: pode aumentar níveis (monitorar).",
+          "Vacinas orais vivas (tifo Ty21a, cólera oral): antibiótico reduz eficácia → ajustar janela."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Evitar carbapenêmico + valproato; se inevitável, adicionar antiepiléptico e monitorar clinicamente.",
+          "Evitar ganciclovir/valganciclovir junto se alternativa existir; se usar, vigilância SNC.",
+          "Monitorar neurotoxicidade com ciclosporina e função renal."
+        ]
+      },
+      {
+        "title": "13. Gestação e lactação"
+      },
+      {
+        "title": "13.1 Gestação",
+        "bullets": [
+          "Atravessa placenta; dados limitados. Pode ser usado quando necessário. Em antraz sistêmico, é opção recomendada em orientações específicas."
+        ]
+      },
+      {
+        "title": "13.2 Lactação",
+        "bullets": [
+          "Presente no leite; exposição do lactente tende a ser limitada (baixa biodisponibilidade oral). Em geral, pode ser aceitável quando necessário, monitorando diarreia/candidíase no lactente."
+        ]
+      },
+      {
+        "title": "14. Farmacocinética / Farmacodinâmica"
+      },
+      {
+        "title": "14.1 Absorção, distribuição, metabolismo, eliminação",
+        "bullets": [
+          "IV.",
+          "Distribuição em pulmão (relação ELF:plasma reportada), tecidos e fluidos.",
+          "Imipenem é metabolizado no rim por deidropeptidase I; cilastatina bloqueia esse metabolismo.",
+          "Eliminação predominante urinária (~70% como droga inalterada)."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Meia-vida em adultos: ~60 min (ambos).",
+          "Ligação proteica: imipenem ~20%; cilastatina ~40%.",
+          "Neonatos: meia-vida maior (imipenem ~1,7–2,4 h; cilastatina ~3,9–6,4 h), exigindo cautela e protocolos específicos."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD",
+        "bullets": [
+          "Beta-lactâmico tempo-dependente: alvo clássico 40–70% fT>MIC (infusão padrão/estendida); em críticos, frequentemente buscar ≥50% e preferir ≥100% fT>MIC quando possível.",
+          "Infusão estendida pode ajudar especialmente quando MIC é mais alta."
+        ]
+      },
+      {
+        "title": "15. Monitorização"
+      },
+      {
+        "title": "15.1 O que monitorar e com que frequência",
+        "bullets": [
+          "Rim: creatinina/diurese/CrCl (especialmente UTI).",
+          "Hemograma e enzimas hepáticas em terapias prolongadas.",
+          "Sinais de alergia na 1ª dose.",
+          "SNC: confusão, mioclonia, convulsões (sobretudo se renal)."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Resposta clínica, queda de marcadores, culturas negativando, controle de foco.",
+          "Falha: foco não controlado, patógeno resistente/MIC alta sem otimização, subdose em ARC/CRRT, ou toxicidade limitando dose."
+        ]
+      },
+      {
+        "title": "16. Segurança e gestão de eventos"
+      },
+      {
+        "title": "16.1 Conduta em alergia/anafilaxia",
+        "bullets": [
+          "Suspender imediatamente, tratar conforme protocolo (adrenalina/suporte), registrar reação e evitar beta-lactâmicos relacionados conforme avaliação de risco."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreia",
+        "bullets": [
+          "Se suspeita de C. difficile, investigar e tratar; reavaliar necessidade de manter carbapenêmico."
+        ]
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade",
+        "bullets": [
+          "Reavaliar outras causas; se muito sugestivo e grave, considerar troca e monitorar."
+        ]
+      },
+      {
+        "title": "17. Notas práticas"
+      },
+      {
+        "title": "17.1 Erros comuns de prescrição",
+        "bullets": [
+          "IV push (não fazer).",
+          "Não ajustar dose na insuficiência renal.",
+          "Manter carbapenêmico amplo sem descalonamento após culturas.",
+          "Ignorar valproato em uso concomitante."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Em OPAT: alertar para rash, falta de ar, diarreia persistente e sintomas neurológicos (confusão/tremores)."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais",
+        "paragraphs": [
+          "Referência (formato para seu site):Imipenem and cilastatin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
+        "bullets": [
+          "Protocolar quando usar infusão estendida (UTI, MIC alta, sepse, patógeno menos sensível).",
+          "Padronizar estabilidade/diluição com farmácia."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Imipenem.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência (formato para seu site):Imipenem and cilastatin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ]
   },
@@ -6944,6 +7908,1065 @@
     ]
   },
   {
+    "id": "bula-meropenem",
+    "name": "Meropenem",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Algumas apresentações prontas/diluídas (dependendo do mercado): 500 mg/50 mL, 1 g/50 mL em SF 0,9%.",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimos",
+        "paragraphs": [
+          "Meropenem (meropeném; meropenem tri-hidratado/meropenem sódico – conforme formulação)."
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATC",
+        "bullets": [
+          "Carbapenêmico (beta-lactâmico), antibiótico de amplo espectro.",
+          "ATC (geral): J01DH02."
+        ]
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "IV apenas (não há VO).",
+          "Frascos-ampola para reconstituição: 500 mg, 1 g, 2 g.",
+          "Algumas apresentações prontas/diluídas (dependendo do mercado): 500 mg/50 mL, 1 g/50 mL em SF 0,9%."
+        ]
+      },
+      {
+        "title": "2. Introdução e pontos-chave"
+      },
+      {
+        "title": "2.1 O que é e para que serve (visão geral)",
+        "paragraphs": [
+          "Meropenem é um carbapenêmico IV usado para infecções graves por bactérias sensíveis, especialmente gram-negativos (incluindo Pseudomonas aeruginosa) e anaeróbios, com boa penetração tecidual e possibilidade de otimização por infusão estendida/contínua para melhorar alvos PK/PD (fT>MIC), sobretudo em pacientes críticos e patógenos com MIC mais alta."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Tempo-dependente: eficácia depende de tempo acima da MIC → considerar infusão estendida (3 h) ou contínua em sepse/choque, UTI, MIC elevada, foco difícil, obesidade, ou clearance renal aumentado.",
+          "500 mg 6/6 h pode ser PK/PD semelhante a 1 g 8/8 h em vários cenários (em infusão tradicional).",
+          "Ajuste renal é crucial (acúmulo ↑ risco de neurotoxicidade/convulsão).",
+          "Atenção a interação importante com valproato (queda de níveis → risco de crise)."
+        ]
+      },
+      {
+        "title": "3. Mecanismo de ação",
+        "paragraphs": [
+          "Beta-lactâmico que inibe síntese da parede bacteriana ao se ligar a PBPs, bloqueando a transpeptidação do peptidoglicano → lise bacteriana."
+        ]
+      },
+      {
+        "title": "4. Espectro / Cobertura (antimicrobiano)"
+      },
+      {
+        "title": "4.1 Micro-organismos-alvo (visão prática)",
+        "bullets": [
+          "Gram-negativos: Enterobacterales (inclui ESBL em muitos casos), Pseudomonas aeruginosa (dependendo de MIC), Acinetobacter (atividade variável; para CRAB pode exigir estratégia otimizada e/ou combinações).",
+          "Gram-positivos: estreptococos (inclui pneumococo sensível), MSSA (não é “primeira escolha” se foco só MSSA).",
+          "Anaeróbios: bom para Bacteroides fragilis e anaeróbios intra-abdominais."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Não cobre MRSA (precisa associar/alternar).",
+          "Cobertura fraca/ausente para Enterococcus faecium, atípicos (Mycoplasma/Chlamydia/Legionella), Stenotrophomonas maltophilia.",
+          "Pode falhar em carbapenemases (KPC/NDM/OXA-48 etc.) e em CRAB sem estratégia específica."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)",
+        "bullets": [
+          "Mecanismos: carbapenemases, perda de porinas + bombas de efluxo, alteração de PBPs.",
+          "Em MIC elevada, considerar infusão estendida/contínua e/ou dose maior, e avaliar necessidade de terapia combinada conforme patógeno e foco."
+        ]
+      },
+      {
+        "title": "5. Indicações terapêuticas"
+      },
+      {
+        "title": "5.1 Indicações em bula (varia por país; comuns)",
+        "bullets": [
+          "Infecções intra-abdominais complicadas (ex.: apendicite complicada, peritonite).",
+          "Meningite bacteriana (pediátrica ≥3 meses) por patógenos sensíveis.",
+          "Infecções complicadas de pele e partes moles (incluindo gram-negativos/anaeróbios em cenários selecionados)."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (conforme prática e diretrizes)",
+        "bullets": [
+          "Bacteremia gram-negativa, pneumonia hospitalar/VAP, sepse/choque séptico (cobertura antipseudomonas), neutropenia febril (alto risco), abscesso intracraniano/epidural espinal, osteomielite/discite, infecção de prótese articular por gram-negativos MDR, ITU complicada/ pielonefrite, peritonite em diálise peritoneal (preferência por via intraperitoneal quando possível), nocardiose grave, melioidose/glanders, antraz sistêmico."
+        ]
+      },
+      {
+        "title": "6. Posologia"
+      },
+      {
+        "title": "6.1 Adultos — dose usual e por indicação (com duração)",
+        "paragraphs": [
+          "Métodos de infusão (adulto):",
+          "Observação prática: infusão estendida/contínua exige atenção à estabilidade em temperatura ambiente (seguir protocolo local/farmácia).",
+          "Faixa de dose usual (adulto, infusão tradicional):",
+          "A seguir, doses por patologia/condição (adulto):"
+        ],
+        "bullets": [
+          "Intermitente (tradicional): IV em 15–30 min (muitos protocolos usam 30 min).",
+          "Infusão estendida (off-label): 1–2 g a cada 8 h em 3 horas (pode usar dose de ataque 1–2 g em 30 min quando precisa atingir nível rápido, ex.: sepse).",
+          "Infusão contínua (off-label): esquemas usuais em prática/estudos incluem 2 g 8/8 h correndo por 8 h ou 3 g 12/12 h correndo por 12 h; alternativas baseadas em total diário (ex.: 6 g/dia em 24 h) com dose de ataque quando indicado.",
+          "500 mg 6/6 h OU 1–2 g 8/8 h (500 mg 6/6 h pode equivaler a 1 g 8/8 h em PK/PD, dependendo do cenário).",
+          "Bacteremia gram-negativa (inclui Pseudomonas, empiric/dirigida)",
+          "1 g IV 8/8 h.",
+          "Se gravidade alta (sepse/choque, queimados, neutropenia) ou MIC elevada: muitos especialistas preferem infusão estendida/contínua e/ou 2 g 8/8 h.",
+          "Duração: em geral 7–14 dias conforme foco, patógeno, extensão e resposta; 7 dias pode ser suficiente em bacteremia não complicada por Enterobacterales com boa resposta.",
+          "Sepse e choque séptico (cobertura ampla, incluindo Pseudomonas)",
+          "1–2 g IV 8/8 h (frequentemente em combinação conforme cenário).",
+          "Preferir infusão estendida/contínua em crítico, MIC elevada, e/ou se alvo PK/PD desejado é ≥100% fT>MIC.",
+          "Pneumonia",
+          "CAP com risco de MDR/gram-negativo (incl. Pseudomonas) em internado: 1 g IV 8/8 h (geralmente com outro(s) agente(s) conforme risco).",
+          "Duração: mínimo 5 dias, frequentemente mais se imunossuprimido, grave/complicada, ou Pseudomonas.",
+          "HAP/VAP (MDR gram-negativos): 1 g IV 8/8 h.",
+          "Duração: frequentemente 7 dias, ajustando pela resposta, patógeno e foco.",
+          "Infecções intra-abdominais",
+          "Colecistite aguda não complicada: 1 g IV 8/8 h; manter 1 dia após colecistectomia ou até resolução se manejo não operatório.",
+          "Outras (colangite, apendicite complicada, diverticulite, abscesso intra-abdominal): 1 g IV 8/8 h.",
+          "Duração: após bom controle de foco, muitas vezes 4–5 dias; pode variar (ex.: diverticulite/appendicite sem intervenção: 4–14 dias conforme extensão e resposta).",
+          "Meningite bacteriana (adulto, uso em cenários selecionados, p.ex. gram-negativos resistentes)",
+          "2 g IV 8/8 h.",
+          "Duração: 7–21 dias; gram-negativos bacilares geralmente mínimo 10–14 dias (alguns preferem 21 dias).",
+          "Abscesso intracraniano / epidural intracraniano / abscesso epidural espinal (empírico/dirigido com risco de gram-negativos resistentes)",
+          "2 g IV 8/8 h (em combinação conforme caso).",
+          "Duração: em geral 6–8 semanas (cérebro/epidural intracraniano) e 4–8 semanas (epidural espinal), individualizando.",
+          "Febre neutropênica (alto risco) – terapia empírica",
+          "1 g IV 8/8 h até afebril ≥48 h e recuperação de neutrófilos (ANC ≥500 e em ascensão) ou duração padrão do foco identificado.",
+          "ITU complicada / pielonefrite com sinais sistêmicos",
+          "1–2 g IV 8/8 h (reservar 2 g 8/8 h para suspeita de MDR).",
+          "Duração: frequentemente 5–7 dias (se todo o curso for com meropenem, alguns usam 7 dias), ajustando pela evolução.",
+          "Infecção de pele/partes moles moderada a grave (inclusive necrosante em esquema combinado quando necessário)",
+          "1 g IV 8/8 h (muitas vezes em combinação).",
+          "Duração: 5–14 dias; em necrosante, até não precisar de mais desbridamento, melhora clínica e afebril ≥48 h.",
+          "Osteomielite/discite",
+          "1 g IV 8/8 h (frequentemente combinado no empírico).",
+          "Duração: tipicamente 6 semanas, ajustando conforme foco/hardware/resposta.",
+          "Infecção de prótese articular (gram-negativos MDR, incl. Pseudomonas) – dirigida",
+          "1 g IV 8/8 h.",
+          "Duração: variável; frequentemente 4–6 semanas (dependendo da estratégia cirúrgica).",
+          "Peritonite (diálise peritoneal) – via intraperitoneal (preferida se não sepse)",
+          "APD (dwell longo, intermitente): 500 mg no dialisato 1x/dia, dwell ≥6 h (às vezes preferem ~15 h).",
+          "CAPD (intermitente): 1 g no dialisato 1x/dia, dwell ≥6 h.",
+          "CAPD (contínuo): 125 mg/L em cada troca.",
+          "Duração: ≥3 semanas; se sem melhora em 5 dias, remover cateter e tratar com ATB sistêmico por 14 dias após remoção (conforme protocolo/ID).",
+          "Nocardiose grave (alternativa; sempre com teste de sensibilidade e infectologia)",
+          "1–2 g IV 8/8 h em combinação.",
+          "Duração: prolongada (≈ 6 meses a ≥1 ano), com fase IV inicial seguida de manutenção VO quando possível.",
+          "Antraz sistêmico (incluindo meningite) – off-label, em combinação",
+          "2 g IV 8/8 h + outros agentes apropriados por ≥2 semanas (meningite: alguns sugerem ≥3 semanas). Transição e duração total variam conforme exposição e imunossupressão.",
+          "Exacerbação pulmonar na fibrose cística",
+          "2 g IV 8/8 h (frequentemente em combinação).",
+          "Duração: tipicamente 10–14 dias."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/peso",
+        "paragraphs": [
+          "Regras gerais (pediatria):",
+          "Doses por indicação (crianças e adolescentes):"
+        ],
+        "bullets": [
+          "Infusão intermitente (15–30 min) é comum; em cenários de MIC elevada/gravidade, considerar infusão estendida (3–4 h) conforme idade e protocolo.",
+          "Dose máxima frequente: 1.000 mg/dose para 20 mg/kg e 2.000 mg/dose para 40 mg/kg (muitos cenários).",
+          "Infecções suscetíveis não-CNS (geral):",
+          "20 mg/kg/dose IV 8/8 h (máx 1 g/dose).",
+          "Meningite bacteriana (≥3 meses):",
+          "40 mg/kg/dose IV 8/8 h (máx 2 g/dose).",
+          "Duração individual; gram-negativos bacilares geralmente mínimo 10–14 dias (alguns preferem ≥21).",
+          "Neutropenia febril (empírico):",
+          "20 mg/kg/dose IV 8/8 h (máx 1 g/dose).",
+          "Fibrose cística – exacerbação pulmonar (dados limitados):",
+          "40 mg/kg/dose IV 8/8 h (máx 2 g/dose), muitas vezes em combinação.",
+          "Em crianças ≥8 anos/adolescentes: pode-se usar infusão estendida (3 h) com a mesma dose.",
+          "Infecção intra-abdominal complicada (IDSA: 4–7 dias; ajustar à clínica e controle de foco):",
+          "1 a <3 meses:",
+          "IG <32 semanas: 20 mg/kg/dose 8/8 h",
+          "IG ≥32 semanas: 30 mg/kg/dose 8/8 h",
+          "≥3 meses até adolescência: 20 mg/kg/dose 8/8 h (máx 1 g/dose)",
+          "Infecção de pele/estrutura (complicada):",
+          "Rotulagem de fabricante (≥3 meses): 10 mg/kg/dose 8/8 h (máx 500 mg/dose)",
+          "Grave/necrosante (prática): 20 mg/kg/dose 8/8 h (máx 1 g/dose)",
+          "Antraz (dados limitados):",
+          "Cutâneo sem meningite (alternativa): 20 mg/kg/dose 8/8 h (máx 2 g/dose), 7–10 dias (ou estabilização; se aerosol, completar esquema total 60 dias com profilaxia).",
+          "Sistêmico incl. meningite: 40 mg/kg/dose 8/8 h (máx 2 g/dose) por ≥2 semanas, em combinação."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "Neonatos / <3 meses: administração como infusão IV em 30 min (frequente em protocolos).",
+          "Exemplos presentes em práticas:",
+          "Intra-abdominal 1–<3 meses (acima): 20–30 mg/kg 8/8 h conforme IG.",
+          "Para outros cenários neonatais (sepse/meningite), a dose pode seguir protocolos locais/ID; muitas equipes usam 20 mg/kg (não-CNS) e 40 mg/kg (CNS) com intervalos e método definidos pela neonatologia e função renal."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão",
+        "bullets": [
+          "Via: IV (não VO; IM não é padrão).",
+          "Adulto: infusão IV 15–30 min (ou bolus IV lento 3–5 min em alguns serviços, quando permitido pela instituição).",
+          "Pediatria:",
+          "IV push (até 1.000 mg) em 3–5 min: dados limitados para doses de 40 mg/kg; preferir infusão quando possível.",
+          "Infusão: neonatos <3 meses em 30 min; crianças/adolescentes em 15–30 min; estendida 3–4 h quando indicado."
+        ]
+      },
+      {
+        "title": "7. Ajustes de dose"
+      },
+      {
+        "title": "7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)"
+      },
+      {
+        "title": "7.1.1 Adulto – insuficiência renal (CrCl)",
+        "paragraphs": [
+          "Escolha 1º a dose “usual” pela gravidade/indicação, depois ajuste pela CrCl.",
+          "Se a dose usual seria 1 g IV 8/8 h:",
+          "Se a dose usual seria 2 g IV 8/8 h:",
+          "Pode administrar tanto em infusão tradicional (30 min) quanto estendida (3 h); estender a infusão tende a melhorar alvos, especialmente em críticos/MIC alta."
+        ],
+        "bullets": [
+          "CrCl >50 a <130 mL/min: sem ajuste",
+          "CrCl >25 a ≤50: 1 g 12/12 h",
+          "CrCl 10 a ≤25: 500 mg 12/12 h",
+          "CrCl <10: 500 mg 24/24 h",
+          "CrCl >50 a <130: sem ajuste",
+          "CrCl >25 a ≤50: 2 g 12/12 h",
+          "CrCl 10 a ≤25: 1 g 12/12 h",
+          "CrCl <10: 1 g 24/24 h OU 500 mg 12/12 h (muitos especialistas preferem 500 mg 12/12 h em infecção grave/MIC alta para melhor alvo PK/PD)."
+        ]
+      },
+      {
+        "title": "7.1.2 Terapias dialíticas (adulto)",
+        "paragraphs": [
+          "Hemodiálise intermitente (3x/semana):",
+          "Diálise peritoneal (adulto):",
+          "CRRT (CVVH/CVVHD/CVVHDF) – adulto (depende de fluxo e técnica):",
+          "Ajustar conforme taxa de efluente, foco, MIC e resposta; considerar TDM quando disponível.",
+          "PIRRT (ex.: SLED) – adulto (sessões 8–10 h/dia em referências usuais):"
+        ],
+        "bullets": [
+          "Se dose usual 1 g 8/8 h → 500 mg 24/24 h",
+          "Se dose usual 2 g 8/8 h → 1 g 24/24 h OU 500 mg 12/12 h (preferível em grave/MIC alta).Quando a dose cair em dia de diálise: administrar após a sessão (droga é dialisável).",
+          "Se dose usual 1 g 8/8 h → 500 mg 24/24 h",
+          "Se dose usual 2 g 8/8 h → 1 g 24/24 h OU 500 mg 12/12 h (conforme gravidade).",
+          "Intermitente 30 min: 1 g dose de ataque, depois 500 mg a 1 g 8/8 h.",
+          "Contínua: 1 g dose de ataque, depois 1 g correndo por 12 h a cada 12 h (conforme protocolo/fluxo).",
+          "1 g 12/12 h (infusão 30 min).",
+          "Se diurese residual importante (≥300 mL/dia), há protocolos que recomendam até 2 g 8/8 h (selecionados)."
+        ]
+      },
+      {
+        "title": "7.1.3 Pediatria – insuficiência renal (GFR mL/min/1,73 m²)",
+        "paragraphs": [
+          "Se a dose usual seria 20 mg/kg/dose 8/8 h:",
+          "Se a dose usual seria 40 mg/kg/dose 8/8 h:",
+          "Hemodiálise intermitente (pediatria):",
+          "Diálise peritoneal (pediatria):",
+          "CRRT (pediatria):"
+        ],
+        "bullets": [
+          "GFR >50: sem ajuste",
+          ">25 a ≤50: 20 mg/kg 12/12 h (máx 1 g/dose)",
+          "10 a ≤25: 10 mg/kg 12/12 h (máx 500 mg/dose)",
+          "<10: 10 mg/kg 24/24 h (máx 500 mg/dose)",
+          "GFR >50: sem ajuste",
+          ">25 a ≤50: 40 mg/kg 12/12 h (máx 2 g/dose)",
+          "10 a ≤25: 20 mg/kg 12/12 h (máx 1 g/dose)",
+          "<10: 20 mg/kg 24/24 h (máx 1 g/dose)",
+          "Em dias de diálise, administrar após a sessão.",
+          "Esquemas citados: 25 mg/kg 24/24 h (dose diária) OU 40 mg/kg a cada 48 h (conforme protocolo).",
+          "10–20 mg/kg 24/24 h (máx 1 g/dose).",
+          "20 mg/kg/dose em infusão 1–4 h 8/8 h; em situações específicas pode ser necessário 40 mg/kg/dose 8/8 h (ex.: MIC ≥4 mg/L), máx 2 g/dose.",
+          "Considerar infusão contínua conforme cenário e protocolo."
+        ]
+      },
+      {
+        "title": "7.1.4 Augmented Renal Clearance (ARC)",
+        "paragraphs": [
+          "Adulto (CrCl urinário medido ≥130 mL/min/1,73 m²): pode exigir doses maiores (às vezes >6 g/dia) e TDM quando disponível. Estratégias comuns:",
+          "Pediatria (dados limitados):"
+        ],
+        "bullets": [
+          "Ataque 2 g (30 min) → 2 g 3 h 8/8 h (infusão estendida) OU",
+          "Ataque 1 g → 6 g/dia em infusão contínua (conforme protocolo).",
+          "Em GFR muito alto (ex.: ≥160 mL/min/1,73 m² em crianças/adolescentes), considerar:",
+          "Preferir infusão estendida: 30–40 mg/kg 4 h 8/8 h ou 30 mg/kg 3 h 6/6 h",
+          "Alternativa: 40 mg/kg 6/6 h (infusão tradicional).",
+          "Monitorar eficácia e segurança; TDM se houver."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "bullets": [
+          "Sem ajuste (Child-Pugh A–C).",
+          "Em ascite e infecção grave, alguns especialistas consideram usar doses máximas indicadas para garantir exposição adequada (Vd pode aumentar)."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica",
+        "bullets": [
+          "Em geral, doses tradicionais podem ser adequadas, mas estimar função renal por Cockcroft-Gault com peso ajustado é comum para guiar ajuste renal.",
+          "Para infecções graves ou MIC alta: preferir 2 g 8/8 h (30 min) ou 2 g 3 h 8/8 h (estendida).",
+          "A obesidade por si só nem sempre exige aumentar dose, mas a estratégia de infusão pode ajudar na exposição."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade",
+        "bullets": [
+          "Ajustar principalmente por função renal (CrCl frequentemente reduzida).",
+          "Monitorar neurotoxicidade, confusão/delirium e função renal mais de perto."
+        ]
+      },
+      {
+        "title": "8. Administração e compatibilidades"
+      },
+      {
+        "title": "8.1 Interação com a dieta",
+        "bullets": [
+          "Não se aplica (IV)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)",
+        "bullets": [
+          "Não se aplica diretamente (IV). Se houver troca para antibiótico VO, avaliar interações específicas do novo fármaco."
+        ]
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)",
+        "bullets": [
+          "Atenção à estabilidade em temperatura ambiente, especialmente em infusões estendidas/contínuas.",
+          "Preferir preparo conforme farmácia hospitalar e protocolo local (diluente, concentração, tempo máximo, proteção).",
+          "Evitar misturar na mesma linha com medicamentos incompatíveis; usar via exclusiva quando possível em UTI/infusões longas."
+        ]
+      },
+      {
+        "title": "9. Efeitos adversos"
+      },
+      {
+        "title": "9.1 Comuns (≥1%)",
+        "bullets": [
+          "GI: diarreia, náusea/vômitos, constipação.",
+          "SNC: cefaleia, tontura (menos comum), sonolência.",
+          "Pele: rash, prurido.",
+          "Local: flebite/dor no sítio de infusão.",
+          "Hemato: anemia, alterações leves de hemograma (variável)."
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Neurotoxicidade/convulsões (risco ↑ em insuficiência renal, doença neurológica prévia, doses altas/acúmulo).",
+          "C. difficile (diarreia associada a antibiótico, colite).",
+          "Hipersensibilidade imediata (anafilaxia, angioedema, broncoespasmo) e reações cutâneas graves (SJS/TEN, DRESS, AGEP – raras).",
+          "Citopenias (leucopenia, neutropenia, trombocitopenia), Coombs positivo (raro), agranulocitose (muito raro)."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Anafilaxia/angioedema ou broncoespasmo importante.",
+          "Suspeita de SJS/TEN, DRESS, AGEP.",
+          "Convulsão ou neurotoxicidade importante atribuída ao fármaco (avaliar níveis/exposição e função renal).",
+          "Diarreia grave com suspeita de C. difficile (avaliar troca/suspensão conforme caso)."
+        ]
+      },
+      {
+        "title": "10. Contraindicações",
+        "bullets": [
+          "Hipersensibilidade a meropenem/carbapenêmicos ou a componentes da formulação.",
+          "História de anafilaxia a beta-lactâmicos: avaliar risco/benefício e alternativa (contraindicação pode variar por protocolo institucional)."
+        ]
+      },
+      {
+        "title": "11. Advertências e precauções"
+      },
+      {
+        "title": "11.1 Populações especiais",
+        "bullets": [
+          "Renal: ajuste obrigatório quando CrCl ≤50 mL/min; monitorar acúmulo e SNC.",
+          "Neurológicos: maior cautela em história de convulsão/lesão cerebral/AVC.",
+          "Idosos: maior chance de disfunção renal e eventos SNC.",
+          "ECMO/ECLS: variabilidade PK; preferir estratégias que garantam exposição e monitorar resposta (TDM se disponível)."
+        ]
+      },
+      {
+        "title": "11.2 Riscos específicos",
+        "bullets": [
+          "Superinfecção (bacteriana/fúngica) com uso prolongado.",
+          "Convulsão/neurotoxicidade: particularmente em insuficiência renal.",
+          "C. difficile: risco elevado com carbapenêmicos (classe associada a maior risco relativo dentre antibióticos amplos)."
+        ]
+      },
+      {
+        "title": "12. Interações medicamentosas"
+      },
+      {
+        "title": "12.1 Interações clinicamente relevantes",
+        "bullets": [
+          "Valproato e derivados: carbapenêmicos podem reduzir significativamente níveis de valproato → risco de crise; geralmente evitar combinação.",
+          "Probenecida: pode aumentar concentrações de meropenem (inibição de secreção tubular) → evitar quando possível ou monitorar toxicidade.",
+          "Vacinas vivas orais (ex.: cólera oral, tifo Ty21a): antibióticos sistêmicos podem reduzir efeito → evitar conforme janela recomendada.",
+          "Outras: algumas bases listam interações por grupos (OAT1/3 etc.); o impacto clínico costuma ser menor que valproato/probenecida, mas vale checar em paciente complexo."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Valproato: evitar; se inevitável, associar antiepiléptico alternativo e monitorar clinicamente (nível de valproato costuma despencar).",
+          "Probenecida: preferir alternativa; se usar, monitorar eventos adversos e função renal.",
+          "Vacinas vivas: adiar vacina ou ajustar janela pós-antibiótico."
+        ]
+      },
+      {
+        "title": "13. Gestação e lactação"
+      },
+      {
+        "title": "13.1 Gestação",
+        "bullets": [
+          "Dados humanos são limitados; em geral, pode ser usado quando o benefício supera o risco, especialmente em infecções graves. Para antraz sistêmico, é considerado opção de primeira linha em recomendações específicas."
+        ]
+      },
+      {
+        "title": "13.2 Lactação",
+        "bullets": [
+          "Passa ao leite em baixas concentrações; em geral, amamentação é aceitável, monitorando o lactente para diarreia/candidíase oral."
+        ]
+      },
+      {
+        "title": "14. Farmacocinética / Farmacodinâmica"
+      },
+      {
+        "title": "14.1 Absorção, distribuição, metabolismo, eliminação",
+        "bullets": [
+          "IV → 100% biodisponível.",
+          "Distribuição ampla: urina, bile, pulmão, peritônio, osso; LCR especialmente com meninges inflamadas (em neonatos/≤3 meses pode haver penetração maior).",
+          "Ligação proteica baixa (~2%).",
+          "Eliminação renal predominante (≈70% inalterado na urina); clearance correlaciona com CrCl."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Meia-vida: ~1 h em adultos com função renal normal; aumenta na insuficiência renal.",
+          "Vd: ~15–20 L em adultos; pode aumentar em críticos.",
+          "Tmax: não se aplica como VO; pico ao fim da infusão."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD",
+        "bullets": [
+          "Antibiótico tempo-dependente: alvo é fT>MIC.",
+          "Em críticos, alvos frequentemente desejados: ≥50% fT>MIC (mínimo) e, em muitos protocolos, preferir ≥100% fT>MIC (ou até 4x MIC, dependendo do caso).",
+          "Infusão estendida/contínua aumenta probabilidade de atingir o alvo."
+        ]
+      },
+      {
+        "title": "15. Monitorização"
+      },
+      {
+        "title": "15.1 O que monitorar e com que frequência",
+        "bullets": [
+          "Clínica: febre, parâmetros hemodinâmicos, foco (ex.: oxigenação na pneumonia, dor/abdome no intra-abdominal).",
+          "Microbiologia: culturas e antibiograma antes de iniciar e conforme evolução.",
+          "Laboratório (especialmente em uso prolongado):",
+          "Função renal (creatinina/diurese/CrCl)",
+          "Hemograma (citopenias)",
+          "Função hepática (mais por doença de base/uso prolongado)",
+          "Neurotoxicidade: confusão, mioclonia, convulsão (mais em renal)."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Resposta: melhora clínica, queda de marcadores inflamatórios (quando úteis), controle de foco (imagem/cirurgia), culturas negativando.",
+          "Falha: piora clínica, persistência de bacteremia, ausência de controle de foco, MIC elevada sem otimização, subdose em ARC, ou resistência emergente."
+        ]
+      },
+      {
+        "title": "16. Segurança e gestão de eventos"
+      },
+      {
+        "title": "16.1 Conduta em alergia/anafilaxia",
+        "bullets": [
+          "Anafilaxia/angioedema: suspender, tratar conforme protocolo (adrenalina, suporte), registrar alergia e evitar beta-lactâmicos relacionados conforme avaliação.",
+          "História de alergia a penicilina/cefalosporina: risco de reatividade cruzada com carbapenêmicos costuma ser baixo, mas decisão deve ser individual (gravidade da reação prévia, alternativas, necessidade)."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreia",
+        "bullets": [
+          "Avaliar gravidade; se suspeita de C. difficile, testar e tratar conforme protocolo; reavaliar necessidade de manter carbapenêmico."
+        ]
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade",
+        "bullets": [
+          "Meropenem raramente é causa principal; investigar outras causas. Em elevação significativa e sem alternativa, ponderar troca e monitorar."
+        ]
+      },
+      {
+        "title": "17. Notas práticas"
+      },
+      {
+        "title": "17.1 Erros comuns de prescrição",
+        "bullets": [
+          "Esquecer ajuste renal (CrCl ≤50) → risco de neurotoxicidade.",
+          "Usar infusão curta em paciente crítico com MIC alta/ARC quando poderia otimizar com 3 h.",
+          "Manter meropenem “por inércia” sem descalonar após cultura/antibiograma."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Em ambulatório/OPAT: orientar sinais de alergia, diarreia persistente, sintomas neurológicos (confusão, tremores), e necessidade de exames periódicos."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência (formato para seu site):Meropenem: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
+        "bullets": [
+          "Preferir padronização de: diluente, concentração, tempo máximo de estabilidade, e critérios para infusão estendida/contínua.",
+          "Quando possível, considerar TDM em UTI, ARC, CRRT, MIC elevada, falha terapêutica."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Meropenem.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência (formato para seu site):Meropenem: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
+    "id": "bula-metronidazol",
+    "name": "Metronidazol",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Antimicrobiano/antiprotozoário que, após entrar no microrganismo, interage com o DNA, causando perda da estrutura helicoidal e quebras de fita → inibe síntese proteica e leva à morte celular em organismos suscetíveis.",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimos",
+        "bullets": [
+          "Metronidazol (sistêmico)"
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATC",
+        "bullets": [
+          "Amebicida; Antibiótico (diversos); Antiprotozoário nitroimidazólico"
+        ]
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "paragraphs": [
+          "US",
+          "Canadá"
+        ],
+        "bullets": [
+          "Comprimidos VO: 125 mg, 250 mg, 500 mg",
+          "Cápsula VO: 375 mg (Flagyl [DSC] e genérico 375 mg)",
+          "Suspensão VO: Likmez 500 mg/5 mL (75 mL, 200 mL)",
+          "Solução IV: 500 mg/100 mL (genérico; também preservative free)",
+          "Comprimido VO: 250 mg (genérico)",
+          "Cápsula VO: 500 mg (Flagyl [DSC] e genérico)",
+          "Solução IV: 500 mg/100 mL"
+        ]
+      },
+      {
+        "title": "2. Introdução e pontos-chave"
+      },
+      {
+        "title": "2.1 O que é e para que serve (visão geral)",
+        "bullets": [
+          "Antimicrobiano/antiprotozoário que, após entrar no microrganismo, interage com o DNA, causando perda da estrutura helicoidal e quebras de fita → inibe síntese proteica e leva à morte celular em organismos suscetíveis.",
+          "Usado para infecções anaeróbias, amebíase, tricomoníase e outros cenários (incluindo várias utilizações off-label descritas)."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Boxed warning (EUA): carcinogênico em roedores; evitar uso desnecessário e reservar para tricomoníase, amebíase e infecções anaeróbias.",
+          "Alerta FDA (set/2024): kits “Unit-of-Use Prescription Compounding Kits” (ex.: FIRST Metronidazole) solicitados para interromper distribuição (não comprovados como seguros/eficazes).",
+          "Álcool/propilenoglicol: rótulo do fabricante contraindica durante e até 3 dias após; porém diretriz CDC (STI) diz que não é necessário evitar álcool; evidência é conflitante (nota no texto).",
+          "Conteúdo de sódio (IV): solução parenteral tem 28 mEq de sódio por grama — cautela em IC/edema/estados de retenção de sódio.",
+          "Cirrose: depuração ↓ e meia-vida ↑; uso prolongado/carga cumulativa pode levar a neurotoxicidade/encefalopatia (pode ser confirmada por RM em ~90% dos casos, conforme texto).",
+          "Função renal: meia-vida sérica do fármaco não muda muito, mas metabólitos acumulam e podem ↑ risco de efeitos SNC (neuropatia/encefalopatia/convulsões), sobretudo em cursos prolongados."
+        ]
+      },
+      {
+        "title": "3. Mecanismo de ação",
+        "bullets": [
+          "Após difundir para o organismo, interage com o DNA, causando perda da estrutura helicoidal e quebra de fitas, inibindo síntese proteica e levando à morte celular em microrganismos suscetíveis."
+        ]
+      },
+      {
+        "title": "4. Espectro / Cobertura (se antimicrobiano)"
+      },
+      {
+        "title": "4.1 Micro-organismos-alvo",
+        "bullets": [
+          "Anaeróbios (inclui Bacteroides spp., grupo B. fragilis — citado na seção de indicações em bula).",
+          "Protozoários: Trichomonas vaginalis, Entamoeba (amebíase), e outros citados nas indicações/off-label (ex.: Giardia, Dientamoeba, Balantidium)."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Não foi detalhado no texto acima um “não cobre X” formal; o texto enfatiza uso reservado (boxed warning) e cautela por toxicidade (SNC/SCAR/hepatotoxicidade)."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)",
+        "bullets": [
+          "Não informado no texto acima."
+        ]
+      },
+      {
+        "title": "5. Indicações terapêuticas"
+      },
+      {
+        "title": "5.1 Indicações em bula (Use: Labeled Indications)",
+        "bullets": [
+          "Amebíase (disenteria amebiana; abscesso hepático amebiano; pode associar aspiração percutânea quando indicado).",
+          "Infecções anaeróbias por Bacteroides spp. (incl. grupo B. fragilis):",
+          "Osteoarticulares (adjunto)",
+          "SNC (meningite/abscesso cerebral)",
+          "Endocardite",
+          "Ginecológicas (endometrite/endomiometrite/abscesso tubo-ovariano/coto vaginal)",
+          "Intra-abdominais (peritonite/abscessos/abscesso hepático)",
+          "Respiratórias baixas (pneumonia/empiema/abscesso pulmonar)",
+          "Sepse/BSI (também por Clostridium spp.)",
+          "Pele/partes moles",
+          "Profilaxia cirúrgica (cirurgia colorretal): profilaxia pré/intra/pós-operatória em cirurgia eletiva classificada como contaminada ou potencialmente contaminada (forma injetável).",
+          "Tricomoníase (inclui tratamento de parceiros assintomáticos)."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (Use: Off-Label: Adult)",
+        "bullets": [
+          "Balantidíase; mordida (profilaxia/tratamento); CDI (alternativa); Crohn; Dientamoeba fragilis; tratamento empírico pós-violência sexual (feminino); Giardíase; erradicação H. pylori; infecção odontogênica; pouchite aguda; profilaxia colorretal com metronidazol VO; profilaxia em esvaziamento uterino; tétano."
+        ]
+      },
+      {
+        "title": "6. Posologia"
+      },
+      {
+        "title": "6.1 Adultos — dose usual e por indicação (com duração)",
+        "bullets": [
+          "Amebíase intestinal (disenteria aguda) / extraintestinal (abscesso hepático): VO 500–750 mg a cada 8 h por 7–10 dias, seguido de agente intraluminal (ex.: paromomicina).",
+          "Vaginose bacteriana:",
+          "Inicial: VO 500 mg 12/12 h por 7 dias (gestante: alternativa 250 mg 8/8 h por 7 dias).",
+          "Recorrente: VO 500 mg 12/12 h por 7 dias +/antes de ácido bórico por semanas, seguido de supressão tópica.",
+          "Parceiro masculino (prevenção de recorrência): VO 400 mg 12/12 h por 7 dias + clindamicina tópica (observação: ensaios fora dos EUA).",
+          "Balantidíase (alternativa, off-label): VO 500–750 mg 8/8 h por 5 dias.",
+          "Mordida (profilaxia/tratamento; alternativa, off-label): VO/IV 500 mg 8/8 h em combinação; 3–5 dias (profilaxia) ou tratar até 1–2 dias após resolução (geralmente 5–14 dias total; profundo/complicado pode precisar mais).",
+          "C. difficile (off-label):",
+          "Não grave (alternativa): VO 500 mg 8/8 h por 10–14 dias (evitar em frágeis/≥65/associada a DII).",
+          "Fulminante: IV 500 mg 8/8 h + vancomicina VO e/ou retal por 10 dias (pode estender até 14); com melhora, alguns suspendem metro e completam com vanco.",
+          "Crohn (off-label):",
+          "Pós-ressecção: VO 20 mg/kg/dia em 3 doses ou 1–2 g/dia dividido por 3 meses (iniciar quando reintroduzir VO).",
+          "Em combinação: VO 250 mg 8/8 h ou 1–2 g/dia dividido por 3 meses + tiopurina ou anti-TNF.",
+          "Fístula perianal simples (adjunto): VO 500 mg 12/12 h por 4 semanas, se resposta manter 250 mg 8/8 h por mais 4 semanas ou 10–20 mg/kg/dia por 4–8 semanas ± ciprofloxacino.",
+          "Pé diabético mod-grave: VO/IV 500 mg a cada 8–12 h em combinação; 2–4 semanas se sem osteomielite.",
+          "Dientamoeba fragilis (alternativa, off-label): VO 500–750 mg 8/8 h por 10 dias.",
+          "Giardíase (alternativa, off-label): VO 250 mg 8/8 h ou 500 mg 12/12 h por 5–7 dias.",
+          "H. pylori (off-label):",
+          "Esquema quádruplo com bismuto (preferido): VO 500 mg 3–4x/dia + bismuto + tetraciclina + PPI por 14 dias.",
+          "Triplo com claritromicina (resgate): VO 500 mg 8/8 h + claritromicina + PCAB ou PPI alta dose por 14 dias (apenas com suscetibilidade documentada).",
+          "Triplo com levofloxacino (resgate, último recurso): VO 500 mg 2–3x/dia + levofloxacino + PPI por 14 dias (com suscetibilidade documentada).",
+          "Infecção intra-abdominal: VO/IV 500 mg a cada 8–12 h em combinação; 4–5 dias após controle de foco; diverticulite/apendicite sem intervenção 4–14 dias; apendicite perfurada pós-laparoscopia 2–4 dias podem ser suficientes.",
+          "Abscesso intracraniano: IV 7,5 mg/kg (geralmente 500 mg) a cada 6–8 h (máx 4 g/dia) por 6–8 semanas em combinação; pode trocar IV→VO na mesma dose.",
+          "Infecções odontogênicas (off-label):",
+          "Gengivite aguda simples: VO 500 mg 8/8 h + penicilina V por 5–7 dias (reservar para doença rápida/dor intensa/imunossupressão).",
+          "Periodontite grave: VO 500 mg 8/8 h + amoxicilina por 14 dias ou até resolução + debridamento.",
+          "Infecção piógena de partes moles (alternativa): IV/VO 500 mg 8/8 h em combinação até resolução (tipicamente 7–14 dias) + drenagem/extração.",
+          "Pneumonia aspirativa (alternativa): VO/IV 500 mg 8/8 h + beta-lactâmico por 7 dias.",
+          "Pouchite aguda (off-label): VO 500 mg 12/12 h por 14 dias; refratária: 500 mg 12/12 h + ciprofloxacino por 28 dias.",
+          "IST:",
+          "Pós-violência sexual (feminino, off-label): VO 500 mg 12/12 h por 7 dias (em combinação).",
+          "DIP: VO/IV 500 mg 12/12 h por 14 dias (em combinação).",
+          "Tricomoníase (caso índice e parceiro):",
+          "Mulheres: VO 500 mg 12/12 h por 7 dias (2 g dose única é menos efetiva, mas pode ser alternativa em baixa adesão).",
+          "Homens: VO 2 g dose única (alguns usam regime de 7 dias como alternativa).",
+          "Refratária: VO 2 g 1x/dia por 7 dias (ou 500 mg 12/12 h por 7 dias em alguns casos após falha de dose única).",
+          "SSTI/necrosante (componente, alternativa): IV 500 mg 6/6 h até não precisar de novo desbridamento + melhora clínica + afebril 48–72 h.",
+          "Profilaxia cirúrgica:",
+          "IV: 500 mg até 60 min antes da incisão (em combinação).",
+          "VO (profilaxia colorretal, off-label): 500 mg ou 1 g em 3 doses ao longo de 7–10 h, junto de outros ATB orais após preparo mecânico (varia por protocolo).",
+          "Esvaziamento uterino (alternativa, off-label): VO 500 mg dose única 1 h antes (até 12 h antes).",
+          "Tétano (off-label): VO/IV 500 mg a cada 6–8 h por 7–10 dias + suporte."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/peso",
+        "paragraphs": [
+          "Doses gerais",
+          "Esquemas específicos (do texto)"
+        ],
+        "bullets": [
+          "VO: 15–50 mg/kg/dia dividido a cada 8 h (máx 2.250 mg/dia)",
+          "IV: 22,5–40 mg/kg/dia dividido a cada 6 ou 8 h (máx 4.000 mg/dia)",
+          "Amebíase: VO/IV 35–50 mg/kg/dia dividido 8/8 h por 7–10 dias (máx 750 mg/dose) + intraluminal; reservar IV para grave/extraintestinal.",
+          "Vaginose bacteriana: <45 kg VO 15–25 mg/kg/dia dividido 8/8 h por 7 dias (máx 2 g/dia); ≥45 kg/adolescente VO 500 mg 12/12 h por 7 dias.",
+          "Balantidíase: VO 35–50 mg/kg/dia dividido 8/8 h por 5 dias (máx 750 mg/dose).",
+          "CDI:",
+          "Lactentes: VO/IV 7,5 mg/kg/dose 6/6 h por 10 dias (máx 500 mg/dose).",
+          "Crianças/adolescentes não grave: VO 7,5 mg/kg/dose 6/6–8/8 h por 10 dias (máx 500 mg/dose).",
+          "Grave/fulminante: IV 10 mg/kg/dose 8/8 h por 10 dias (máx 500 mg/dose) + vancomicina VO/retal.",
+          "Crohn perianal (indução, adjunto): VO 20–30 mg/kg/dia dividido 8/8–12/12 h (máx 500 mg/dose), ~4–12 semanas.",
+          "Dientamoeba fragilis: VO 35–50 mg/kg/dia dividido 8/8 h por 10 dias (máx 750 mg/dose).",
+          "Giardíase: VO 5 mg/kg/dose 8/8 h por 5–7 dias (máx 250 mg/dose).",
+          "H. pylori (dados limitados, 14 dias):",
+          "Peso-dirigido: VO 10–15 mg/kg/dose 12/12 h (máx 750 mg/dose).",
+          "Esquema fixo: 15–<25 kg 250 mg 12/12 h; 25–<35 kg 500 mg manhã + 250 mg noite (ou 375 mg 12/12 h se suspensão); 35–50 kg 500 mg 12/12 h; >50 kg 750 mg 12/12 h.",
+          "Infecção intra-abdominal (em combinação):",
+          "<4 meses: IV 15 mg/kg dose de ataque, 24 h depois 7,5 mg/kg/dose 6/6 h.",
+          "≥4 meses/crianças/adolescentes: IV 30–40 mg/kg/dia dividido 8/8 h (máx 500 mg/dose).",
+          "Apendicite (1x/dia): IV 30 mg/kg/dose 24/24 h (máx 1.500 mg/dose; alguns estudos máx 1.000 mg se <80 kg).",
+          "Peritonite em DP: profilaxia (proced. GI/GU): IV 10 mg/kg dose única + cefazolina (máx 1.000 mg); tratamento: VO 10 mg/kg/dose 8/8 h (máx 400 mg/dose).",
+          "Profilaxia cirúrgica: IV 15 mg/kg 30–60 min antes (máx 500 mg/dose).",
+          "Profilaxia colorretal (VO): 15 mg/kg/dose a cada 3–4 h por 3 doses (máx 1.000 mg/dose).",
+          "Tétano: IV/VO 30 mg/kg/dia dividido 8/8 h por 7–10 dias (máx 500 mg/dose).",
+          "Tricomoníase: <45 kg VO 45 mg/kg/dia dividido 8/8 h por 7 dias (máx 2 g/dia); ≥45 kg/adolescente: mulheres 500 mg 12/12 h por 7 dias; homens 2 g dose única.",
+          "Pouchite (colite ulcerativa): VO 20–30 mg/kg/dia dividido 8/8 h por 14 dias (máx 500 mg/dose).",
+          "SIBO (dados muito limitados): VO 10 mg/kg/dose 12/12 h por 7–14 dias (máx não estabelecido; 500 mg/dose usado em outras indicações)."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "PK neonatal: Vd e meia-vida variam muito; t½ prolongada na primeira semana conforme idade gestacional (GA 28–30: ~75 h; 32–35: ~35 h; 36–40: ~25 h). Neonatos ≥7 dias: ~22,5 h.",
+          "Esquema neonatal informado no texto: para IIA em <4 meses (acima): 15 mg/kg carga, depois 7,5 mg/kg 6/6 h iniciando 24 h após."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão",
+        "bullets": [
+          "IV: infundir 30–60 min; solução 5 mg/mL pode ser administrada sem diluir por infusão lenta intermitente (30–60 min). Evitar contato com equipamentos contendo alumínio.",
+          "VO: administrar com alimento para reduzir desconforto GI. Suspensão: agitar bem e medir com dispositivo calibrado."
+        ]
+      },
+      {
+        "title": "7. Ajustes de dose"
+      },
+      {
+        "title": "7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+        "paragraphs": [
+          "Adulto",
+          "Pediatria"
+        ],
+        "bullets": [
+          "IR não altera meia-vida sérica do metronidazol, mas acumula metabólitos (hidroxi ativo e acético quase inativo) → possível ↑ risco de efeitos SNC.",
+          "Regimes dose única (ex.: 2 g VO 1x): sem ajuste.",
+          "CrCl ≥10: sem ajuste; monitorar se CrCl <30 e curso prolongado.",
+          "CrCl <10: sem ajuste; monitorar; 500 mg 12/12 h pode bastar em infecções não graves (não-CDI) segundo nota.",
+          "Hemodiálise intermitente (3x/sem): dialisável (42–65% fármaco + metabólitos). Usual 500 mg 8/8–12/12 h; dar após HD; se não der para separar, considerar dose suplementar pós-HD.",
+          "Diálise peritoneal: sem ajuste; monitorar se curso >1–2 semanas.",
+          "CRRT/PIRRT: sem ajuste; em PIRRT, dar após sessão; se não separar, considerar suplementar pós-sessão.",
+          "Rotulagem: sem ajuste; em ESRD metabólitos acumulam; podem ser removidos por diálise.",
+          "“Outros” ajustes alternativos citados (baseados em 15–30 mg/kg/dia): GFR <10: 4 mg/kg/dose 6/6 h; IHD 4 mg/kg/dose 6/6 h; PD 4 mg/kg/dose 6/6 h; CRRT sem ajuste."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "paragraphs": [
+          "Adulto",
+          "Pediatria"
+        ],
+        "bullets": [
+          "Cirrose: depuração ↓ e t½ ↑; risco de acúmulo/neurotoxicidade.",
+          "Dose única (2 g): sem ajuste.",
+          "Child A/B: sem ajuste.",
+          "Child C:",
+          "Cápsulas: amebíase 375 mg 8/8 h; tricomoníase 375 mg 1x/dia.",
+          "Comprimidos/IV: se regime usual é 12/12 h → sem ajuste; se usual é 6/6–8/8 h → manter dose e reduzir frequência para 12/12 h (ex.: 500 mg 6/6 → 500 mg 12/12).",
+          "Suspensão VO: reduzir dose em 50%.",
+          "Leve/moderada: sem ajuste, cautela.",
+          "Grave: reduzir dose em 50% (ou manter dose e prolongar intervalo, ex.: 12/12 em vez de 6/6)."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)",
+        "bullets": [
+          "Não informado no texto acima."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)",
+        "bullets": [
+          "“Refer to adult dosing.”",
+          "Monitorar mais de perto idosos, hepatopatas graves e ESRD para reações adversas (monitorização do texto)."
+        ]
+      },
+      {
+        "title": "8. Administração e compatibilidades"
+      },
+      {
+        "title": "8.1 Interação com a dieta",
+        "bullets": [
+          "VO: com alimento para minimizar desconforto GI."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)",
+        "bullets": [
+          "Interação alimentar: pico sérico reduzido e atrasado, mas absorção total não muda.",
+          "Aspiração contínua de secreção por SNG: pode remover quantidade suficiente e reduzir níveis séricos (nota)."
+        ]
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)",
+        "bullets": [
+          "Evitar contato da solução com equipamentos contendo alumínio (nota).",
+          "(Outras compatibilidades/estabilidade não foram informadas no texto.)"
+        ]
+      },
+      {
+        "title": "9. Efeitos adversos"
+      },
+      {
+        "title": "9.1 Comuns (≥1%)",
+        "paragraphs": [
+          "10%",
+          "1% a 10%"
+        ],
+        "bullets": [
+          "Cefaleia (18%), vaginite (15%), náusea (10–12%)",
+          "Dor abdominal (4%), diarreia (4%), gosto metálico (9%), xerostomia (2%)",
+          "Dismenorreia (3%), prurido genital (5%), ITU (2%), alteração urinária (3%)",
+          "Infecção bacteriana (7%), candidíase (3%)",
+          "Tontura (4%)",
+          "Sintomas gripais (6%), faringite (3%), rinite (4%), sinusite (3%), IVAS (4%)"
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "SCARs: AGEP, SJS, TEN; DRESS (pós-comercialização).",
+          "Hepatotoxicidade grave / falência hepática aguda (especialmente em síndrome de Cockayne).",
+          "Neurotoxicidade: encefalopatia, neurotoxicidade cerebelar, convulsões, neuropatia periférica, meningite asséptica, confusão, ataxia etc.",
+          "QT prolongado (pós-comercialização).",
+          "Pancreatite (pós-comercialização).",
+          "Reação tipo dissulfiram (com álcool) descrita; dados conflitantes."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "SCARs (AGEP/DRESS/SJS/TEN): “discontinue imediatamente e instituir terapia apropriada”.",
+          "Anafilaxia.",
+          "Sinais neurológicos importantes (encefalopatia/convulsão/ataxia/confusão progressiva) — considerar suspensão e investigação, especialmente em cirrose/uso prolongado."
+        ]
+      },
+      {
+        "title": "10. Contraindicações",
+        "bullets": [
+          "Hipersensibilidade a metronidazol/nitroimidazóis/componentes.",
+          "Tricomoníase no 1º trimestre (exceção: Likmez).",
+          "Uso de dissulfiram nas últimas 2 semanas.",
+          "Uso de álcool ou produtos com propilenoglicol durante terapia ou até 3 dias após (nota: CDC diz que não é necessário; evidência conflitante).",
+          "Síndrome de Cockayne.",
+          "Rótulo canadense (adicionais): distúrbios neurológicos ativos; história de discrasia sanguínea; hipotireoidismo; hipoadrenalismo."
+        ]
+      },
+      {
+        "title": "11. Advertências e precauções"
+      },
+      {
+        "title": "11.1 Populações especiais",
+        "bullets": [
+          "Hepatopatas (cirrose): risco de acúmulo e encefalopatia; monitorar de perto; ajuste em Child C.",
+          "Renal: metabólitos acumulam; maior risco de efeitos SNC em cursos prolongados; atenção em ESRD/diálise.",
+          "Epilepsia/convulsões: cautela em história de distúrbio convulsivo.",
+          "Gestação: atravessa placenta; uso em tricomoníase no 1º trimestre é contraindicado pelo fabricante (exceto Likmez), mas diretrizes citadas permitem tratamento em qualquer fase."
+        ]
+      },
+      {
+        "title": "11.2 Risco de superinfecção, QT, convulsão, hepatotoxicidade etc.",
+        "bullets": [
+          "Superinfecção (inclui CDAD/colite pseudomembranosa; pode ocorrer >2 meses após ATB).",
+          "QT prolongado (pós-marketing).",
+          "Neurotoxicidade (encefalopatia/neuropatia/convulsões), especialmente com cirrose e/ou exposição cumulativa.",
+          "Sódio IV alto: cuidado em IC/edema/retentor de sódio."
+        ]
+      },
+      {
+        "title": "12. Interações medicamentosas"
+      },
+      {
+        "title": "12.1 Interações clinicamente relevantes (do texto)",
+        "bullets": [
+          "Dissulfiram: risco de toxicidade SNC/psicose ↑ → evitar (X).",
+          "Álcool/propilenoglicol (incl. algumas formulações, ex.: dronabinol solução; tipranavir cápsulas): risco de intolerância/reação tipo dissulfiram → evitar/monitorar conforme o caso.",
+          "Busulfano: ↑ concentração → evitar; se necessário, monitorar níveis e ajustar.",
+          "Antagonistas da vitamina K: ↑ concentração/INR → preferir alternativa; se usar, reduzir dose e monitorar INR/sangramento.",
+          "Lítio: ↑ concentração/efeitos → monitorar.",
+          "Fenitoína/fosfenitoína/primidona/fenobarbital: interações bidirecionais (níveis podem ↑/↓) → monitorar.",
+          "Mebendazol: ↑ risco de SJS/TEN → evitar (X).",
+          "Haloperidol + agentes que prolongam QT: monitorar QTc.",
+          "Vacinas orais vivas (cólera; tifoide Ty21a) e BCG intravesical; microbiota fecal viva: evitar conforme riscos listados.",
+          "Sulfonilureias: ↑ concentração → monitorar hipoglicemia.",
+          "Vecurônio: ↑ bloqueio neuromuscular → monitorar.",
+          "Fluorouracil: pode ↑ concentração → monitorar."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Evitar: dissulfiram; mebendazol; BCG intravesical; vacina cólera; microbiota fecal viva; (considerar evitar álcool/PG conforme rótulo e contexto).",
+          "Monitorar/ajustar: warfarina/AVK (INR), lítio, fenitoína/fosfenitoína, sulfonilureias, busulfano (níveis), QTc quando aplicável."
+        ]
+      },
+      {
+        "title": "13. Gestação e lactação"
+      },
+      {
+        "title": "13.1 Gestação",
+        "bullets": [
+          "Atravessa a placenta.",
+          "Relatos de fenda labiopalatina após 1º trimestre existem, mas a maioria dos estudos não mostra aumento de malformações; estudos disponíveis não mostraram aumento de câncer infantil, mas podem ser limitados.",
+          "BV e tricomoníase associadas a desfechos adversos; CDC recomenda tratar BV sintomática e tricomoníase na gestação; apesar de contraindicação do fabricante para tricomoníase no 1º trimestre, diretrizes citadas permitem tratar em qualquer fase."
+        ]
+      },
+      {
+        "title": "13.2 Lactação",
+        "bullets": [
+          "Metronidazol + metabólito ativo presentes no leite em concentrações semelhantes ao plasma materno.",
+          "Após 2 g VO dose única, pico no leite em 2–4 h (média máxima 45,8 mcg/mL); exposição ao lactente pode ser reduzida suspendendo amamentação 12–24 h (algumas diretrizes) ou “pump and discard” 24 h (ou até 48 h após última dose, conforme fabricante).",
+          "Eventos relatados em lactentes: fezes amolecidas, Candida/perianal, sapinho.",
+          "Diretrizes: algumas sugerem pausa 12–24 h após dose única de 2 g; doses menores geram menor concentração e podem ser consideradas."
+        ]
+      },
+      {
+        "title": "14. Farmacocinética / Farmacodinâmica"
+      },
+      {
+        "title": "14.1 Absorção, distribuição, metabolismo, eliminação",
+        "bullets": [
+          "VO: bem absorvido.",
+          "Distribui para bile, sêmen, osso, fígado/abscessos hepáticos, pulmão, secreções vaginais; cruza BHE; saliva e LCR ~ plasma.",
+          "Ligação proteica: <20%.",
+          "Metabolismo hepático 30–60% → vários metabólitos; hidroxi metabólito ativo com ~30–65% da atividade do fármaco.",
+          "Excreção: urina 60–80% (≈20% inalterado); fezes 6–15%."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Vd: prematuros (PMA 24–39 sem) mediana 0,95 L/kg; crianças ≥9 anos/adolescentes ≤14: 0,64 ± 0,18 L/kg.",
+          "t½: adultos ~8 h; crianças/adolescentes 6–10 h.",
+          "Neonatos <7 dias: muito prolongada e dependente de GA (28–30: ~75 h; 32–35: ~35 h; 36–40: ~25 h).",
+          "Neonatos ≥7 dias: ~22,5 h.",
+          "Tmax VO: cápsulas/comprimidos 1–2 h; suspensão 0,25–6 h.",
+          "Em disfunção hepática (Child-Pugh): A ~10,7 h; B ~13,5 h; C ~21,5 h.",
+          "Em CrCl ≤65: t½ do metabólito hidroxi (ativo) 18–32 h."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)",
+        "bullets": [
+          "Concentração-dependente; correlaciona com AUC24/MIC.",
+          "B. fragilis: alvo AUC/MIC ≥70.",
+          "Exposição esperada:",
+          "Adulto VO: 250 mg Cmax ~6 mg/L; 500 mg ~8–12 mg/L; 2 g ~40 mg/L.",
+          "Adulto IV: 500 mg 8/8 h Cmax ~22,2 ± 5 mg/L; 1 g 1x/dia ~24,8 ± 6,8 mg/L; 1,5 g 1x/dia ~37,7 ± 10 mg/L.",
+          "PAE: C. difficile 1,2–1,7 h; T. vaginalis ~6 h."
+        ]
+      },
+      {
+        "title": "15. Monitorização"
+      },
+      {
+        "title": "15.1 O que monitorar e com que frequência",
+        "bullets": [
+          "Hemograma (CBC) com diferencial: baseline, durante e após cursos prolongados ou repetidos.",
+          "Monitorar mais de perto: idosos, hepatopatia grave, ESRD.",
+          "Sintomas neurológicos: observar e considerar descontinuação se ocorrerem.",
+          "Vigilância para SCARs."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Resolução clínica conforme síndrome tratada e duração prevista; atenção a necessidade de controle de foco (IIA) e a troca IV→VO quando tolerado (mesma dose)."
+        ]
+      },
+      {
+        "title": "16. Segurança e gestão de eventos"
+      },
+      {
+        "title": "16.1 Conduta em alergia/anafilaxia",
+        "bullets": [
+          "Suspender se hipersensibilidade significativa/anafilaxia e conduzir conforme suporte."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreia",
+        "bullets": [
+          "Considerar CDAD/C. difficile, inclusive tardio (>2 meses pós-ATB); avaliar e tratar conforme gravidade e protocolo."
+        ]
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)",
+        "bullets": [
+          "Em cirrose/Child C, ajustar conforme orientações acima e monitorar precocemente sinais de encefalopatia/neurotoxicidade; em suspeita de encefalopatia, considerar investigação (o texto cita RM como confirmatória em ~90% dos casos)."
+        ]
+      },
+      {
+        "title": "17. Notas práticas"
+      },
+      {
+        "title": "17.1 Erros comuns de prescrição",
+        "bullets": [
+          "Ignorar ajustes em Child-Pugh C (reduzir frequência/ajustar forma farmacêutica).",
+          "Subestimar neurotoxicidade em cursos prolongados, especialmente em cirrose/IR/ESRD.",
+          "Esquecer sódio alto da formulação IV em pacientes com retenção hídrica.",
+          "Usar produtos compounding kit não aprovados (alerta FDA para “FIRST Metronidazole”)."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Tomar com alimento para reduzir náusea/desconforto.",
+          "Alertar para sinais de rash grave, sintomas neurológicos (tontura intensa, confusão, falta de coordenação, parestesias), diarreia importante."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Metronidazole (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
+        "bullets": [
+          "Profilaxia colorretal VO varia por protocolo (3 doses em 7–10 h após preparo mecânico + profilaxia IV apropriada).",
+          "Para H. pylori, test of cure >4 semanas após término; suspender PPI 2 semanas antes do teste (nota do texto)."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Metronidazol.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Metronidazole (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
     "id": "bula-moxifloxacino",
     "name": "Moxifloxacino",
     "className": "Antimicrobianos",
@@ -7834,6 +9857,928 @@
       },
       {
         "label": "Oxacillin: Drug information. In: UpToDate, Post TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
+    "id": "bula-piperacilina-e-tazobactam",
+    "name": "Piperacilina e Tazobactam",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Solução IV pronta (preservative free): 2 g/0,25 g; 3 g/0,375 g; 4 g/0,5 g em bolsas/volumes específicos (consta nos dados).",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimos",
+        "bullets": [
+          "Piperacilina + tazobactam (combinação; “piper/tazo”)."
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATC",
+        "bullets": [
+          "Antibiótico penicilínico (penicilina antipseudomonas) + inibidor de beta-lactamase.",
+          "ATC: não consta nos dados."
+        ]
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "Via: essencialmente IV (dados fornecidos são de infusão IV).",
+          "US (exemplos):",
+          "Solução IV pronta (preservative free): 2 g/0,25 g; 3 g/0,375 g; 4 g/0,5 g em bolsas/volumes específicos (consta nos dados).",
+          "Pó para reconstituição IV: frascos como 2,25 g (2/0,25), 3,375 g (3/0,375), 4,5 g (4/0,5) e apresentações maiores (12/1,5; 36/4,5 etc.).",
+          "Observação: alguns produtos podem conter sódio; e há menção de formulação com EDTA (impacta compatibilidade Y-site com aminoglicosídeos em condições específicas)."
+        ]
+      },
+      {
+        "title": "2. Introdução e pontos-chave"
+      },
+      {
+        "title": "2.1 O que é e para que serve (visão geral)",
+        "bullets": [
+          "Combinação beta-lactâmico amplo espectro (piperacilina) + inibidor de beta-lactamase (tazobactam), usada para infecções moderadas a graves, inclusive com Pseudomonas aeruginosa em cenários selecionados."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "As doses do adulto são expressas como “piperacilina + tazobactam” somados (g).",
+          "Em pediatria, as doses são baseadas no componente piperacilina (o produto tem relação 8:1; para cada 1.000 mg de piperacilina há 125 mg de tazobactam).",
+          "Estratégia de infusão importa (tempo-dependente): quando possível, infusão estendida (3–4 h) ou contínua pode aumentar probabilidade de atingir alvos PK/PD, especialmente em críticos, MIC mais alta ou “clearance aumentado”.",
+          "Pode ser feita dose de ataque (3,375–4,5 g em 30 min) antes de estendida/contínua quando é necessário atingir concentração rapidamente (ex.: sepse).",
+          "Atenção a sódio (2,8 mEq por grama de piperacilina, conforme dado) em restrição de sal."
+        ]
+      },
+      {
+        "title": "3. Mecanismo de ação",
+        "bullets": [
+          "Piperacilina: inibe síntese de parede celular ao se ligar a PBPs, bloqueando transpeptidação do peptidoglicano → lise bacteriana; morte tempo-dependente.",
+          "Tazobactam: inibe muitas beta-lactamases (incluindo penicilinase estafilocócica e vários tipos Richmond-Sykes 2–5); atividade limitada contra algumas beta-lactamases classe 1 (exceto 1C)."
+        ]
+      },
+      {
+        "title": "4. Espectro / Cobertura (se antimicrobiano)"
+      },
+      {
+        "title": "4.1 Micro-organismos-alvo",
+        "bullets": [
+          "Cobre gram-negativos e anaeróbios em várias síndromes (intra-abdominal, pneumonia nosocomial, etc.) e pode cobrir Pseudomonas aeruginosa quando indicado.",
+          "Patógenos citados nas indicações em bula incluem, por exemplo: E. coli, Bacteroides fragilis e outros Bacteroides (intra-abdominal), S. aureus (pneumonia nosocomial), A. baumannii (sensível), H. influenzae, K. pneumoniae, P. aeruginosa, entre outros."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Não consta um bloco específico de “lacunas” além de alertas gerais (ex.: uso indevido em bacteriúria assintomática em idosos segundo STOPP; e cautelas de superinfecção e C. difficile)."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)",
+        "bullets": [
+          "Não consta discussão específica de mecanismos de resistência no material fornecido."
+        ]
+      },
+      {
+        "title": "5. Indicações terapêuticas"
+      },
+      {
+        "title": "5.1 Indicações em bula (dados fornecidos)",
+        "bullets": [
+          "Infecção intra-abdominal: apendicite complicada por ruptura/abscesso e peritonite (adultos e pediatria ≥2 meses) por cepas produtoras de beta-lactamase (ex.: E. coli; Bacteroides spp.).",
+          "Infecção pélvica: endometrite pós-parto / DIP (adultos) por E. coli produtor de beta-lactamase.",
+          "Pneumonia comunitária (moderada): adultos por H. influenzae produtor de beta-lactamase.",
+          "Pneumonia hospitalar (nosocomial): adultos e pediatria ≥2 meses por S. aureus produtor de beta-lactamase e por A. baumannii, H. influenzae, K. pneumoniae e P. aeruginosa suscetíveis.",
+          "Pele/partes moles: incluindo celulite, abscesso cutâneo e pé isquêmico/diabético (adultos) por S. aureus produtor de beta-lactamase."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (dados fornecidos)",
+        "bullets": [
+          "Mordida (humana/animal) – tratamento.",
+          "Bacteremia gram-negativa (incluindo cobertura de Pseudomonas em cenários).",
+          "Fibrose cística – exacerbação pulmonar grave.",
+          "Neutropenia febril (alto risco) – terapia empírica.",
+          "Sepse/choque séptico – terapia empírica de amplo espectro.",
+          "ITU complicada (pielonefrite/ITU com sinais sistêmicos)."
+        ]
+      },
+      {
+        "title": "6. Posologia"
+      },
+      {
+        "title": "6.1 Adultos — dose usual e por indicação (com duração)",
+        "paragraphs": [
+          "Orientação geral (adulto, IV):",
+          "Doses por síndrome (adulto) – conforme dados fornecidos:"
+        ],
+        "bullets": [
+          "Infusão tradicional (30 min):",
+          "Infecção leve a moderada: 3,375 g a cada 6 h.",
+          "Infecção grave: 4,5 g a cada 6–8 h (há menção de dados limitados para intervalo de 8 h).",
+          "Pseudomonas aeruginosa: 4,5 g a cada 6 h (máximo usual: 18 g/dia).",
+          "Infusão estendida (off-label):",
+          "3,375 g ou 4,5 g a cada 8 h, infundidos em 4 horas.",
+          "Pode fazer dose de ataque 3,375–4,5 g em 30 min antes, especialmente em sepse.",
+          "Infusão contínua (off-label):",
+          "18 g em 24 h (pode fazer ataque 4,5 g em 30 min antes).",
+          "Mordida (tratamento): 3,375 g IV a cada 6–8 h; duração típica 5–14 dias.",
+          "Bacteremia gram-negativa (off-label):",
+          "Comunitária, imunocompetente: 3,375 g IV q6h.",
+          "Associada à assistência/risco de Pseudomonas/imunossuprimido: 4,5 g IV q6h.",
+          "Duração usual 7–14 dias; em Enterobacteriaceae não complicada com boa resposta, há recomendação de 7 dias (no texto).",
+          "Fibrose cística (exacerbação grave, cobertura Pseudomonas): 4,5 g IV q6h; duração 10–14 dias.",
+          "Pé diabético moderado-grave: 3,375 g IV q6h ou 4,5 g IV q8h; se Pseudomonas: 4,5 g q6h; duração 2–4 semanas (sem osteomielite).",
+          "Intra-abdominal:",
+          "Colecistite aguda: 3,375 g ou 4,5 g IV q6h; continuar 1 dia após colecistectomia ou até resolução se não operado.",
+          "Outras (colangite, apendicite perfurada, diverticulite, abscesso): 3,375 g ou 4,5 g q6h; 4–5 dias após controle de foco (podendo transicionar para VO em esquema global, conforme texto).",
+          "Neutropenia febril alto risco (empírico, off-label): 4,5 g IV q6–8h até afebril ≥48 h e recuperação de neutrófilos (ou duração padrão da infecção identificada). Se preocupação grande com Pseudomonas/severidade: preferir 4,5 g q6h.",
+          "Pneumonia:",
+          "Comunitária (internado com risco de GN resistente incluindo Pseudomonas): 4,5 g IV q6h em combinação; duração mínima 5 dias (mais se imunossuprimido/complicado/Pseudomonas).",
+          "Hospitalar/VAP/HAP: 4,5 g IV q6h; duração típica 7 dias.",
+          "Sepse/choque séptico (off-label): 4,5 g IV q6h em combinação; iniciar o mais cedo possível (≤1 h); cursos mais curtos quando apropriado.",
+          "Pele/partes moles moderada-grave: 3,375 g q6h ou 4,5 g q8h; se Pseudomonas: 4,5 g q6h; duração 5–14 dias (necrotizante: até não precisar mais desbridamento e afebril ≥48 h).",
+          "ITU complicada (off-label): 3,375 g q6h ou 4,5 g q8h; se melhora em ~48 h, duração total 5–7 dias (7 dias se completar com piper/tazo)."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/peso",
+        "paragraphs": [
+          "Orientação geral (pediatria, IV; doses baseadas em piperacilina):",
+          "Exemplos por indicação (pediatria) presentes no texto:"
+        ],
+        "bullets": [
+          "Intermitente (ex.: 30 min):",
+          "≤6 meses: 240–300 mg piperacilina/kg/dia divididos q6–8h (máx. 16 g/dia).",
+          ">6 meses até adolescentes: 240–300 mg/kg/dia q6–8h (máx. 16 g/dia).",
+          "Observação do texto: em algumas situações/MIC maior, foram sugeridos esquemas mais frequentes e/ou doses diárias maiores (até 400 mg/kg/dia; e em cenários específicos há menção de doses mais altas em fibrose cística).",
+          "Infusão estendida (3–4 h): 100 mg piperacilina/kg/dose q6–8h (máx. 16 g/dia).",
+          "Infusão contínua (24 h; dados muito limitados): ataque 75 mg/kg (30 min) + 300 mg/kg/dia em 24 h (máx. 16 g/dia); texto sugere TDM por risco de superexposição em críticos.",
+          "Fibrose cística (exacerbação): 240–400 mg/kg/dia dividido q8h (infusão 30 min ou 4 h); “alta dose” descrita em estudos de piperacilina isolada (alerta de eventos dose-relacionados).",
+          "Endocardite: 240 mg/kg/dia q8h + aminoglicosídeo ≥6 semanas (há sugestão de que pode precisar mais, ex.: ~300 mg/kg/dia q6h; e preferir estendida quando q8h).",
+          "Intra-abdominal: 240–300 mg/kg/dia q6–8h (até 400 mg/kg/dia q6h relatado); máx. 4.000 mg piperacilina/dose.",
+          "Neutropenia febril: 300–400 mg/kg/dia q6h (30–60 min); contínua: ataque 75–100 mg/kg + 300 mg/kg/dia em 24 h (máx. 16 g/dia).",
+          "Pneumonia nosocomial: 400 mg/kg/dia q6h (em >9 meses); lactentes 2–9 meses: 320 mg/kg/dia q6h.",
+          "Profilaxia cirúrgica: esquemas em mg/kg em dose única pré-incisão com possibilidade de repetição (conforme dados)."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "Dose específica neonatal: não consta no trecho fornecido (apenas orientação de tempo de infusão estendida: neonatos em 3 horas)."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)",
+        "bullets": [
+          "Adulto (IV):",
+          "Tradicional: 30 minutos.",
+          "Estendida (off-label): 3–4 horas.",
+          "Contínua (off-label): dose total diária em 24 horas.",
+          "Existe dado de uso por IV push 2–5 min (retrospectivo, “geralmente seguro/tolerável”, sem desfechos clínicos; monitorar flebite e reações).",
+          "Pediatria:",
+          "Intermitente: 30 minutos.",
+          "Estendida: neonatal 3 h; pediátrica 3–4 h.",
+          "Contínua: 24 h; se dose de ataque, administrar em 2–30 min antes da contínua."
+        ]
+      },
+      {
+        "title": "7. Ajustes de dose"
+      },
+      {
+        "title": "7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+        "paragraphs": [
+          "Adultos – insuficiência renal (texto da “tabela”, sem tabela)",
+          "Regra do texto: escolha a dose “usual” pela indicação (3,375 g q6h para leve/moderada; 4,5 g q6h para grave/Pseudomonas, etc.) e depois ajuste por CrCl.",
+          "Adultos – infusão estendida (4 horas) com disfunção renal",
+          "Adultos – “clearance aumentado” (ARC)",
+          "Adultos – hemodiálise / DP / CRRT / PIRRT (como no texto)",
+          "Pediatria – insuficiência renal (texto da “tabela”, sem tabela)",
+          "A tabela fornecida ajusta por eGFR e separa “dose usual” de 200–300 mg/kg/dia vs 300–400 mg/kg/dia, além de opção de infusão estendida. Em texto:"
+        ],
+        "bullets": [
+          "CrCl 40 a <100 mL/min: manter dose usual (ex.: 3,375 g q6h ou 4,5 g q6h).",
+          "CrCl 20 a <40 mL/min:",
+          "Se a “usual” for 3,375 g q6h → 2,25 g q6h.",
+          "Se a “usual” for 4,5 g q6h → 4,5 g q8h ou 3,375 g q6h.",
+          "CrCl <20 mL/min:",
+          "Se a “usual” for 3,375 g q6h → 2,25 g q8h.",
+          "Se a “usual” for 4,5 g q6h → 4,5 g q12h ou 2,25 g q6h.",
+          "Se esquema de referência for 3,375 g em 4 h a cada 8 h, então:",
+          "CrCl 40 a <100: manter 3,375 g em 4 h q8h.",
+          "CrCl 20 a <40: 3,375 g em 4 h q8–12h.",
+          "CrCl <20: 3,375 g em 4 h q12h.",
+          "CrCl 100 a <130: “infusão estendida preferida”; o texto indica 3,375 ou 4,5 g em 4 h q6h.",
+          "ARC (CrCl urinário medido ≥130 mL/min/1,73m²) requer medida urinária de 8–24 h para identificar.",
+          "Regimes citados:",
+          "CrCl 130 a <170: 4,5 g q6h em 3 h ou ataque 4,5 g seguido de infusão contínua 18 g/24 h.",
+          "CrCl ≥170: ataque 4,5 g seguido de infusão contínua 22,5 g/24 h.",
+          "Hemodiálise intermitente (3x/semana): droga dializável (30–40%); 4,5 g q12h ou 2,25 g q8h; preferir administrar doses programadas após diálise no dia da sessão (mas não “obrigatório” no texto).",
+          "Diálise peritoneal: dializável parcialmente; 4,5 g q12h ou 2,25 g q8h.",
+          "CRRT (CVVH/CVVHD/CVVHDF): há recomendação de esquemas como:",
+          "4,5 g q8h ou ataque 4,5 g seguido de 2,25 g q6h;",
+          "Contínua: ataque 4,5 g seguido de 9 g/24 h manutenção.",
+          "PIRRT (ex.: SLED):",
+          "SLED 8 h/dia: 3,375 g q8h.",
+          "Hemofiltração alto volume estendida: 4,5 g q8h.",
+          "eGFR ≥40 mL/min/1,73m²: sem ajuste (para os esquemas listados).",
+          "eGFR 20 a <40:",
+          "Se esquema usual equivalente a 67–100 mg/kg/dose q8h → ajustar para 45–70 mg/kg/dose q8h.",
+          "Se esquema usual equivalente a 50–75 mg/kg/dose q6h → ajustar para 35–50 mg/kg/dose q6h.",
+          "Se esquema usual equivalente a 100–133 mg/kg/dose q8h → ajustar para 70–90 mg/kg/dose q8h.",
+          "Se esquema usual equivalente a 75–100 mg/kg/dose q6h → ajustar para 50–70 mg/kg/dose q6h.",
+          "Se usando infusão estendida (3–4 h) com dose usual 300–400 mg/kg/dia: 70 mg/kg/dose em 3–4 h q8h.",
+          "eGFR <20:",
+          "Ajustar os esquemas acima para intervalos mais longos conforme tabela:",
+          "45–70 mg/kg/dose q12h (para o bloco q8h),",
+          "35–50 mg/kg/dose q8h (para o bloco q6h),",
+          "70–90 mg/kg/dose q12h (para o bloco q8h mais alto),",
+          "50–70 mg/kg/dose q8h (para o bloco q6h mais alto),",
+          "Infusão estendida: 70 mg/kg/dose em 3–4 h q12h.",
+          "Hemodiálise (pediatria): 50–100 mg/kg/dose q12h; se possível, administrar após hemodiálise no dia.",
+          "DP (pediatria): 50–100 mg/kg/dose q12h.",
+          "CRRT (pediatria): intermitente 100 mg/kg/dose q8h; contínua 200 mg/kg/dose em 24 h (dados limitados; considerar monitorar níveis se disponível).",
+          "ARC pediátrico (GFR ≥130): 100 mg/kg/dose q6h, preferir infundir em 3–4 h; opção contínua: ataque 100 mg/kg (30 min) + 400 mg/kg/dia em 24 h (conforme texto)."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "bullets": [
+          "Adulto: sem ajuste em Child-Turcotte-Pugh A a C (com observação de que piperacilina tem metabolismo hepático mínimo e tazobactam <30%).",
+          "Pediatria (≥2 meses): sem ajuste."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)",
+        "bullets": [
+          "Em obesidade (BMI ≥30), o texto sugere que infusão estendida pode aumentar chance de atingir alvo; quando necessário, considerar dose de ataque 4,5 g em 30 min.",
+          "Para infecções com patógenos menos suscetíveis/MIC alta, limitações de penetração, ou obesidade extrema (BMI ≥50): 4,5 g q6h em 3 h (citada no material).",
+          "Em críticos com ARC e obesidade, há recomendações como no bloco de ARC (infusão estendida/contínua)."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)",
+        "bullets": [
+          "“Referir dose de adulto”.",
+          "Consta alerta de potencial inadequação em bacteriúria assintomática em ≥65 anos (STOPP)."
+        ]
+      },
+      {
+        "title": "8. Administração e compatibilidades"
+      },
+      {
+        "title": "8.1 Interação com a dieta",
+        "bullets": [
+          "Não aplicável (uso IV nos dados fornecidos)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)",
+        "bullets": [
+          "Não consta nos dados."
+        ]
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)",
+        "bullets": [
+          "Linha dedicada ou Y-site: o texto descreve compatibilidades em contexto de coadministração (especialmente com aminoglicosídeos).",
+          "Aminoglicosídeos: algumas penicilinas (incluindo piperacilina) podem inativar aminoglicosídeos in vitro (mais com tobramicina/gentamicina; amikacina mais estável). Se combinação for necessária em disfunção renal, considerar separar doses e monitorar níveis.",
+          "Observação específica: formulação Zosyn com EDTA teria compatibilidade in vitro em Y-site com amikacina e gentamicina em diluentes/concentrações específicas; não compatível com tobramicina (conforme texto)."
+        ]
+      },
+      {
+        "title": "9. Efeitos adversos"
+      },
+      {
+        "title": "9.1 Comuns (≥1%)",
+        "bullets": [
+          "Diarreia (~11% em adultos).",
+          "Rash (~4%), prurido (~3%).",
+          "Flebite (~1%).",
+          "Náusea (~7%), vômitos (~3%), dor abdominal (~1%), constipação (~8%), dispepsia (~3%).",
+          "Candidíase (~2%), febre (~2%).",
+          "Cefaleia (~8%), insônia (~7%).(Demais eventos em “1–10%” e “frequência não definida” constam no material, mas os principais acima já cobrem os mais usuais.)"
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "C. difficile (colite/megacólon tóxico/sepse em casos graves).",
+          "Trombocitopenia imune induzida por droga (DITP) e outras citopenias; mielossupressão/neutropenia (mais com uso prolongado).",
+          "Reações de hipersensibilidade imediata (anafilaxia) e SCARs (SJS/TEN/DRESS).",
+          "Neurotoxicidade por beta-lactâmico (encefalopatia/convulsões), especialmente com disfunção renal/idosos/doses altas.",
+          "Nefrotoxicidade/AKI: o texto destaca associação observacional de maior AKI quando combinado com vancomicina, com controvérsias e evidência de baixa qualidade."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Anafilaxia/choque anafilático ou sinais de reação grave.",
+          "Suspeita de SJS/TEN/DRESS.",
+          "Encefalopatia/convulsões atribuíveis ao fármaco (avaliar especialmente se há acúmulo por rim).",
+          "Suspeita de DITP grave (plaquetopenia importante/hemorragia).",
+          "Colite grave por C. difficile (conduzir como evento grave relacionado a antibiótico)."
+        ]
+      },
+      {
+        "title": "10. Contraindicações",
+        "bullets": [
+          "Hipersensibilidade a penicilinas, cefalosporinas, inibidores de beta-lactamase ou a qualquer componente."
+        ]
+      },
+      {
+        "title": "11. Advertências e precauções"
+      },
+      {
+        "title": "11.1 Populações especiais",
+        "bullets": [
+          "Renal: cautela; ajuste recomendado.",
+          "Idosos: risco aumentado para eventos (incluindo neurotoxicidade) conforme fatores de risco gerais.",
+          "Gestação/lactação: ver seção 13.",
+          "Uso prolongado (≥21 dias): maior necessidade de monitorização hematológica (citopenias)."
+        ]
+      },
+      {
+        "title": "11.2 Riscos relevantes conforme dados",
+        "bullets": [
+          "Distúrbios eletrolíticos (considerar sódio; monitorar eletrólitos, especialmente se reserva de K baixa).",
+          "Superinfecção (fúngica/bacteriana) e risco de C. difficile.",
+          "Neurotoxicidade (principalmente com disfunção renal e doses altas).",
+          "Possível risco de AKI com vancomicina (associação observacional citada)."
+        ]
+      },
+      {
+        "title": "12. Interações medicamentosas"
+      },
+      {
+        "title": "12.1 Interações clinicamente relevantes (do material)",
+        "bullets": [
+          "Aminoglicosídeos: possível redução de níveis/efeito (inativação in vitro); necessidade de separar administração e monitorar níveis em cenários selecionados.",
+          "Vancomicina: possível aumento de risco de nefrotoxicidade/AKI (associação observacional).",
+          "Metotrexato: penicilinas podem aumentar concentrações séricas (monitorar).",
+          "Probenecida: pode aumentar concentrações de beta-lactamase inhibitors (no bloco de interações).",
+          "Antagonistas da vitamina K (ex.: varfarina): penicilinas podem aumentar efeito anticoagulante (monitorar).",
+          "Tetraciclinas: podem reduzir efeito de penicilinas (interação farmacodinâmica).",
+          "Vacinas vivas orais (ex.: tifoide Ty21a, cólera): antibióticos podem reduzir efeito → evitar durante e em janelas específicas (o texto traz orientações de evitar/postergar).",
+          "Outras listadas: diuréticos/antineoplásicos (hipocalemia), micofenolato (reduz exposição do metabólito ativo), etc."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Evitar vacinas vivas orais durante antibiótico sistêmico e respeitar intervalo sugerido no texto.",
+          "Monitorar: função renal (principalmente com vancomicina e outros nefrotóxicos), eletrólitos, hemograma em uso prolongado, e INR se em anticoagulação.",
+          "Separar administração/avaliar compatibilidade quando coadministrar com aminoglicosídeos (e monitorar níveis quando indicado)."
+        ]
+      },
+      {
+        "title": "13. Gestação e lactação"
+      },
+      {
+        "title": "13.1 Gestação",
+        "bullets": [
+          "Piperacilina/tazobactam atravessa a placenta.",
+          "Como classe, penicilinas são amplamente usadas na gestação e consideradas geralmente compatíveis (conforme texto).",
+          "Há menção de uso aprovado para infecções ginecológicas pós-parto e como opção alternativa em infecção intra-amniótica (no texto)."
+        ]
+      },
+      {
+        "title": "13.2 Lactação",
+        "bullets": [
+          "Piperacilina presente no leite; para tazobactam não há informação no trecho.",
+          "Monitorar lactente para alterações GI (ex.: candidíase oral/diarreia).",
+          "O texto considera compatível com amamentação em alguns cenários (ex.: doenças de via aérea como fibrose cística), com ressalvas gerais."
+        ]
+      },
+      {
+        "title": "14. Farmacocinética / Farmacodinâmica"
+      },
+      {
+        "title": "14.1 Absorção, distribuição, metabolismo, eliminação",
+        "bullets": [
+          "Distribuição: boa penetração em pulmões, mucosa intestinal, trato ginecológico, vesícula/bile; penetração em LCR baixa sem meninges inflamadas.",
+          "Ligação proteica: ~30% para piperacilina e ~30% para tazobactam.",
+          "Metabolismo: piperacilina 6–9% a metabólito des-etil (atividade fraca); tazobactam ~22% a metabólito inativo.",
+          "Eliminação: clearance proporcional à função renal; piperacilina principalmente urinária (como droga inalterada) e parte fecal; tazobactam principalmente urinário (inalterado)."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Vd (adultos): ~0,243 L/kg (piperacilina; o texto traz séries pediátricas e neonatais).",
+          "Meia-vida (adultos): piperacilina ~0,7–1,2 h; tazobactam ~0,7–0,9 h.",
+          "Em CrCl <20, meia-vida aumenta (piperacilina ~2x; tazobactam ~4x).",
+          "Tmax: imediatamente ao fim da infusão de 30 min (IV)."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)",
+        "bullets": [
+          "Piperacilina/tazobactam: efeito tempo-dependente.",
+          "Alvo citado: fT > MIC (piperacilina), com meta usual de bactericida ≥50% fT>MIC; em críticos, alguns especialistas preferem metas mais agressivas (100% fT>MIC e até múltiplos da MIC).",
+          "Infusão estendida/contínua é destacada como estratégia para aumentar “target attainment”."
+        ]
+      },
+      {
+        "title": "15. Monitorização"
+      },
+      {
+        "title": "15.1 O que monitorar e com que frequência",
+        "paragraphs": [
+          "Conforme “Monitoring Parameters” do texto:"
+        ],
+        "bullets": [
+          "Creatinina, BUN (função renal).",
+          "Hemograma (especialmente uso prolongado ≥21 dias; CBC com diferencial).",
+          "Coagulação (PT, PTT) quando indicado/prolongado.",
+          "Eletrólitos, LFTs, urina (urinalysis).",
+          "Sinais de sangramento.",
+          "Anafilaxia durante a primeira dose; observar rash e sintomas CNS."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Não consta explicitamente no material (além de recomendações de duração e estabilidade clínica para suspender na pneumonia)."
+        ]
+      },
+      {
+        "title": "16. Segurança e gestão de eventos"
+      },
+      {
+        "title": "16.1 Conduta em alergia/anafilaxia",
+        "bullets": [
+          "O texto destaca que reações imediatas podem ser graves e rápidas. Conduta detalhada passo-a-passo não consta no trecho; então aqui fica apenas o essencial baseado no que foi fornecido: suspender e tratar como evento grave se sinais de anafilaxia."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreia",
+        "bullets": [
+          "O material enfatiza C. difficile como risco, com janela de início variável (até meses após). Conduta específica passo-a-passo não consta no trecho."
+        ]
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)",
+        "bullets": [
+          "Não consta bloco de hepatotoxicidade clinicamente relevante; e o texto diz que metabolismo hepático é baixo e não requer ajuste por Child-Pugh."
+        ]
+      },
+      {
+        "title": "17. Notas práticas"
+      },
+      {
+        "title": "17.1 Erros comuns de prescrição",
+        "bullets": [
+          "Confundir dose em g “piper+tazo” (adulto) com mg/kg “baseado em piperacilina” (pediatria).",
+          "Não ajustar por função renal (ou não reconhecer ARC, levando a subdose).",
+          "Usar infusão curta quando a situação favorece infusão estendida/contínua (crítico/MIC alta), apesar de os dados clínicos serem limitados."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Não consta orientação direta ao paciente (uso predominantemente hospitalar IV)."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "bullets": [
+          "Não consta nos dados."
+        ]
+      },
+      {
+        "title": "Referência (formato que você pediu)",
+        "paragraphs": [
+          "Piperacillin and tazobactam: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Piperacilina e Tazobactam.docx (Biblioteca)."
+      },
+      {
+        "label": "Piperacillin and tazobactam: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
+    "id": "bula-tigeciclina",
+    "name": "Tigeciclina",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Antibiótico glicilciclina com atividade contra diversos patógenos gram-positivos e gram-negativos, incluindo estafilococos resistentes à meticilina; geralmente bacteriostático, mas pode ser bactericida contra S. pneumoniae e L. pneumophila.",
+    "sections": [
+      {
+        "title": "Visão geral",
+        "paragraphs": [
+          "Tigeciclina (Tigecycline)"
+        ]
+      },
+      {
+        "title": "1. Identificação"
+      },
+      {
+        "title": "1.1 Nome genérico / sinônimos",
+        "bullets": [
+          "Tigeciclina (Tigecycline).",
+          "Derivado da minociclina: “9-t-butylglycylamido minocycline” (informação estrutural)."
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATC",
+        "bullets": [
+          "Categoria farmacológica: Antibiotic, Glycylcycline (glicilciclina).",
+          "ATC: não consta no trecho."
+        ]
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "Solução reconstituída, intravenosa (preservative free): frasco 50 mg (Tygacil e genérico).",
+          "Observação de excipiente: “contains lactose” (no produto Tygacil 50 mg).",
+          "Via oral/IR/ER: não consta."
+        ]
+      },
+      {
+        "title": "2. Introdução e pontos-chave"
+      },
+      {
+        "title": "2.1 O que é e para que serve (visão geral)",
+        "bullets": [
+          "Antibiótico glicilciclina com atividade contra diversos patógenos gram-positivos e gram-negativos, incluindo estafilococos resistentes à meticilina; geralmente bacteriostático, mas pode ser bactericida contra S. pneumoniae e L. pneumophila."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Boxed warning (EUA): aumento de mortalidade por todas as causas em meta-análise de estudos fase 3/4; reservar quando alternativas não forem adequadas.",
+          "Não recomendado para ITU (concentrações inadequadas).",
+          "Não usar para HAP/VAP (pneumonia hospitalar/associada à ventilação): maior mortalidade e menor eficácia relatadas.",
+          "Não indicado para infecção de pé diabético (não inferioridade não demonstrada).",
+          "Em infecção intra-abdominal: evitar monoterapia se perfuração intestinal (em pequena amostra, sepsis/choque séptico mais frequentes vs imipenem/cilastatina)."
+        ]
+      },
+      {
+        "title": "3. Mecanismo de ação",
+        "bullets": [
+          "Liga-se à subunidade 30S ribossomal → inibe síntese proteica.",
+          "“Geralmente bacteriostático”; bactericida demonstrado contra S. pneumoniae e L. pneumophila."
+        ]
+      },
+      {
+        "title": "4. Espectro / Cobertura (se antimicrobiano)"
+      },
+      {
+        "title": "4.1 Micro-organismos-alvo (do trecho)",
+        "bullets": [
+          "Atividade contra patógenos gram+ e gram−; menciona MRSA (atividade contra “methicillin-resistant staphylococci”).",
+          "Indicações em bula listam cobertura/etiologias (ver 5.1), incluindo: Enterobacterales (E. coli, Klebsiella spp., Enterobacter cloacae, Citrobacter freundii), Enterococcus faecalis (Vanco-S), S. aureus (MSSA/MRSA), estreptococos do grupo anginosus, S. pyogenes, S. agalactiae, anaeróbios (B. fragilis e outros), C. perfringens, Peptostreptococcus micros, além de H. influenzae e Legionella pneumophila em PNA adquirida na comunidade."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Não recomendado para infecções urinárias (concentrações inadequadas).",
+          "Não indicado para pé diabético; não indicado para HAP/VAP.",
+          "Reservar quando alternativas não são adequadas (mortalidade aumentada)."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)",
+        "bullets": [
+          "Não há seção de mecanismos/taxas de resistência no trecho; apenas menção de uso em MDR (ver 5.2/6)."
+        ]
+      },
+      {
+        "title": "5. Indicações terapêuticas"
+      },
+      {
+        "title": "5.1 Indicações em bula (Use: Labeled Indications)",
+        "bullets": [
+          "Infecção intra-abdominal complicada em ≥18 anos, por lista extensa (inclui Enterobacterales, E. faecalis Vanco-S, S. aureus MSSA/MRSA, estreptococos, anaeróbios como Bacteroides spp., C. perfringens, Peptostreptococcus micros).",
+          "Pneumonia bacteriana adquirida na comunidade (CAP) em ≥18 anos por S. pneumoniae (penicilina-sensível, inclusive com bacteremia), H. influenzae, Legionella pneumophila.",
+          "Infecção complicada de pele e partes moles em ≥18 anos por Enterobacterales, E. faecalis Vanco-S, S. aureus MSSA/MRSA, S. agalactiae, S. pyogenes, estreptococos do grupo anginosus, anaeróbios como B. fragilis.",
+          "Limitações de uso: não indicado para pé diabético; não indicado para HAP/VAP."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (Use: Off-Label: Adult)",
+        "bullets": [
+          "Acinetobacter baumannii MDR",
+          "Infecção por micobactéria não tuberculosa de crescimento rápido",
+          "Stenotrophomonas maltophilia MDR"
+        ]
+      },
+      {
+        "title": "6. Posologia"
+      },
+      {
+        "title": "6.1 Adultos — dose usual e por indicação (com duração)",
+        "bullets": [
+          "A. baumannii MDR (off-label, alternativa): IV 200 mg dose de ataque, depois 100 mg 12/12 h (em combinação). Nota: não recomendado para ITU.",
+          "Infecção intra-abdominal (alternativa): IV 100 mg ataque, depois 50 mg 12/12 h; alguns sugerem 200 mg ataque, depois 100 mg 12/12 h para infecção resistente. Duração total 4–5 dias após controle de foco adequado (podendo incluir “step-down” oral).",
+          "Micobactéria não tuberculosa, crescimento rápido (off-label): IV 25–50 mg 1–2x/dia (em combinação). Alguns usam 100 mg ataque.",
+          "Pneumonia adquirida na comunidade (alternativa para intolerantes a beta-lactâmico/fluoroquinolona; internados sem risco para Pseudomonas): IV 100 mg dose única, depois 50 mg 12/12 h. Duração mínima 5 dias (pode incluir step-down oral) e suspender quando clinicamente estável e sinais vitais normais.",
+          "Infecção complicada de pele/partes moles: IV 100 mg ataque, depois 50 mg 12/12 h por 5–14 dias.",
+          "S. maltophilia MDR (off-label, alternativa): IV 200 mg ataque, depois 100 mg 12/12 h (em combinação). Nota: não recomendado para ITU."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/peso",
+        "bullets": [
+          "Infecção bacteriana (geral; dados limitados):",
+          "<8 anos: uso “não recomendado” por efeito dentário e incerteza de dose, mas descrito quando não havia alternativas. IV 1,5–2 mg/kg ataque 1x, depois 1–2 mg/kg/dose 12/12 h (máx 50 mg/dose). Relatos de ataque até 4 mg/kg/dose em MDR gram−.",
+          "≥8 anos e adolescentes: IV 1,5–2 mg/kg ataque 1x, depois 1,2–2 mg/kg/dose 12/12 h (máx usual 50 mg/dose). Regime “alta dose” sugerido: 4 mg/kg ataque (máx 200 mg/dose), seguido de 2–3,2 mg/kg/dose 12/12 h (máx 100 mg/dose) para mimetizar adulto em CRE.",
+          "Micobactéria NTM pulmonar (dados limitados; em combinação; tratar tipicamente ≥12 meses após conversão de cultura):",
+          "8 a <12 anos: IV 1,2 mg/kg/dose 12/12 h (máx 50 mg/dose).",
+          "≥12 anos e adolescentes: IV 100 mg ataque 1x, depois 50 mg a cada 12–24 h; pode reduzir para 50 mg 24/24 h ou 25 mg 12–24/24 h se intolerância."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "Não consta."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)",
+        "bullets": [
+          "Adulto (IV): infundir 30–60 min em linha dedicada ou Y-site. Se usar a mesma linha para infusões sequenciais, fazer flush com SF 0,9%, SG 5% ou Ringer lactato antes e depois.",
+          "Pediatria (IV): infundir 30–60 min em linha dedicada ou Y-site."
+        ]
+      },
+      {
+        "title": "7. Ajustes de dose"
+      },
+      {
+        "title": "7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+        "bullets": [
+          "Adulto: sem ajuste em qualquer grau de disfunção renal.",
+          "Hemodiálise intermitente (3x/sem): pouco dialisável → sem dose suplementar/sem ajuste.",
+          "Diálise peritoneal: improvável dialisar → sem ajuste.",
+          "CRRT: sem ajuste.",
+          "PIRRT: sem ajuste.",
+          "Pediatria: sem recomendação do fabricante; baseado em adultos → sem ajuste (inclui hemodiálise)."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "bullets": [
+          "Excreção principalmente biliar; clearance reduzido 25% (Child-Pugh B) e 55% (Child-Pugh C).",
+          "Pré-existente (antes de iniciar):",
+          "Child-Pugh A e B: sem ajuste.",
+          "Child-Pugh C:",
+          "Infecção micobacteriana (NTM, crescimento rápido): sem ajuste.",
+          "Outras indicações: ataque sem ajuste; manutenção: 50% da dose de manutenção específica da indicação.",
+          "Lesão hepática durante tratamento: suspender se disfunção/coagulopatia induzida por tigeciclina."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)",
+        "bullets": [
+          "Não consta."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)",
+        "bullets": [
+          "“Refer to adult dosing.” (sem detalhes adicionais)."
+        ]
+      },
+      {
+        "title": "8. Administração e compatibilidades"
+      },
+      {
+        "title": "8.1 Interação com a dieta",
+        "bullets": [
+          "Não consta."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)",
+        "bullets": [
+          "Não consta."
+        ]
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)",
+        "bullets": [
+          "Orientação prática de linha/flush (SF, SG5%, RL) e Y-site consta (ver 6.4).",
+          "Dados de estabilidade/compatibilidades específicas: não constam."
+        ]
+      },
+      {
+        "title": "9. Efeitos adversos"
+      },
+      {
+        "title": "9.1 Comuns (≥1%)",
+        "bullets": [
+          ">10%: diarreia (12%), náusea (24–35%), vômitos (16–20%).",
+          "1–10% (seleção do texto):",
+          "CV: flebite (3%), tromboflebite, choque séptico.",
+          "Pele: prurido, rash (3%).",
+          "Metab/endócrino: hipocalcemia, hipoglicemia, hiponatremia (2%), ↑ amilase (3%).",
+          "GI: dor abdominal (6%), dispepsia (2%), disgeusia, anorexia etc.",
+          "Heme: anemia (5%), hipoproteinemia (5%), trombocitopenia, ↑ INR, ↑ TP/TTPa.",
+          "Hepático: ↑ ALT (5%), ↑ AST (4%), ↑ FA (3%), hiperbilirrubinemia (2%), icterícia.",
+          "Neuro: tontura (3%), cefaleia (6%), calafrios.",
+          "Renal: ↑ ureia (3%), ↑ creatinina.",
+          "Infecção: infecção (7%), sepse, abscesso (2%).",
+          "Local: reação no sítio, dor, edema."
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Pós-comercialização: SJS, pancreatite aguda, diarreia associada a C. difficile, hipofibrinogenemia, insuficiência hepática/colestase intra-hepática, anafilaxia (imune e não imune), hemorragia."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Suspeita/ocorrência de: anafilaxia, pancreatite, fotossensibilidade, pseudotumor cerebri, coagulopatia/hipofibrinogenemia, lesão hepática induzida, erupção fixa (suspeita), superinfecção grave/C. difficile importante (o texto descreve o risco; não dá um “algoritmo”)."
+        ]
+      },
+      {
+        "title": "10. Contraindicações",
+        "bullets": [
+          "Hipersensibilidade (ex.: anafilaxia) à tigeciclina ou componentes.",
+          "Rotulagem canadense: hipersensibilidade à classe das tetraciclinas (não no rótulo EUA)."
+        ]
+      },
+      {
+        "title": "11. Advertências e precauções"
+      },
+      {
+        "title": "11.1 Populações especiais",
+        "bullets": [
+          "Pediatria (<18): segurança/eficácia não estabelecidas; uso apenas se não houver alternativas.",
+          "<8 anos: risco de descoloração dentária/enamel hypoplasia; não recomendado."
+        ]
+      },
+      {
+        "title": "11.2 Riscos específicos citados",
+        "bullets": [
+          "Mortalidade aumentada (boxed warning).",
+          "Anafilaxia/hipersensibilidade.",
+          "Efeitos antianabólicos (↑ BUN/azotemia/acidose/hiperfosfatemia).",
+          "Coagulopatia (↑ TP/TTPa, ↓ fibrinogênio; pode ser dose/tempo-dependente; mais em renal/hepática).",
+          "Hepatotoxicidade (inclui relatos de insuficiência hepática).",
+          "Pancreatite (inclui fatalidades).",
+          "Fotossensibilidade; pseudotumor cerebri.",
+          "Superinfecção/C. difficile (até >2 meses após antibiótico).",
+          "Evitar para pé diabético e HAP/VAP; cautela em insuficiência hepática e em IAI com perfuração (evitar monoterapia)."
+        ]
+      },
+      {
+        "title": "12. Interações medicamentosas"
+      },
+      {
+        "title": "12.1 Interações clinicamente relevantes (as que o texto explicita com conduta/risco)",
+        "bullets": [
+          "Retinoides (derivados do ácido retinoico): ↑ toxicidade; risco de pseudotumor cerebri → Risco X (evitar).",
+          "Methoxyflurane: ↑ nefrotoxicidade → Risco X (evitar).",
+          "Mecamylamine: ↑ bloqueio neuromuscular → Risco X (evitar).",
+          "Warfarin / antagonistas da vitamina K: tetraciclinas ↑ efeito anticoagulante; tigeciclina pode ↑ concentração de warfarina → monitorar.",
+          "Tacrolimus (sistêmico): tigeciclina ↑ concentrações → monitorar.",
+          "Metotrexato: tetraciclinas ↑ concentrações → monitorar.",
+          "Lítio: tetraciclinas ↑ concentrações → monitorar.",
+          "Penicilinas: tetraciclinas podem ↓ efeito terapêutico → monitorar.",
+          "Sulfonilureias: ↑ hipoglicemia → monitorar.",
+          "BCG intravesical / cólera VO / Tifo Ty21a / microbiota fecal viva: antibióticos ↓ efeito → em geral evitar (vários com Risco X)."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Conforme os “Risk X/C/D” já listados acima (evitar ou monitorar). (O texto não traz esquemas adicionais além dessas recomendações.)"
+        ]
+      },
+      {
+        "title": "13. Gestação e lactação"
+      },
+      {
+        "title": "13.1 Gestação",
+        "bullets": [
+          "Tigeciclina atravessa a placenta.",
+          "Tetraciclinas acumulam em dentes/ossos fetais; risco de descoloração dentária permanente (mais com uso prolongado ou repetido), além de associação com retardo reversível do desenvolvimento esquelético e redução de crescimento ósseo."
+        ]
+      },
+      {
+        "title": "13.2 Lactação",
+        "bullets": [
+          "Não se sabe se está no leite.",
+          "Fabricante: ponderar risco/benefício; não recomenda amamentar se terapia materna >3 semanas (risco de dentes/ossos). Sugere ordenhar e descartar durante tratamento e por 9 dias após a última dose.",
+          "Monitorar lactente para distúrbios GI (sapinho/diarreia); preferir alternativas quando possível."
+        ]
+      },
+      {
+        "title": "14. Farmacocinética / Farmacodinâmica"
+      },
+      {
+        "title": "14.1 Absorção, distribuição, metabolismo, eliminação",
+        "bullets": [
+          "Distribuição: extensa; alcança vesícula biliar, pulmão e cólon.",
+          "Metabolismo hepático (glucuronidação, N-acetilação, epimerização) → metabólitos <10% da dose.",
+          "Excreção: fezes 59% (principalmente inalterada), urina 33% (22% do total como inalterada)."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Vd: adultos 7–9 L/kg; crianças 8–11 anos 2,84 L/kg (faixa ampla).",
+          "Ligação proteica: 71–89%.",
+          "Meia-vida: dose única 27 h; múltiplas doses 42 h; aumenta 23% (hepatopatia moderada) e 43% (grave).",
+          "Clearance reduzido 25% (Child-Pugh B) e 55% (Child-Pugh C).",
+          "Tmax: não consta."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)",
+        "bullets": [
+          "Principal parâmetro associado à eficácia: AUC24/MIC ou fAUC24/MIC.",
+          "Alvos citados (exemplos):",
+          "A. baumannii: fAUC/MIC ≥17 (80% eficácia); ≥8 (50%); ≥6 (estase).",
+          "E. coli: ≥8 (redução 2 log10); ≥2 (estase).",
+          "K. pneumoniae (produtora de carbapenemase): ≥16 (depende do inóculo).",
+          "S. aureus: ≥3 a 5,4.",
+          "Efeito pós-antibiótico: ~1–6 h."
+        ]
+      },
+      {
+        "title": "15. Monitorização"
+      },
+      {
+        "title": "15.1 O que monitorar e com que frequência",
+        "bullets": [
+          "Função hepática periodicamente.",
+          "Parâmetros de coagulação (inclui aPTT/PTT e fibrinogênio) no baseline e regularmente durante terapia.",
+          "Observar sinais/sintomas de anafilaxia durante administração.",
+          "Vigiar piora de função hepática se LFTs alterarem."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Não constam critérios formais no trecho (apenas menção de estabilidade clínica para suspender na CAP)."
+        ]
+      },
+      {
+        "title": "16. Segurança e gestão de eventos"
+      },
+      {
+        "title": "16.1 Conduta em alergia/anafilaxia",
+        "bullets": [
+          "O texto indica risco de anafilaxia e “observar durante administração”; conduta detalhada não consta (além de “discontinue” em reações graves em advertências)."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreia",
+        "bullets": [
+          "O texto alerta para C. difficile e superinfecção; conduta detalhada não consta."
+        ]
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)",
+        "bullets": [
+          "Se ocorrer disfunção hepática/coagulopatia induzida por tigeciclina: descontinuar."
+        ]
+      },
+      {
+        "title": "17. Notas práticas"
+      },
+      {
+        "title": "17.1 Erros comuns de prescrição",
+        "bullets": [
+          "Usar para ITU, HAP/VAP ou pé diabético apesar das limitações.",
+          "Usar rotineiramente como empírico (o texto repete “not recommended for routine empiric use” em alguns cenários)."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Não consta (trecho é mais técnico/IV hospitalar)."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "bullets": [
+          "Não constam."
+        ]
+      },
+      {
+        "title": "Referência (conforme seu modelo)",
+        "paragraphs": [
+          "Tigecycline: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Tigeciclina.docx (Biblioteca)."
+      },
+      {
+        "label": "Tigecycline: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ]
   },
