@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import bibliotecaPostsData from "@/data/bibliotecaMedicamentos.json";
 
 type Entry = {
   bacteria: string;
@@ -12,27 +13,6 @@ const upToDateLinks: Record<string, string> = {
     "https://www.uptodate.com/contents/oxacillin-drug-information?search=oxacilina&source=panel_search_result&selectedTitle=1~76&usage_type=panel&kp_tab=drug_general&display_rank=1",
   "oxacilina / flucloxacilina":
     "https://www.uptodate.com/contents/oxacillin-drug-information?search=oxacilina&source=panel_search_result&selectedTitle=1~76&usage_type=panel&kp_tab=drug_general&display_rank=1",
-};
-
-const medicamentoTecnicoIds: Record<string, string> = {
-  oxacilina: "bula-oxacilina",
-  "amoxicilina-clavulanato": "bula-amoxicilina-e-clavulanato",
-  "ampicilina-sulbactam": "bula-ampicilina-e-sulbactam",
-  cefazolina: "bula-cefazolina",
-  cefuroxima: "bula-cefuroxima",
-  ceftriaxona: "bula-ceftriaxona",
-  cefepime: "bula-cefepime",
-  ceftarolina: "bula-ceftarolina",
-  clindamicina: "bula-clindamicina",
-  "acido fusidico": "bula-acido-fusidico",
-  gentamicina: "bula-gentamicina",
-  amicacina: "bula-amicacina",
-  ciprofloxacino: "bula-ciprofloxacino",
-  levofloxacino: "bula-levofloxacino",
-  moxifloxacino: "bula-moxifloxacino",
-  vancomicina: "bula-vancomicina",
-  linezolida: "bula-linezolida",
-  daptomicina: "bula-daptomicina",
 };
 
 const entries: Entry[] = [
@@ -315,6 +295,24 @@ function normalize(value: string): string {
     .toLowerCase();
 }
 
+const bibliotecaMedicamentoIds: Record<string, string> = (bibliotecaPostsData as { id: string; name: string }[]).reduce(
+  (acc, post) => {
+    const cleanName = post.name.replace(/\([^)]*\)/g, "").trim();
+    const normalized = normalize(cleanName);
+    acc[normalized] = post.id;
+
+    const hyphenAlias = normalize(cleanName.replace(/\s+e\s+/gi, "-"));
+    acc[hyphenAlias] = post.id;
+
+    return acc;
+  },
+  {} as Record<string, string>
+);
+
+const medicamentoAliasIds: Record<string, string> = {
+  "oxacilina / flucloxacilina": "bula-oxacilina",
+};
+
 function uniqueSorted(list: string[]) {
   return Array.from(new Set(list)).sort((a, b) => a.localeCompare(b, "pt-BR"));
 }
@@ -325,7 +323,7 @@ function getUpToDateLink(name: string) {
 
 function getMedicamentoLink(name: string) {
   const base = normalize(name.replace(/\([^)]*\)/g, ""));
-  const id = medicamentoTecnicoIds[base];
+  const id = medicamentoAliasIds[base] ?? bibliotecaMedicamentoIds[base];
   return id ? `/medicamentos?id=${id}` : undefined;
 }
 
