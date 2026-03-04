@@ -15,6 +15,7 @@ export type DiluicaoItem = {
   concentracaoMaximaAdm: string;
   velocidadeTempoInfusao: string;
   observacoes: string;
+  fotossensivel: string;
   flebite: string;
 };
 
@@ -118,6 +119,9 @@ export default function DiluicaoMedicamentosTool({ items }: Props) {
                 </li>
                 <li>
                   <strong>Observações:</strong> {selected.observacoes}
+                </li>
+                <li>
+                  <strong>Fotossensível:</strong> {selected.fotossensivel}
                 </li>
                 <li>
                   <strong>Flebite:</strong> {selected.flebite}

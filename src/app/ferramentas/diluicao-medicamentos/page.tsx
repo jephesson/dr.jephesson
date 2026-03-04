@@ -14,6 +14,7 @@ const itensDiluicao: DiluicaoItem[] = [
     concentracaoMaximaAdm: "-",
     velocidadeTempoInfusao: "Infusão: 30 min",
     observacoes: "Utilizar filtro de 0,2 a 1,2 μm para administração IV",
+    fotossensivel: "-",
     flebite: "-",
   },
   {
@@ -29,6 +30,7 @@ const itensDiluicao: DiluicaoItem[] = [
     concentracaoMaximaAdm: "5mg/mL",
     velocidadeTempoInfusao: "> 1h",
     observacoes: "-",
+    fotossensivel: "-",
     flebite: "XX",
   },
   {
@@ -44,6 +46,7 @@ const itensDiluicao: DiluicaoItem[] = [
     concentracaoMaximaAdm: "-",
     velocidadeTempoInfusao: "> 1h",
     observacoes: "-",
+    fotossensivel: "-",
     flebite: "-",
   },
 ];
