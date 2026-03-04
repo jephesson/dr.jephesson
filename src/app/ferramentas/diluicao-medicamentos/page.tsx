@@ -29,7 +29,7 @@ const itensDiluicao: DiluicaoItem[] = [
     estabilidadeDiluido: "12h TA",
     concentracaoMaximaAdm: "5mg/mL",
     velocidadeTempoInfusao: "> 1h",
-    observacoes: "-",
+    observacoes: "Não refrigerar, por risco de precipitação",
     fotossensivel: "-",
     flebite: "XX",
   },
