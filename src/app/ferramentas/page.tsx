@@ -101,6 +101,21 @@ export default function Page() {
           <h3>Cálculo de gotejamento</h3>
           <p>Estime dose, volume total e frascos necessários.</p>
         </Link>
+
+        <Link
+          href="/ferramentas/diluicao-medicamentos"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#1f2937",
+              "--card-to": "#06b6d4",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Ferramenta</span>
+          <h3>Diluição de medicamentos</h3>
+          <p>Consulte preparo, diluição, infusão e compatibilidade.</p>
+        </Link>
       </div>
     </div>
   );
