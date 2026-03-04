@@ -1,17 +1,21 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
-
-export type DiluicaoSection = {
-  title: string;
-  lines: string[];
-};
 
 export type DiluicaoItem = {
   id: string;
   name: string;
-  sections: DiluicaoSection[];
+  principioAtivo: string;
+  apresentacaoComercial: string;
+  volumeReconstituicao: string;
+  estabilidadeReconstituido: string;
+  solucaoInfusao: string;
+  volumeDiluicao: string;
+  estabilidadeDiluido: string;
+  concentracaoMaximaAdm: string;
+  velocidadeTempoInfusao: string;
+  observacoes: string;
+  flebite: string;
 };
 
 type Props = {
@@ -33,7 +37,12 @@ export default function DiluicaoMedicamentosTool({ items }: Props) {
   const filtered = useMemo(() => {
     const q = normalize(query);
     if (!q) return items;
-    return items.filter((item) => normalize(item.name).includes(q));
+    return items.filter(
+      (item) =>
+        normalize(item.name).includes(q) ||
+        normalize(item.principioAtivo).includes(q) ||
+        normalize(item.apresentacaoComercial).includes(q)
+    );
   }, [items, query]);
 
   const activeId = filtered.some((item) => item.id === selectedId) ? selectedId : (filtered[0]?.id ?? "");
@@ -75,19 +84,46 @@ export default function DiluicaoMedicamentosTool({ items }: Props) {
           <>
             <div className="diluicao-header">
               <h3>{selected.name}</h3>
-              <Link href={`/medicamentos?id=${selected.id}`}>Abrir ficha completa</Link>
             </div>
 
-            {selected.sections.map((section) => (
-              <article key={`${selected.id}-${section.title}`} className="diluicao-section">
-                <h4>{section.title}</h4>
-                <ul>
-                  {section.lines.map((line, index) => (
-                    <li key={`${selected.id}-${section.title}-${index}`}>{line}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
+            <article className="diluicao-section">
+              <h4>Descrição de diluição</h4>
+              <ul className="diluicao-details">
+                <li>
+                  <strong>Princípio ativo:</strong> {selected.principioAtivo}
+                </li>
+                <li>
+                  <strong>Apresentação comercial:</strong> {selected.apresentacaoComercial}
+                </li>
+                <li>
+                  <strong>Volume de reconstituição:</strong> {selected.volumeReconstituicao}
+                </li>
+                <li>
+                  <strong>Estabilidade reconstituído:</strong> {selected.estabilidadeReconstituido}
+                </li>
+                <li>
+                  <strong>Solução para infusão:</strong> {selected.solucaoInfusao}
+                </li>
+                <li>
+                  <strong>Volume de diluição:</strong> {selected.volumeDiluicao}
+                </li>
+                <li>
+                  <strong>Estabilidade diluído:</strong> {selected.estabilidadeDiluido}
+                </li>
+                <li>
+                  <strong>Concentração máxima para administração:</strong> {selected.concentracaoMaximaAdm}
+                </li>
+                <li>
+                  <strong>Velocidade / tempo de infusão:</strong> {selected.velocidadeTempoInfusao}
+                </li>
+                <li>
+                  <strong>Observações:</strong> {selected.observacoes}
+                </li>
+                <li>
+                  <strong>Flebite:</strong> {selected.flebite}
+                </li>
+              </ul>
+            </article>
           </>
         )}
       </section>
