@@ -15389,6 +15389,386 @@
     ]
   },
   {
+    "id": "bula-cetorolaco",
+    "name": "Cetorolaco",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Nomes comerciais (Canadá): ALTI-Ketorolac; APO-Ketorolac; JAMP Ketorolac; Mar-Ketorolac; MINT-Ketorolac; Toradol",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimosCetorolaco (Ketorolac) – sistêmico."
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATCAnalgésico não opioide; Anti-inflamatório não esteroidal (AINE) – uso oral e parenteral."
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "Injetável (cetorolaco trometamina):",
+          "15 mg/mL (1 mL)",
+          "30 mg/mL (1 mL)",
+          "60 mg/2 mL (IM; frasco-ampola para IM)",
+          "Comprimido (VO; cetorolaco trometamina): 10 mg",
+          "Canadá (exemplos):",
+          "Toradol: solução IM 10 mg/mL (1 mL) (contém álcool); comprimido 10 mg",
+          "Genéricos: solução IM 30 mg/mL (1 mL); comprimido 10 mg",
+          "Nomes comerciais (Canadá): ALTI-Ketorolac; APO-Ketorolac; JAMP Ketorolac; Mar-Ketorolac; MINT-Ketorolac; Toradol",
+          "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)Cetorolaco é um AINE com potência analgésica para dor aguda moderada a intensa, em nível comparável ao de opioide, indicado para uso de curto prazo."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Uso apropriado (limite de duração): indicado para tratamento de dor aguda moderada a intensa por até 5 dias em adultos. A soma do uso IV/IM + VO (e nasal, quando aplicável) não deve exceder 5 dias.",
+          "VO não é terapia inicial: cetorolaco VO é indicado apenas como continuação após IV/IM, se necessário.",
+          "Não aumentar dose/frequência: maior dose não aumenta eficácia e aumenta risco de eventos graves. Intervalo mínimo usual: não encurtar para <4–6 horas.",
+          "Risco GI alto: maior risco de úlcera/hemorragia/perfuração; considerar IBP em pacientes de alto risco (ex.: ≥60 anos, dupla antiagregação, anticoagulante).",
+          "Risco CV trombótico: AINEs aumentam risco de IAM/AVC; pode ocorrer cedo e aumenta com duração.",
+          "Risco renal: evitar em disfunção renal avançada e em risco de IRA por hipovolemia.",
+          "Sangramento: inibe função plaquetária; evitar em alto risco de sangramento/hemóstase incompleta.",
+          "Populações com redução de dose (parenteral): ≥65 anos, <50 kg, ou creatinina moderadamente elevada → máximo 60 mg/dia (injeção).",
+          "Trabalho de parto/parto: contraindicado (pode afetar circulação fetal e inibir contrações).",
+          "Não associar com outros AINEs/aspirina: contraindicado por toxicidade cumulativa.",
+          "Via neuraxial: contraindicado para uso intratecal/epidural (injeção; conteúdo alcoólico).",
+          "Mecanismo de açãoInibe de forma reversível as enzimas COX-1 e COX-2, reduzindo formação de precursores de prostaglandinas; tem efeitos analgésico, antipirético e anti-inflamatório. Outros mecanismos propostos incluem inibição de quimiotaxia, alteração da atividade linfocitária, inibição de agregação/ativação de neutrófilos e redução de citocinas pró-inflamatórias.",
+          "Espectro / Cobertura (adaptado)4.1 Micro-organismos-alvoNão aplicável."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Não indicado para condições dolorosas leves, crônicas ou para uso prolongado.",
+          "Não indicado como analgésico profilático antes de grande cirurgia.",
+          "Evitar em pacientes com alto risco GI, renal, CV ou sangramento conforme contraindicações e precauções abaixo."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)Não aplicável.",
+        "bullets": [
+          "Indicações terapêuticas5.1 Indicações em bula",
+          "Dor aguda: manejo de curto prazo (≤5 dias) de dor aguda (moderadamente intensa)."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (se aplicável)",
+        "paragraphs": [
+          "Enxaqueca grave (tratamento agudo; off-label)",
+          "Dor aguda (manejo da dor)Observações: não exceder doses recomendadas; não usar com outro AINE; VO não é inicial; pode associar analgésico de outra classe para dor “breakthrough”."
+        ],
+        "bullets": [
+          "Enxaqueca grave, tratamento agudo.",
+          "Posologia (Completo)6.1 Adultos — dose usual e por indicação (com duração)",
+          "Peso ≥50 kg e <65 anos:",
+          "IV: 30 mg dose única",
+          "IM: 60 mg dose única",
+          "Peso <50 kg ou ≥65 anos:",
+          "IV: 15 mg dose única",
+          "IM: 30 mg dose única",
+          "Peso ≥50 kg e <65 anos:",
+          "IV: 30 mg dose única ou 15 a 30 mg a cada 6 h se necessário; máx 120 mg/dia; duração máx 5 dias (somando parenteral/oral/nasal).",
+          "IM: 30 a 60 mg dose única ou 15 a 30 mg a cada 6 h se necessário; alternativamente 10 a 30 mg a cada 4–6 h se necessário; máx 120 mg/dia; duração máx 5 dias (somando parenteral/oral/nasal).",
+          "VO (apenas continuação após IV/IM; não inicial): 20 mg dose única, depois 10 mg a cada 4–6 h se necessário; máx 40 mg/dia; duração máx 5 dias (somando parenteral/oral/nasal).",
+          "Peso <50 kg ou ≥65 anos:",
+          "IV: 15 mg dose única ou 15 mg a cada 6 h se necessário; máx 60 mg/dia; duração máx 5 dias (somando parenteral/oral/nasal).",
+          "IM: 30 mg dose única ou 15 mg a cada 6 h se necessário; alternativamente 10 mg a cada 4–6 h se necessário; máx 60 mg/dia; duração máx 5 dias (somando parenteral/oral/nasal).",
+          "VO (apenas continuação após IV/IM; não inicial): 10 mg a cada 4–6 h se necessário; máx 40 mg/dia; duração máx 5 dias (somando parenteral/oral/nasal)."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/pesoObservação: para reduzir riscos CV e GI, usar menor dose eficaz e menor duração. Duração total combinada (IV/IM + VO) não deve exceder 5 dias.",
+        "paragraphs": [
+          "Dor aguda moderadamente intensa (manejo da dor)"
+        ],
+        "bullets": [
+          "Lactentes e crianças <2 anos (dados limitados):",
+          "IV: 0,5 mg/kg/dose a cada 6–8 h, não exceder 48–72 h; usado principalmente no pós-operatório (cardíaco/abdominal).",
+          "Dose máxima: 15 mg/dose.",
+          "Observação: dose menor 0,25 mg/kg/dose a cada 6–8 h também foi recomendada.",
+          "IM descrito em pacientes ≥6 meses.",
+          "Crianças ≥2 anos e adolescentes ≤16 anos (dados limitados):",
+          "IM/IV: 0,5 mg/kg/dose a cada 6–8 h; máx 30 mg/dose; duração usual relatada 48–72 h; não exceder 5 dias.",
+          "VO: 1 mg/kg/dose a cada 4–6 h; máx 10 mg/dose; máx 40 mg/dia.",
+          "Nota: VO apenas como continuação de IV/IM; não usar como terapia inicial.",
+          "Adolescentes ≥17 anos:",
+          "Nota: duração total combinada parenteral + VO máx 5 dias; não aumentar dose/frequência; pode suplementar com opioide em baixa dose se necessário para dor “breakthrough”.",
+          "<50 kg:",
+          "IM: 30 mg dose única ou 15 mg a cada 6 h; máx 60 mg/dia",
+          "IV: 15 mg dose única ou 15 mg a cada 6 h; máx 60 mg/dia",
+          "VO: 10 mg inicial, depois 10 mg a cada 4–6 h; máx 40 mg/dia",
+          "≥50 kg:",
+          "IM: 60 mg dose única ou 30 mg a cada 6 h; máx 120 mg/dia",
+          "IV: 30 mg dose única ou 30 mg a cada 6 h; máx 120 mg/dia",
+          "VO: 20 mg inicial, depois 10 mg a cada 4–6 h; máx 40 mg/dia"
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "Em neonatos, eventos de sangramento foram relatados; maior risco em PNA <21 dias e especialmente <14 dias (conforme considerações pediátricas adicionais).",
+          "Esquema posológico neonatal específico não foi fornecido além das faixas pediátricas citadas."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)",
+        "paragraphs": [
+          "Adultos (recomendações por eGFR)",
+          "Pediatria (informação fornecida)"
+        ],
+        "bullets": [
+          "VO: pode administrar com alimento para reduzir desconforto GI; interação com refeição rica em gordura pode atrasar pico (~1 h) e reduzir pico; manejo: administrar com alimento/leite para reduzir irritação GI.",
+          "IM: administrar lentamente e profundamente no músculo; frasco 60 mg/2 mL é somente IM.",
+          "IV: administrar sem diluir em bolus por no mínimo 15 segundos; em crianças, já foi infundido em 1 a 5 minutos.",
+          "Ajustes de dose7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+          "eGFR ≥60 mL/min/1,73 m²: IM/IV/VO: sem ajuste.",
+          "eGFR >30 a <60 mL/min/1,73 m²:",
+          "IM/IV: preferir analgésicos que não sejam AINE; se necessário, considerar 7,5 a 15 mg a cada 6 h, menor dose eficaz e menor duração; evitar se alto risco de IRA (hipovolemia, hipotensão, idoso, nefrotóxicos concomitantes).",
+          "VO: 10 mg a cada 4–6 h se necessário, máx 40 mg/dia; VO é continuação de IM/IV.",
+          "eGFR ≤30 mL/min/1,73 m²: evitar uso (maior risco de IRA). Bula: contraindicado em disfunção renal avançada.",
+          "Hemodiálise intermitente: não dialisável; evitar uso (risco aumentado de sangramento, eventos CV e perda de função renal residual); bula: contraindicado em disfunção renal avançada.",
+          "Diálise peritoneal: improvável dialisar; evitar uso (mesmas razões).",
+          "CRRT: evitar uso.",
+          "PIRRT: evitar uso.",
+          "Não há ajustes pediátricos em bula; uso é contraindicado em insuficiência renal avançada ou risco de falência renal por hipovolemia.",
+          "Recomendações citadas (Aronoff 2007; baseadas em 0,25 a 1 mg/kg/dose IV/IM a cada 6 h):",
+          "GFR ≥30: sem ajuste",
+          "GFR 10 a 29: administrar 50% da dose",
+          "GFR <10: administrar 25% a 50% da dose",
+          "Hemodiálise/diálise peritoneal: evitar uso",
+          "Recomendações KDIGO para AINEs:",
+          "eGFR 30 a <60: suspender temporariamente em doença intercorrente que aumente risco de IRA",
+          "eGFR <30: evitar"
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "bullets": [
+          "Em cirrose, AINEs podem precipitar insuficiência renal e aumentar risco de sangramento GI; para cetorolaco:",
+          "Child-Turcotte-Pugh A a C (cirrose pré-existente, início/ajuste de dose): evitar uso.",
+          "Lesão hepática induzida por cetorolaco: descontinuar permanentemente se confirmada e alterações laboratoriais não forem explicadas por outras causas."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)",
+        "bullets": [
+          "Pós-cirurgia bariátrica: evitar uso crônico de AINE não seletivo VO (risco de úlcera/perfuração anastomótica). Uso de curto prazo de celecoxibe ou cetorolaco IV pode fazer parte de estratégia multimodal pós-operatória (conforme texto fornecido)."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)",
+        "bullets": [
+          "“Older adult”: evitar uso (recomendação citada).",
+          "Se usar: maior risco GI/CV/renal; exigir doses menores (e limitação de dose parenteral total diária).",
+          "Administração e compatibilidades8.1 Com ou sem alimentos",
+          "VO: pode ser administrado com alimento/leite para reduzir desconforto GI."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)Não informado."
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)Não informado.",
+        "paragraphs": [
+          "1% a 10%"
+        ],
+        "bullets": [
+          "Efeitos adversos9.1 Comuns (≥1%)>10%",
+          "GI: dor abdominal, dispepsia, náuseas",
+          "Hepático: aumento de enzimas hepáticas (≤15%)",
+          "SNC: cefaleia",
+          "CV: edema, hipertensão",
+          "Dermatológico: diaforese, prurido, rash",
+          "GI: constipação, diarreia, flatulência, plenitude GI, hemorragia GI, perfuração GI, úlcera GI, pirose, estomatite, vômitos",
+          "Hematológico: anemia, tempo de sangramento prolongado, doença púrpura",
+          "Local: dor no local de injeção (IM/IV)",
+          "SNC: tontura, sonolência",
+          "Otológico: zumbido",
+          "Renal: alteração de função renal"
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Trombose arterial CV: IAM/AVC (risco com AINEs; pode ocorrer cedo).",
+          "GI grave: úlcera, sangramento e perfuração (pode ser fatal; pode ocorrer sem aviso).",
+          "Sangramento: inibição plaquetária; risco de hemorragia (inclui GI); prolongamento do tempo de sangramento.",
+          "Lesão renal aguda/insuficiência renal: especialmente em hipovolemia, idosos, nefrotóxicos e DRC.",
+          "Reações de hipersensibilidade: broncoespasmo até anafilaxia; SJS/TEN; DRESS.",
+          "Hepatotoxicidade grave (rara): insuficiência hepática/hepatite idiossincrática.",
+          "Hematológicas raras: agranulocitose, anemia aplástica, trombocitopenia, pancitopenia, anemia hemolítica, SHU.",
+          "Meningite asséptica (risco aumentado em LES/TCM).",
+          "Hipercalemia (especialmente ≥65 anos, DM, doença renal, e drogas que aumentam K)."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Suspeita de sangramento GI importante (hematêmese, melena, queda de Hb/instabilidade).",
+          "Sinais de reação cutânea grave (SJS/TEN) ou DRESS.",
+          "Anafilaxia/angioedema/broncoespasmo após dose.",
+          "Lesão renal aguda ou piora relevante de função renal.",
+          "Suspeita/confirmada lesão hepática induzida por cetorolaco.",
+          "Contraindicações",
+          "Hipersensibilidade a cetorolaco, aspirina, outros AINEs, ou componentes.",
+          "Doença ulcerosa péptica ativa ou história; sangramento/perfuração GI recente ou história.",
+          "História de asma, urticária ou reação alérgica tipo aspirina/AINE.",
+          "Doença renal avançada ou risco de falência renal por depleção volêmica.",
+          "Analgesia profilática antes de grande cirurgia.",
+          "Suspeita/confirmada hemorragia cerebrovascular, diátese hemorrágica, hemostasia incompleta ou alto risco de sangramento.",
+          "Uso concomitante com aspirina ou outros AINEs; probenecida; pentoxifilina.",
+          "Administração epidural/intratecal (injeção).",
+          "Perioperatório de CABG.",
+          "Trabalho de parto e parto.",
+          "Advertências e precauções11.1 Populações especiais",
+          "≥65 anos: maior risco GI/CV/renal; evitar ou usar com extrema cautela e doses reduzidas.",
+          "<50 kg: doses menores recomendadas.",
+          "DRC ou risco de IRA: evitar em eGFR ≤30; cautela em 30–60; evitar em hipovolemia/hipotensão/idosos/nefrotóxicos.",
+          "Cirrose/doença hepática: evitar (risco de sangramento GI e insuficiência renal).",
+          "Asma/pólipos nasais/urticária crônica: maior risco de hipersensibilidade a AINEs.",
+          "Neonatos/pequenos lactentes (pós-operatório): relatos de sangramento e risco de IRA (dados observacionais citados)."
+        ]
+      },
+      {
+        "title": "11.2 Riscos relevantes (superinfecção, QT, convulsão, hepatotoxicidade etc.)",
+        "bullets": [
+          "CV: risco de eventos trombóticos (IAM/AVC), hipertensão nova/piora, retenção hídrica e possível piora de IC.",
+          "GI: risco de hemorragia/perfuração/úlceras; maior risco com idade avançada, maior dose, duração maior, história de úlcera/sangramento, álcool/tabaco, comedicações que aumentam sangramento (aspirina, anticoagulantes, corticoides, ISRS/ISRN).",
+          "Hematológico: prolonga tempo de sangramento; risco hemorrágico.",
+          "Renal: IRA hemodinamicamente mediada pode ocorrer rapidamente (horas a dias).",
+          "Hepático: elevação de transaminases; raramente lesão hepática grave; risco pode aumentar com doses maiores.",
+          "Hipersensibilidade: reações imediatas e tardias (DRESS; SJS/TEN).",
+          "Hipercalemia: monitorar especialmente em grupos de risco.",
+          "Interações medicamentosas12.1 Interações clinicamente relevantes",
+          "Aspirina e outros AINEs: contraindicado (toxicidade cumulativa; risco sangramento; pode reduzir cardioproteção da aspirina).",
+          "Probenecida: contraindicado (↑ concentrações).",
+          "Pentoxifilina: contraindicado (↑ risco de sangramento).",
+          "Anticoagulantes/antiagregantes (ex.: P2Y12)/trombolíticos: ↑ risco de sangramento.",
+          "ISRS/ISRN: ↑ risco de sangramento e possível redução de efeito antidepressivo; considerar alternativas e monitorar.",
+          "Corticoides: ↑ risco GI.",
+          "IECA/BRA/diuréticos/calcineurínicos: ↑ risco de disfunção renal/IRA; monitorar função renal e PA.",
+          "Lítio: ↑ níveis séricos.",
+          "Metotrexato: ↑ níveis (evitar com altas doses; cautela com baixas doses).",
+          "Ciclosporina/tacrolimo: ↑ nefrotoxicidade.",
+          "Tenofovir (produtos): ↑ risco nefrotóxico (evitar se possível, especialmente múltiplos AINEs/alta dose).",
+          "Álcool: ↑ risco de sangramento GI.",
+          "Antagonistas de vitamina K: ↑ efeito anticoagulante (monitorar).(Outras interações existem; consultar base de interações para lista completa.)"
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Evitar: associação com aspirina/outros AINEs; probenecida; pentoxifilina; uso em pacientes com eGFR ≤30 ou diálise; cirrose; alto risco de sangramento.",
+          "Monitorar: sinais de sangramento (GI e outros), PA/edema, função renal (creatinina/BUN/diurese), hemograma/plaquetas, enzimas hepáticas, potássio (risco de hipercalemia).",
+          "Considerar IBP em pacientes de alto risco para sangramento GI.",
+          "Gestação e lactação13.1 Gestação (segurança, quando usar/evitar)",
+          "Cetorolaco atravessa a placenta.",
+          "Uso de AINE próximo à concepção pode estar associado a maior risco de aborto; dados de malformações são conflitantes.",
+          "Efeitos fetais/neonatais possíveis: constrição do ducto arterioso, hipertensão pulmonar persistente, oligodrâmnio por disfunção renal fetal (pode ocorrer a partir de ~20 semanas, especialmente com uso prolongado), NEC, disfunção/insuficiência renal, hemorragia intracraniana.",
+          "Evitar AINEs a partir de ~20 semanas; se necessário entre 20–30 semanas, menor dose e menor duração, considerar US de líquido amniótico se >48 h e suspender se oligodrâmnio.",
+          "Evitar a partir de ~30 semanas (risco de fechamento prematuro do ducto arterioso).",
+          "Trabalho de parto/parto: uso de cetorolaco é contraindicado (pode afetar circulação fetal, inibir contrações e aumentar risco de hemorragia uterina)."
+        ]
+      },
+      {
+        "title": "13.2 Lactação (excreção no leite, efeitos no lactente, monitorização)",
+        "bullets": [
+          "Cetorolaco está presente no leite. Em estudo com 10 mulheres (10 mg VO 4x/dia por 2 dias), níveis no leite foram frequentemente abaixo do limite de quantificação; quando mensuráveis, 5,2 a 7,9 ng/mL; exposição estimada do lactente 0,16% a 0,40% da dose materna.",
+          "Em protocolos pós-cesárea com uso de cetorolaco por até 24 h, não foram observadas diferenças relevantes em desfechos neonatais/breastfeeding nos estudos citados; analgésicos não opioides (incluindo AINEs) são preferidos para controle de dor em lactantes quando apropriado.",
+          "Fabricante recomenda cautela. Evitar AINEs se o lactente tiver disfunção plaquetária, trombocitopenia ou lesão cardíaca ducto-dependente; preferir outros agentes em lactantes com risco de hemorragia.",
+          "Farmacocinética / Farmacodinâmica14.1 Absorção, distribuição, metabolismo, eliminação",
+          "Início de ação (analgesia): ~30 min",
+          "Pico de efeito: 2 a 3 h",
+          "Duração: 4 a 6 h",
+          "Absorção: VO bem absorvido (100%); refeição rica em gordura ↓ pico e atrasa Tmax em ~1 h. IM rápida e completa.",
+          "Distribuição: baixa penetração em LCR.",
+          "Metabolismo: hepático (hidroxilação e conjugação com glicuronídeo).",
+          "Excreção: urina 92% (≈60% inalterado); fezes ~6%.",
+          "Disfunção renal: depuração reduzida, meia-vida aumentada; AUC ↑ ~100% e Vd ↑."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Ligação proteica: 99%",
+          "Vd (adultos): VO/IM 0,17 ± 0,04 L/kg; IV 0,21 ± 0,04 L/kg",
+          "Vdss (pediatria): lactentes ~0,2 L/kg; crianças/adolescentes <16 anos 0,18 L/kg",
+          "Meia-vida (t½):",
+          "Lactentes ≥6 meses: S-enantiômero 0,83 ± 0,7 h; R-enantiômero 4 ± 0,8 h",
+          "Crianças/adolescentes ≤16 anos: 3 ± 1,1 h",
+          "Adultos: média ~5 h (2 a 9 h); S-enantiômero ~2,5 h (ativo); R-enantiômero ~5 h; prolonga 30%–50% em idosos",
+          "Insuficiência renal (Scr 1,9 a 5 mg/dL): média ~11 h (4 a 19 h)",
+          "Pacientes em diálise: média ~14 h (8 a 40 h)",
+          "Tmax (pico sérico): VO ~45 min; IM ~30–45 min; IV 1–3 min"
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)",
+        "bullets": [
+          "Concentração sérica: terapêutica 0,3 a 5 mcg/mL; tóxica >5 mcg/mL.",
+          "Monitorização15.1 O que monitorar e com que frequência",
+          "Resposta analgésica e funcional (dor, mobilidade/ADL).",
+          "Peso/edema, pressão arterial.",
+          "Função renal (creatinina, BUN, débito urinário).",
+          "Hemograma, plaquetas; função hepática; perfil bioquímico.",
+          "Sinais de sangramento/hematomas.",
+          "Sintomas GI (dor abdominal, dispepsia, sangramento).",
+          "Confusão/desorientação.",
+          "Hipersensibilidade (febre, rash, linfadenopatia, eosinofilia) e envolvimento de outros órgãos (hepatite, nefrite, alterações hematológicas, miocardite, miosite).",
+          "Potássio (risco de hipercalemia em grupos de risco)."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Resposta adequada: alívio de dor e melhora funcional sem sinais de toxicidade.",
+          "Falha/limitação: necessidade de analgesia além do período recomendado (≤5 dias) ou surgimento de eventos adversos relevantes → reavaliar estratégia e trocar classe analgésica.",
+          "Segurança e gestão de eventos16.1 Conduta em alergia/anafilaxia",
+          "Reações de hipersensibilidade podem variar de broncoespasmo a choque anafilático; ter medidas de suporte disponíveis na primeira administração. Suspender e não reexpor em hipersensibilidade confirmada."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreiaNão informado."
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)",
+        "bullets": [
+          "Se confirmar lesão hepática induzida por cetorolaco e alterações laboratoriais não forem explicadas por outras causas, descontinuar permanentemente.",
+          "Notas práticas17.1 Erros comuns de prescrição",
+          "Usar por >5 dias (somando IV/IM + VO).",
+          "Iniciar com VO como primeira linha (não recomendado).",
+          "Associar com outro AINE ou aspirina.",
+          "Prescrever em DRC avançada, hipovolemia, cirrose ou alto risco de sangramento.",
+          "Não ajustar para ≥65 anos ou <50 kg (limitar dose parenteral total diária).",
+          "Encurtar intervalo de dose (<4–6 h) ou escalar dose buscando “mais eficácia”."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Usar pelo menor tempo possível e respeitar o limite total de 5 dias.",
+          "Se VO: preferir com alimento/leite para reduzir desconforto GI.",
+          "Procurar avaliação se ocorrer: fezes escuras/vômitos com sangue, dor abdominal intensa, falta de ar, dor torácica, fraqueza súbita, inchaço importante, redução de urina, rash/bolhas, inchaço de face/língua."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Ketorolac (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
+        "bullets": [
+          "Evitar em pacientes ≥65 anos (medicação potencialmente inapropriada – critério de Beers) por risco aumentado de sangramento GI, úlcera e IRA."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Cetorolaco.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Ketorolac (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
     "id": "bula-ciclofosfamida",
     "name": "Ciclofosfamida",
     "className": "Antimicrobianos",
@@ -20871,6 +21251,342 @@
     ]
   },
   {
+    "id": "bula-ganciclovir",
+    "name": "Ganciclovir",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)Ganciclovir é um antiviral usado principalmente em infecções por citomegalovírus (CMV), incluindo tratamento (ex.: doença invasiva, retinite) e profilaxia/preempção em cenários de transplante. Também é usado off-label em situações selecionadas (ex.: varicela-zoster com acometimento ocular) conforme descrito abaixo.",
+    "sections": [
+      {
+        "title": "Visão geral",
+        "bullets": [
+          "Identificação1.1 Nome genérico / sinônimosGanciclovir (sistêmico)."
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATCAntiviral."
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "US (formas IV)",
+          "Solução IV (sem conservante): 500 mg/10 mL; 500 mg/250 mL (descontinuado)",
+          "Pó para solução reconstituída IV (sem conservante): 500 mg (frasco-ampola)",
+          "Canadá (forma IV)",
+          "Cytovene: 500 mg (pó para solução reconstituída IV)",
+          "Genérico: 500 mg (pó para solução reconstituída IV)",
+          "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)Ganciclovir é um antiviral usado principalmente em infecções por citomegalovírus (CMV), incluindo tratamento (ex.: doença invasiva, retinite) e profilaxia/preempção em cenários de transplante. Também é usado off-label em situações selecionadas (ex.: varicela-zoster com acometimento ocular) conforme descrito abaixo."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Segurança hematológica (restrição de uso): não é recomendado em ANC <500 células/mm³, Hb <8 g/dL ou plaquetas <25.000/mm³.",
+          "Administração: não administrar por IM, SC, nem em bolus IV/infusão rápida; infundir lentamente (≥1 hora).",
+          "Ajuste renal: necessário em disfunção renal e em terapias dialíticas; monitorar risco de acúmulo e toxicidade hematológica.",
+          "Obesidade: para dose IV baseada em peso, usar peso ideal para reduzir risco de superdosagem/toxicidade.",
+          "Mecanismo de açãoGanciclovir é fosforilado por quinases virais e celulares em ganciclovir trifosfato, que inibe competitivamente a ligação do dGTP à DNA polimerase, resultando em inibição da síntese de DNA viral.",
+          "Espectro / Cobertura4.1 Micro-organismos-alvo",
+          "CMV (citomegalovírus): principal alvo clínico.",
+          "VZV (varicela-zoster): usos off-label descritos para acometimento ocular grave (ex.: necrose retiniana)."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Evitar/usar com extrema cautela quando houver citopenias importantes (ver limites de segurança acima).",
+          "Em doença ocular com risco imediato à visão, pode ser necessário tratamento intravítreo + sistêmico (conforme descrito na seção de posologia)."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)",
+        "bullets": [
+          "Em CMV resistente, pode ser utilizado como agente alternativo em resistência de baixo nível (menção a mutação UL97 com resistência baixa), com doses mais altas; se não houver melhora clínica/virológica, considerar troca para outro agente.",
+          "Indicações terapêuticas5.1 Indicações em bula",
+          "Profilaxia de doença por CMV em adultos transplantados em risco.",
+          "Retinite por CMV: tratamento de indução e manutenção em adultos imunocomprometidos (incluindo HIV)."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (se aplicável)",
+        "paragraphs": [
+          "CMV – doença leve a moderada (tratamento; off-label)",
+          "CMV – doença invasiva (não retinite) ex.: colite/esofagite/pneumonite/neurológica (tratamento; off-label)",
+          "CMV resistente (alternativo; off-label)",
+          "CMV retinite (tratamento)",
+          "Transplante – terapia preemptiva (off-label)",
+          "Transplante – profilaxia (alternativa; off-label conforme descrito)",
+          "VZV (off-label)"
+        ],
+        "bullets": [
+          "CMV: doença leve a moderada; doença invasiva não retinite (colite, esofagite, pneumonite, neurológica); vírus resistente (alternativo); terapia preemptiva em transplante.",
+          "VZV: necrose retiniana aguda/progressiva (regimes intravítreos + sistêmicos).",
+          "Posologia (Completo)6.1 Adultos — dose usual e por indicação (com duração)",
+          "IV: 5 mg/kg a cada 12 h, pelo menos até carga viral indetectável por 1–2 semanas consecutivas e resolução de sintomas (mínimo 2 semanas).",
+          "IV: 5 mg/kg a cada 12 h.",
+          "Duração: 14–21 dias no mínimo, frequentemente maior conforme sítio, gravidade, tipo de imunossupressão e resposta clínica/virológica.",
+          "Doença neurológica: usar em combinação com foscarnet.",
+          "IV: 10 mg/kg a cada 12 h.",
+          "Duração: conforme resposta clínica/virológica; se não houver melhora, trocar para outro agente.",
+          "Indução (sistêmico, alternativa): IV 5 mg/kg a cada 12 h por 14–21 dias, seguido de manutenção.",
+          "Lesões com risco imediato à visão (perto do nervo óptico/fóvea): usar intravítreo em combinação com terapia sistêmica.",
+          "Intravítreo (off-label): 2 a 2,5 mg em 0,05 mL, 1x/semana até inatividade da lesão (associado a antiviral sistêmico).",
+          "Manutenção (profilaxia secundária; alternativa): IV 5 mg/kg 1x/dia (7/7) ou 6 mg/kg 1x/dia (5 dias/semana).",
+          "HIV: manter ≥3 meses até CD4 ≥100 células/mm³ com TARV e lesões inativas.",
+          "Transplante: duração individual conforme imunossupressão/resposta; suspender apenas após avaliação com oftalmologia.",
+          "IV: 5 mg/kg 2x/dia até carga viral indetectável.",
+          "Em TCTH, pode reduzir para 5 mg/kg 1x/dia após 1–2 semanas de indução e queda importante da carga viral, mantendo até negativar.",
+          "TCTH alogênico: IV 5 mg/kg a cada 12 h por ~7 dias, depois 5 mg/kg a cada 24 h até ~dia 100 pós-transplante; há também esquema do dia −8 ao −2 seguido de valaciclovir em alta dose (conforme texto fornecido).",
+          "Transplante de órgão sólido: IV 5 mg/kg a cada 24 h (em geral usado no pós-operatório imediato antes de transição para agente oral; duração depende do tipo de transplante e sorologia doador/recipiente).",
+          "Necrose retiniana aguda (adjunto): intravítreo 2 mg em 0,05 mL 2x/semana até resposta clínica + terapia sistêmica.",
+          "Necrose retiniana externa progressiva: intravítreo 2 mg em 0,05 mL 2x/semana + terapia sistêmica.",
+          "IV: 5 mg/kg/dose a cada 12 h (combinado com intravítreo ganciclovir e/ou foscarnet intravítreo)."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/pesoObservação geral: vias podem variar (IV e intravítrea); usar cautela.",
+        "bullets": [
+          "CMV congênito sintomático (continuação após período neonatal):",
+          "Lactentes: IV 6 mg/kg/dose a cada 12 h; transição para valganciclovir VO quando possível para completar 6 meses de tratamento total.",
+          "Doença por CMV (imunocomprometidos; não expostos/infectados por HIV):",
+          "Indução: IV 5 mg/kg/dose a cada 12 h por ≥2–3 semanas, até resolução de viremia e sintomas; pode aumentar para 7,5 mg/kg/dose 2x/dia se resposta inadequada.",
+          "Manutenção (se indicada): IV 5 mg/kg/dose 1x/dia, 5–7 dias/semana; duração conforme imunossupressão.",
+          "HIV-expostos/-infectados:",
+          "Indução: IV 5 mg/kg/dose a cada 12 h por 14–21 dias, depois manutenção; pode aumentar para 7,5 mg/kg/dose 2x/dia se resposta inadequada.",
+          "Manutenção: IV 5 mg/kg/dose 1x/dia, 5–7 dias/semana; manter até ≥6 meses de TARV e metas de CD4 por idade por ≥6 meses.",
+          "Transplante (pediatria, off-label): esquemas descritos no texto (TCTH <100 dias e >100 dias; órgão sólido) com indução IV 5 mg/kg/dose 12/12 h e posterior 24/24 h conforme negativação do teste indicador.",
+          "CMV CNS (pediatria): indução IV 5 mg/kg/dose 12/12 h em combinação com foscarnet até melhora; depois manutenção 1x/dia, com critérios de suspensão vinculados a TARV e CD4.",
+          "Retinite por CMV (pediatria): indução IV 5 mg/kg/dose 12/12 h por 14–21 dias; manutenção IV 5 mg/kg/dose 1x/dia, 5–7 dias/semana, com critérios semelhantes aos descritos."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "PK (neonatos 2–49 dias): t½ ~2,4 h (dado de farmacocinética).",
+          "Tratamento neonatal específico não foi fornecido além do item de CMV congênito “continuação do período neonatal” (ver 6.2)."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)",
+        "paragraphs": [
+          "Função renal alterada (IV) – ajuste baseado em: indução 5 mg/kg/dose 12/12 h e manutenção 5 mg/kg/dose 24/24 h",
+          "Hemodiálise intermitente (3x/semana)",
+          "Diálise peritoneal",
+          "CRRT (assumindo dialisadores high-flux e efluente 20–25 mL/kg/h)",
+          "PIRRT (ex.: SLED/SLED-f)"
+        ],
+        "bullets": [
+          "IV: uso em infusão lenta ≥1 hora.",
+          "Não administrar por IM, SC, nem por bolus/infusão rápida.",
+          "Flush com SF 0,9% antes e após a infusão.",
+          "Se usar bolsa pré-misturada: agitar gentilmente para redissolver cristais; solução deve estar límpida antes do uso.",
+          "Intravítreo (off-label): 0,04–0,1 mL de solução extemporânea; administrar em ambiente estéril por profissional experiente.",
+          "Ajustes de dose7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+          "CrCl ≥70 mL/min",
+          "Indução: sem ajuste",
+          "Manutenção: sem ajuste",
+          "CrCl 50 a <70 mL/min",
+          "Indução: 2,5 mg/kg/dose 12/12 h",
+          "Manutenção: 2,5 mg/kg/dose 24/24 h",
+          "CrCl 25 a <50 mL/min",
+          "Indução: 2,5 mg/kg/dose 24/24 h",
+          "Manutenção: 1,25 mg/kg/dose 24/24 h",
+          "CrCl 10 a <25 mL/min",
+          "Indução: 1,25 mg/kg/dose 24/24 h",
+          "Manutenção: 0,625 mg/kg/dose 24/24 h",
+          "CrCl <10 mL/min",
+          "Indução: 1,25 mg/kg/dose 3x/semana (a cada 48–72 h)",
+          "Manutenção: 0,625 mg/kg/dose 3x/semana (a cada 48–72 h)",
+          "Fármaco dialisável (50%–60% com filtros low-flux).",
+          "Indução: 1,25 mg/kg/dose 3x/semana, após hemodiálise nos dias de diálise.",
+          "Manutenção: 0,625 mg/kg/dose 3x/semana, após hemodiálise nos dias de diálise.",
+          "Indução: 1,25 mg/kg/dose 3x/semana.",
+          "Manutenção: 0,625 mg/kg/dose 3x/semana.",
+          "Indução: 2,5 mg/kg/dose 24/24 h.",
+          "Manutenção: 1,25 mg/kg/dose 24/24 h.",
+          "Observação prática: depuração depende de efluente/filtro/modalidade; monitorar resposta e toxicidade por acúmulo.",
+          "Indução: 2,5 mg/kg/dose 24/24 h (se coincidir com dia de PIRRT, administrar após a sessão).",
+          "Manutenção: 1,25 mg/kg/dose 24/24 h (se coincidir com dia de PIRRT, administrar após a sessão)."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)Não há ajustes de dose fornecidos em bula (não estudado)."
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)",
+        "bullets": [
+          "IV: usar peso ideal para cálculo de dose baseada em peso, para reduzir risco de superdosagem e toxicidade hematológica.",
+          "Considerar monitorização terapêutica (se disponível) para minimizar toxicidade."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)Referir a dose de adulto, com atenção para: elevação de creatinina relatada em idosos; monitorar função renal de perto.",
+        "bullets": [
+          "Administração e compatibilidades8.1 Com ou sem alimentosNão aplicável (informações fornecidas focam em uso IV/intravítreo)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)Não informado."
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)Não informado.",
+        "paragraphs": [
+          "1% a 10%:"
+        ],
+        "bullets": [
+          "Efeitos adversos9.1 Comuns (≥1%)>10% (adultos, conforme dados fornecidos):",
+          "GI: dor abdominal (≥20%), diarreia (44%), náuseas (≥20%), vômitos (13%), redução do apetite (14%)",
+          "Hematológicos: anemia (25%), leucopenia (41%), queda de neutrófilos (ANC <500: 25%; 500–749: 14%; 750–1.000: 26%)",
+          "Infecções: infecção (13%), sepse (15%)",
+          "Neurológico/geral: astenia (≥20%), cefaleia (≥20%), febre (48%)",
+          "Respiratório: tosse (≥20%), dispneia (≥20%)",
+          "Renal: creatinina 1,5 a <2,5 mg/dL (14%); ≥2,5 mg/dL (2%)",
+          "Oftálmico: descolamento de retina (11%)",
+          "Dermato: hiperidrose (12%)",
+          "prurido (5%), trombocitopenia (6%), calafrios (10%), neuropatia periférica (9%)"
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Toxicidade hematológica grave: granulocitopenia/neutropenia, anemia, trombocitopenia, pancitopenia, falência medular.",
+          "Risco reprodutivo: possível inibição temporária ou permanente da espermatogênese em homens e supressão de fertilidade em mulheres (dados animais + humanos limitados).",
+          "Toxicidade fetal: potencial para malformações (dados animais).",
+          "Mutagênese/carcinogênese: potencial para câncer (dados animais).",
+          "Cutâneo grave (pós-comercialização): Stevens-Johnson.",
+          "Neurológico (pós-comercialização): encefalopatia, convulsão, sintomas neurológicos diversos (frequência não definida).",
+          "Renal: insuficiência renal e doença tubular renal (frequência não definida/pós-comercialização).",
+          "Hipersensibilidade: anafilaxia; DRESS."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Reações de hipersensibilidade graves (ex.: anafilaxia, DRESS).",
+          "Citopenias graves clinicamente relevantes e/ou critérios de segurança (ANC <500, Hb <8, plaquetas <25.000) conforme restrição de uso.",
+          "Reações cutâneas graves (ex.: Stevens-Johnson) – conforme eventos pós-comercialização listados.",
+          "ContraindicaçõesHipersensibilidade a ganciclovir, valganciclovir, aciclovir ou a qualquer componente da formulação.",
+          "Advertências e precauções11.1 Populações especiais",
+          "Insuficiência renal: usar com cautela; ajuste obrigatório; maior risco de toxicidade por acúmulo.",
+          "Idosos: relato de aumento de creatinina; monitorar função renal.",
+          "Obesidade: preferir peso ideal para cálculo de dose IV; considerar TDM se disponível."
+        ]
+      },
+      {
+        "title": "11.2 Riscos relevantes (conforme o fármaco)",
+        "bullets": [
+          "Toxicidade hematológica: neutropenia costuma ocorrer nas primeiras 1–2 semanas, mas pode ocorrer a qualquer momento; contagens tendem a recuperar em 3–7 dias após suspensão. Cautela com citopenias prévias, mielossupressores ou irradiação.",
+          "Toxicidade renal: aumento de creatinina relatado, especialmente em idosos e transplantados com nefrotóxicos concomitantes (ex.: ciclosporina, anfotericina B).",
+          "Administração: garantir hidratação; evitar infusão rápida; pode ocorrer flebite/dor no sítio apesar de diluição adequada.",
+          "Interações medicamentosas12.1 Interações clinicamente relevantes",
+          "Anfotericina B: ↑ nefrotoxicidade.",
+          "Ciclosporina / Tacrolimo: ↑ nefrotoxicidade.",
+          "Micofenolato: ↑ risco de leucopenia/neutropenia.",
+          "Zidovudina: ↑ toxicidade hematológica.",
+          "Imipenem: ↑ risco de convulsões (evitar se possível).",
+          "Probenecida: ↑ concentrações de ganciclovir/valganciclovir.",
+          "Produtos com tenofovir: ↑ concentrações de ambos.",
+          "Maribavir: ↓ efeito de ganciclovir/valganciclovir (evitar).",
+          "Cladribina: ↓ efeito terapêutico (evitar).",
+          "Outros listados com necessidade de monitorização/modificação: leflunomida, teriflunomida, nitisinona, pretomanida, vaborbactam, vadadustat, fexinidazol (evitar quando possível), etc."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Preferir evitar: maribavir; cladribina; imipenem (se possível, pelo risco de convulsões).",
+          "Monitorar nefrotoxicidade ao combinar com anfotericina B, ciclosporina, tacrolimo.",
+          "Monitorar hemograma ao combinar com zidovudina e micofenolato.",
+          "Considerar alternativa/monitorar toxicidade quando houver aumento de níveis por probenecida/tenofovir.",
+          "Gestação e lactação13.1 Gestação (segurança, quando usar/evitar)",
+          "Ganciclovir atravessa a placenta.",
+          "Dados animais sugerem potencial teratogênico; dados humanos são limitados.",
+          "Não é terapia sistêmica preferida na gestação; em retinite por CMV, preferir intravítreo para limitar exposição sistêmica no 1º trimestre quando possível.",
+          "Pacientes com potencial de engravidar: realizar teste de gravidez antes e usar contracepção durante e por ≥30 dias após a última dose."
+        ]
+      },
+      {
+        "title": "13.2 Lactação (excreção no leite, efeitos no lactente, monitorização)",
+        "bullets": [
+          "Não se sabe se ganciclovir está presente no leite.",
+          "Devido ao potencial de reações adversas graves no lactente, amamentação não é recomendada pelo fabricante.",
+          "Farmacocinética / Farmacodinâmica14.1 Absorção, distribuição, metabolismo, eliminação",
+          "Distribuição: ampla, incluindo LCR e tecido ocular.",
+          "Eliminação: principalmente renal, com excreção urinária de 80% a 99% como fármaco inalterado.",
+          "Disfunção renal: depuração ↓ e meia-vida ↑."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Vd: crianças 9 meses–12 anos: 0,64 ± 0,22 L/kg; adultos: 0,74 ± 0,15 L/kg.",
+          "Ligação proteica: 1% a 2%.",
+          "Meia-vida (t½):",
+          "Neonatos 2–49 dias: 2,4 h",
+          "Crianças 9 meses–12 anos: 2,4 ± 0,7 h",
+          "Adultos: IV 3,5 ± 0,9 h; oral 4,8 ± 0,9 h",
+          "CrCl <25 mL/min: 10,7 ± 5,7 h"
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)Não há alvo PK/PD definido no texto fornecido; há observação de que alvos ótimos e ajustes em disfunção renal não estão bem estabelecidos.",
+        "bullets": [
+          "Monitorização15.1 O que monitorar e com que frequência",
+          "Hemograma (CBC) com diferencial: basal e 2x/semana (especialmente em disfunção renal, história de leucopenia induzida por fármacos, ou neutrófilos <1.000/mm³ no início).",
+          "Creatinina sérica: basal e 1x/semana.",
+          "Teste de gravidez antes de iniciar (em quem pode engravidar).",
+          "Oftalmologia: exames frequentes em retinite por CMV."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "CMV: acompanhar carga viral e resposta clínica; em alguns cenários, repetir carga viral após tratamento para monitorar recidiva.",
+          "Falha: ausência de melhora clínica/virológica apesar do esquema adequado → considerar mudança de agente (conforme orientação do texto fornecido para resistência).",
+          "Segurança e gestão de eventos16.1 Conduta em alergia/anafilaxiaSuspender ganciclovir e manejar reação de hipersensibilidade conforme gravidade; contraindicado reexpor em caso de hipersensibilidade ao fármaco/classe descrita."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreiaNão informado."
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)Não informado.",
+        "bullets": [
+          "Notas práticas17.1 Erros comuns de prescrição",
+          "Não ajustar dose em insuficiência renal/dialíticas.",
+          "Administrar em infusão rápida/bolus (aumenta toxicidade).",
+          "Calcular dose IV por peso total em obesidade (preferir peso ideal)."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Alertar sobre risco de citopenias e necessidade de exames seriados.",
+          "Orientar uso de contracepção:",
+          "Pessoas que podem engravidar: durante e por ≥30 dias após a última dose.",
+          "Homens: método de barreira durante e por ≥90 dias após terapia."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Ganciclovir (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
+        "bullets": [
+          "Ganciclovir é agente perigoso (hazardous drug): seguir recomendações NIOSH/USP <800> e políticas locais para preparo/administração/descarte, com precauções semelhantes às de antineoplásicos."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Ganciclovir.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Ganciclovir (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
     "id": "bula-gentamicina",
     "name": "Gentamicina",
     "className": "Antimicrobianos",
@@ -22292,6 +23008,405 @@
     ]
   },
   {
+    "id": "bula-hidrocortisona",
+    "name": "Hidrocortisona",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Injetável (hidrocortisona succinato sódico; solução reconstituída, IV/IM; força expressa como base; sem conservante): 100 mg, 250 mg, 500 mg, 1000 mg (Solu-CORTEF e genéricos).",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimosHidrocortisona (sistêmica)."
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATCCorticosteroide sistêmico."
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "Comprimidos (VO): 5 mg, 10 mg, 20 mg (Cortef e genéricos; alguns são sulcados).",
+          "Cápsulas “sprinkle” (VO): 0,5 mg, 1 mg, 2 mg, 5 mg (Alkindi Sprinkle).",
+          "Solução oral (VO): 1 mg/mL (Khindivi).",
+          "Injetável (hidrocortisona succinato sódico; solução reconstituída, IV/IM; força expressa como base; sem conservante): 100 mg, 250 mg, 500 mg, 1000 mg (Solu-CORTEF e genéricos).",
+          "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)A hidrocortisona é um corticosteroide de ação curta com mínimo potencial de retenção de sódio, usado tanto para reposição em insuficiência adrenal (crônica e crise adrenal) quanto como anti-inflamatório/imunossupressor em diversas condições. Em cenários críticos específicos, pode ser usada off-label como adjuvante (ex.: choque séptico com necessidade persistente de vasopressor, pneumonia comunitária grave, tempestade tireoidiana, entre outros)."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Individualizar a dose e usar a menor dose eficaz.",
+          "Crise adrenal: além do esteroide, é necessária ressuscitação volêmica adequada.",
+          "Suspensão/desmame: reduzir gradualmente quando possível para evitar supressão do eixo HPA e risco de crise adrenal.",
+          "Estresse fisiológico (infecção, cirurgia, trauma, parto): pode exigir aumento de dose (“stress dosing”) em pacientes com insuficiência adrenal crônica ou com supressão do eixo HPA por uso prévio de glicocorticoide.",
+          "Solução oral Khindivi (1 mg/mL): não é recomendada para stress dosing em pediatria devido a excipientes (ex.: PEG/propilenoglicol/glicerina).",
+          "Administração VO: dar com alimento ou leite para reduzir desconforto GI.",
+          "Alto risco infeccioso e mascaramento de sinais de infecção com corticosteroides; atenção a reativações (TB, HBV, strongyloides, etc.).",
+          "Mecanismo de açãoCorticosteroide de ação curta com mínimo efeito de retenção de sódio; reduz inflamação por supressão da migração de polimorfonucleares e reversão do aumento da permeabilidade capilar.",
+          "Espectro / Cobertura (se antimicrobiano, se não, adaptar)Não se aplica (não é antimicrobiano).",
+          "Indicações terapêuticas5.1 Indicações em bulaInclui, entre outras:",
+          "Distúrbios endócrinos: insuficiência adrenocortical aguda, insuficiência adrenocortical primária ou secundária, hiperplasia adrenal congênita, “choque não responsivo à terapia convencional se houver/suspeitar insuficiência adrenocortical”, etc.",
+          "Estados alérgicos graves/intratáveis; doenças dermatológicas graves; doenças GI (ex.: colite ulcerativa grave, enterite regional) para “ponte” em período crítico; distúrbios hematológicos; doenças neoplásicas (paliativo); doenças oftálmicas inflamatórias/alérgicas graves; doenças respiratórias específicas; doenças reumáticas como adjuvante; e outras condições descritas em bula."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (se aplicável)",
+        "paragraphs": [
+          "a) Insuficiência adrenal — crise adrenal",
+          "b) Insuficiência adrenal — reposição crônica",
+          "c) Stress dosing (em insuficiência adrenal crônica ou supressão do eixo HPA)",
+          "d) Hiperplasia adrenal congênita clássica — reposição crônica",
+          "e) Insuficiência adrenal associada a inibidores de checkpoint imune",
+          "f) Hipofisite associada a inibidores de checkpoint imune",
+          "g) Anti-inflamatório/imunossupressor (agente alternativo)",
+          "h) Exacerbação aguda de asma (off-label; alternativa)",
+          "i) COVID-19 em pacientes hospitalizados (off-label; alternativa)",
+          "j) Manejo de doador falecido (off-label; terapia hormonal)",
+          "k) Pneumonia comunitária grave (off-label; adjuvante)",
+          "l) Choque séptico (off-label)",
+          "m) Tempestade tireoidiana (off-label)",
+          "n) Colite ulcerativa aguda grave (off-label)",
+          "o) Prevenção de reação “alérgica-like” a contraste iodado (off-label)"
+        ],
+        "bullets": [
+          "COVID-19 em pacientes hospitalizados (alternativa quando dexametasona não disponível/indicação específica).",
+          "Manejo de doador falecido (terapia hormonal) (benefício com dados conflitantes; seguir protocolo institucional).",
+          "Pneumonia comunitária grave (adjuvante).",
+          "Choque séptico com necessidade persistente de vasopressor.",
+          "Tempestade tireoidiana.",
+          "Posologia (Completo)6.1 Adultos — dose usual e por indicação (com duração)Observação geral: individualizar e usar a menor dose eficaz.",
+          "Inicial: 100 mg IV em bolus imediatamente, seguido por 50 mg IV a cada 6 horas OU 200 mg/24 h em infusão IV contínua nas primeiras 24 horas.",
+          "Após 24 h: se melhora clínica, iniciar redução gradual (ex.: 50 mg IV a cada 12 h). Quando estável, retornar/iniciar manutenção VO.",
+          "Em deficiência mineralocorticoide (ex.: insuficiência adrenal primária): usar com fludrocortisona quando dose de hidrocortisona estiver <40 mg/dia.",
+          "Manutenção VO (inicial): 15 a 25 mg/dia em 2 ou 3 doses.",
+          "Ajuste: aumentar/reduzir 2,5 a 5 mg/dia conforme sinais de sub/super-reposição; usar menor dose eficaz.",
+          "Esquema 2 doses: 2/3 pela manhã ao despertar + 1/3 duas horas após o almoço.",
+          "Esquema 3 doses: maior dose de manhã, depois doses decrescentes no almoço e à tarde até 4–6 h antes de dormir (ex.: 10 mg 7h, 5 mg 12h, 2,5 mg 16h).",
+          "Em deficiência mineralocorticoide: associar fludrocortisona.",
+          "Doença febril:",
+          "Dobrar dose de manutenção para febre 38–39°C;",
+          "Triplicar dose VO para febre >39°C ou náusea persistente;",
+          "Manter dose maior por 3 dias e retornar ao basal se febre resolveu; se não resolveu até dia 4, reavaliar.",
+          "Incapaz de tolerar VO (vômitos/diarreia): 100 mg IV/IM/SUBQ precocemente (IM/SUBQ pode ser autoaplicado); pode repetir em 6–12 h sob supervisão médica.",
+          "Doença com internação (ex.: pneumonia comunitária): 50–75 mg/dia (IV/VO/IM) em 2–3 doses; reduzir e retornar ao basal em 2–3 dias após melhora. Se doença crítica em UTI, seguir crise adrenal.",
+          "Trabalho de parto/parto: exemplo: 100 mg IV/IM no início do trabalho de parto ativo (ou IV imediatamente antes da anestesia na cesárea), seguido de 50 mg IV/IM a cada 6 h OU 200 mg/24 h em infusão contínua até o parto; reduzir em 1–2 dias após parto e retomar basal.",
+          "Estresse cirúrgico:",
+          "Menor (ex.: herniorrafia): +25 mg no dia da cirurgia.",
+          "Moderado (ex.: colecistectomia, artroplastia): 50–75 mg/dia (ex.: 25 mg a cada 8–12 h) até DPO1; retomar VO basal no DPO2 se curso sem complicações.",
+          "Maior (ex.: grande cirurgia intestinal, bypass cardíaco, cesárea): 100 mg IV antes da anestesia, seguido de 50 mg IV/IM a cada 6 h OU 200 mg/24 h contínuo até DPO2–3; depois reduzir (ex.: -50% ao dia) a partir do DPO3–4 se curso sem complicações.",
+          "VO: 15 a 30 mg/dia em 2–3 doses (preferência por 3 doses: maior pela manhã, depois doses decrescentes ao meio-dia e à tarde).",
+          "Ajustes: 2,5 a 5 mg/dia conforme sub/super-reposição e supressão androgênica.",
+          "Se necessidade >30–35 mg/dia para supressão androgênica ou se ocorrer insônia/sinais de excesso, considerar terapia combinada com glicocorticoide de ação mais longa ao deitar.",
+          "Grau 1: 15–20 mg/dia VO; se sintomas persistirem, titular até 30 mg/dia.",
+          "Grau 2: 30–50 mg/dia VO.",
+          "Grau 3–4: 50–100 mg IV a cada 6–8 h, reduzir para manutenção VO em 5–7 dias.",
+          "Manutenção: 15–20 mg/dia VO em doses divididas (comumente 2/3 manhã e 1/3 início da tarde).",
+          "Esquemas iguais aos acima (grau 1–4) para fase inicial; manutenção 15–20 mg/dia VO (ou 10–12 mg/m²/dia).",
+          "IV/IM: 100 a 500 mg/dose a cada 2, 4 ou 6 horas.",
+          "VO: 20 a 240 mg/dia.",
+          "VO: 200 mg/dia em doses divididas por 5–7 dias.",
+          "IV ou VO: 50 mg a cada 8 h por até 10 dias (ou até alta, se antes), como parte de regime apropriado.",
+          "Exemplos: 300 mg dose única, seguido de 100 mg a cada 8 h; ou 50 mg bolus seguido de 10 mg/h em infusão.",
+          "200 mg IV bolus, seguido de 10 mg/h em infusão contínua por 7 dias; ou 200 mg/dia em infusão contínua por 4–7 dias (conforme melhora), depois reduzir para total de 8–14 dias, com suspensão na alta da UTI.",
+          "Para pacientes com necessidade persistente de vasopressor: 200 a 300 mg/dia IV (infusão contínua ou doses divididas) por 5–7 dias ou até alta da UTI (com ou sem fludrocortisona).",
+          "300 mg IV dose de ataque, seguido de 100 mg IV a cada 8 h; em combinação com outras terapias. Duração ótima desconhecida; reduzir e suspender conforme melhora.",
+          "IV 100 mg a cada 6–8 h; alguns especialistas recomendam não exceder 300 mg/dia.",
+          "Regime não urgente (alternativo): 200 mg IV em 13 h, 7 h e 1 h antes do contraste + difenidramina VO/IV.",
+          "Regime urgente (acelerado): 200 mg IV imediatamente, depois 200 mg IV a cada 4 h até o contraste + difenidramina VO/IV; se emergência (<4–5 h), pode considerar 200 mg + difenidramina 1 h antes."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/pesoObservações gerais pediatria: usar a menor dose possível; reduzir gradualmente quando possível. Em situações de risco de vida, doses parenterais podem exceder doses orais. Atenção a diferenças de formulação e concentração.",
+        "paragraphs": [
+          "a) Crise adrenal (insuficiência adrenal) — opções de esquema",
+          "b) Reposição em insuficiência adrenal (fisiológica)",
+          "c) Anti-inflamatório/imunossupressor (faixas variáveis; individualizar)",
+          "d) Hiperplasia adrenal congênita (crônica)",
+          "e) Stress dosing pediátrico (suplementar; dados limitados)",
+          "f) Choque séptico refratário a fluidos/catecolaminas com suspeita/prova de insuficiência adrenal (pediatria; dados limitados)"
+        ],
+        "bullets": [
+          "Por peso (primeira dose; dados limitados): 2 a 3 mg/kg (IV preferido/IM/IO) dose única, máximo 100 mg/dose; depois:",
+          "Lactentes: 1 a 5 mg/kg/dose a cada 6 h;",
+          "Crianças/adolescentes: ver esquemas por BSA ou por idade.",
+          "Por superfície corporal (BSA; dados limitados): dose inicial 50 a 100 mg/m² uma vez; depois 50 a 100 mg/m²/dia em 4 doses.",
+          "Por idade (dose fixa; dados limitados):",
+          "Lactentes: 10–25 mg uma vez, depois 10–25 mg/dia dividido a cada 6 h por 24 h; reduções subsequentes conforme resposta.",
+          "<5 anos: 25–50 mg uma vez, depois 25–50 mg/dia dividido a cada 6 h por 24 h; depois reduzir conforme resposta.",
+          "≥5 anos: 50–100 mg uma vez, depois 50 mg/dia dividido a cada 6 h por 24 h; depois reduzir conforme resposta.",
+          "Adolescentes: 100 mg uma vez, depois 100 mg/dia dividido a cada 6 h por 24 h; depois reduzir conforme resposta.",
+          "Sprinkle (Alkindi) ou comprimidos: 8 a 10 mg/m²/dia VO em 3 doses; alguns podem migrar para 2 doses.",
+          "Pode precisar de doses até 12 mg/m²/dia em insuficiência adrenal primária; doses menores podem bastar em insuficiência secundária.",
+          "Solução oral 1 mg/mL (Khindivi): ≥5 anos e adolescentes: 8 a 10 mg/m²/dia VO em 3 doses (mesma lógica de ajustes); não usar Khindivi para stress dosing (se precisar, trocar o produto).",
+          "Lactentes e crianças (VO): 2,5 a 10 mg/kg/dia ou 75 a 300 mg/m²/dia, dividido a cada 6–8 h.",
+          "IM/IV (bula): 0,56 a 8 mg/kg/dia ou 20 a 240 mg/m²/dia em 3–4 doses.",
+          "Alternativo (dados limitados): 1 a 5 mg/kg/dia ou 30 a 150 mg/m²/dia a cada 12–24 h.",
+          "Adolescentes: 15 a 240 mg a cada 12 h (VO/IM/IV/SUBQ).",
+          "BSA: 8 a 15 mg/m²/dia VO em 3 doses (usual 10–15 mg/m²/dia); alguns podem migrar para 2 doses.",
+          "Dose fixa (referência):",
+          "Lactentes: 2,5 a 5 mg VO 3x/dia.",
+          "Crianças: 5 a 10 mg VO 3x/dia.",
+          "Adolescentes (crescimento completo): 15 a 25 mg/dia em 2–3 doses.",
+          "Em geral 2 a 3x a reposição fisiológica; manter até resolução do estresse (geralmente 24–48 h).",
+          "BSA (leve a moderado): 20 a 50 mg/m²/dia dividido em 3–4 doses (faixa inferior pode ser 2x/dia).",
+          "BSA (estresse maior/cirurgia): 100 mg/m²/dia dividido a cada 6 h.",
+          "Cirurgia programada: 50 mg/m² IV/IM 30–60 min antes da anestesia, seguido de 50 mg/m² em infusão contínua ou dividido a cada 6 h por pelo menos 24 h.",
+          "Por idade (moderado estresse em CAH):",
+          "Pré-escolares: 25 mg IV, depois 6,25 mg a cada 6 h.",
+          "Idade escolar: 50 mg IV, depois 12,5 mg a cada 6 h.",
+          "Adolescentes: 100 mg IV, depois 25 mg a cada 6 h.",
+          "Retomar manutenção quando estável.",
+          "BSA: 50 a 100 mg/m²/dia IV (máximo adulto ~200 mg/dia ≈ 100 mg/m²/dia).",
+          "Pode haver casos com titulação até 50 mg/kg/dia em infusão contínua no curto prazo (dados de eficácia variáveis).",
+          "Por peso (se BSA indisponível): 2 mg/kg IV/IO bolus único (máximo 100 mg).",
+          "Por idade (se peso e BSA indisponíveis):",
+          "<3 anos: 25 mg IV/IO dose única.",
+          "3 a <12 anos: 50 mg IV/IO dose única.",
+          "≥12 anos e adolescentes: 100 mg IV/IO dose única."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "Não há esquema posológico neonatal completo para todas as indicações nos dados fornecidos.",
+          "Alertas neonatais/prematuros (segurança):",
+          "Evitar formulações com álcool benzílico em prematuros (risco de toxicidade).",
+          "Em prematuros, há relatos de cardiomiopatia hipertrófica e risco de perfuração GI, especialmente com uso concomitante de indometacina/ibuprofeno em alguns contextos."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)Adultos",
+        "paragraphs": [
+          "Preparo (adultos)",
+          "Pediatria"
+        ],
+        "bullets": [
+          "VO: administrar com alimento ou leite para reduzir desconforto GI.",
+          "IM: evitar injeção no deltoide (maior risco de atrofia subcutânea).",
+          "IV bolus: administrar sem diluir por pelo menos 30 segundos; para doses grandes (≥500 mg), administrar em 10 minutos.",
+          "Infusão IV intermitente: diluir em fluido compatível e infundir em 20–30 minutos.",
+          "SUBQ (off-label): dividir volumes >1 mL (>50 mg) em 2 ou mais injeções.",
+          "Bolus IV ou IM: reconstituir frasco de 100 mg com água bacteriostática ou NaCl bacteriostático (volume ≤2 mL).",
+          "Infusão IV: adicionar a solução reconstituída a volume apropriado de D5W, NS ou D5NS (ex.: 100–1.000 mL para 100 mg; 250–1.000 mL para 250 mg; 500–1.000 mL para 500 mg; 1.000 mL para 1.000 mg). Se desejar pequeno volume, pode adicionar 100–3.000 mg em 50 mL de D5W ou NS.",
+          "Act-O-Vial: pressionar ativador para misturar diluente ao pó; agitar suavemente e aspirar.",
+          "VO: com alimento/leite para reduzir GI; se vômito em até 1 hora, repetir dose. Em reposição fisiológica, maior dose manhã/meio-dia e menor à noite (doses muito próximas do sono podem atrapalhar).",
+          "Solução oral Khindivi: pode ser administrada sem relação com refeições; usar dispositivo medidor (seringa/copo calibrado).",
+          "Sonda enteral (solução oral): administrar via seringa enteral e lavar com 20 mL de água purificada após.",
+          "Sprinkles (Alkindi): não engolir cápsula inteira; não mastigar/triturar grânulos; administrar sobre língua/colher/pequena porção de alimento macio frio/temperatura ambiente e ingerir preferencialmente em até 5 min; não adicionar a líquidos; não recomendado via sonda (risco de obstrução).",
+          "Parenteral: pode ser IV/IM; bolus IV ≥30 s (≥500 mg em 10 min); infusão intermitente 20–30 min.",
+          "Preparo pediátrico: reconstituir (100 mg com volume ≤2 mL, concentração ≥50 mg/mL). Pode administrar IV/IM sem diluição adicional; para infusão, diluir (concentração geralmente ≤1 mg/mL; em pediatria já foi usada 5 mg/mL; em pequeno volume, pode usar concentrações até 60 mg/mL em 50 mL, com estabilidade limitada a 4 horas).",
+          "Ajustes de dose7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+          "Leve a grave: sem ajuste de dose.",
+          "Hemodiálise intermitente: sem dose suplementar/sem ajuste.",
+          "Diálise peritoneal / CRRT / PIRRT: sem ajuste de dose.",
+          "Nota: PK/PD na disfunção renal não são bem compreendidas; implicações clínicas são incertas."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)Sem ajustes de dose definidos na bula; usar com cautela."
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)Sem ajuste necessário (IV/IM/VO; opinião de especialistas)."
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)Usar com cautela; menor dose eficaz pelo menor tempo possível.",
+        "bullets": [
+          "Administração e compatibilidades8.1 Com ou sem alimentos",
+          "VO (adultos e pediatria): preferir com alimento ou leite para reduzir desconforto GI (Khindivi pode ser sem relação com refeições)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)",
+        "bullets": [
+          "Solução oral: pode ser administrada por sonda gástrica; após, lavar com 20 mL de água purificada.",
+          "Sprinkles (Alkindi): não recomendado via sonda (risco de obstrução)."
+        ]
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)",
+        "bullets": [
+          "Soluções reconstituídas e diluídas: armazenar por até 12 h a 20–25°C ou até 24 h sob refrigeração; proteger da luz; descartar excedente.",
+          "Concentrações altas em pequeno volume (até 60 mg/mL em 50 mL) podem ter estabilidade limitada (ex.: 4 horas em recomendações do fabricante para pequeno volume).",
+          "Efeitos adversos9.1 Comuns (≥1%)Não informado (frequências não definidas nos dados fornecidos)."
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Supressão do eixo HPA e crise adrenal na retirada, principalmente após altas doses/uso prolongado.",
+          "Imunossupressão com infecções graves/potencialmente fatais; reativações (ex.: TB, HBV, strongyloides) e mascaramento de sinais de infecção.",
+          "Hiperglicemia, retenção de fluidos, hipertensão, hipocalemia.",
+          "Perfuração GI, úlcera péptica com sangramento/perfuração (risco maior em doença GI e com AINEs).",
+          "Miopatia aguda com altas doses (inclusive musculatura respiratória/ocular).",
+          "Distúrbios psiquiátricos (insônia, labilidade, euforia, depressão, psicose).",
+          "Osteoporose/fraturas, necrose avascular, miopatia esteroide.",
+          "Eventos oculares (glaucoma, catarata, aumento da PIO, coriorretinopatia serosa central).",
+          "Anafilaxia/angioedema (hipersensibilidade).",
+          "Em prematuros: risco de eventos específicos (ex.: perfuração GI; cardiomiopatia hipertrófica reportada)."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Anafilaxia/angioedema ou reação de hipersensibilidade grave.",
+          "Suspeita de infecção grave disseminada (conduta clínica individualizada).",
+          "Sangramento GI importante, sinais de perfuração GI ou pancreatite.",
+          "Crise adrenal por retirada/insuficiência (necessita manejo imediato; não “suspender” abruptamente sem substituição adequada).",
+          "Contraindicações",
+          "Hipersensibilidade à hidrocortisona ou a componentes da formulação.",
+          "Infecções fúngicas sistêmicas.",
+          "Uso em prematuros (apenas formulações contendo álcool benzílico).",
+          "Púrpura trombocitopênica idiopática (apenas para administração IM).",
+          "Administração intratecal.",
+          "Vacinas vivas ou vivas atenuadas em pacientes recebendo doses imunossupressoras de corticosteroides.",
+          "Rotulagem canadense (adicionais): herpes simples ocular (exceto curto prazo/emergência); vaccínia e varicela (exceto curto prazo/emergência).",
+          "Advertências e precauções11.1 Populações especiais",
+          "Pediatria: risco de supressão HPA, impacto em crescimento, risco de osteoporose/fratura; monitorar crescimento e saúde óssea.",
+          "Idosos: maior risco de eventos adversos; usar menor dose/tempo.",
+          "Diabetes: pode piorar controle glicêmico.",
+          "IC/hipertensão/risco CV: retenção hídrica, distúrbios eletrolíticos e hipertensão; cautela pós-IAM (associação com ruptura miocárdica).",
+          "Doença GI: risco de perfuração (diverticulite, anastomoses recentes, úlcera, colite ulcerativa, abscesso).",
+          "Doença ocular: catarata/glaucoma/PIO elevada; cautela em herpes ocular (risco de perfuração corneana).",
+          "Osteoporose: risco aumentado com altas doses/uso prolongado.",
+          "Miastenia gravis: pode haver piora transitória nas primeiras 2 semanas.",
+          "Esclerose sistêmica: risco aumentado de crise renal esclerodérmica; monitorar PA e função renal.",
+          "Feocromocitoma: risco de crise (pode ser fatal).",
+          "Convulsões: cautela; convulsões podem ocorrer em crise adrenal."
+        ]
+      },
+      {
+        "title": "11.2 Riscos relevantes (infecção, psiquiátrico, retirada etc.)",
+        "bullets": [
+          "Imunossupressão: risco com qualquer patógeno (bacteriano, fúngico, viral, protozoário, helmíntico); evitar exposição a varicela/sarampo; reativação de TB/HBV/amebíase/strongyloides pode ocorrer.",
+          "Distúrbios psiquiátricos: euforia, insônia, alterações de humor, depressão grave, psicose; monitorar.",
+          "Retirada: desmame gradual; retirada abrupta pode precipitar insuficiência adrenal/crise.",
+          "Vacinação: evitar vacinas vivas em doses imunossupressoras; resposta a vacinas inativadas pode ser reduzida.",
+          "Interações medicamentosas12.1 Interações clinicamente relevantes",
+          "Há interações significativas com necessidade de ajuste/evitar. Exemplos do material fornecido:",
+          "Vacinas vivas/atenuadas: risco aumentado de infecção e menor resposta (evitar em doses imunossupressoras).",
+          "Desmopressina: aumento do risco de hiponatremia (Risk X: evitar).",
+          "BCG e outras vacinas vivas específicas: Risk X (evitar).",
+          "AINEs (incluindo COX-2): aumento do risco de ulceração/sangramento/perfuração GI (monitorar).",
+          "Indutores/inibidores de CYP3A4: podem reduzir/aumentar concentrações (monitorar).",
+          "Anfotericina B / diuréticos de alça / tiazídicos: risco de hipocalemia (monitorar).",
+          "Antidiabéticos: pode reduzir efeito por hiperglicemia induzida (monitorar).",
+          "Quinolonas: aumento risco de tendinite/ruptura de tendão (monitorar).",
+          "Mifepristona: pode reduzir eficácia do corticosteroide e aumentar níveis (combinação problemática; evitar em certas situações)."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Evitar combinações classificadas como Risk X (principalmente com vacinas vivas e algumas associações específicas).",
+          "Monitorar glicemia, potássio e sinais GI ao associar com agentes que aumentam hiperglicemia/hipocalemia/risco GI.",
+          "Considerar ajuste quando houver indutores/inibidores de CYP3A4.",
+          "Em terapias imunossupressoras combinadas, monitorar sinais de infecção.",
+          "Gestação e lactação13.1 Gestação (segurança, quando usar/evitar)",
+          "Estudos observacionais sugerem associação entre corticosteroides sistêmicos no 1º trimestre e fendas orais ou baixo peso, mas dados são conflitantes e podem refletir dose/indicação.",
+          "Hipoadrenalismo neonatal pode ocorrer após uso materno; monitorar RN.",
+          "Em insuficiência adrenal (primária/central/CAH), a hidrocortisona é o corticosteroide preferido; doses podem precisar de ajuste ao longo da gestação; monitorar ao menos 1x por trimestre.",
+          "Doses de estresse podem ser necessárias no trabalho de parto/cesárea para prevenir crise adrenal em pacientes de risco."
+        ]
+      },
+      {
+        "title": "13.2 Lactação (excreção no leite, efeitos no lactente, monitorização)",
+        "bullets": [
+          "Corticosteroides estão presentes no leite materno.",
+          "Doses únicas são consideradas aceitáveis; em uso prolongado, dados são limitados. Em geral, é considerado aceitável em doses usuais, mas recomenda-se monitorar o lactente (ex.: supressão de crescimento/produção endógena).",
+          "Se houver preocupação, algumas diretrizes sugerem aguardar 4 horas após dose oral sistêmica antes de amamentar (baseado em dados com prednisolona).",
+          "Farmacocinética / Farmacodinâmica14.1 Absorção, distribuição, metabolismo, eliminação",
+          "Absorção: rápida.",
+          "Biodisponibilidade VO: ~96% ± 20%; sprinkles ~87%.",
+          "Distribuição: Vd IV 27 ± 7 L; solução oral: média 23 L (5–59 L).",
+          "Ligação proteica: IV 92% ± 2%; solução oral/sprinkles ≥90%.",
+          "Metabolismo: hepático.",
+          "Excreção: urina."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Início de ação (IV): ~1 hora.",
+          "Meia-vida:",
+          "IV: 2 ± 0,3 h;",
+          "IM: 2,2 ± 1,5 h;",
+          "VO: 1,8 ± 0,5 h;",
+          "Solução oral: média 0,95 h (0,3–2,3 h);",
+          "SUBQ: 4,7 ± 4,7 h.",
+          "Tempo para pico plasmático:",
+          "IM: 66 ± 51 min;",
+          "VO: 1,2 ± 0,4 h;",
+          "Solução oral: 0,5 h (0,25–0,75 h);",
+          "SUBQ: 91 ± 34 min.",
+          "Vd: IV 27 ± 7 L; solução oral média 23 L.",
+          "Ligação proteica: IV ~92%; solução/sprinkles ≥90%."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)Não aplicável.",
+        "bullets": [
+          "Monitorização15.1 O que monitorar e com que frequência",
+          "Glicemia, eletrólitos, PA, peso, sinais de infecção.",
+          "PIO se terapia >6 semanas; considerar exames oftalmológicos em uso crônico.",
+          "Densidade mineral óssea em risco/uso prolongado.",
+          "Avaliar supressão do eixo HPA quando indicado (ex.: testes de estímulo com ACTH, cortisol matinal, cortisol urinário livre).",
+          "Monitorar sinais/sintomas de síndrome de Cushing (em pediatria <1 ano: a cada 3–4 meses; em outros: a cada 6 meses).",
+          "Crescimento em pediatria.",
+          "Rastrear HBV antes de iniciar; considerar avaliação para amebíase latente em quem viveu em trópicos ou com diarreia inexplicada; monitorar reativação de TB em latente/tuberculin positivo."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Resposta: melhora clínica do quadro-alvo (reposição adequada sem sinais de excesso/deficiência; controle de inflamação; reversão de choque quando indicado).",
+          "Falha/limitação: ausência de melhora, necessidade de escalada persistente, ou ocorrência de eventos limitantes (infecção grave, hiperglicemia refratária, complicações GI, miopatia, etc.).",
+          "Segurança e gestão de eventos16.1 Conduta em alergia/anafilaxia",
+          "Em caso de hipersensibilidade grave/anafilaxia/angioedema, suspender e tratar conforme protocolo institucional de anafilaxia (conduta específica não detalhada nos dados fornecidos)."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreia",
+        "bullets": [
+          "Não especificado nos dados fornecidos (lembrar que diarreia/vômitos podem impedir VO e exigir stress dose parenteral em insuficiência adrenal)."
+        ]
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)",
+        "bullets": [
+          "Elevação de enzimas hepáticas pode ocorrer (geralmente reversível na descontinuação); conduta detalhada não fornecida.",
+          "Notas práticas17.1 Erros comuns de prescrição",
+          "Confusões por som/semelhança: hidrocortisona vs hidrocodona, hidroxicloroquina, hidroclorotiazida; Cortef vs Coreg/Lortab; Solu-CORTEF vs Solu-Medrol.",
+          "Abreviação “HCT” é propensa a erro (pode ser confundida com hidroclorotiazida).",
+          "Em pediatria, cuidado com múltiplas concentrações de soluções/suspensões; apresentar dose sempre em mg e conferir concentração."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Pode ocorrer desconforto GI, insônia, agitação, sudorese, aumento do apetite e ganho de peso.",
+          "Procurar atendimento por sinais de infecção (febre, calafrios, dor de garganta intensa, ferida que não cicatriza), hiperglicemia (sede intensa, poliúria, sonolência/confusão), hipocalemia (cãibras/fraqueza/arritmia), pancreatite (dor abdominal intensa), sangramento GI (fezes negras/vômitos com sangue), alterações visuais, alterações de humor graves, ou sinais de reação alérgica."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Hydrocortisone (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 05 mar. 2026."
+        ],
+        "bullets": [
+          "Em sepse, corticosteroides não devem ser usados para tratamento de sepse na ausência de choque.",
+          "Planejar desmame e estratégia de stress dosing para pacientes com insuficiência adrenal/risco de supressão do eixo HPA.",
+          "Em prematuros/neonatos, atenção a excipientes (álcool benzílico/propilenoglicol) e riscos específicos."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Hidrocortisona.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Hydrocortisone (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 05 mar. 2026."
+      }
+    ]
+  },
+  {
     "id": "bula-imipenem",
     "name": "Imipenem",
     "className": "Antimicrobianos",
@@ -22839,6 +23954,341 @@
       },
       {
         "label": "Referência (formato para seu site):Imipenem and cilastatin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
+    "id": "bula-ivermectina",
+    "name": "Ivermectina",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)Ivermectina é um anti-helmíntico usado para tratamento de oncocercose e estrongiloidíase intestinal (não disseminada). Também é utilizada em diversos cenários off-label, incluindo algumas parasitoses e infestações (ex.: escabiose, pediculose refratária) e outras infecções por nematódeos/ectoparasitas, conforme posologias abaixo.",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimosIvermectina (sistêmica)."
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATCAnti-helmíntico (Anthelmintic)."
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "Comprimido (VO):",
+          "US: Stromectol 3 mg; genérico 3 mg e 6 mg",
+          "Canadá: Stromectol 3 mg",
+          "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)Ivermectina é um anti-helmíntico usado para tratamento de oncocercose e estrongiloidíase intestinal (não disseminada). Também é utilizada em diversos cenários off-label, incluindo algumas parasitoses e infestações (ex.: escabiose, pediculose refratária) e outras infecções por nematódeos/ectoparasitas, conforme posologias abaixo."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Loa loa (áreas endêmicas): antes de administrar ivermectina, excluir coinfecção, para reduzir risco de encefalopatia potencialmente fatal.",
+          "Administração (alimento): o fabricante recomenda jejum e água; alguns especialistas recomendam com alimento para aumentar absorção (refeição rica em gordura pode aumentar biodisponibilidade).",
+          "Crianças <15 kg: uso com dados limitados por risco teórico de efeitos no SNC; há relatos de uso em várias indicações sem eventos graves, mas as evidências são limitadas.",
+          "Escabiose e contactantes: em contactantes com contato pele-a-pele prolongado nas últimas 6 semanas, recomenda-se tratamento simultâneo.",
+          "Pediculose (piolhos): ivermectina não é ovicida, portanto repetir dose é necessário para erradicar a infestação.",
+          "Oncocercose: atua contra microfilárias, não contra vermes adultos; pode ser necessária abordagem adicional se objetivo for macrofilárias (ex.: doxiciclina em alguns cenários).",
+          "Imunossuprimidos (estrongiloidíase): pode ser necessário retratamento; em hiperinfeção/disseminada, usar diariamente até negativação sustentada; alguns casos exigem terapia supressiva mensal.",
+          "Mecanismo de açãoIvermectina é um anti-helmíntico semissintético que se liga com alta afinidade a canais de cloreto regulados por glutamato em células nervosas e musculares de invertebrados, aumentando a permeabilidade ao cloreto, causando hiperpolarização, paralisia e morte do parasita.",
+          "Espectro / Cobertura (adaptado)4.1 Micro-organismos-alvo",
+          "Onchocerca volvulus (oncocercose) – efetivo contra microfilárias.",
+          "Strongyloides stercoralis (estrongiloidíase intestinal; e formas graves em esquemas prolongados).",
+          "Outros usos descritos: Ascaris lumbricoides (ascaridíase), Trichuris trichiura (tricuríase, em combinação), Mansonella ozzardi/streptocerca, larva migrans cutânea relacionada a ancilostomídeos, gnatostomíase cutânea, Demodex (foliculite), Sarcoptes scabiei (escabiose), Pediculus (piolhos)."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Doença por Loa loa em áreas endêmicas: risco de encefalopatia; excluir coinfecção antes do uso.",
+          "Oncocercose: sem atividade contra parasitas adultos de O. volvulus.",
+          "Gnathostomíase com acometimento de SNC: não recomendado por risco de resposta inflamatória associada à morte das larvas."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)Não informado.",
+        "bullets": [
+          "Indicações terapêuticas5.1 Indicações em bula",
+          "Oncocercose: tratamento da oncocercose pela forma imatura de Onchocerca volvulus (limitação: não atua contra parasitas adultos; excisão cirúrgica de nódulos pode ser considerada).",
+          "Estrongiloidíase intestinal (não disseminada): tratamento de estrongiloidíase intestinal por Strongyloides stercoralis."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (se aplicável)Ascaridíase; foliculite por Demodex; gnatostomíase cutânea; larva migrans cutânea relacionada a ancilostomídeos; pediculose refratária; infecção por Mansonella; escabiose; tricuríase (em combinação com albendazol).",
+        "paragraphs": [
+          "Ascaridíase (alternativo; off-label)",
+          "Foliculite por Demodex (off-label)",
+          "Gnatostomíase cutânea (off-label)",
+          "Larva migrans cutânea relacionada a ancilostomídeos (off-label)",
+          "Pediculose (refratária; off-label)",
+          "Infecção por Mansonella (off-label)",
+          "Oncocercose (em bula)",
+          "Escabiose (off-label)",
+          "Estrongiloidíase (em bula e cenários; inclui off-label em formas graves)",
+          "Tricuríase (whipworm) – alternativa (off-label)"
+        ],
+        "bullets": [
+          "Posologia (Completo)6.1 Adultos — dose usual e por indicação (com duração)",
+          "VO: 150 a 200 mcg/kg em dose única.",
+          "Nota: em complicações (ex.: obstrução intestinal, colangite aguda), iniciar após resolução do quadro agudo.",
+          "VO: 200 mcg/kg 1x/semana por 2 doses.",
+          "VO: 200 mcg/kg 1x/dia por 2 dias.",
+          "Nota: não recomendado para doença de SNC.",
+          "VO: 200 mcg/kg 1x/dia por 1 a 2 dias.",
+          "Nota: reservar para resposta insuficiente a terapia tópica; dose/intervalo/frequência ideais são incertos.",
+          "Pediculose capitis: VO 200 mcg/kg 1x/semana por 2 doses; alguns especialistas sugerem 400 mcg/kg 1x/semana por 2 doses.",
+          "Pediculose pubis: VO 200 mcg/kg 1x/semana por 2 doses; alguns especialistas sugerem 250 mcg/kg dose única, repetir em 7 a 14 dias.",
+          "Nota: em áreas endêmicas de Loa loa, excluir coinfecção antes.",
+          "Mansonella ozzardi: VO 150 mcg/kg dose única.",
+          "Mansonella streptocerca (alternativo): VO 150 mcg/kg dose única.",
+          "Nota: em áreas endêmicas de Loa loa, excluir coinfecção antes.",
+          "VO: 150 mcg/kg 1 dose; repetir a cada 3 a 6 meses até ficar assintomático.",
+          "Para pacientes fora de áreas com transmissão contínua: iniciar doxiciclina 1 semana após a dose inicial de ivermectina.",
+          "Nota: tratar simultaneamente coabitantes/contatos com contato pele-a-pele prolongado nas últimas 6 semanas.",
+          "Escabiose clássica: VO 200 mcg/kg dose única; repetir em 7 a 14 dias.",
+          "Escabiose crostosa: VO 200 mcg/kg 1x/dia em combinação com permetrina por 3, 5 ou 7 dias não consecutivos, conforme gravidade:",
+          "3 dias: dias 1, 2 e 8",
+          "5 dias: dias 1, 2, 8, 9 e 15",
+          "7 dias: dias 1, 2, 8, 9, 15, 22 e 29",
+          "Nota: em áreas endêmicas de Loa loa, excluir coinfecção antes.",
+          "Infecção não complicada (imunocompetente): VO 200 mcg/kg 1x/dia por 1 a 2 dias.",
+          "Imunocomprometidos: VO 200 mcg/kg 1x/dia por 2 dias; repetir o regime em 2 semanas.",
+          "Grave/disseminada: VO 200 mcg/kg 1x/dia até resolução de sintomas e exame de fezes e/ou escarro negativo por ≥2 semanas.",
+          "Alguns especialistas sugerem alternativa se imunocomprometido ou criticamente doente com fezes persistentemente positivas (ex.: ≥3 dias).",
+          "Se imunossupressão persistente após melhora: alguns usam terapia supressiva 200 mcg/kg 1x/mês por ≥6 meses.",
+          "VO: 200 mcg/kg 1x/dia por 3 dias em combinação com albendazol.",
+          "Em cenários de poucos recursos: pode-se usar terapia combinada em dose única (ivermectina 200 mcg/kg dose única + albendazol dose única)."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/pesoObservações de segurança (pediatria):",
+        "paragraphs": [
+          "Ascaridíase (alternativo):",
+          "Gnatostomíase cutânea:",
+          "Larva migrans cutânea (ancilostomídeos):",
+          "Pediculose (alternativo):",
+          "Mansonella:",
+          "Oncocercose:",
+          "Escabiose:",
+          "Estrongiloidíase:",
+          "Tricuríase (whipworm):",
+          "Tabelas de dose por faixa de peso (transformadas em texto)"
+        ],
+        "bullets": [
+          "Excluir coinfecção por Loa loa antes do uso em indivíduos de áreas endêmicas.",
+          "Uso em crianças <15 kg: descrição é limitada (risco teórico de eventos SNC), embora existam relatos de uso sem eventos graves; evidências são limitadas.",
+          "Crianças ≥15 kg e adolescentes: VO 150 a 200 mcg/kg dose única.",
+          "Crianças ≥15 kg e adolescentes: VO 100 a 200 mcg/kg 1x/dia por 1 a 2 dias.",
+          "Crianças ≥15 kg e adolescentes: VO 200 mcg/kg dose única.",
+          "Nota: não é ovicida; repetir dose é necessário.",
+          "Pediculose capitis: crianças ≥15 kg e adolescentes: VO 200 a 400 mcg/kg/dose, 2 doses com intervalo de 7 a 10 dias (doses mais altas, ex.: 400 mcg/kg, podem reduzir falhas).",
+          "Pediculose pubis: crianças ≥15 kg e adolescentes: VO 250 mcg/kg/dose, 2 doses com intervalo de 7 a 14 dias.",
+          "Crianças ≥15 kg e adolescentes: VO 150 mcg/kg dose única (ozzardi ou streptocerca).",
+          "Crianças ≥15 kg e adolescentes: VO 150 mcg/kg/dose a cada 3 a 6 meses até assintomático; se desejar tratar macrofilárias, doxiciclina pode ser iniciada 1 semana após.",
+          "Crianças ≥15 kg e adolescentes: VO 200 mcg/kg/dose, 2 doses com intervalo de 7 a 14 dias.",
+          "Crianças ≥15 kg e adolescentes: VO 200 mcg/kg/dose 1x/dia por 1 a 2 dias.",
+          "Hiperinfecção/disseminada: tratar diariamente até fezes/escarro negativos por 2 semanas.",
+          "Regime 3 dias (preferido): crianças ≥15 kg e adolescentes: VO 200 mcg/kg/dose 1x/dia por 3 dias (em combinação, ex.: albendazol).",
+          "Regime dose única (alternativo): crianças ≥2 anos e adolescentes: VO 200 a 400 mcg/kg/dose dose única em combinação com albendazol; doses até 600 mcg/kg/dose (máx típico 18 mg/dose) já foram usadas em pacientes ≥15 kg.",
+          "Para fornecer aproximadamente 150 mcg/kg (dose única VO):",
+          "15 a 25 kg: 3 mg",
+          "26 a 44 kg: 6 mg",
+          "45 a 64 kg: 9 mg",
+          "65 a 84 kg: 12 mg",
+          "Para fornecer aproximadamente 200 mcg/kg (dose única VO):",
+          "15 a 24 kg: 3 mg",
+          "25 a 35 kg: 6 mg",
+          "36 a 50 kg: 9 mg",
+          "51 a 65 kg: 12 mg",
+          "66 a 79 kg: 15 mg"
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidadesNão informado (há apenas observação de dados limitados em <15 kg por risco teórico de eventos SNC)."
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)",
+        "bullets": [
+          "VO (adulto): administrar em jejum com água (recomendação do fabricante). Alguns especialistas recomendam administrar com alimento para aumentar absorção.",
+          "VO (pediatria): fabricante recomenda jejum com água; alguns especialistas recomendam com alimento. Refeição rica em gordura aumentou a biodisponibilidade em ~2,5x em voluntários saudáveis (comparado a jejum).",
+          "Ajustes de dose7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+          "Disfunção renal: não é necessário ajuste para qualquer grau de disfunção renal (<1% excretado na urina).",
+          "Hemodiálise intermitente (3x/semana): improvável ser significativamente dialisado (alta ligação proteica; Vd grande): sem dose suplementar e sem ajuste.",
+          "Diálise peritoneal: improvável ser significativamente dialisado: sem ajuste.",
+          "CRRT: sem ajuste.",
+          "PIRRT: sem ajuste."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "bullets": [
+          "Não há estudos farmacocinéticos em cirrose prévia; ivermectina é principalmente metabolizada no fígado e excretada nas fezes.",
+          "Child-Turcotte-Pugh A a C: sem ajuste necessário."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)Não informado."
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)Referir a dose de adulto.",
+        "bullets": [
+          "Administração e compatibilidades8.1 Com ou sem alimentos",
+          "Fabricante: jejum com água.",
+          "Alguns especialistas: com alimento para aumentar absorção.",
+          "Interação com alimentos: biodisponibilidade pode aumentar ~1,18 a 2,57 vezes quando administrada após refeição rica em gordura (extensão incerta). Manejo: manter recomendação do fabricante (jejum) ou, conforme alguns especialistas, considerar administração com alimento para aumentar absorção."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)Não informado."
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)Não aplicável (forma descrita: comprimido VO).",
+        "paragraphs": [
+          "1% a 10%",
+          "<1%"
+        ],
+        "bullets": [
+          "Efeitos adversos9.1 Comuns (≥1%)≥10%",
+          "Reação de Mazzotti (associada ao tratamento de oncocercose): prurido (28%), febre (23%), edema cutâneo/rash papular/rash pustular/urticária (≤23%), artralgia/sinovite (≤9%), linfadenite (axilar 4%–11%; cervical 1%–5%; inguinal 13%–14%; outros 2%–3%).",
+          "Cardiovascular: hipotensão ortostática (1%), edema periférico (3%), taquicardia (4%)",
+          "Dermatológico: prurido (associado à estrongiloidíase: 3%)",
+          "GI: diarreia (2%), náuseas (2%)",
+          "Hematológico: redução de leucócitos (3%), eosinofilia (3%), aumento de hemoglobina (1%)",
+          "Hepático: ALT aumentada (2%), AST aumentada (2%)",
+          "Hipersensibilidade: edema facial (1%)",
+          "Neurológico: tontura (3%)",
+          "Oftálmico: inflamação do limbo (4%–6%), catarata puntiforme (1%–2%)",
+          "Dermatológico: rash cutâneo, urticária (associados à estrongiloidíase)",
+          "GI: dor abdominal, anorexia, constipação, vômitos",
+          "Hematológico: anemia, leucopenia",
+          "Neurológico: astenia, sonolência, fadiga, cefaleia, tremor, vertigem",
+          "Músculo-esquelético: mialgia",
+          "Oftálmico: perda visual"
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Efeitos no SNC (raros): neurotoxicidade (ex.: ataxia, confusão, desorientação, encefalopatia, alteração do nível de consciência incluindo coma, estupor, tremor), depressão do SNC com dificuldade respiratória; em geral início rápido (horas), podendo ocorrer até 7 dias após a dose.",
+          "Fatores de risco descritos: barreira hematoencefálica imatura; peso <15 kg (marcador substituto); mutação/alteração do transportador ABCB1 (P-glicoproteína).",
+          "Reações cutâneas graves (SCAR): Stevens-Johnson/necrólise epidérmica tóxica; DRESS.",
+          "Reação imunológica pós-tratamento (Mazzotti): pode cursar com prurido, rash, febre, fadiga, linfadenopatia, artralgia, taquicardia, hipotensão (incluindo ortostática), edema e dor abdominal; geralmente leve e resolve em ~4 dias, porém há relatos de coma e morte (frequentemente atribuídos à encefalopatia associada a Loa loa).",
+          "Eventos pós-comercialização relevantes: convulsão; hipotensão; hepatite/aumento de enzimas hepáticas/bilirrubina; exacerbação de asma; eventos oftálmicos inflamatórios (uveíte anterior, coriorretinite, ceratite, etc.)."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Suspeita de reação cutânea grave (Stevens-Johnson/NET) ou DRESS.",
+          "Sinais de neurotoxicidade importante/depressão do SNC com repercussão clínica.",
+          "Hipersensibilidade significativa ao medicamento.",
+          "ContraindicaçõesHipersensibilidade à ivermectina ou a qualquer componente da formulação.",
+          "Advertências e precauções11.1 Populações especiais",
+          "Imunocomprometidos: pode ser necessário retratamento; estrongiloidíase extraintestinal pode requerer terapia supressiva mensal.",
+          "Áreas endêmicas de Loa loa: excluir coinfecção antes de administrar (risco de encefalopatia grave).",
+          "Crianças <15 kg: dados limitados; risco teórico de eventos SNC."
+        ]
+      },
+      {
+        "title": "11.2 Riscos relevantes (conforme o fármaco)",
+        "bullets": [
+          "Uso apropriado:",
+          "Oncocercose: sem atividade contra parasitas adultos de O. volvulus.",
+          "Loa loa: não é ativo contra vermes adultos (além do risco de encefalopatia por coinfecção).",
+          "Reação de Mazzotti: reação inflamatória pós-tratamento, especialmente em filarioses.",
+          "Efeitos no SNC (raros): neurotoxicidade, possível relação com falha do transportador ABCB1 em impedir entrada no SNC.",
+          "Interações medicamentosas12.1 Interações clinicamente relevantes",
+          "Antagonistas da vitamina K: ivermectina pode aumentar o efeito anticoagulante (risco C: monitorar)."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Se uso concomitante com antagonistas da vitamina K: monitorar anticoagulação e sinais de sangramento; ajustar conforme necessidade clínica.",
+          "Gestação e lactação13.1 Gestação (segurança, quando usar/evitar)",
+          "Evidências de desfechos na gestação são principalmente de exposições inadvertidas em programas de tratamento em massa.",
+          "A decisão de uso deve considerar a indicação (ex.: oncocercose/estrongiloidíase) e o risco de progressão sem tratamento.",
+          "Embora o risco provavelmente seja baixo, para pediculose pubis ou escabiose em gestantes, outros agentes são recomendados atualmente (conforme texto fornecido).",
+          "Avaliar status gestacional antes do uso em pacientes que podem engravidar; em alguns contextos (ex.: refugiados de países específicos), evitar uso para tratamento presumptivo de parasitoses sem história confiável da última menstruação."
+        ]
+      },
+      {
+        "title": "13.2 Lactação (excreção no leite, efeitos no lactente, monitorização)",
+        "bullets": [
+          "Ivermectina está presente no leite materno.",
+          "Pico de concentração no leite geralmente entre 4 e 6 horas após dose única (em um caso, 12 horas).",
+          "A decisão de uso na lactação deve considerar indicação e risco de progressão sem tratamento; embora o risco provavelmente seja baixo, para pediculose pubis ou escabiose em lactantes, outros agentes são recomendados atualmente (conforme texto fornecido).",
+          "Em contexto específico (tratamento presumptivo em refugiadas), recomenda-se não administrar na primeira semana pós-parto.",
+          "Farmacocinética / Farmacodinâmica14.1 Absorção, distribuição, metabolismo, eliminação",
+          "Absorção: bem absorvida em jejum; pode aumentar com refeição rica em gordura.",
+          "Distribuição: alta distribuição, com concentração no fígado e tecido adiposo; não atravessa facilmente a barreira hematoencefálica.",
+          "Metabolismo: hepático via CYP3A4 (principal), CYP2D6 (menor), CYP2E1 (menor).",
+          "Eliminação: fezes; urina <1%."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Vd:",
+          "Crianças 2–5 anos: mediana 7,46 a 8,26 L/kg",
+          "Crianças 6–12 anos: mediana 8,58 a 10,4 L/kg",
+          "Adultos: 3,1 a 3,5 L/kg em voluntários saudáveis; média 9,9 L/kg (6,9–15,3) em oncocercose",
+          "Ligação proteica: ~93% (principalmente albumina).",
+          "Meia-vida (t½):",
+          "Crianças 2–5 anos: mediana 16,3 a 17,3 h",
+          "Crianças 6–12 anos: mediana 18,1 a 19,1 h",
+          "Adultos: 18 h",
+          "Tempo para pico sérico (Tmax): ~4 h."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)Não informado.",
+        "bullets": [
+          "Monitorização15.1 O que monitorar e com que frequência",
+          "Oncocercose: contagens microfilárias de pele e olho; exames oftalmológicos periódicos.",
+          "Estrongiloidíase: exames de fezes de seguimento.",
+          "Segurança: sinais e sintomas de neurotoxicidade."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Estrongiloidíase grave/disseminada: manter até resolução clínica e exames de fezes e/ou escarro negativos por ≥2 semanas.",
+          "Oncocercose: repetir dose a cada 3–6 meses até assintomático.",
+          "Segurança e gestão de eventos16.1 Conduta em alergia/anafilaxiaSuspender ivermectina em caso de hipersensibilidade clinicamente relevante; contraindicado reexpor em pacientes com hipersensibilidade conhecida ao fármaco."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreiaNão informado."
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)Não informado (há relatos de hepatite e aumento de enzimas/bilirrubina no pós-comercialização).",
+        "bullets": [
+          "Notas práticas17.1 Erros comuns de prescrição",
+          "Não repetir a dose em situações em que é necessário (ex.: escabiose clássica; pediculose — não ovicida).",
+          "Prescrever sem checar risco de Loa loa em indivíduos de áreas endêmicas.",
+          "Usar em gnatostomíase com suspeita de acometimento de SNC."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Tomar conforme orientação escolhida (jejum com água vs com alimento, de acordo com prescrição), e respeitar a necessidade de 2ª dose quando indicada.",
+          "Alertar para sinais de reação importante: rash extenso/bolhas, febre importante, sintomas neurológicos (confusão, desequilíbrio, sonolência intensa), falta de ar."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)Não informado.",
+        "paragraphs": [
+          "Referência: Ivermectin (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Ivermectina.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Ivermectin (systemic): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
       }
     ]
   },
@@ -24860,6 +26310,371 @@
     ]
   },
   {
+    "id": "bula-micafungina",
+    "name": "Micafungina",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "IV (micafungina sódica) – formas reconstituídas (frasco-ampola): 50 mg; 100 mg (genéricos; Mycamine [DSC] em algumas apresentações).",
+    "sections": [
+      {
+        "title": "1.1 Nome genérico / sinônimosMicafungina (Micafungin)."
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATCAntifúngico (parenteral); Equinocandina."
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "IV (micafungina sódica) – formas reconstituídas (frasco-ampola): 50 mg; 100 mg (genéricos; Mycamine [DSC] em algumas apresentações).",
+          "IV – soluções prontas (bolsa/solução IV): 50 mg/50 mL; 100 mg/100 mL; 150 mg/150 mL (concentração em NaCl 0,9% conforme descrito).",
+          "Marca: Mycamine (US [DSC]; Canadá).",
+          "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)Micafungina é uma equinocandina IV indicada para candidemia e outras infecções por Candida (incluindo candidíase disseminada aguda, peritonite e abscessos por Candida) e para candidíase esofágica. Também é usada para profilaxia de infecções fúngicas invasivas (especialmente em receptores de transplante de células hematopoéticas) e em diversos cenários off-label (ex.: aspergilose invasiva como alternativa em regime combinado; endocardite por Candida; infecção associada a dispositivos cardíacos; terapia empírica em situações selecionadas)."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Via exclusivamente IV: infundir em 1 hora; infusões mais rápidas aumentam reações mediadas por histamina.",
+          "Reações à infusão: podem ocorrer (rash, prurido, edema facial, vasodilatação); em reação possível por histamina, pode reduzir a velocidade; em anafilaxia/hipersensibilidade grave, interromper.",
+          "Reação no sítio: flebite/tromboflebite é mais frequente com acesso periférico.",
+          "Função renal: em geral não requer ajuste em disfunção renal e em diálises/CRRT/PIRRT (pouco dialisável/alta ligação proteica).",
+          "Fígado: não requer ajuste por Child-Pugh A a C, mas pode ocorrer piora/falência hepática; monitorar testes hepáticos e reavaliar continuidade se alterarem.",
+          "Obesidade (candidíase invasiva): exposição pode reduzir com maior peso; há recomendações de 150–200 mg/dia em IMC ≥30 kg/m² (ver seção 7.3).",
+          "Pediatria (concentração): concentrações finais >1,5 mg/mL preferir acesso central para reduzir reações; não coinfundir com outras medicações (risco de precipitação).",
+          "Gestação: para candidíase na gestação, geralmente preferir outros agentes.",
+          "Lactação: não se sabe se passa para o leite; decisão deve ponderar riscos/benefícios.",
+          "Mecanismo de açãoInibição dependente da concentração da 1,3-beta-D-glucano sintase, reduzindo a formação de 1,3-beta-D-glucano, um polissacarídeo essencial da parede celular de Candida (ausente em células de mamíferos). A redução de glucano leva a instabilidade osmótica e lise celular.",
+          "Espectro / Cobertura (adaptado)4.1 Micro-organismos-alvo",
+          "Candida spp. (principal uso clínico descrito).",
+          "Uso como alternativa/combinação em aspergilose invasiva (não como primeira linha rotineira; ver seção 6.1)."
+        ]
+      },
+      {
+        "title": "4.2 Lacunas de cobertura / quando não usar",
+        "bullets": [
+          "Monoterapia em aspergilose invasiva: geralmente reservada para intolerância/refratariedade a azóis e polienos; comumente usada como parte de regime combinado.",
+          "Distribuição: penetração mínima em SNC e olhos; implicações clínicas específicas não foram detalhadas no texto fornecido."
+        ]
+      },
+      {
+        "title": "4.3 Resistência (se aplicável)Não informado.",
+        "bullets": [
+          "Indicações terapêuticas5.1 Indicações em bula",
+          "Candidemia e outras infecções por Candida: tratamento de candidemia, candidíase disseminada aguda e peritonite/abscessos por Candida em adultos e pediatria ≥4 meses; e em pediatria ≤4 meses sem meningoencefalite e/ou disseminação ocular.",
+          "Candidíase esofágica: tratamento em adultos e pediatria ≥4 meses.",
+          "Profilaxia (HSCT): profilaxia de infecções por Candida em receptores de transplante de células hematopoéticas (adultos e pediatria ≥4 meses)."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (se aplicável)",
+        "paragraphs": [
+          "Aspergilose invasiva (alternativa; off-label)",
+          "Candidemia (neutropênicos e não neutropênicos), incluindo candidíase disseminada",
+          "Infecção de dispositivo cardíaco (CID/passo/assistência ventricular) (off-label)",
+          "Candidíase hepatosplênica (disseminada crônica) (off-label)",
+          "Terapia empírica – suspeita de candidíase invasiva (UTI não neutropênico) (off-label)",
+          "Endocardite por Candida (valva nativa ou protética) (off-label)",
+          "Candidíase esofágica refratária (alternativa; IV)",
+          "Infecção intra-abdominal (peritonite/abscesso abdominal por Candida)",
+          "Candidíase orofaríngea refratária (alternativa; off-label)",
+          "Osteoarticular (osteomielite/artrite séptica) (off-label)",
+          "Tromboflebite supurativa (off-label)",
+          "Febre neutropênica – terapia antifúngica empírica (alternativa; off-label)",
+          "Profilaxia contra infecções fúngicas invasivas"
+        ],
+        "bullets": [
+          "Aspergilose invasiva (disseminada/extrapulmonar).",
+          "Candidíase: infecção de dispositivo cardíaco; hepatosplênica (disseminada crônica); terapia empírica em UTI não neutropênico (candidíase invasiva suspeita); endocardite; orofaríngea refratária; osteoarticular; tromboflebite supurativa.",
+          "Febre neutropênica: terapia antifúngica empírica (alternativa).",
+          "Profilaxia em transplante de órgão sólido (alternativa).",
+          "Posologia (Completo)6.1 Adultos — dose usual e por indicação (com duração)",
+          "IV: 100 a 150 mg 1x/dia.",
+          "Nota: tipicamente em regime combinado; alguns especialistas usam inicialmente com voriconazol em infecção grave/progressiva e/ou suspeita de resistência a azol. Monoterapia reservada para intolerância ou refratariedade a azóis/polienos.",
+          "Duração: mínimo 6 a 12 semanas, conforme imunossupressão, sítio e resposta; pode ser prolongada. Em combinação, duração ideal é incerta; alguns usam equinocandina por ~2 semanas com voriconazol e depois “step-down” para voriconazol isolado.",
+          "IV: 100 mg 1x/dia.",
+          "Duração total (incluindo step-down oral): ≥14 dias após primeira hemocultura negativa e até sinais/sintomas e neutropenia (se presente) terem resolvido; complicações metastáticas exigem duração maior.",
+          "IV: 150 mg 1x/dia.",
+          "Step-down para azol em pacientes estáveis, isolado sensível e culturas repetidas negativas.",
+          "Duração total:",
+          "≥4 semanas após retirada do dispositivo para infecção isolada de “bolsa” do gerador.",
+          "≥6 semanas após retirada do dispositivo para infecção de cabos.",
+          "IV: 100 mg 1x/dia por várias semanas, seguido de step-down oral com azol até resolução das lesões e durante períodos de imunossupressão.",
+          "IV: 100 mg 1x/dia.",
+          "Se melhora: manter empírico por 2 semanas.",
+          "Considerar suspender após 4 a 5 dias se sem evidência de candidíase invasiva e sem resposta clínica.",
+          "IV: 150 mg 1x/dia.",
+          "Step-down para azol se estável, isolado sensível e culturas repetidas negativas.",
+          "Duração total: ≥6 semanas após troca valvar; mais longa se abscesso perivalvar/complicações ou abordagem não cirúrgica.",
+          "IV: 150 mg 1x/dia.",
+          "Transição para antifúngico VO quando tolerar, se susceptibilidade permitir.",
+          "Duração: 14 a 28 dias.",
+          "IV: 100 mg 1x/dia.",
+          "Duração total (inclui step-down VO): ≥14 dias e até controle de foco e resolução clínica.",
+          "IV: 100 mg 1x/dia.",
+          "Transição para VO quando tolerar, se susceptibilidade permitir.",
+          "Duração: 14 a 28 dias.",
+          "IV: 100 mg 1x/dia por ≥2 semanas; duração total (inclui step-down VO) 6 a 12 meses para osteomielite e ≥6 semanas para artrite séptica.",
+          "IV: 150 mg 1x/dia; manter até remoção do cateter e resolução do trombo, e por ≥2 semanas após clearance de candidemia (se presente).",
+          "IV: 100 mg 1x/dia.",
+          "Nota: para febre persistente/recorrente após ≥4 dias de antibiótico, quando neutropenia esperada >7 dias; alguns reservam para quem não tem suspeita de fungo filamentoso (ex.: nódulos pulmonares).",
+          "Neoplasia hematológica ou transplante de células hematopoéticas (alternativa): IV 50 a 100 mg 1x/dia; duração pelo menos até resolução da neutropenia e varia conforme risco/imunossupressão.",
+          "Transplante de órgão sólido (alternativa; off-label): IV 100 mg 1x/dia; duração varia conforme risco e protocolo do centro."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/peso",
+        "paragraphs": [
+          "Aspergilose invasiva (terapia de resgate; dados limitados)",
+          "Candidíase esofágica (alternativa em quem não tolera VO)",
+          "Candidíase sistêmica (inclui candidemia e candidíase invasiva)",
+          "Terapia empírica (febre neutropênica)",
+          "Profilaxia em HSCT"
+        ],
+        "bullets": [
+          "Nota: em lactentes, pode precisar de doses mais altas no início; duração mínima 6 a 12 semanas e individualizar.",
+          "≤40 kg: IV 2 a 3 mg/kg/dose 1x/dia; doses mais altas 4 a 6 mg/kg/dose 1x/dia também descritas.",
+          ">40 kg: IV 100 mg 1x/dia; pode aumentar para 150 mg 1x/dia se indicado; máx 150 mg/dia.",
+          "Não HIV exposto/infectado: lactentes ≥4 meses, crianças e adolescentes:",
+          "≤30 kg: IV 3 mg/kg/dose 1x/dia",
+          ">30 kg: IV 2,5 mg/kg/dose 1x/dia; máx 150 mg/dose",
+          "Duração recomendada: 14 a 21 dias",
+          "HIV exposto/infectado (referências HHS):",
+          "Lactentes <15 kg: IV 5 a 7 mg/kg/dose 1x/dia",
+          "Crianças 2 a 8 anos e ≤40 kg: IV 3 a 4 mg/kg/dose 1x/dia",
+          "Crianças ≥9 anos:",
+          "≤40 kg: IV 2 a 3 mg/kg/dose 1x/dia",
+          "40 kg: IV 100 mg 1x/dia",
+          "Adolescentes: IV 150 mg/dose 1x/dia",
+          "Duração recomendada: 14 a 21 dias",
+          "Nota: candidemia tratar por no mínimo 14 dias após primeira hemocultura negativa e resolução de sintomas.",
+          "Lactentes <4 meses: IV 10 mg/kg/dose 1x/dia; doses até 15 mg/kg/dose reportadas.",
+          "Lactentes ≥4 meses, crianças e adolescentes:",
+          "Inicial: IV 2 mg/kg/dose 1x/dia; máximo usual 100 mg/dose",
+          "Pode aumentar para 4 mg/kg/dose se não melhora clínica ou persistência micológica; máx 200 mg/dose",
+          "Observação: modelos PK sugerem que 3 a 4 mg/kg/dia podem ser necessários para atingir alvos AUC:MIC contra C. albicans em pediatria.",
+          "Lactentes ≥4 meses, crianças e adolescentes: IV 2 a 3 mg/kg/dose 1x/dia; máx 200 mg/dose.",
+          "Lactentes <4 meses (dados limitados): IV 2 mg/kg/dose 1x/dia (exposição semelhante a adultos com 50 mg).",
+          "Lactentes ≥4 meses, crianças e adolescentes: IV 1 mg/kg/dose 1x/dia; máx 50 mg/dose (doses até 3 mg/kg/dia usadas em ensaios).",
+          "Esquema em dias alternados (dados muito limitados): lactentes ≥7 meses e crianças ≤10 anos: IV 3 mg/kg/dose a cada 48 horas."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "Para candidíase sistêmica em lactentes <4 meses: IV 10 mg/kg/dose 1x/dia (doses até 15 mg/kg/dose reportadas).",
+          "Dados farmacocinéticos em prematuros são variáveis; podem depender de idade gestacional/peso/idade pós-natal (ver seção 14)."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)",
+        "bullets": [
+          "Adulto: IV apenas; infundir em 1 hora; pode reduzir a taxa na presença de reação à infusão; flush com SF 0,9% antes de administrar.",
+          "Pediatria:",
+          "Infundir em 1 hora; infusões mais rápidas aumentam reações por histamina.",
+          "Concentração final >1,5 mg/mL: administrar por acesso central para reduzir risco de reações.",
+          "Flush com SF 0,9% antes; não coinfundir com outras medicações (pode ocorrer precipitação).",
+          "Ajustes de dose7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+          "Adultos: não requer ajuste para qualquer grau de disfunção renal.",
+          "Hemodiálise intermitente: pouco dialisável → sem dose suplementar/ajuste.",
+          "Diálise peritoneal: improvável dialisar significativamente → sem ajuste.",
+          "CRRT: pouco dialisável → sem ajuste.",
+          "PIRRT: improvável dialisar significativamente → sem ajuste.",
+          "Pediatria: sem ajuste; não dialisável; não requer dose suplementar após hemodiálise."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)",
+        "bullets": [
+          "Adultos (Child-Pugh A a C): sem ajuste.",
+          "Pediatria: sem ajuste."
+        ]
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)Obesidade (IMC ≥30 kg/m²) – adultos (recomendações focadas em candidíase)",
+        "bullets": [
+          "Candidíase por Candida albicans (tratamento):",
+          "IMC ≥30 e peso ≥120 kg: IV 200 mg 1x/dia.",
+          "IMC ≥30 e peso <120 kg: IV 150 mg 1x/dia.",
+          "Nota: pode haver farmacodinâmica subótima quando MIC >0,032 mg/L; considerar terapias/regimes alternativos.",
+          "Candidíase por Candida não-albicans (tratamento):",
+          "IMC ≥30: IV 200 mg 1x/dia.",
+          "Nota: mesma preocupação com MIC >0,032 mg/L.",
+          "Outras indicações (inclui profilaxia): não há evidência específica para recomendar ajuste; doses usuais provavelmente geram exposições consistentes, mas dados são limitados."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)Referir a dose de adulto.",
+        "bullets": [
+          "Administração e compatibilidades8.1 Com ou sem alimentosNão aplicável (uso IV)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)Não informado."
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)",
+        "paragraphs": [
+          "Tratamento de candidíase",
+          "Profilaxia em HSCT"
+        ],
+        "bullets": [
+          "Não coinfundir com outras medicações (pode ocorrer precipitação) – orientação descrita para pediatria.",
+          "Efeitos adversos9.1 Comuns (≥1%)",
+          ">10%: flebite (19%).",
+          "GI: diarreia (7% a 11%), vômitos (7% a 18%).",
+          "Hematológico: anemia (pediatria: 18%).",
+          "Hepático: testes hepáticos anormais (adultos 4%; pediatria <15%), hiperbilirrubinemia (pediatria <15%).",
+          "Renal: síndrome de insuficiência renal (pediatria <15%).",
+          "Geral: febre (9% a 13%).",
+          "1% a 10% (selecionados): fibrilação atrial (adultos 3%), taquicardia (pediatria 4%), rash (2% a 5%), hipercalemia (adultos 5%), hipoglicemia (adultos 6%), náuseas (7% a 10%), neutropenia (pediatria 5%), trombocitopenia (pediatria 9%), cefaleia (adultos 9%).",
+          ">10% (principais): taquicardia (16% a 26%); prurido (pediatria 33%); rash (25% a 30%); urticária (pediatria 19%); distensão abdominal (pediatria 19%); dor abdominal (26% a 35%); diarreia (adultos 77%; pediatria 51%); náuseas (70% a 71%); vômitos (65% a 66%); redução do débito urinário (pediatria 23%); hematúria (pediatria 23%); anemia (pediatria 51%); neutropenia (75% a 77%); trombocitopenia (72% a 75%); ALT aumentada (16%); cefaleia (adultos 44%); insônia (adultos 37%); febre (pediatria 61%); reação relacionada à infusão (pediatria 16%).",
+          "1% a 10% (selecionados): IAM (adultos <5%), derrame pericárdico (adultos <5%), anafilaxia/hipersensibilidade (adultos <5%), trombose venosa no local de injeção (adultos <5%), convulsão (adultos <5%), epistaxe (pediatria 9%)."
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Hipersensibilidade grave: anafilaxia, choque anafilático, reações graves de hipersensibilidade; reações infusionais com edema facial/vasodilatação.",
+          "Cutâneas graves (pós-comercialização): Stevens-Johnson, necrólise epidérmica tóxica.",
+          "Hepáticas: piora/novo comprometimento hepático, hepatite, insuficiência hepática.",
+          "Hematológicas: anemia hemolítica/hemoglobinúria; coagulação intravascular disseminada, hemólise.",
+          "Renais: elevação de ureia/creatinina, insuficiência renal aguda/disfunção renal.",
+          "Locais: tromboflebite/flebite no sítio."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Anafilaxia/choque anafilático ou hipersensibilidade grave.",
+          "Suspeita de reação cutânea grave (SJS/NET).",
+          "Reação à infusão importante com sinais de gravidade (conforme julgamento clínico; interromper para reações graves).",
+          "ContraindicaçõesHipersensibilidade à micafungina, outras equinocandinas ou a qualquer componente da formulação.",
+          "Advertências e precauções11.1 Populações especiais",
+          "Pacientes que desenvolvem alterações de função hepática: monitorar de perto e reavaliar necessidade de manter terapia.",
+          "Pacientes com piora de função renal durante tratamento: usar com cautela e monitorar."
+        ]
+      },
+      {
+        "title": "11.2 Riscos relevantes (superinfecção, QT, convulsão, hepatotoxicidade etc.)",
+        "bullets": [
+          "Hepatotoxicidade/insuficiência hepática: eventos de novo início ou piora já relatados.",
+          "Reações de hipersensibilidade: incluindo anafilaxia e reações infusionais.",
+          "Reações no sítio: flebite/tromboflebite, especialmente periférico.",
+          "Renal: aumento de BUN/creatinina e disfunção renal/insuficiência renal aguda relatados.",
+          "Interações medicamentosas12.1 Interações clinicamente relevantes",
+          "Itraconazol: micafungina pode ↑ concentrações (monitorar).",
+          "Nifedipina (sistêmica): micafungina pode ↑ concentrações (monitorar).",
+          "Sirolimo (produtos): micafungina pode ↑ concentrações (monitorar).",
+          "Saccharomyces (levedura/probiótico): antifúngicos podem ↓ efeito terapêutico (evitar)."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Evitar: uso concomitante com Saccharomyces (levedura).",
+          "Monitorar: níveis/efeitos e toxicidade de itraconazol, nifedipina e sirolimo quando usados em conjunto; ajustar conforme necessidade clínica.",
+          "Gestação e lactação13.1 Gestação (segurança, quando usar/evitar)",
+          "Eventos adversos foram observados em estudos reprodutivos animais.",
+          "Para tratamento de candidíase na gestação, preferir outros agentes (conforme texto fornecido)."
+        ]
+      },
+      {
+        "title": "13.2 Lactação (excreção no leite, efeitos no lactente, monitorização)",
+        "bullets": [
+          "Não se sabe se micafungina está presente no leite.",
+          "Decisão de amamentar durante terapia deve considerar risco de exposição do lactente, benefícios da amamentação e benefícios do tratamento materno.",
+          "Farmacocinética / Farmacodinâmica14.1 Absorção, distribuição, metabolismo, eliminação",
+          "Absorção oral: pobre (não aplicável clinicamente; uso IV).",
+          "Distribuição: para pulmão, fígado e baço; mínima para SNC e olhos.",
+          "Metabolismo: hepático (formação de metabólitos M-1 e M-2; hidroxilação para M-5 por CYP3A).",
+          "Excreção: principalmente fezes (71%); urina <1% (inalterado)."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Vd (adultos): 0,39 ± 0,11 L/kg.",
+          "Vdss (pediatria e neonatos – valores reportados):",
+          "Prematuros PNA 0–1 dia, <1.500 g: 0,76 ± 0,28 L/kg",
+          "Prematuros PNA >4 dias, <2.500 g: 1,515 ± 0,516 L/kg",
+          "Prematuros PNA >3 semanas, ≥1.000 g: 0,43 ± 0,11 L/kg (0,28–0,66)",
+          "Neonatos e lactentes <4 meses: mediana 0,35 L/kg (0,225–0,482)",
+          "Lactentes ≥4 meses e <2 anos: 0,319 ± 0,0615 L/kg (0,24–0,45)",
+          "Crianças 2–8 anos: 0,35 ± 0,18 L/kg",
+          "Crianças ≥9 anos e adolescentes ≤17 anos: 0,28 ± 0,09 L/kg",
+          "Ligação proteica: neonatos 96,7%; adultos >99% (albumina).",
+          "Meia-vida (t½):",
+          "Prematuros PNA <1 semana: 6,7 ± 2,2 h",
+          "Prematuros PNA >3 semanas: média 8,3 h (5,6–11)",
+          "Termo e prematuros <4 meses: 11 a 13,6 h",
+          "Lactentes ≥4 meses e <2 anos: 11,5 ± 2,17 h (7,9–16)",
+          "Crianças 2–5 anos: 11,1 ± 1,32 h (8,9–13,8)",
+          "Crianças 6–11 anos: 14,7 ± 6,98 h (9,8–28,4)",
+          "Crianças ≥12 anos e adolescentes ≤16 anos: 13,1 ± 1,68 h (10,5–16,2)",
+          "Adultos saudáveis: 11 a 21 h",
+          "Adultos pós-transplante de medula/periférico: 10,7 a 13,5 h",
+          "Tempo para pico sérico (pediatria ≥4 meses até ≤16 anos): 0,9 a 2 h (após administração)."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)Não informado.",
+        "bullets": [
+          "Monitorização15.1 O que monitorar e com que frequência",
+          "Função hepática periódica (aumentar frequência se houver alterações).",
+          "Função renal: creatinina sérica e BUN.",
+          "Hemograma (CBC).",
+          "Reações à infusão: rash, prurido, edema facial, vasodilatação (possível mecanismo por histamina)."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Candidemia: tratar por no mínimo 14 dias após primeira hemocultura negativa e resolução de sintomas; persistência micológica ou ausência de melhora pode exigir aumento de dose (pediatria) e/ou mudança de estratégia conforme quadro.",
+          "Aspergilose: duração mínima 6–12 semanas; resposta depende do sítio, imunossupressão e evolução clínica.",
+          "Segurança e gestão de eventos16.1 Conduta em alergia/anafilaxiaInterromper infusão em reações graves (ex.: anafilaxia). Para reações possivelmente mediadas por histamina, pode-se reduzir a velocidade de infusão."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreiaNão informado."
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)Se ocorrer alteração de testes hepáticos ou piora hepática, monitorar de perto e reavaliar a continuidade do medicamento.",
+        "bullets": [
+          "Notas práticas17.1 Erros comuns de prescrição",
+          "Infundir mais rápido que 1 hora (aumenta reações à infusão).",
+          "Co-infusão com outras medicações (risco de precipitação).",
+          "Não ajustar dose em obesidade quando tratando candidíase (pode reduzir exposição).",
+          "Ignorar sinais de reação à infusão ou hipersensibilidade grave."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao paciente",
+        "bullets": [
+          "Alertar sobre sinais de reação à infusão (prurido, rash, edema facial, calor/vasodilatação) e procurar assistência imediata se houver sintomas importantes.",
+          "Reforçar necessidade de exames laboratoriais periódicos (fígado, rim, hemograma) durante tratamento."
+        ]
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Micafungin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+        ],
+        "bullets": [
+          "Preferir administração por acesso com bom fluxo; reações no local são mais frequentes em acesso periférico.",
+          "Em pediatria, se concentração final >1,5 mg/mL, preferir acesso central."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Micafungina.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Micafungin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
     "id": "bula-midazolam",
     "name": "Midazolam",
     "className": "Antimicrobianos",
@@ -25816,6 +27631,305 @@
     "references": [
       {
         "label": "Fonte interna: Moxifloxacino.docx (Biblioteca)."
+      }
+    ]
+  },
+  {
+    "id": "bula-noradrenalina",
+    "name": "Noradrenalina",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Solução intravenosa: 1 mg/mL (frasco 4 mL) (Levophed e genéricos; pode conter metabissulfito de sódio).",
+    "sections": [
+      {
+        "title": "Visão geral",
+        "bullets": [
+          "Identificação1.1 Nome genérico / sinônimosNorepinefrina (noradrenalina)."
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATCAgonista alfa/beta-adrenérgico (catecolamina vasopressora)."
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "Solução intravenosa: 1 mg/mL (frasco 4 mL) (Levophed e genéricos; pode conter metabissulfito de sódio).",
+          "Soluções prontas para infusão (IV):",
+          "4 mg/250 mL (NaCl 0,9% ou Dextrose 5%).",
+          "8 mg/250 mL (NaCl 0,9% ou Dextrose 5%).",
+          "16 mg/250 mL (NaCl 0,9% ou Dextrose 5%).",
+          "32 mg/250 mL (NaCl 0,9%).",
+          "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)A norepinefrina é uma catecolamina endógena com potente efeito vasoconstritor (alfa) e efeito beta1 (inotrópico/cronotrópico menor), usada para tratar hipotensão grave e choque (incluindo séptico, cardiogênico e outros estados de choque quando indicado) com objetivo de manter perfusão de órgãos."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "As doses são expressas como norepinefrina base; a apresentação pode aparecer como bitartrato, mas a concentração indicada é em base (1 mg/mL).",
+          "Titular por alvo clínico (ex.: MAP, perfusão, diurese), pois não há “dose ótima” universal; protocolos institucionais variam (regimes por peso ou não baseados em peso).",
+          "Em choque hipovolêmico, o uso deve geralmente ser evitado; tratar hipovolemia antes, pois pode haver vasoconstrição periférica/visceral intensa, hipoperfusão renal, acidose lática e hipóxia tecidual.",
+          "Evitar suspensão abrupta: reduzir gradualmente a infusão, idealmente enquanto expande volume com fluidos IV, pois pode ocorrer hipotensão grave.",
+          "Vesicante: preferência por acesso central; se necessário, pode ser usada por curto período (<72 h) em acesso periférico proximal e de grande calibre, com monitorização frequente do sítio.",
+          "Não administrar bicarbonato de sódio (ou soluções alcalinas) na mesma linha contendo norepinefrina (pode ocorrer inativação).",
+          "Mecanismo de açãoEstimula receptores alfa-adrenérgicos e beta1-adrenérgicos, levando a vasoconstrição (efeito alfa predominante), aumento de pressão arterial sistêmica e fluxo coronariano, além de aumento de contratilidade e frequência cardíaca (efeito beta).",
+          "Espectro / Cobertura (se antimicrobiano, se não, adaptar)Não se aplica (não é antimicrobiano).",
+          "Indicações terapêuticas5.1 Indicações em bula",
+          "Hipotensão grave ou choque, incluindo choque cardiogênico, choque séptico e outros estados de choque vasodilatadores, persistentes após reposição adequada de volume."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (se aplicável)",
+        "paragraphs": [
+          "a) Síndrome hepatorrenal tipo 1 / lesão renal aguda (off-label; com albumina)",
+          "b) Hipotensão/choque (geral)",
+          "Infusão contínua IV — por peso (weight-based):",
+          "Infusão contínua IV — não baseada em peso (non–weight-based):",
+          "c) Choque cardiogênicoPor peso:",
+          "Não baseada em peso:",
+          "d) Choque pós-parada cardíaca",
+          "Por peso:",
+          "Não baseada em peso:",
+          "e) Choque séptico",
+          "Por peso:",
+          "Não baseada em peso:",
+          "Ajuste por terapia concomitante: existem interações significativas, podendo exigir ajuste de dose/frequência ou evitar combinações."
+        ],
+        "bullets": [
+          "Síndrome hepatorrenal tipo 1 ou lesão renal aguda (tratamento) como alternativa à terlipressina, em combinação com albumina.",
+          "Posologia (Completo)6.1 Adultos — dose usual e por indicação (com duração)Observação geral: recomendações são guias; titular para perfusão de órgãos e metas hemodinâmicas (ex.: MAP).",
+          "Infusão contínua IV (não baseada em peso):",
+          "Inicial: 5 a 8 mcg/min.",
+          "Pode aumentar a cada 4 horas conforme desfechos (ex.: aumento de MAP ~10 mmHg do basal e melhora de diurese).",
+          "Máximo: 10 mcg/min fora de UTI; 50 mcg/min em UTI.",
+          "Pode ser usada em choque distributivo, obstrutivo, indiferenciado ou combinado quando indicado.",
+          "Em hipovolemia, em geral evitar (corrigir volume primeiro).",
+          "Inicial: 0,05 a 0,15 mcg/kg/min.",
+          "Faixa usual: 0,025 a 1 mcg/kg/min.",
+          "Raramente, em choque refratário: até 1 a ~3 mcg/kg/min.",
+          "Inicial: 5 a 15 mcg/min.",
+          "Faixa usual: 2 a 80 mcg/min.",
+          "Raramente, em choque refratário: 80 a 250 mcg/min.",
+          "Inicial: 0,05 mcg/kg/min.",
+          "Faixa usual: 0,05 a 0,4 mcg/kg/min.",
+          "Inicial: 5 mcg/min.",
+          "Faixa usual: 5 a 30 mcg/min.",
+          "Em geral, titular para MAP 65 mmHg e PAS 80–100 mmHg (otimizar perfusão cerebral e de órgãos).",
+          "Inicial: 0,05 a 0,15 mcg/kg/min.",
+          "Faixa usual: 0,01 a 1 mcg/kg/min.",
+          "Inicial: 5 a 15 mcg/min.",
+          "Faixa usual: 0,5 a 80 mcg/min.",
+          "Em geral, titular para MAP-alvo ~65 mmHg; considerar se houver hipoperfusão durante/após reposição volêmica.",
+          "Inicial: 0,05 a 0,15 mcg/kg/min.",
+          "Faixa usual: 0,025 a 1 mcg/kg/min.",
+          "Inicial: 5 a 15 mcg/min.",
+          "Faixa usual: 2 a 80 mcg/min."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/pesoHipotensão/choque resistente a fluidos",
+        "bullets": [
+          "Lactentes, crianças e adolescentes: infusão contínua IV ou intraóssea",
+          "Inicial: 0,05 a 0,1 mcg/kg/min; titular conforme efeito.",
+          "Máximo usual: 2 mcg/kg/min (doses maiores foram relatadas)."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidades",
+        "bullets": [
+          "Dose específica neonatal (mcg/kg/min) não foi fornecida nos dados de posologia acima.",
+          "Concentrações recomendadas para neonatos (preparo): há recomendação de concentração padrão 4 mcg/mL ou 16 mcg/mL para neonatos."
+        ]
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)",
+        "paragraphs": [
+          "Diluição (adultos): diluir com D5W, D5NS ou NS (o fabricante não recomenda NS, mas há estabilidade demonstrada). Concentrações clínicas usuais: 4 a 64 mcg/mL."
+        ],
+        "bullets": [
+          "Administração: infusão contínua IV por bomba; frascos devem ser diluídos antes do uso; existem soluções prontas.",
+          "Acesso: central preferencial; se não disponível, pode usar periférico por curto período (<72 h) em veia grande e sítio proximal (ex.: fossa antecubital ou proximal), com monitorização frequente para extravasamento.",
+          "Evitar soluções alcalinas na mesma linha (ex.: bicarbonato de sódio).",
+          "Retirada: evitar interrupção abrupta; reduzir fluxo lentamente.",
+          "Ajustes de dose7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+          "Qualquer grau de insuficiência renal: sem ajuste (pequena fração excretada inalterada).",
+          "Augmented renal clearance (CrCl urinário medido ≥130 mL/min/1,73 m²): sem ajuste.",
+          "Hemodiálise intermitente: provável dialisável, mas sem dose suplementar/sem ajuste, pois a dose é titulada por alvo clínico.",
+          "Diálise peritoneal: sem ajuste.",
+          "CRRT: improvável ser significativamente dialisável — sem ajuste.",
+          "PIRRT: sem ajuste."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)Sem ajustes de dose fornecidos na bula."
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)",
+        "bullets": [
+          "Se a instituição usa dose por peso, usar peso ideal para cálculo inicial e depois titular por efeito hemodinâmico.",
+          "Se usa dose não baseada em peso, manter essa estratégia.",
+          "Durante a terapia, evitar alternar entre métricas de peso (ex.: peso ideal ↔ peso atual) ou alternar entre esquema por peso e não por peso."
+        ]
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)Referir à posologia de adultos.",
+        "bullets": [
+          "Administração e compatibilidades8.1 Com ou sem alimentosNão se aplica (uso IV)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)Não se aplica."
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)Concentrações usuais de infusão — Adultos (exemplos prontos):",
+        "paragraphs": [
+          "Preparo — Adultos:",
+          "Pediatria (preparo):"
+        ],
+        "bullets": [
+          "4 mg/250 mL = 16 mcg/mL.",
+          "8 mg/250 mL = 32 mcg/mL.",
+          "16 mg/250 mL = 64 mcg/mL.",
+          "32 mg/250 mL = 128 mcg/mL.",
+          "Diluir frascos com D5W, D5NS ou NS; concentrações 4 a 64 mcg/mL podem ser usadas na prática clínica.",
+          "Para neonatos: concentração padrão recomendada 4 mcg/mL ou 16 mcg/mL.",
+          "Para pediatria: concentrações padrão 16 mcg/mL, 32 mcg/mL e 64 mcg/mL.",
+          "Efeitos adversos9.1 Comuns (≥1%)Não informado (as frequências não foram definidas nos dados fornecidos)."
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Isquemia periférica e gangrena periférica (pós-marketing/relatos), incluindo isquemia digital.",
+          "Arritmias, bradicardia, insuficiência vascular periférica.",
+          "Necrose/lesão grave por extravasamento (vesicante).",
+          "Cardiomiopatia por estresse (relatada)."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Extravasamento com dor intensa, queimação, edema e sinais de isquemia local (risco de necrose).",
+          "Sinais de isquemia periférica importante (ex.: extremidades frias, cianose/escurecimento progressivo, dor intensa).",
+          "Arritmias graves ou deterioração hemodinâmica atribuída ao fármaco (conduta conforme contexto clínico).",
+          "Contraindicações",
+          "Bula EUA: não há contraindicações listadas.",
+          "Rotulagem canadense:",
+          "Hipotensão por hipovolemia, exceto como medida emergencial para manter perfusão coronariana/cerebral até reposição de volume.",
+          "Trombose mesentérica ou vascular periférica, exceto se procedimento salvador de vida.",
+          "Durante anestesia com ciclopropano ou halotano.",
+          "Advertências e precauções11.1 Populações especiais",
+          "Hipovolemia: corrigir antes de iniciar; risco de vasoconstrição periférica/visceral intensa, hipoperfusão renal, acidose lática e hipóxia tecidual.",
+          "Hipóxia/hipercarbia profundas: pode precipitar taquicardia ventricular ou fibrilação ventricular; usar com extrema cautela.",
+          "Asma/alergia a sulfito: algumas formulações contêm metabissulfito de sódio; podem ocorrer reações alérgicas, incluindo anafilaxia e broncoespasmo grave."
+        ]
+      },
+      {
+        "title": "11.2 Riscos relevantes",
+        "bullets": [
+          "Extravasamento (vesicante): evitar; preferir veia calibrosa; evitar veias de perna; monitorar sítio IV de perto.",
+          "Suspensão abrupta: pode causar hipotensão grave; reduzir gradualmente, idealmente com expansão de volume IV.",
+          "Uso apropriado: assegurar volume circulante adequado; evitar hipertensão; monitorar PA e ajustar infusão; evitar em trombose mesentérica/periférica (pode aumentar isquemia e estender área de infarto).",
+          "Interações medicamentosas12.1 Interações clinicamente relevantes",
+          "Existem interações significativas que podem exigir ajuste/evitar. Exemplos listados:",
+          "Ergot derivados vasoconstritores (substratos CYP3A4): evitar (Risk X).",
+          "Hexoprenalina: evitar (Risk X).",
+          "Kratom: evitar (Risk X).",
+          "Linezolida: pode aumentar efeito hipertensivo; considerar reduzir dose inicial de simpatomimético e monitorar PA.",
+          "IMAO: pode aumentar efeito hipertensivo.",
+          "SNRIs / tricíclicos: podem aumentar efeitos simpaticomiméticos/pressor; evitar se possível e monitorar; considerar reduzir dose inicial do agonista.",
+          "Anestésicos inalatórios: pode aumentar risco de arritmias (monitorar).",
+          "Cocaína tópica / bromocriptina / lisurida: risco de hipertensão importante (preferir alternativas quando possível e monitorar).",
+          "Vasopressina: pode aumentar efeitos hipertensivos (monitorar)."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Evitar combinações classificadas como Risk X.",
+          "Em interações de risco moderado a alto, monitorar PA/FC e considerar redução de dose inicial do simpatomimético e/ou modificação de terapia conforme necessidade.",
+          "Gestação e lactação13.1 Gestação (segurança, quando usar/evitar)A norepinefrina é uma catecolamina endógena e atravessa a placenta. Em parada cardíaca na gestação, medicamentos seguem as mesmas diretrizes de ACLS da não gestante; no pós-ressuscitação, pode ser considerada, ponderando efeitos fetais de fármacos vasoativos."
+        ]
+      },
+      {
+        "title": "13.2 Lactação (excreção no leite, efeitos no lactente, monitorização)Não se sabe se está presente no leite materno. O fabricante recomenda cautela ao administrar em lactantes.",
+        "bullets": [
+          "Farmacocinética / Farmacodinâmica14.1 Absorção, distribuição, metabolismo, eliminação",
+          "Início de ação: muito rápido.",
+          "Distribuição: Vd 8,8 L; ligação proteica ~25% (principalmente albumina).",
+          "Metabolismo: por COMT e MAO.",
+          "Eliminação: urina (metabólitos inativos; pequenas quantidades inalteradas)."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Duração (vasopressor): 1 a 2 minutos.",
+          "Meia-vida: média ~2,4 minutos.",
+          "Tempo para steady state: ~5 minutos.",
+          "Vd: 8,8 L.",
+          "Ligação proteica: ~25%."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)Não aplicável.",
+        "bullets": [
+          "Monitorização15.1 O que monitorar e com que frequência",
+          "Hemodinâmica: PA, FC, SVR (quando disponível).",
+          "Perfusão e função de órgãos-alvo: sinais clínicos de perfusão, diurese, lactato conforme protocolo local.",
+          "Perfusão periférica e sítio de infusão (extravasamento/isquemia).",
+          "Seguir políticas e protocolos institucionais."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Resposta: melhora de MAP/PA e perfusão de órgãos, redução de hipoperfusão.",
+          "Falha/limitação: necessidade de doses progressivamente maiores sem melhora, ou eventos limitantes (ex.: isquemia periférica, arritmias, extravasamento).",
+          "Segurança e gestão de eventos16.1 Conduta em alergia/anafilaxiaNão detalhado nos dados fornecidos (manter conduta institucional para reações alérgicas; atenção especial a formulações com sulfito)."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreiaNão aplicável / não informado."
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)Não aplicável / não informado.",
+        "paragraphs": [
+          "Gestão de extravasamento (vesicante)"
+        ],
+        "bullets": [
+          "Parar infusão imediatamente; manter cânula/agulha temporariamente e não flushar; aspirar suavemente o extravasado; remover cânula/agulha; elevar membro; compressas secas e mornas; iniciar antídoto.",
+          "Fentolamina (preferencial): 5 a 10 mg diluídos em 10 mL de SF 0,9% e infiltrar no local o mais rápido possível; se o cateter infiltrado não foi removido, pode administrar dose inicial por ele; pode repetir em 60 min se sintomas persistirem.",
+          "Alternativas:",
+          "Nitroglicerina tópica 2%: aplicar faixa de 1 polegada no local de isquemia; pode repetir a cada 8 h.",
+          "Terbutalina: extravasamento grande: 1 mg em 10 mL de SF 0,9% infiltrado; repetir em 15 min. Extravasamento pequeno: 0,5 mg (1 mg em 1 mL) infiltrado; repetir em 15 min.",
+          "Notas práticas17.1 Erros comuns de prescrição",
+          "Confusão de nome: Levophed pode ser confundido com levofloxacino.",
+          "Atenção à expressão em norepinefrina base (mesmo quando o rótulo menciona bitartrato).",
+          "Cálculo da taxa: em pediatria, usar fórmula mL/h = dose (mcg/kg/min) × peso (kg) × 60 / concentração (mcg/mL).",
+          "Evitar administrar soluções alcalinas na mesma linha (inativação)."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao pacienteSinais de alerta incluem cefaleia intensa, tontura/síncope, alterações visuais, bradicardia, arritmias, ansiedade, dispneia, ganho de peso importante/edema, e dor/queimação/inchaço no sítio de infusão (possível extravasamento), além de sinais de reação alérgica."
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Norepinephrine (noradrenaline): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 05 mar. 2026."
+        ],
+        "bullets": [
+          "Preferir acesso central; se periférico, usar veia grande e proximal, com vigilância frequente.",
+          "Evitar retirada abrupta; reduzir lentamente conforme resposta.",
+          "Titular sempre para alvo clínico e perfusão."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Noradrenalina.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Norepinephrine (noradrenaline): Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 05 mar. 2026."
       }
     ]
   },
@@ -28223,6 +30337,287 @@
       },
       {
         "label": "Vancomycin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 19 fev. 2026."
+      }
+    ]
+  },
+  {
+    "id": "bula-vasopressina",
+    "name": "Vasopressina",
+    "className": "Antimicrobianos",
+    "category": "Uso hospitalar",
+    "summary": "Solução intravenosa (pronta): 20 unidades/100 mL em NaCl 0,9% (100 mL); 40 unidades/100 mL em NaCl 0,9% (100 mL).",
+    "sections": [
+      {
+        "title": "Visão geral",
+        "bullets": [
+          "Identificação1.1 Nome genérico / sinônimosVasopressina (arginina vasopressina; AVP)."
+        ]
+      },
+      {
+        "title": "1.2 Classe farmacológica / ATCAnálogo do hormônio antidiurético (ADH); hormônio da neuro-hipófise (posterior pituitary hormone)."
+      },
+      {
+        "title": "1.3 Apresentações disponíveis (IR/ER, IV/VO, concentrações)",
+        "bullets": [
+          "Solução intravenosa: 20 unidades/mL (frascos de 1 mL e 10 mL).",
+          "Solução intravenosa (pronta): 20 unidades/100 mL em NaCl 0,9% (100 mL); 40 unidades/100 mL em NaCl 0,9% (100 mL).",
+          "Solução intravenosa (sem conservante): Vasostrict 20 unidades/100 mL em Dextrose 5% (100 mL); 40 unidades/100 mL em Dextrose 5% (100 mL).",
+          "Canadá (injeção): 20 unidades/mL (1 mL, 2 mL, 5 mL).",
+          "Introdução e pontos-chave2.1 O que é e para que serve (visão geral)A vasopressina é um hormônio que atua em receptores vasculares e renais, podendo aumentar a pressão arterial por vasoconstrição e reduzir diurese por efeito antidiurético. Em adultos, é usada para aumentar pressão arterial em choque vasodilatatório (ex.: sepse, pós-cardiotomia) quando persiste hipotensão apesar de reposição volêmica e catecolaminas."
+        ]
+      },
+      {
+        "title": "2.2 “Pearls” de prescrição",
+        "bullets": [
+          "Em choque séptico/vasodilatatório, costuma ser usada como adjuvante à norepinefrina, geralmente em dose fixa baixa (ex.: 0,03 unidades/min) para atingir MAP-alvo e/ou reduzir dose de catecolamina.",
+          "Doses >0,04 unidades/min (sepse) devem ficar reservadas para terapia de resgate pelo maior risco de complicações isquêmicas.",
+          "Descontinuação: pode ocorrer hipotensão importante se a vasopressina for suspensa antes da norepinefrina; considerar redução gradual (ex.: -0,01 unidades/min a cada 30–60 min) com monitorização de MAP.",
+          "Atenção máxima à unidade e à forma de prescrição (unidades/min, unidades/h, mU/kg/min, etc.).",
+          "Medicação de alto risco (high-alert): erros de concentração/velocidade podem causar dano significativo.",
+          "Mecanismo de açãoEstimula receptores de vasopressina (V1/AVPR1a, V2/AVPR2 e V3/AVPR1b).",
+          "V1 (vascular): aumenta resistência vascular sistêmica e pressão arterial; pode reduzir frequência cardíaca e débito cardíaco por resposta hemodinâmica.",
+          "V2 (renal): aumenta cAMP e a permeabilidade à água no túbulo renal, reduzindo volume urinário e elevando osmolalidade urinária.",
+          "Em doses pressoras, também pode causar contração de musculatura lisa GI; via V3 pode modular liberação de prolactina e ACTH.",
+          "Espectro / Cobertura (se antimicrobiano, se não, adaptar)Não se aplica (não é antimicrobiano).",
+          "Indicações terapêuticas5.1 Indicações em bula",
+          "Choque vasodilatatório em adultos (ex.: sepse ou pós-cardiotomia) com hipotensão persistente apesar de reposição volêmica e catecolaminas, para aumentar pressão arterial."
+        ]
+      },
+      {
+        "title": "5.2 Off-label comuns (se aplicável)",
+        "paragraphs": [
+          "a) Choque séptico e outros choques vasodilatadores (adjuvante)",
+          "b) Choque pós-cardiotomia",
+          "c) Manejo de doador falecido (terapia hormonal) (off-label)",
+          "d) Diabetes insipidus central (aguda) (off-label)"
+        ],
+        "bullets": [
+          "Manejo de doador falecido (terapia hormonal) em hipotensão apesar de fluidos adequados, FEVE <45%, baixa SVR e/ou diabetes insipidus, como parte de terapia hormonal combinada.",
+          "Diabetes insipidus central agudo (curto prazo, p.ex., pós-cirurgia transesfenoidal; geralmente dias 1 a 4).",
+          "Posologia (Completo)6.1 Adultos — dose usual e por indicação (com duração)",
+          "Infusão contínua IV: 0,03 unidades/min adicionada à norepinefrina como dose fixa (não titulada).",
+          "Faixa usual: 0,01 a 0,04 unidades/min.",
+          ">0,04 unidades/min: reservar para resgate (risco de isquemia cutânea, cardíaca, esplâncnica).",
+          "Descontinuação em sepse: considerar reduzir 0,01 unidades/min a cada 30–60 min para reduzir risco de hipotensão; monitorar MAP.",
+          "Infusão contínua IV: iniciar 0,03 unidades/min.",
+          "Se necessário, titular +0,005 unidades/min a cada 10–15 min (máximo 0,1 unidades/min).",
+          "Após manter PA-alvo por 8 horas sem catecolaminas, reduzir 0,005 unidades/min a cada hora conforme tolerância.",
+          "IV: iniciar 0,01 a 0,04 unidades/min.",
+          "Alternativa descrita por alguns especialistas: bolus de 1 unidade seguido de 0,01 a 0,1 unidades/min, titulando para SVR 800–1.200 dyne•s/cm5 (dose usual 0,01 a 0,04 unidades/min).",
+          "Infusão contínua IV: faixas relatadas variam amplamente; seguir protocolo institucional. Ajustar conforme diurese, com monitorização frequente.",
+          "Subcutânea (off-label): 5 a 10 unidades, 2 a 3 vezes ao dia, se necessário.",
+          "Observação: limitar ao período pós-operatório precoce (p.ex., dias 1 a 4) e usar menor dose eficaz para controlar poliúria (evitar hiponatremia)."
+        ]
+      },
+      {
+        "title": "6.2 Pediatria — dose por faixa etária/peso",
+        "paragraphs": [
+          "a) Diabetes insipidus (IM/SubQ)",
+          "b) Diabetes insipidus central — infusão IV contínua (dados limitados)",
+          "c) Doação de órgãos (terapia hormonal) — infusão IV contínua (dados limitados)",
+          "d) Hemorragia GI (dados limitados) — infusão IV contínua",
+          "e) Choque vasodilatatório refratário (dados limitados; eficácia variável) — infusão IV contínua",
+          "f) Parada cardíaca pediátrica (dados limitados)"
+        ],
+        "bullets": [
+          "Crianças e adolescentes: 2,5 a 10 unidades, 2 a 4 vezes ao dia (titular conforme resposta).",
+          "Lactentes, crianças e adolescentes: iniciar 0,5 mU/kg/h; titular em incrementos de 0,5 mU/kg/h a cada ~10 min para atingir diurese alvo (sugerido <2 mL/kg/h).",
+          "Foram relatadas taxas até 10 mU/kg/h.",
+          "Monitorar: diurese, densidade urinária, Na e eletrólitos, osmolalidade plasmática e urinária, balanço hídrico.",
+          "Lactentes, crianças e adolescentes: iniciar 0,5 a 1 mU/kg/h; titular para manter diurese alvo.",
+          "Estudo retrospectivo: dose média 41 mU/kg/h (faixa 0,2 a 150 mU/kg/h).",
+          "Crianças e adolescentes: iniciar 2 a 5 mU/kg/min; titular conforme necessário; máximo 10 mU/kg/min.",
+          "Nota: doses mais altas não se associaram a maior eficácia e aumentaram risco de complicações.",
+          "Lactentes, crianças e adolescentes: 0,17 a 8 mU/kg/min (0,01 a 0,48 unidades/kg/h) foi utilizado.",
+          "Ensaio duplo-cego: 0,5 a 2 mU/kg/min (0,03 a 0,12 unidades/kg/h), sem diferença no tempo para estabilidade e com tendência a maior mortalidade; autores não recomendaram uso rotineiro.",
+          "Descontinuação: evitar suspensão abrupta; fazer redução gradual para reduzir risco de hipotensão.",
+          "Lactentes, crianças e adolescentes: IV 0,4 unidades/kg em dose única após métodos tradicionais e após pelo menos 2 doses de epinefrina.",
+          "Nota: evidência insuficiente; sem recomendação formal a favor/contra uso rotineiro."
+        ]
+      },
+      {
+        "title": "6.3 Neonatologia — dose e particularidadesNão informado nos dados fornecidos."
+      },
+      {
+        "title": "6.4 Via IV/IM/VO — preparo e tempo de infusão (se aplicável)",
+        "bullets": [
+          "VO: não se aplica (destruída no trato GI; deve ser parenteral).",
+          "Infusão IV contínua: diluir frascos de 1 mL e 10 mL antes de administrar; bolsas prontas (20 ou 40 unidades/100 mL) podem dispensar diluição e são de uso único. Preferir via central.",
+          "Subcutânea (off-label): administrar sem diluição adicional.",
+          "Vesicante: garantir acesso adequado e evitar extravasamento.",
+          "Ajustes de dose7.1 Insuficiência renal (CrCl/GFR; hemodiálise; diálise peritoneal)",
+          "Função renal alterada: IV/SubQ — sem ajuste de dose (excreção urinária limitada de fármaco inalterado).",
+          "Hemodiálise intermitente: improvável ser significativamente dialisável — sem dose suplementar/sem ajuste.",
+          "Diálise peritoneal: improvável ser significativamente dialisável — sem ajuste.",
+          "CRRT: pode haver alguma remoção, significância clínica desconhecida — sem ajuste recomendado.",
+          "PIRRT: dialisabilidade desconhecida — sem ajuste recomendado."
+        ]
+      },
+      {
+        "title": "7.2 Insuficiência hepática (Child-Pugh e condutas)Sem ajustes de dose fornecidos na bula."
+      },
+      {
+        "title": "7.3 Obesidade/bariátrica (se relevante)Não informado nos dados fornecidos."
+      },
+      {
+        "title": "7.4 Idoso / fragilidade (considerações)Referir à posologia de adultos.",
+        "bullets": [
+          "Administração e compatibilidades8.1 Com ou sem alimentosNão se aplica (uso parenteral)."
+        ]
+      },
+      {
+        "title": "8.2 Interações com dieta/enteral (sonda)Não se aplica."
+      },
+      {
+        "title": "8.3 Estabilidade / compatibilidade IV (se aplicável)Concentrações usuais de infusão — Adultos",
+        "paragraphs": [
+          "Preparo (exemplos) — Adultos",
+          "Concentrações usuais — Pediatria"
+        ],
+        "bullets": [
+          "0,1 unidade/mL: 50 unidades em 500 mL (SF 0,9% ou SG 5%).",
+          "1 unidade/mL: 100 unidades em 100 mL (SF 0,9% ou SG 5%).",
+          "0,1 unidade/mL: diluir 50 unidades (2,5 mL) em 500 mL de SF 0,9% ou SG 5%.",
+          "0,2 unidade/mL: diluir 20 unidades (1 mL) em 100 mL de SG 5%.",
+          "0,4 unidade/mL: diluir 40 unidades (2 mL) em 100 mL de SF 0,9%.",
+          "Restrição hídrica (1 unidade/mL): diluir 100 unidades (5 mL) em 100 mL de SF 0,9% ou SG 5%.",
+          "0,04 unidade/mL, 0,2 unidade/mL ou 1 unidade/mL.",
+          "Diluir em SF 0,9% ou SG 5% para concentração final 0,1 a 1 unidade/mL (há descrição de solução mais diluída, 0,04 unidade/mL, em ensaio pediátrico com doses mais baixas).",
+          "Efeitos adversos9.1 Comuns (≥1%)Não definido nos dados fornecidos (frequência não definida)."
+        ]
+      },
+      {
+        "title": "9.2 Importantes/graves (raros, mas críticos)",
+        "bullets": [
+          "Isquemia (ex.: isquemia de membros/distal, isquemia mesentérica, lesões cutâneas isquêmicas).",
+          "Arritmias (ex.: fibrilação atrial, bradicardia).",
+          "Baixo débito cardíaco, isquemia cardíaca.",
+          "Hiponatremia / intoxicação hídrica.",
+          "Necrose tecidual por extravasamento (vesicante) e risco de gangrena (extremidades, língua) / colite isquêmica.",
+          "Insuficiência renal (relatada).",
+          "Trombocitopenia e hemorragia (intratável) (relatadas).",
+          "Aumento de bilirrubina (relatado)."
+        ]
+      },
+      {
+        "title": "9.3 Eventos que exigem suspensão imediata",
+        "bullets": [
+          "Suspeita de isquemia grave (pele/extremidades/abdome), lesões cutâneas progressivas, dor abdominal intensa sugestiva de isquemia mesentérica.",
+          "Extravasamento com sinais de vasoconstrição importante/necrose local.",
+          "Reação de hipersensibilidade (alérgica) relevante.",
+          "Contraindicações",
+          "Hipersensibilidade à vasopressina ou a qualquer componente da formulação.",
+          "Hipersensibilidade ao clorobutanol (apenas formulações que contenham clorobutanol).",
+          "Rotulagem canadense (adicionais): doença cardiorrenal com hipertensão; aterosclerose avançada; trombose coronariana; angina; nefrite crônica com retenção nitrogenada; epilepsia ou toxemia da gravidez.",
+          "Advertências e precauções11.1 Populações especiais",
+          "Doença cardiovascular/aterosclerose: usar com cautela; pode piorar débito cardíaco e risco isquêmico.",
+          "Doença vascular periférica: cautela (risco de isquemia).",
+          "Insuficiência renal: cautela (doença renal).",
+          "História de enxaqueca: cautela.",
+          "Pediatria: risco de hiponatremia pode ser relevante e variar conforme indicação; monitorar Na, balanço hídrico e diurese de perto."
+        ]
+      },
+      {
+        "title": "11.2 Riscos relevantes",
+        "bullets": [
+          "Diabetes insipidus reversível após suspensão: pode ocorrer poliúria, urina diluída, hipernatremia; monitorar eletrólitos e diurese após interromper; pode precisar readministrar vasopressina (ou desmopressina).",
+          "Extravasamento (vesicante): risco de vasoconstrição intensa e necrose local; evitar extravasamento.",
+          "Intoxicação hídrica/hiponatremia: sinais precoces incluem sonolência, apatia e cefaleia; risco de progressão para coma/convulsões se não reconhecido.",
+          "Interações medicamentosas12.1 Interações clinicamente relevantes",
+          "Agonistas alfa/beta adrenérgicos (diretos): pode aumentar efeito hipertensivo da vasopressina.",
+          "Agentes que causam bradicardia: pode aumentar risco de bradicardia (monitorar).",
+          "Indometacina (sistêmica): pode aumentar efeitos hemodinâmicos da vasopressina (ex.: RVS/índice cardíaco).",
+          "Fármacos suspeitos de causar diabetes insipidus: podem reduzir efeito terapêutico da vasopressina.",
+          "Fármacos suspeitos de causar SIADH: podem aumentar efeitos pressor/antidiurético da vasopressina.",
+          "Combinações com alguns fármacos específicos:",
+          "Ceritinibe: aumentar bradicardia (considerar modificação/monitorização).",
+          "Fexinidazol + agentes que causam bradicardia: evitar (Risk X).",
+          "Landiolol + agentes que causam bradicardia: evitar (Risk X).",
+          "Fingolimode / ponesimode / siponimode / ozanimode: risco de bradicardia com agentes bradicardizantes (pode exigir monitorização/ajustes)."
+        ]
+      },
+      {
+        "title": "12.2 Condutas (evitar/ajustar/monitorar)",
+        "bullets": [
+          "Monitorar PA/FC ao associar com agentes hipertensores ou bradicardizantes.",
+          "Evitar combinações listadas como Risk X.",
+          "Considerar modificação de terapia quando classificada como Risk D (ex.: necessidade de monitorização intensiva, ajuste, troca do agente).",
+          "Gestação e lactação13.1 Gestação (segurança, quando usar/evitar)A vasopressina pode produzir contrações uterinas tônicas. Mudanças fisiológicas da gestação podem aumentar a depuração (2º e 3º trimestres), podendo requerer ajuste; depuração retorna ao normal em até 2 semanas pós-parto."
+        ]
+      },
+      {
+        "title": "13.2 Lactação (excreção no leite, efeitos no lactente, monitorização)Não se sabe se a vasopressina está presente no leite materno.",
+        "bullets": [
+          "Farmacocinética / Farmacodinâmica14.1 Absorção, distribuição, metabolismo, eliminação",
+          "Absorção: não absorvida por via GI; destruída por tripsina; administração parenteral.",
+          "Distribuição: Vd 140 mL/kg; ligação proteica: nenhuma.",
+          "Metabolismo: hepático e renal (metabólitos inativos).",
+          "Excreção: urina (SubQ ~5% inalterada após 4 h; IV ~6% inalterada)."
+        ]
+      },
+      {
+        "title": "14.2 Parâmetros PK (t½, Tmax, Vd, ligação proteica)",
+        "bullets": [
+          "Início de ação (vasopressor, IV): rápido, com pico em ~15 min após início da infusão.",
+          "Pico efeito antidiurético: 1 a 2 horas.",
+          "Duração: SubQ (antidiurético) 2 a 8 h; IV (vasopressor) efeito desaparece em até 20 min após interromper infusão.",
+          "Meia-vida: 10 a 20 min (meia-vida aparente ≤10 min).",
+          "Vd: 140 mL/kg.",
+          "Ligação proteica: nenhuma."
+        ]
+      },
+      {
+        "title": "14.3 Alvos PK/PD (quando aplicável)Não aplicável.",
+        "bullets": [
+          "Monitorização15.1 O que monitorar e com que frequência",
+          "Durante terapia: Na sérico e urinário, densidade urinária, osmolalidade sérica e urinária, diurese, balanço hídrico, PA, FC, inspeção do sítio de infusão (palidez/extravasamento/ischemia distal).",
+          "Após descontinuação: eletrólitos, balanço hídrico e diurese (avaliar diabetes insipidus reversível)."
+        ]
+      },
+      {
+        "title": "15.2 Critérios de resposta / falha terapêutica",
+        "bullets": [
+          "Resposta: melhora de MAP/PA, redução de necessidade de catecolaminas, melhora de perfusão/diurese conforme contexto clínico.",
+          "Falha/limitação: necessidade de escalonamento persistente, sinais de hipoperfusão contínua, ou ocorrência de eventos limitantes (ex.: isquemia, hiponatremia, extravasamento).",
+          "Segurança e gestão de eventos16.1 Conduta em extravasamento (vesicante)",
+          "Parar infusão imediatamente; manter cânula/agulha temporariamente, não flushar; aspirar suavemente o máximo possível do extravasado; remover cânula/agulha; elevar membro; aplicar compressas secas e mornas.",
+          "Antídotos/opções descritas:",
+          "Nitroglicerina tópica 2%: aplicar 1 polegada de pomada no local de isquemia cobrindo área afetada; pode repetir a cada 8 horas conforme necessário.",
+          "Alternativas: fentolamina (5–10 mg diluídos em 10 mL SF 0,9% infiltrados no local) ou terbutalina (protocolos de infiltração para extravasamentos grandes/pequenos)."
+        ]
+      },
+      {
+        "title": "16.2 Conduta em diarreiaNão aplicável / não informado."
+      },
+      {
+        "title": "16.3 Conduta em hepatotoxicidade (se aplicável)Não informado.",
+        "bullets": [
+          "Notas práticas17.1 Erros comuns de prescrição",
+          "Confusão de nomes: PIT/Pitressin (nome antigo) pode ser confundido com Pitocin.",
+          "Vasopressina pode ser confundida com desmopressina.",
+          "Erros de concentração e unidades (unidades/min vs unidades/h; mU/kg/min vs mU/kg/h)."
+        ]
+      },
+      {
+        "title": "17.2 Dicas de orientação ao pacienteQuando aplicável (informação geral de aconselhamento): sinais de alerta incluem hiponatremia (cefaleia, confusão, fraqueza, convulsões), dor torácica, arritmias, dor abdominal intensa, mudança de cor da pele (escurecimento/arroxeamento), feridas cutâneas, inchaço/ganho de peso, redução da diurese, e sinais de reação alérgica."
+      },
+      {
+        "title": "17.3 Observações institucionais (protocolos locais)",
+        "paragraphs": [
+          "Referência: Vasopressin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 05 mar. 2026."
+        ],
+        "bullets": [
+          "Em infusão contínua, preferir acesso central.",
+          "Evitar suspensão abrupta (especialmente em choque) e planejar taper conforme resposta hemodinâmica."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Fonte interna: Vasopressina.docx (Biblioteca)."
+      },
+      {
+        "label": "Referência: Vasopressin: Drug information. In: UpToDate, Post, TW (Ed), UpToDate, Waltham, MA. Acesso em: 05 mar. 2026."
       }
     ]
   },
