@@ -73,6 +73,21 @@ export default function Page() {
         </Link>
 
         <Link
+          href="/ferramentas/correcao-calcio-albumina"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#1f2937",
+              "--card-to": "#ef4444",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Calculadora</span>
+          <h3>Correção do cálcio</h3>
+          <p>Corrija o cálcio total pela albumina com interpretação rápida.</p>
+        </Link>
+
+        <Link
           href="/ferramentas/espectro-antimicrobianos"
           className="tool-card"
           style={

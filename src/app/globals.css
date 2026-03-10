@@ -1260,6 +1260,94 @@ a{color:inherit;text-decoration:none}
   line-height:1.55;
 }
 
+.calcio-tool{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.calcio-card{
+  border:1px solid rgba(11,20,34,.12);
+  border-radius:16px;
+  padding:20px;
+  background:#fff;
+  box-shadow:0 16px 32px rgba(15,23,42,.08);
+}
+
+.calcio-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+}
+
+.calcio-field{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.calcio-field label{
+  font-size:14px;
+  font-weight:700;
+  color:#0b1422;
+}
+
+.calcio-field input{
+  border:1px solid rgba(11,20,34,.12);
+  border-radius:14px;
+  padding:14px 16px;
+  font-size:15px;
+  color:#0b1422;
+  background:#fff;
+}
+
+.calcio-help{
+  margin:16px 0 0;
+  font-size:14px;
+  line-height:1.65;
+  color:rgba(11,20,34,.65);
+}
+
+.calcio-results{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+  margin-top:20px;
+}
+
+.calcio-result{
+  border:1px solid rgba(11,20,34,.1);
+  border-radius:16px;
+  padding:16px;
+  background:#f8fafc;
+}
+
+.calcio-result--primary{
+  border-color:rgba(239,68,68,.18);
+  background:linear-gradient(135deg,#fff7ed,#fee2e2);
+}
+
+.calcio-result h4{
+  margin:0 0 8px;
+  font-size:14px;
+  font-weight:800;
+  color:#0b1422;
+}
+
+.calcio-result p{
+  margin:0;
+  font-size:24px;
+  font-weight:800;
+  color:#0b1422;
+}
+
+.calcio-disclaimer{
+  margin:0;
+  font-size:14px;
+  line-height:1.65;
+  color:rgba(11,20,34,.65);
+}
+
 @media (max-width: 900px){
   .diluicao-tool{
     grid-template-columns:1fr;
@@ -1267,6 +1355,11 @@ a{color:inherit;text-decoration:none}
 
   .diluicao-sidebar{
     max-height:none;
+  }
+
+  .calcio-grid,
+  .calcio-results{
+    grid-template-columns:1fr;
   }
 }
 
