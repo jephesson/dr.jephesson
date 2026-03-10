@@ -4,6 +4,24 @@ import { useMemo, useState } from "react";
 
 type TabKey = "vale" | "auc";
 type ClockValue = { hour: string; minute: string };
+type AucResult =
+  | {
+      kind: "error";
+      message: string;
+    }
+  | {
+      kind: "result";
+      k: number;
+      halfLife: number;
+      cMax: number;
+      cMin: number;
+      aucInf: number;
+      aucElim: number;
+      auc24: number;
+      infusion: number;
+      t1Value: number;
+      t2Value: number;
+    };
 
 function toNumber(value: string): number | null {
   if (!value.trim()) return null;
@@ -94,7 +112,7 @@ export default function VancocinemiaTool() {
     return { newTdd, dosePerAdmin };
   }, [troughMeasured, troughTarget, currentTdd, intervalHours]);
 
-  const aucResult = useMemo(() => {
+  const aucResult = useMemo<AucResult | null>(() => {
     const c1Value = toNumber(c1);
     const c2Value = toNumber(c2);
     const tauValue = toNumber(tau);
@@ -120,26 +138,28 @@ export default function VancocinemiaTool() {
     const t2Value = diffHours(infusionEndMinutes, troughCollectionMinutes);
 
     if (infusion <= 0) {
-      return { error: "O término da infusão deve ocorrer após o início da infusão." };
+      return { kind: "error", message: "O término da infusão deve ocorrer após o início da infusão." };
     }
     if (tauValue <= infusion) {
-      return { error: "O intervalo entre doses deve ser maior que o tempo de infusão." };
+      return { kind: "error", message: "O intervalo entre doses deve ser maior que o tempo de infusão." };
     }
     if (t1Value <= 0) {
-      return { error: "A coleta da C1 deve ocorrer após o término da infusão." };
+      return { kind: "error", message: "A coleta da C1 deve ocorrer após o término da infusão." };
     }
     if (t2Value <= t1Value) {
-      return { error: "O horário do vale deve ser posterior à C1." };
+      return { kind: "error", message: "O horário do vale deve ser posterior à C1." };
     }
     if (t2Value > tauValue - infusion) {
-      return { error: "O vale deve ser coletado antes da próxima dose." };
+      return { kind: "error", message: "O vale deve ser coletado antes da próxima dose." };
     }
     if (c1Value <= c2Value) {
-      return { error: "A concentração pós-infusão deve ser maior que a concentração do vale." };
+      return { kind: "error", message: "A concentração pós-infusão deve ser maior que a concentração do vale." };
     }
 
     const k = Math.log(c1Value / c2Value) / (t2Value - t1Value);
-    if (!Number.isFinite(k) || k <= 0) return { error: "Não foi possível calcular a constante de eliminação." };
+    if (!Number.isFinite(k) || k <= 0) {
+      return { kind: "error", message: "Não foi possível calcular a constante de eliminação." };
+    }
 
     const halfLife = 0.693 / k;
     const cMax = c1Value / Math.exp(-k * t1Value);
@@ -148,7 +168,7 @@ export default function VancocinemiaTool() {
     const aucElim = (cMax - cMin) / k;
     const auc24 = (aucInf + aucElim) * (24 / tauValue);
 
-    return { error: null, k, halfLife, cMax, cMin, aucInf, aucElim, auc24, infusion, t1Value, t2Value };
+    return { kind: "result", k, halfLife, cMax, cMin, aucInf, aucElim, auc24, infusion, t1Value, t2Value };
   }, [c1, c2, tau, infusionStart, infusionEnd, c1Collection, troughCollection]);
 
   return (
@@ -249,7 +269,7 @@ export default function VancocinemiaTool() {
             <ClockSelect label="Horário da coleta do vale" value={troughCollection} onChange={setTroughCollection} />
           </div>
 
-          {aucResult && !aucResult.error ? (
+          {aucResult?.kind === "result" ? (
             <div className="vanco-results">
               <div className="vanco-result vanco-result--primary">
                 <h4>AUC0–24 (mg·h/L)</h4>
@@ -284,8 +304,8 @@ export default function VancocinemiaTool() {
                 <p>{formatNumber(aucResult.cMin, 1)}</p>
               </div>
             </div>
-          ) : aucResult?.error ? (
-            <p className="vanco-error">{aucResult.error}</p>
+          ) : aucResult?.kind === "error" ? (
+            <p className="vanco-error">{aucResult.message}</p>
           ) : (
             <p className="vanco-help">Preencha os campos corretamente para ver os resultados.</p>
           )}
