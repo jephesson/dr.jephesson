@@ -88,6 +88,21 @@ export default function Page() {
         </Link>
 
         <Link
+          href="/ferramentas/sacarato-ferrico"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#3f1d12",
+              "--card-to": "#f59e0b",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Calculadora</span>
+          <h3>Sacarato férrico</h3>
+          <p>Calcule o ferro a repor e o número de ampolas do Sucrofer.</p>
+        </Link>
+
+        <Link
           href="/ferramentas/espectro-antimicrobianos"
           className="tool-card"
           style={
