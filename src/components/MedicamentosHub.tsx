@@ -1841,6 +1841,144 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
     ],
   },
   {
+    id: "enoxaparina",
+    name: "Enoxaparina (Lovenox®, Clexane® e biossimilares)",
+    className: "Anticoagulantes",
+    category: "Farmacologia",
+    summary:
+      "A enoxaparina é uma heparina de baixo peso molecular com ação predominante por potencialização da antitrombina e inibição principalmente do fator Xa.",
+    sections: [
+      {
+        title: "Enoxaparina (Lovenox®, Clexane® e biossimilares): farmacologia completa para uso em site",
+        paragraphs: [
+          "A enoxaparina é uma heparina de baixo peso molecular (HBPM) com ação anticoagulante predominante por potencialização da antitrombina, inibindo principalmente o fator Xa e, em menor grau, a trombina (fator IIa). Na prática, ela é usada tanto para profilaxia quanto para tratamento de eventos tromboembólicos, além de fazer parte do manejo de algumas síndromes coronarianas agudas.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "A enoxaparina foi desenvolvida como uma fração de heparina não fracionada com cadeias menores, buscando manter eficácia antitrombótica com farmacocinética mais previsível e, em geral, menor necessidade de monitorização laboratorial de rotina. Trata-se de uma substância biológica obtida por despolimerização alcalina do éster benzílico da heparina derivada de mucosa intestinal suína.",
+          "Nos Estados Unidos, a formulação de referência é Lovenox®. Na Europa, marcas como Clexane® e biossimilares, como Inhixa®, têm uso amplo. A EMA descreve a enoxaparina como medicamento anticoagulante indicado em diferentes cenários de trombose venosa e arterial.",
+        ],
+      },
+      {
+        title: "Dados da molécula (visão prática)",
+        bullets: [
+          "Nome: enoxaparina sódica.",
+          "Classe: heparina de baixo peso molecular.",
+          "Origem: derivada de heparina de mucosa intestinal suína.",
+          "Peso molecular médio: cerca de 4.500 daltons.",
+          "Concentração comum: 100 mg/mL, com atividade anti-Xa padronizada por referência internacional.",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e prazos",
+        paragraphs: ["A enoxaparina é indicada para:"],
+        bullets: [
+          "Profilaxia de tromboembolismo venoso em pacientes cirúrgicos, especialmente cirurgias ortopédicas e gerais.",
+          "Profilaxia de tromboembolismo venoso em pacientes clínicos acamados por doenças agudas.",
+          "Tratamento de trombose venosa profunda (TVP) com ou sem embolia pulmonar.",
+          "Tratamento de angina instável e IAM sem supra de ST, em associação com aspirina.",
+          "Tratamento de IAM com supra de ST (STEMI), em esquemas específicos.",
+          "Prevenção de coagulação no circuito de hemodiálise.",
+        ],
+      },
+      {
+        title: "2.2 Efeito terapêutico esperado",
+        paragraphs: [
+          "O objetivo clínico da enoxaparina é prevenir a formação de novos trombos e conter a progressão dos já existentes, reduzindo risco de embolia pulmonar, recorrência trombótica e complicações cardiovasculares isquêmicas. Em síndromes coronarianas agudas, o benefício esperado é reduzir eventos trombóticos relacionados à placa aterosclerótica instável.",
+        ],
+      },
+      {
+        title: "2.3 Prazos realistas de efeito",
+        paragraphs: [
+          "O efeito anticoagulante da enoxaparina é relativamente rápido após administração subcutânea, mas o benefício clínico depende do contexto: na profilaxia, ela atua para reduzir risco durante o período de maior vulnerabilidade; no tratamento, o efeito é avaliado por estabilização clínica, ausência de progressão do trombo e prevenção de novos eventos. Em hemodiálise e síndromes coronarianas, o objetivo também é imediato e contextual.",
+        ],
+      },
+      {
+        title: "2.4 Cuidados importantes no uso",
+        bullets: [
+          "Sangramento.",
+          "Função renal, especialmente em depuração de creatinina <30 mL/min.",
+          "Risco de trombocitopenia induzida por heparina (HIT).",
+          "Uso concomitante de outros medicamentos que aumentem sangramento.",
+          "Anestesia raquidiana/peridural, por risco de hematoma espinal ou epidural.",
+        ],
+      },
+      {
+        title: "2.5 Por que a avaliação clínica e o contexto importam",
+        paragraphs: [
+          "A enoxaparina não é dose única para todos. O esquema varia conforme profilaxia versus tratamento, peso corporal, função renal, idade, presença de câncer, gravidez, sangramento ativo e contexto cardiovascular. Em linguagem simples para o site: o remédio é muito eficaz, mas precisa ser usado na dose certa para o objetivo certo, porque dose insuficiente falha e dose excessiva pode sangrar.",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        bullets: [
+          "Potencialização da antitrombina: a enoxaparina liga-se à antitrombina e acelera sua ação inibitória sobre fatores da coagulação, sobretudo o fator Xa.",
+          "Relação anti-Xa / anti-IIa: como HBPM, a enoxaparina tem ação relativamente mais forte contra fator Xa do que contra fator IIa (trombina), o que ajuda a explicar seu perfil farmacológico mais previsível.",
+          "O que ela não faz: a enoxaparina não dissolve trombos já formados como um trombolítico; ela evita expansão do coágulo e reduz a chance de formação de novos eventos.",
+        ],
+      },
+      {
+        title: "4) Alvos relevantes e possível relação clínica",
+        bullets: [
+          "Antitrombina: mediador central da ação da enoxaparina; sem ela, o efeito anticoagulante cai significativamente.",
+          "Fator Xa: principal alvo funcional; sua inibição reduz a geração de trombina e, consequentemente, a formação de fibrina.",
+          "Fator IIa (trombina): também é inibido, mas em menor intensidade que com heparina não fracionada.",
+          "Sistema de coagulação como rede: a consequência clínica não é só mexer num fator isolado, mas reduzir a amplificação da cascata de coagulação em momentos de alto risco trombótico.",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        bullets: [
+          "Absorção: após administração subcutânea, a biodisponibilidade da atividade anti-Xa é alta e previsível, favorecendo uso em dose fixa profilática ou ponderal no tratamento.",
+          "Distribuição: por ser uma molécula grande e fortemente carregada, a distribuição é mais limitada do que a de pequenas moléculas lipofílicas; na prática, o dado mais relevante é a previsibilidade do efeito.",
+          "Metabolismo: sofre metabolismo principalmente por processos de dessulfatação e despolimerização em fragmentos de menor atividade biológica.",
+          "Eliminação: predominantemente renal, tornando a insuficiência renal um ponto crítico de segurança, com risco de acúmulo e sangramento em função renal muito reduzida.",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        bullets: [
+          "Efeitos adversos relevantes: sangramento, anemia, elevação de transaminases, reações no local da injeção e trombocitopenia.",
+          "Sangramento é o principal risco clínico e pode variar de hematomas leves a hemorragias maiores, inclusive retroperitoneais, gastrointestinais e intracranianas em pacientes vulneráveis.",
+          "Trombocitopenia induzida por heparina (HIT): embora menos frequente do que com heparina não fracionada, a enoxaparina pode se associar a HIT, inclusive com complicações trombóticas.",
+          "Hematoma espinal/epidural: a rotulagem da FDA traz alerta importante para pacientes submetidos à anestesia neuroaxial ou punção lombar.",
+          "Também merecem atenção: uso em pacientes com prótese valvar mecânica na gestação, baixo peso corporal, úlcera ativa, AVC hemorrágico prévio, distúrbios graves de hemostasia e troca inadequada entre diferentes heparinas.",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        bullets: [
+          "Antiagregantes e AINEs, como aspirina, clopidogrel e anti-inflamatórios, aumentam o risco de sangramento.",
+          "Associação com outros anticoagulantes ou trombolíticos aumenta o risco hemorrágico e precisa de indicação clara e transição planejada.",
+          "Fármacos que alteram hemostasia, como inibidores de GP IIb/IIIa, dextranas e alguns fitoterápicos, também podem ampliar risco de sangramento.",
+          "Função renal e dose: não é interação medicamentosa clássica, mas é interação clínica decisiva, porque piora da função renal aumenta a exposição ao fármaco.",
+        ],
+      },
+      {
+        title: "8) Resumo em uma frase",
+        paragraphs: [
+          "Enoxaparina é uma heparina de baixo peso molecular que age principalmente pela potencialização da antitrombina e inibição do fator Xa, sendo amplamente usada para prevenção e tratamento de trombose, com eficácia previsível, mas exigindo atenção especial ao risco de sangramento, à função renal, à HIT e aos procedimentos neuroaxiais.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. LOVENOX (enoxaparin sodium) prescribing information. Revised 2021. Disponível em: FDA.",
+      },
+      {
+        label:
+          "EUROPEAN MEDICINES AGENCY. Inhixa (enoxaparin sodium): EPAR. Atualizado em 2025. Disponível em: EMA.",
+      },
+      {
+        label:
+          "DRUGS.COM. Lovenox: package insert / prescribing information / mechanism of action. Atualizado em 2026. Disponível em: Drugs.com.",
+      },
+    ],
+  },
+  {
     id: "escitalopram",
     name: "Escitalopram (Lexapro®, Cipralex®)",
     className: "Antidepressivos",
