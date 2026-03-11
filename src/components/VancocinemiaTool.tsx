@@ -21,6 +21,14 @@ type AucResult =
       infusion: number;
       t1Value: number;
       t2Value: number;
+      status: "below" | "in-range" | "above";
+      doseSuggestion: {
+        currentDoseValue: number;
+        currentDailyDose: number;
+        targetDoseMin: number;
+        targetDoseMid: number;
+        targetDoseMax: number;
+      } | null;
     };
 
 function toNumber(value: string): number | null {
@@ -32,6 +40,10 @@ function toNumber(value: string): number | null {
 
 function formatNumber(value: number, digits = 2): string {
   return value.toFixed(digits).replace(".", ",");
+}
+
+function roundDose(value: number, step = 250): number {
+  return Math.round(value / step) * step;
 }
 
 const HOUR_OPTIONS = Array.from({ length: 24 }, (_, index) => index.toString().padStart(2, "0"));
@@ -95,6 +107,7 @@ export default function VancocinemiaTool() {
 
   const [c1, setC1] = useState("");
   const [c2, setC2] = useState("");
+  const [currentDosePerAdmin, setCurrentDosePerAdmin] = useState("");
   const [infusionStart, setInfusionStart] = useState<ClockValue>(emptyClock());
   const [infusionEnd, setInfusionEnd] = useState<ClockValue>(emptyClock());
   const [c1Collection, setC1Collection] = useState<ClockValue>(emptyClock());
@@ -115,6 +128,7 @@ export default function VancocinemiaTool() {
   const aucResult = useMemo<AucResult | null>(() => {
     const c1Value = toNumber(c1);
     const c2Value = toNumber(c2);
+    const currentDoseValue = toNumber(currentDosePerAdmin);
     const tauValue = toNumber(tau);
     const infusionStartMinutes = clockToMinutes(infusionStart);
     const infusionEndMinutes = clockToMinutes(infusionEnd);
@@ -168,8 +182,34 @@ export default function VancocinemiaTool() {
     const aucElim = (cMax - cMin) / k;
     const auc24 = (aucInf + aucElim) * (24 / tauValue);
 
-    return { kind: "result", k, halfLife, cMax, cMin, aucInf, aucElim, auc24, infusion, t1Value, t2Value };
-  }, [c1, c2, tau, infusionStart, infusionEnd, c1Collection, troughCollection]);
+    const status = auc24 < 400 ? "below" : auc24 > 600 ? "above" : "in-range";
+    const doseSuggestion =
+      currentDoseValue && currentDoseValue > 0
+        ? {
+            currentDoseValue,
+            currentDailyDose: currentDoseValue * (24 / tauValue),
+            targetDoseMin: currentDoseValue * (400 / auc24),
+            targetDoseMid: currentDoseValue * (500 / auc24),
+            targetDoseMax: currentDoseValue * (600 / auc24),
+          }
+        : null;
+
+    return {
+      kind: "result",
+      k,
+      halfLife,
+      cMax,
+      cMin,
+      aucInf,
+      aucElim,
+      auc24,
+      infusion,
+      t1Value,
+      t2Value,
+      status,
+      doseSuggestion,
+    };
+  }, [c1, c2, currentDosePerAdmin, tau, infusionStart, infusionEnd, c1Collection, troughCollection]);
 
   return (
     <div className="vanco-tool">
@@ -260,6 +300,14 @@ export default function VancocinemiaTool() {
               <input value={c2} onChange={(e) => setC2(e.target.value)} placeholder="Ex.: 12" />
             </div>
             <div className="vanco-field">
+              <label>Dose atual por administração (mg)</label>
+              <input
+                value={currentDosePerAdmin}
+                onChange={(e) => setCurrentDosePerAdmin(e.target.value)}
+                placeholder="Ex.: 1000"
+              />
+            </div>
+            <div className="vanco-field">
               <label>Intervalo entre doses (τ) (h)</label>
               <input value={tau} onChange={(e) => setTau(e.target.value)} placeholder="Ex.: 12" />
             </div>
@@ -303,12 +351,47 @@ export default function VancocinemiaTool() {
                 <h4>Cmin verdadeiro (mg/L)</h4>
                 <p>{formatNumber(aucResult.cMin, 1)}</p>
               </div>
+              <div className="vanco-result">
+                <h4>Faixa terapêutica</h4>
+                <p>
+                  {aucResult.status === "in-range"
+                    ? "Dentro da janela 400-600"
+                    : aucResult.status === "below"
+                      ? "Abaixo da janela 400-600"
+                      : "Acima da janela 400-600"}
+                </p>
+              </div>
+              {aucResult.doseSuggestion ? (
+                <>
+                  <div className="vanco-result vanco-result--accent">
+                    <h4>Dose estimada para AUC ~500</h4>
+                    <p>
+                      {formatNumber(roundDose(aucResult.doseSuggestion.targetDoseMid), 0)} mg q
+                      {formatNumber(toNumber(tau) ?? 0, 0)}h
+                    </p>
+                  </div>
+                  <div className="vanco-result">
+                    <h4>Faixa estimada para AUC 400-600</h4>
+                    <p>
+                      {formatNumber(roundDose(aucResult.doseSuggestion.targetDoseMin), 0)}-
+                      {formatNumber(roundDose(aucResult.doseSuggestion.targetDoseMax), 0)} mg q
+                      {formatNumber(toNumber(tau) ?? 0, 0)}h
+                    </p>
+                  </div>
+                </>
+              ) : null}
             </div>
           ) : aucResult?.kind === "error" ? (
             <p className="vanco-error">{aucResult.message}</p>
           ) : (
             <p className="vanco-help">Preencha os campos corretamente para ver os resultados.</p>
           )}
+
+          {aucResult?.kind === "result" && !aucResult.doseSuggestion ? (
+            <p className="vanco-help">
+              Para estimar dose e posologia mantendo o mesmo intervalo, preencha tambem a dose atual por administração.
+            </p>
+          ) : null}
         </div>
       )}
 
