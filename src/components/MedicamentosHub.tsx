@@ -2731,6 +2731,129 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
     references: [],
   },
   {
+    id: "daratumumabe",
+    name: "Daratumumabe (Darzalex®, Darzalex Faspro®)",
+    className: "Imunomoduladores",
+    category: "Farmacologia",
+    summary:
+      "O daratumumabe é um anticorpo monoclonal IgG1k anti-CD38, hoje central no tratamento do mieloma múltiplo e em esquemas específicos da amiloidose AL.",
+    sections: [
+      {
+        title: "Daratumumabe (Darzalex®, Darzalex Faspro®): farmacologia completa para uso em site",
+        paragraphs: [
+          "O daratumumabe é um anticorpo monoclonal IgG1k anti-CD38. Ele atua ligando-se ao antígeno CD38, expresso em altas quantidades nas células do mieloma múltiplo e em outras populações celulares hematológicas, promovendo morte tumoral por mecanismos imunomediados e efeito citotóxico direto. Na prática, é uma terapia-alvo hematológica que se tornou parte central do tratamento do mieloma múltiplo e também da amiloidose AL em esquemas específicos.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "O daratumumabe foi desenvolvido como um anticorpo monoclonal direcionado ao CD38, uma glicoproteína transmembrana envolvida em adesão, sinalização e atividade enzimática, altamente expressa em plasmócitos neoplásicos. Nos EUA, o DARZALEX® intravenoso teve aprovação inicial da FDA em 16/11/2015. Posteriormente, a formulação subcutânea DARZALEX FASPRO® (daratumumabe + hialuronidase-fihj) recebeu aprovação inicial em 2020, ampliando a praticidade de administração.",
+        ],
+      },
+      {
+        title: "Dados da molécula (visão prática)",
+        bullets: [
+          "Nome: daratumumabe.",
+          "Classe: anticorpo monoclonal IgG1k anti-CD38.",
+          "Formulação IV: Darzalex®.",
+          "Formulação SC: Darzalex Faspro® = daratumumabe + hialuronidase-fihj.",
+          "Massa molecular aproximada: ~148 kDa.",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e prazos",
+        paragraphs: [
+          "O DARZALEX FASPRO® está indicado em adultos para mieloma múltiplo em vários esquemas combinados e também como monoterapia em situações específicas; mieloma múltiplo indolente de alto risco; e amiloidose AL em combinação com bortezomibe, ciclofosfamida e dexametasona, com limitação importante em doença cardíaca avançada.",
+          "Na prática europeia, a EMA também descreve uso no mieloma múltiplo recém-diagnosticado e recidivado/refratário em combinações específicas, além de mieloma múltiplo indolente de alto risco e amiloidose sistêmica de cadeia leve recém-diagnosticada.",
+          "O objetivo do daratumumabe não é alívio sintomático imediato, e sim controle da doença hematológica: reduzir carga tumoral e proteína monoclonal, aprofundar resposta hematológica, prolongar tempo livre de progressão e integrar esquemas de primeira linha ou recaída. Na amiloidose AL, busca reduzir a produção de cadeias leves patológicas.",
+          "As respostas podem começar a aparecer ao longo das primeiras semanas ou ciclos, mas a avaliação clínica real depende do esquema usado, da linha de tratamento, da carga tumoral e dos critérios hematológicos de resposta.",
+        ],
+        bullets: [
+          "Atenção inicial a reações relacionadas à administração.",
+          "Risco de infecções, inclusive graves ou fatais.",
+          "Neutropenia e trombocitopenia, especialmente em associação com outros antineoplásicos.",
+          "Interferência em testes de compatibilidade sanguínea e em métodos de monitorização laboratorial do mieloma.",
+          "Risco de reativação de hepatite B e toxicidade fetal.",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "O CD38 é uma glicoproteína transmembrana presente em células hematopoéticas e superexpressa em células do mieloma. O daratumumabe se liga a esse alvo e passa a induzir eliminação das células tumorais.",
+          "A bula descreve que o daratumumabe inibe o crescimento de células CD38+ por apoptose direta por cross-linking mediado por Fc, citotoxicidade dependente de complemento (CDC), citotoxicidade celular dependente de anticorpo (ADCC) e fagocitose celular dependente de anticorpo (ADCP).",
+          "Além da ação direta sobre a célula tumoral, o tratamento reduz subpopulações imunorregulatórias associadas ao microambiente tumoral, como MDSCs CD38+, Tregs CD38+ e Bregs CD38+, o que ajuda a explicar seu efeito imunomodulador em rede.",
+        ],
+      },
+      {
+        title: "4) Alvos relevantes e possível relação clínica",
+        bullets: [
+          "CD38: alvo central do daratumumabe; altamente expresso no mieloma múltiplo e relevante também na amiloidose AL.",
+          "Complemento e efetores imunes: a ligação ao CD38 ativa vias de lise tumoral mediadas pelo sistema imune.",
+          "Células NK: também expressam CD38 e podem ser afetadas pelo tratamento.",
+          "Hialuronidase (na formulação SC): não tem ação antitumoral própria; sua função é aumentar temporariamente a permeabilidade do tecido subcutâneo e facilitar a administração do daratumumabe.",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        paragraphs: [
+          "Na formulação subcutânea, o daratumumabe é administrado no abdome em cerca de 3 a 5 minutos, em dose fixa de 1.800 mg/30.000 unidades, com cronograma variável conforme indicação e esquema.",
+          "Como anticorpo monoclonal, o daratumumabe segue comportamento farmacocinético típico de proteínas terapêuticas grandes, com disposição predominantemente em compartimentos vasculares e intersticiais, sem a mesma lógica de distribuição e ligação proteica utilizada para pequenas moléculas.",
+          "Não é metabolizado por CYPs como um fármaco pequeno. Em geral, anticorpos monoclonais sofrem degradação proteolítica em peptídeos menores e aminoácidos.",
+          "Na formulação IV, a bula descreve depuração linear média estimada de 171,4 mL/dia e meia-vida terminal média de aproximadamente 18 ± 9 dias. Na formulação SC, a meia-vida média estimada é de cerca de 20 dias em mieloma múltiplo e 28 dias em amiloidose AL.",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        bullets: [
+          "Reações comuns: infecção do trato respiratório superior, neutropenia, trombocitopenia, fadiga, diarreia, constipação, náusea, tosse, febre, dispneia, edema periférico e, em alguns esquemas, neuropatia periférica sensitiva.",
+          "Reações relacionadas à administração: na formulação IV predominam reações infusionais; na formulação SC há reações sistêmicas e locais. A bula recomenda pré-medicação com corticosteroide, antipirético e anti-H1, além de pós-medicação em cenários específicos.",
+          "Infecções: pode haver infecções graves e fatais; pneumonia é uma das complicações relevantes descritas nos estudos.",
+          "Toxicidade hematológica: pode aumentar ou agravar neutropenia e trombocitopenia, sobretudo no contexto do esquema combinado.",
+          "Reativação de hepatite B: descrita em menos de 1% dos pacientes, inclusive com casos fatais.",
+          "Interferência em testes pré-transfusionais: o daratumumabe liga-se ao CD38 em hemácias e pode interferir em triagem de anticorpos e crossmatch.",
+          "Interferência na avaliação de resposta: por ser um anticorpo IgG kappa, pode aparecer em SPE/IFE e dificultar a interpretação de resposta completa em pacientes com mieloma IgG kappa.",
+          "Toxicidade fetal: pode causar dano fetal; contracepção é recomendada durante o tratamento e por período após a última dose.",
+          "Amiloidose AL com acometimento cardíaco avançado: a rotulagem da formulação SC traz limitação importante fora de ensaios clínicos.",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        paragraphs: [
+          "Diferente de muitos fármacos orais, o daratumumabe não tem como ponto dominante um perfil clássico de interação por CYP. As interações mais relevantes são clínico-laboratoriais.",
+        ],
+        bullets: [
+          "Interferência em testes de banco de sangue: pode interferir em triagem de anticorpos, teste indireto da antiglobulina e crossmatch; por isso, é essencial tipar e rastrear antes do início e avisar o banco de sangue de que o paciente usa ou usou daratumumabe.",
+          "Interferência na monitorização do mieloma: pode interferir em SPE/IFE, especialmente em mieloma com componente IgG kappa, dificultando a distinção entre proteína monoclonal da doença e o anticorpo terapêutico.",
+          "Interações do esquema combinado: na prática, boa parte do risco vem do protocolo associado — corticosteroides, imunomoduladores, inibidores de proteassoma e alquilantes — com impacto infeccioso, hematológico, neurológico ou trombótico que deve ser analisado no conjunto.",
+        ],
+      },
+      {
+        title: "8) Resumo em uma frase",
+        paragraphs: [
+          "Daratumumabe é um anticorpo monoclonal anti-CD38 que promove morte de células tumorais por mecanismos diretos e imunomediados, sendo hoje terapia-chave no mieloma múltiplo e em contextos específicos da amiloidose AL, com atenção especial para reações de administração, infecções, citopenias e interferência em testes transfusionais e laboratoriais.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label: "UNITED STATES. Food and Drug Administration. DARZALEX (daratumumab) prescribing information. Revised 2025.",
+      },
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. DARZALEX FASPRO (daratumumab and hyaluronidase-fihj) prescribing information. Revised 2025.",
+      },
+      {
+        label: "UNITED STATES. Food and Drug Administration. Daratumumab (DARZALEX) approval letter. 16 nov. 2015.",
+      },
+      {
+        label: "EUROPEAN MEDICINES AGENCY. Darzalex: EPAR – medicine overview. Atualizado em 2025/2026.",
+      },
+      {
+        label: "DRUGS.COM. Darzalex: package insert / mechanism of action / description. Atualizado em 2026.",
+      },
+    ],
+  },
+  {
     id: "talidomida",
     name: "Talidomida (Thalomid®)",
     className: "Imunomoduladores",
