@@ -3106,6 +3106,191 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
     ],
   },
   {
+    id: "axicabtagene-ciloleucel",
+    name: "Axicabtagene ciloleucel (Yescarta®)",
+    className: "Imunomoduladores",
+    category: "Farmacologia",
+    summary:
+      "O axicabtagene ciloleucel é uma imunoterapia celular autóloga anti-CD19 do tipo CAR-T, produzida a partir dos linfócitos T do próprio paciente e usada em neoplasias B selecionadas.",
+    sections: [
+      {
+        title: "Axicabtagene ciloleucel (Yescarta®): farmacologia, biologia molecular e fisiologia completa para uso em site",
+        paragraphs: [
+          "O axicabtagene ciloleucel (axi-cel) é uma imunoterapia celular autóloga anti-CD19 do tipo CAR-T. Diferente de um fármaco convencional, ele não é uma molécula química nem um anticorpo pronto: é um produto vivo, feito a partir dos linfócitos T do próprio paciente, coletados por leucaférese, geneticamente modificados ex vivo e depois reinfundidos. Essas células passam a expressar um receptor antigênico quimérico (CAR) capaz de reconhecer CD19 na superfície de células B malignas e normais, ativando proliferação, secreção de citocinas e citotoxicidade T após o contato com o alvo. Em outras palavras, axi-cel é uma forma de reprogramar o sistema imune do paciente para transformá-lo em uma terapia antitumoral personalizada.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "A história do axi-cel nasce do encontro entre três linhas de pesquisa: a imunologia dos linfócitos T, a biologia dos tumores B e a engenharia genética. A ideia dos CARs foi criar um receptor sintético que permitisse ao linfócito T reconhecer um antígeno tumoral sem depender da apresentação por HLA/MHC, contornando um dos mecanismos clássicos de escape tumoral.",
+          "No caso do axi-cel, o alvo escolhido foi CD19, um marcador pan-B muito atraente porque é amplamente expresso desde estágios precoces da linhagem B até antes da diferenciação terminal plasmocitária, além de estar presente em vários linfomas e leucemias B. Isso permitiu transformar o CD19 em um dos alvos centrais da imunoterapia hematológica moderna.",
+          "O axi-cel foi desenvolvido pela Kite a partir de uma plataforma de CAR anti-CD19 com domínio coestimulatório CD28, testada em linfomas B agressivos e consolidada no estudo pivotal ZUMA-1. Nos EUA, Yescarta recebeu aprovação inicial da FDA em 2017 para linfoma B de grandes células recidivado ou refratário após duas ou mais linhas de terapia sistêmica. Depois, o produto expandiu suas indicações para uso em recidiva precoce após primeira linha e para linfoma folicular recidivado ou refratário, refletindo a rápida incorporação do CAR-T na prática onco-hematológica.",
+          "Na Europa, Yescarta recebeu autorização de comercialização em 23 de agosto de 2018. A EMA descreve o produto como um medicamento de terapia avançada, autólogo, geneticamente modificado, administrado apenas em centros qualificados, com necessidade de estrutura para manejo imediato de síndrome de liberação de citocinas e neurotoxicidade.",
+        ],
+      },
+      {
+        title: "2) O que exatamente é o axi-cel",
+        paragraphs: [
+          "O axi-cel é um produto constituído por linfócitos T autólogos transduzidos ex vivo com um vetor γ-retroviral incompetente para replicação, baseado em MSCV, que introduz o gene de um CAR anti-CD19.",
+        ],
+        bullets: [
+          "um scFv murino anti-CD19;",
+          "um domínio coestimulatório CD28;",
+          "um domínio de sinalização CD3-zeta (CD3ζ).",
+          "Dose-alvo: 2 × 10⁶ células T viáveis CAR-positivas/kg, com máximo de 2 × 10⁸ células CAR-positivas viáveis.",
+          "Cada bolsa de Yescarta contém uma concentração dependente do lote/paciente, em cerca de 68 mL, com criopreservante contendo DMSO.",
+        ],
+        paragraphs: [
+          "Esse desenho faz do axi-cel um CAR de segunda geração, ou seja, ele combina o sinal de ativação T clássico com um segundo sinal coestimulatório embutido na própria construção molecular. O resultado é uma resposta T mais robusta do que a dos CARs de primeira geração, com forte expansão in vivo e alta potência antitumoral, mas também maior propensão a toxicidades inflamatórias importantes.",
+        ],
+      },
+      {
+        title: "3) Indicações terapêuticas atuais",
+        paragraphs: [
+          "Pela rotulagem atual da FDA, o axi-cel é indicado para adultos com large B-cell lymphoma (LBCL) refratário à primeira linha ou que recidiva em até 12 meses após a primeira linha de quimioimunoterapia; LBCL recidivado ou refratário após duas ou mais linhas de terapia sistêmica, incluindo DLBCL sem outra especificação, PMBCL, linfoma B de alto grau e DLBCL originado de linfoma folicular; e linfoma folicular recidivado ou refratário após duas ou mais linhas de terapia sistêmica.",
+          "Na EMA, as indicações atuais incluem adultos com DLBCL e HGBL refratários ou com recidiva em até 12 meses após a primeira linha; DLBCL e PMBCL recidivados ou refratários após duas ou mais linhas; e linfoma folicular recidivado ou refratário após três ou mais linhas de terapia sistêmica. Essa diferença regulatória entre FDA e EMA é importante para textos de site, porque a indicação não é idêntica em todos os mercados.",
+        ],
+      },
+      {
+        title: "4) Por que o CD19 é um alvo tão bom",
+        paragraphs: [
+          "O CD19 é um correceptor da célula B, expresso desde o estágio pro-B até antes da diferenciação final para plasmócito. Funciona como amplificador do sinal do receptor de célula B (BCR), ajudando a modular limiar de ativação, proliferação, diferenciação e sobrevivência de células B por vias como LYN, PI3K, BTK e AKT. Em neoplasias B, ele costuma permanecer presente em grande parte das células malignas, o que o torna um alvo excelente para terapias dirigidas.",
+          "Do ponto de vista estratégico, CD19 reúne várias vantagens: é de superfície, tem expressão ampla em tumores B, não depende de processamento antigênico intracelular e permite que o CAR reconheça a célula alvo de forma direta. O preço biológico disso é previsível: como o CD19 também está em células B normais, a terapia produz aplasia de células B e hipogamaglobulinemia em parte dos pacientes. Isso não é um efeito colateral aleatório; é um efeito on-target, off-tumor.",
+        ],
+      },
+      {
+        title: "5) Estrutura molecular do CAR do axi-cel",
+        bullets: [
+          "Domínio de reconhecimento: scFv murino anti-CD19 derivado da linhagem FMC63.",
+          "Domínio coestimulatório: CD28, associado a expansão inicial mais rápida e intensa e maior perfil inflamatório precoce.",
+          "Domínio sinalizador: CD3ζ, que desencadeia ativação T, citotoxicidade, secreção de citocinas, expansão clonal e sobrevivência celular.",
+        ],
+      },
+      {
+        title: "6) Fabricação: como o axi-cel é produzido",
+        paragraphs: [
+          "O axi-cel é fabricado individualmente para cada paciente. O processo começa com leucaférese, segue com ativação e enriquecimento de células T, depois transferência gênica ex vivo usando um vetor γ-retroviral incompetente para replicação, seguida de expansão celular, formulação em meio criopreservante e transporte congelado ao centro de tratamento.",
+          "Isso tem várias implicações farmacológicas e clínicas. Primeiro, cada lote é único, porque deriva das células do próprio paciente. Segundo, variáveis do produto final — como viabilidade, composição fenotípica das células T, percentual de células CAR-positivas e qualidade funcional — podem influenciar expansão e desfecho clínico.",
+        ],
+      },
+      {
+        title: "7) Pré-tratamento: por que a linfodepleção é obrigatória",
+        paragraphs: [
+          "Antes da infusão do axi-cel, administra-se quimioterapia de linfodepleção com ciclofosfamida 500 mg/m² e fludarabina 30 mg/m², geralmente por 3 dias. Isso não é mero preparo; é parte integrante da farmacologia do CAR-T. Ao reduzir linfócitos endógenos e outras células competidoras, a linfodepleção diminui sumidouros de citocinas homeostáticas, aumenta disponibilidade de IL-7 e IL-15, reduz populações supressoras e favorece expansão e persistência inicial das células CAR-T reinfundidas.",
+        ],
+      },
+      {
+        title: "8) Mecanismo de ação completo",
+        paragraphs: [
+          "Após a infusão, as células axi-cel circulam, extravasam e encontram células que expressam CD19. O CAR se liga diretamente ao CD19 na membrana da célula tumoral, sem necessidade de processamento antigênico e sem restrição por HLA.",
+          "Uma vez que o scFv reconhece CD19, o domínio CD28 fornece o segundo sinal coestimulatório e o CD3ζ dispara a maquinaria de ativação T. Isso gera proliferação, mudança metabólica, aumento de citotoxicidade, secreção de citocinas inflamatórias e aquisição de função efetora.",
+          "A consequência é apoptose e necrose de células CD19-positivas. Em tumores B agressivos, a rapidez dessa resposta pode ser enorme, o que ajuda tanto na eficácia quanto na toxicidade.",
+          "Como o CD19 não é exclusivo do tumor, as CAR-T também eliminam células B normais. Isso se traduz em aplasia B e pode levar a hipogamaglobulinemia, maior suscetibilidade a infecções e necessidade de reposição de imunoglobulina em pacientes selecionados.",
+        ],
+      },
+      {
+        title: "9) Farmacologia: aqui não é ADME clássico, é cinética celular",
+        paragraphs: [
+          "No axi-cel, a farmacologia se aproxima mais de ecologia celular e dinâmica populacional do que da farmacocinética de comprimidos ou anticorpos.",
+        ],
+        bullets: [
+          "Fase inicial de distribuição: em vez de volume de distribuição clássico, pensa-se em tráfego celular, redistribuição para tecidos linfoides e sítios tumorais.",
+          "Fase de expansão: após dose única, o axi-cel apresenta rápida expansão inicial, com pico em sangue periférico em torno do Dia 7, embora o intervalo observado possa ser amplo.",
+          "Fase de contração e persistência: após o pico, ocorre declínio bifásico, mas parte das células persiste por meses; a FDA observou detecção em alguns pacientes por até 24 meses.",
+          "Relação exposição–resposta: em CAR-T, exposição se aproxima de Cmax celular e AUC de células CAR-T no sangue; respondedores tiveram exposição muito maior que não respondedores.",
+          "Relação exposição–toxicidade: maior expansão também se associou a maior frequência de CRS e eventos neurológicos graves.",
+        ],
+      },
+      {
+        title: "10) Eficácia clínica: o que os estudos mostraram",
+        paragraphs: [
+          "No ZUMA-1, estudo pivotal em linfoma B agressivo refratário, o axi-cel mostrou ORR de 83% e CR de 58%. No seguimento de 5 anos, a sobrevida global mediana foi 25,8 meses, a OS estimada em 5 anos foi 42,6%, e não surgiram novos sinais importantes de segurança tardia. O dado mais marcante foi a demonstração de respostas realmente duráveis em uma fração relevante de pacientes com doença historicamente muito difícil de tratar.",
+          "No ZUMA-7, em segunda linha para LBCL recidivado ou refratário precoce, a farmacologia clínica e o benefício global apoiaram a ampliação de indicação. A revisão da FDA aceitou o mesmo regime de dose e reforçou os achados de expansão, persistência e relação exposição–resposta.",
+        ],
+      },
+      {
+        title: "11) Toxicidades: fisiologia e biologia molecular",
+        bullets: [
+          "Síndrome de liberação de citocinas (CRS): toxicidade emblemática do CAR-T, com febre, hipotensão, hipóxia, disfunção orgânica e elevação de marcadores inflamatórios.",
+          "Neurotoxicidade / ICANS: inclui confusão, afasia, tremor, sonolência, encefalopatia, convulsões e, em casos graves, edema cerebral.",
+          "Citopenias prolongadas e infecção: somam o efeito da linfodepleção, aplasia B, hipogamaglobulinemia e maior risco infeccioso.",
+          "Neoplasias hematológicas secundárias: a bula atual da FDA destaca secondary hematological malignancies no boxed warning.",
+          "Monitorização para retrovírus competente para replicação (RCR) e vigilância de imunogenicidade também fazem parte da segurança de longo prazo.",
+        ],
+      },
+      {
+        title: "12) Interações e cuidados práticos",
+        bullets: [
+          "Evitar vacinas de vírus vivo por pelo menos 6 semanas antes da linfodepleção, durante o tratamento e até recuperação imune adequada.",
+          "Tocilizumabe deve estar disponível antes da infusão, e o centro precisa ter acesso a doses adicionais rapidamente.",
+          "O tratamento deve ocorrer em centro qualificado, com capacidade imediata de manejar CRS e neurotoxicidade.",
+        ],
+      },
+      {
+        title: "13) Limitações biológicas do axi-cel",
+        bullets: [
+          "Perda ou redução de CD19 pelo tumor.",
+          "Exaustão funcional das CAR-T.",
+          "Alta carga tumoral, que pode superar a capacidade efetora inicial.",
+          "Microambiente tumoral imunossupressor.",
+          "Variabilidade do produto autólogo, já que o material de partida vem de um paciente intensamente tratado.",
+        ],
+      },
+      {
+        title: "14) O que diferencia axi-cel de outras CAR-Ts",
+        paragraphs: [
+          "O axi-cel se destaca por seu domínio CD28, por sua forte expansão inicial e por um histórico robusto em linfomas B agressivos. Em comparação conceitual, produtos com 4-1BB tendem a exibir cinética mais lenta e persistência diferente, enquanto axi-cel costuma ser visto como um CAR-T de resposta inicial particularmente vigorosa. Essa diferença de arquitetura molda eficácia, tempo de pico e padrão de toxicidade.",
+        ],
+      },
+      {
+        title: "15) Resumo fisiológico em linguagem simples",
+        paragraphs: [
+          "O axi-cel funciona assim: tira-se o linfócito T do paciente, instala-se nele um sensor artificial anti-CD19, expande-se esse exército no laboratório e depois ele é reinfundido. Ao encontrar células B com CD19, esse exército se multiplica, libera citocinas, recruta inflamação e mata o alvo. Se a expansão for forte o suficiente, a chance de remissão aumenta; se a inflamação for excessiva, surgem CRS e neurotoxicidade. Portanto, a essência farmacológica do axi-cel é o equilíbrio entre expansão efetora suficiente para curar e inflamação controlada o bastante para não destruir o hospedeiro.",
+        ],
+      },
+      {
+        title: "16) Resumo em uma frase",
+        paragraphs: [
+          "Axicabtagene ciloleucel é uma imunoterapia celular autóloga anti-CD19 do tipo CAR-T, produzida por transdução retroviral de linfócitos T do próprio paciente com um CAR contendo scFv murino anti-CD19, CD28 e CD3ζ, capaz de gerar respostas profundas em linfomas B agressivos por expansão e citotoxicidade in vivo, ao custo de toxicidades inflamatórias potencialmente graves como CRS e neurotoxicidade.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. YESCARTA (axicabtagene ciloleucel) prescribing information. Revised Feb. 2026. Disponível em: FDA.",
+      },
+      {
+        label:
+          "EUROPEAN MEDICINES AGENCY. Yescarta, INN-axicabtagene ciloleucel: Product information. Atualizado em 2025/2026. Disponível em: EMA.",
+      },
+      {
+        label: "EUROPEAN MEDICINES AGENCY. Yescarta: EPAR public assessment report. 2018. Disponível em: EMA.",
+      },
+      {
+        label: "UNITED STATES. Food and Drug Administration. Clinical Pharmacology BLA Review: YESCARTA. 2022. Disponível em: FDA.",
+      },
+      {
+        label:
+          "NEELAPU, S. S. et al. Axicabtagene ciloleucel CAR T-cell therapy in refractory large B-cell lymphoma. New England Journal of Medicine, 2017. Disponível em: NEJM.",
+      },
+      {
+        label:
+          "NEELAPU, S. S. et al. Five-year follow-up of ZUMA-1 supports the curative potential of axicabtagene ciloleucel in refractory large B-cell lymphoma. Blood, 2023. Disponível em: ASH Publications.",
+      },
+      {
+        label:
+          "QI, T. et al. Cellular kinetics: a clinical and computational review of CAR-T cell pharmacology. Advanced Drug Delivery Reviews, 2022. Disponível em: PMC.",
+      },
+      {
+        label: "HAMMER, O. et al. CD19 as an attractive target for antibody-based therapy. Disponível em: PMC.",
+      },
+      {
+        label: "EUZENAT, C. et al. CD19 controls TLR9 responses in human B cells. Disponível em: PMC.",
+      },
+    ],
+  },
+  {
     id: "talidomida",
     name: "Talidomida (Thalomid®)",
     className: "Imunomoduladores",
