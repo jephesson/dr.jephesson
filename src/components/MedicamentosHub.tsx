@@ -2992,6 +2992,120 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
     ],
   },
   {
+    id: "bevacizumabe",
+    name: "Bevacizumabe (Avastin® e biossimilares)",
+    className: "Imunomoduladores",
+    category: "Farmacologia",
+    summary:
+      "O bevacizumabe é um anticorpo monoclonal humanizado IgG1 anti-VEGF, com ação antiangiogênica central em múltiplos tumores sólidos.",
+    sections: [
+      {
+        title: "Bevacizumabe (Avastin® e biossimilares): farmacologia completa para uso em site",
+        paragraphs: [
+          "O bevacizumabe é um anticorpo monoclonal humanizado IgG1 que atua contra o VEGF (fator de crescimento endotelial vascular). Em termos práticos, ele é uma terapia antiangiogênica: liga-se ao VEGF circulante e impede sua interação com os receptores endoteliais, reduzindo a formação de novos vasos sanguíneos tumorais. Isso ajuda a limitar o aporte de oxigênio e nutrientes ao tumor e a desacelerar sua progressão.",
+        ],
+      },
+      {
+        title: "1) História e contexto de desenvolvimento",
+        paragraphs: [
+          "O bevacizumabe foi desenvolvido como uma estratégia de bloqueio da angiogênese tumoral, partindo do conceito de que muitos tumores sólidos dependem da formação de novos vasos para crescer além de tamanho microscópico. O Avastin® recebeu autorização de comercialização na União Europeia em 12 de janeiro de 2005, e sua aprovação inicial nos EUA ocorreu em 2004. Desde então, consolidou-se como um dos principais anti-VEGF da oncologia moderna, com uso em múltiplos tumores sólidos e posterior expansão para biossimilares.",
+        ],
+      },
+      {
+        title: "Dados da molécula (visão prática)",
+        bullets: [
+          "Nome: bevacizumabe.",
+          "Classe: anticorpo monoclonal humanizado anti-VEGF.",
+          "Subclasse: IgG1.",
+          "Administração: intravenosa.",
+          "Nome de referência: Avastin®.",
+          "Biossimilares: há vários aprovados em diferentes mercados, mantendo o mesmo alvo farmacológico central.",
+        ],
+      },
+      {
+        title: "2) Indicação terapêutica, efeito esperado e prazos",
+        paragraphs: [
+          "As indicações do bevacizumabe variam conforme o país e a agência regulatória, mas incluem principalmente tumores sólidos avançados ou metastáticos. Pela EMA, o Avastin está indicado em adultos para câncer colorretal metastático em combinação com quimioterapia baseada em fluoropirimidina; câncer de mama metastático em combinações específicas; câncer de pulmão de não pequenas células não escamoso com quimioterapia baseada em platina, e também com erlotinibe em casos com mutação ativadora de EGFR; carcinoma de células renais avançado ou metastático com interferon alfa-2a; câncer epitelial de ovário, tuba uterina ou peritônio primário em diferentes linhas e combinações; e câncer de colo do útero persistente, recorrente ou metastático com quimioterapia.",
+          "O bevacizumabe não age como um citotóxico clássico que destrói diretamente a célula tumoral por dano ao DNA. Seu papel principal é reduzir a angiogênese tumoral, contribuindo para retardar progressão tumoral, prolongar sobrevida livre de progressão em diversos cenários, potencializar o efeito de esquemas combinados e, em alguns contextos, prolongar sobrevida global.",
+          "O benefício do bevacizumabe é avaliado por desfechos oncológicos como resposta radiológica, controle de progressão e sobrevida, e não por melhora subjetiva imediata. Em geral, a avaliação clínica ocorre ao longo dos ciclos de tratamento e dos exames de imagem seriados.",
+        ],
+        bullets: [
+          "Cuidados importantes: perfuração gastrointestinal, complicações de cicatrização, hemorragia, eventos tromboembólicos arteriais, hipertensão, proteinúria, fístulas, perfurações e síndrome de encefalopatia posterior reversível (PRES/RPLS).",
+          "O contexto clínico importa: o uso depende muito do tipo de tumor, linha terapêutica, risco de sangramento, cirurgia recente, estado de cicatrização e sítio da doença.",
+        ],
+      },
+      {
+        title: "3) Mecanismo de ação detalhado",
+        paragraphs: [
+          "O bevacizumabe se liga seletivamente ao VEGF-A, neutralizando sua atividade biológica. Com isso, impede que o VEGF ative seus receptores nas células endoteliais, freando a angiogênese associada ao tumor.",
+          "Ao bloquear o VEGF, o bevacizumabe reduz a formação de novos vasos tumorais. Na prática, isso significa menos suprimento de oxigênio e nutrientes para a massa tumoral, o que pode desacelerar crescimento e disseminação.",
+          "O bevacizumabe não é um quimioterápico citotóxico tradicional, não atua primariamente por dano direto ao DNA e não costuma ser descrito como droga que mata imediatamente a célula neoplásica. Seu papel é mais corretamente entendido como modulação do microambiente vascular tumoral.",
+        ],
+      },
+      {
+        title: "4) Alvos relevantes e possível relação clínica",
+        bullets: [
+          "VEGF-A: é o alvo central do bevacizumabe; sua neutralização reduz sinalização pró-angiogênica.",
+          "Endotélio vascular tumoral: é o principal tecido-efeito indireto da droga; o tumor perde capacidade de sustentar neovascularização eficiente.",
+          "Cicatrização e integridade vascular: como VEGF também participa de processos fisiológicos de reparo tecidual, seu bloqueio ajuda a entender por que o bevacizumabe pode aumentar risco de má cicatrização, perfuração e sangramento em pacientes suscetíveis.",
+        ],
+      },
+      {
+        title: "5) Farmacocinética (ADME)",
+        bullets: [
+          "Absorção: o bevacizumabe é administrado por infusão intravenosa, portanto não passa por fase de absorção oral ou subcutânea convencional.",
+          "Distribuição: como anticorpo monoclonal, apresenta comportamento farmacocinético típico de proteínas terapêuticas grandes, com distribuição predominantemente intravascular e intersticial.",
+          "Metabolismo: não é metabolizado por CYPs como um fármaco pequeno; sofre catabolismo proteico em peptídeos e aminoácidos.",
+          "Eliminação: a meia-vida terminal é longa, compatível com a classe dos anticorpos monoclonais, o que sustenta esquemas de administração a cada duas ou três semanas, conforme o protocolo.",
+        ],
+      },
+      {
+        title: "6) Efeitos adversos e segurança",
+        bullets: [
+          "Eventos frequentes: hipertensão, fadiga ou astenia, diarreia, dor abdominal, proteinúria, epistaxe e outros sangramentos leves.",
+          "Alertas graves clássicos: perfuração gastrointestinal, complicações de cicatrização de feridas e hemorragia grave.",
+          "Toxicidade vascular e renal: além da hipertensão, o bevacizumabe pode causar proteinúria e se associar a eventos tromboembólicos arteriais.",
+          "Fístulas, perfurações e risco cirúrgico: o bloqueio de VEGF ajuda a explicar risco de fístulas, atraso de cicatrização e complicações em torno de procedimentos cirúrgicos.",
+          "Gravidez: o bevacizumabe é contraindicado na gestação, pois o bloqueio de angiogênese pode prejudicar o desenvolvimento fetal.",
+        ],
+      },
+      {
+        title: "7) Interações medicamentosas (principais)",
+        bullets: [
+          "Associação com quimioterapia: grande parte do uso oncológico aprovado ocorre em combinação com quimioterapia, e a toxicidade deve ser interpretada no contexto do protocolo completo.",
+          "Risco hemorrágico e procedimentos: a maior interação prática muitas vezes é com o cenário clínico — cirurgia recente, invasão tumoral de mucosas, risco de perfuração, sangramento prévio e radioterapia em certos contextos.",
+          "Combinações não recomendadas em alguns cenários: documentos da Roche descrevem que determinadas combinações biológicas, como com anticorpos anti-EGFR em alguns contextos colorretais, estiveram associadas a piores desfechos e maior toxicidade.",
+        ],
+      },
+      {
+        title: "8) Resumo em uma frase",
+        paragraphs: [
+          "Bevacizumabe é um anticorpo monoclonal anti-VEGF que reduz a angiogênese tumoral, sendo amplamente usado em tumores sólidos avançados em combinação com outros tratamentos, com atenção especial para perfuração gastrointestinal, sangramento, hipertensão, proteinúria e complicações de cicatrização.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label: "EUROPEAN MEDICINES AGENCY. Avastin: EPAR – medicine overview. Atualizado em 2026. Disponível em: EMA.",
+      },
+      {
+        label:
+          "EUROPEAN MEDICINES AGENCY. Avastin, INN-bevacizumab: Product information. Atualizado em jan. 2026. Disponível em: EMA.",
+      },
+      {
+        label:
+          "UNITED STATES. Food and Drug Administration. AVASTIN (bevacizumab) label. Initial U.S. approval: 2004. Disponível em: FDA.",
+      },
+      {
+        label:
+          "EUROPEAN MEDICINES AGENCY. Avastin, INN-bevacizumab: scientific discussion. 2005. Disponível em: EMA.",
+      },
+      {
+        label: "ROCHE. Avastin: pharmacological properties and effects. Disponível em documento institucional.",
+      },
+    ],
+  },
+  {
     id: "talidomida",
     name: "Talidomida (Thalomid®)",
     className: "Imunomoduladores",
