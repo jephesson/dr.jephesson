@@ -25,11 +25,7 @@ type AucResult =
       status: "below" | "in-range" | "above";
       doseSuggestion: {
         currentDoseValue: number;
-        currentDailyDose: number;
-        targetDosePerAdminMin: number;
-        targetDosePerAdminMax: number;
-        targetDailyDoseMin: number;
-        targetDailyDoseMax: number;
+        targetDosePerAdminMid: number;
       } | null;
     };
 
@@ -189,11 +185,7 @@ export default function VancocinemiaTool() {
       currentDoseValue && currentDoseValue > 0
         ? {
             currentDoseValue,
-            currentDailyDose: currentDoseValue * (24 / tauValue),
-            targetDosePerAdminMin: currentDoseValue * (400 / auc24),
-            targetDosePerAdminMax: currentDoseValue * (600 / auc24),
-            targetDailyDoseMin: currentDoseValue * (24 / tauValue) * (400 / auc24),
-            targetDailyDoseMax: currentDoseValue * (24 / tauValue) * (600 / auc24),
+            targetDosePerAdminMid: currentDoseValue * (500 / auc24),
           }
         : null;
 
@@ -322,115 +314,59 @@ export default function VancocinemiaTool() {
           </div>
 
           {aucResult?.kind === "result" ? (
-            <div className="vanco-results">
-              <div className="vanco-result vanco-result--primary">
-                <h4>AUC0–24 (mg·h/L)</h4>
-                <p>{formatNumber(aucResult.auc24, 1)}</p>
+            <>
+              <div className="vanco-results">
+                <div className="vanco-result vanco-result--primary">
+                  <h4>AUC0-24 (mg*h/L)</h4>
+                  <p>{formatNumber(aucResult.auc24, 1)}</p>
+                </div>
+                <div className={`vanco-result ${aucResult.doseSuggestion ? "vanco-result--accent" : ""}`}>
+                  <h4>Dose estimada para AUC ~ 500</h4>
+                  <p>
+                    {aucResult.doseSuggestion
+                      ? `${formatNumber(roundDose(aucResult.doseSuggestion.targetDosePerAdminMid), 0)} mg q${formatNumber(
+                          aucResult.tauValue,
+                          0,
+                        )}h`
+                      : "Informe a dose atual por administracao"}
+                  </p>
+                </div>
               </div>
-              <div className="vanco-result">
-                <h4>Tempo de infusão</h4>
-                <p>{formatNumber(aucResult.infusion, 2)} h</p>
-              </div>
-              <div className="vanco-result">
-                <h4>Tempo da C1 após fim</h4>
-                <p>{formatNumber(aucResult.t1Value, 2)} h</p>
-              </div>
-              <div className="vanco-result">
-                <h4>Tempo do vale após fim</h4>
-                <p>{formatNumber(aucResult.t2Value, 2)} h</p>
-              </div>
-              <div className="vanco-result">
-                <h4>Ke (1/h)</h4>
-                <p>{formatNumber(aucResult.k, 4)}</p>
-              </div>
-              <div className="vanco-result">
-                <h4>Meia-vida (h)</h4>
-                <p>{formatNumber(aucResult.halfLife, 2)}</p>
-              </div>
-              <div className="vanco-result">
-                <h4>Cmax verdadeiro (mg/L)</h4>
-                <p>{formatNumber(aucResult.cMax, 1)}</p>
-              </div>
-              <div className="vanco-result">
-                <h4>Cmin verdadeiro (mg/L)</h4>
-                <p>{formatNumber(aucResult.cMin, 1)}</p>
-              </div>
-              <div className="vanco-result">
-                <h4>Faixa terapêutica</h4>
-                <p>
-                  {aucResult.status === "in-range"
-                    ? "Dentro da janela 400-600"
-                    : aucResult.status === "below"
-                      ? "Abaixo da janela 400-600"
-                      : "Acima da janela 400-600"}
-                </p>
-              </div>
-              <div className={`vanco-result ${aucResult.status === "in-range" ? "vanco-result--accent" : ""}`}>
-                <h4>Interpretação</h4>
-                <p>
-                  {aucResult.status === "in-range"
-                    ? "Exposição adequada para a meta 400-600."
-                    : aucResult.status === "above"
-                      ? "Risco de toxicidade aumentado com AUC acima de 600."
-                      : "AUC abaixo da meta; pode não ser suficiente em infecções graves."}
-                </p>
-              </div>
-              {aucResult.doseSuggestion ? (
-                <>
-                  <div className="vanco-result vanco-result--accent">
-                    <h4>Dose total diária estimada</h4>
-                    <p>
-                      {formatNumber(roundDose(aucResult.doseSuggestion.targetDailyDoseMin), 0)}-
-                      {formatNumber(roundDose(aucResult.doseSuggestion.targetDailyDoseMax), 0)} mg/dia
-                    </p>
-                  </div>
-                  <div className="vanco-result">
-                    <h4>Posologia estimada para AUC 400-600</h4>
-                    <p>
-                      {formatNumber(roundDose(aucResult.doseSuggestion.targetDosePerAdminMin), 0)}-
-                      {formatNumber(roundDose(aucResult.doseSuggestion.targetDosePerAdminMax), 0)} mg q
-                      {formatNumber(aucResult.tauValue, 0)}h
-                    </p>
-                  </div>
-                  <div className="vanco-result">
-                    <h4>Sugestão</h4>
-                    <p>
-                      {aucResult.status === "in-range"
-                        ? `Manter ${formatNumber(roundDose(aucResult.doseSuggestion.currentDoseValue), 0)} mg q${formatNumber(
-                            aucResult.tauValue,
-                            0,
-                          )}h se contexto clínico e função renal estiverem estáveis.`
-                        : aucResult.status === "above"
-                          ? `Considerar reduzir para a faixa de ${formatNumber(
-                              roundDose(aucResult.doseSuggestion.targetDosePerAdminMin),
-                              0,
-                            )}-${formatNumber(roundDose(aucResult.doseSuggestion.targetDosePerAdminMax), 0)} mg q${formatNumber(
-                              aucResult.tauValue,
-                              0,
-                            )}h.`
-                          : `Considerar aumentar para a faixa de ${formatNumber(
-                              roundDose(aucResult.doseSuggestion.targetDosePerAdminMin),
-                              0,
-                            )}-${formatNumber(roundDose(aucResult.doseSuggestion.targetDosePerAdminMax), 0)} mg q${formatNumber(
-                              aucResult.tauValue,
-                              0,
-                            )}h.`}
-                    </p>
-                  </div>
-                </>
-              ) : null}
-            </div>
+              <p className="vanco-help">
+                Janela terapêutica: 400 a 600 mg*h/L.{" "}
+                {aucResult.status === "in-range"
+                  ? aucResult.doseSuggestion
+                    ? `Resultado dentro da meta. Sugestão: manter ${formatNumber(
+                        roundDose(aucResult.doseSuggestion.currentDoseValue),
+                        0,
+                      )} mg q${formatNumber(aucResult.tauValue, 0)}h se função renal e contexto clínico estiverem estáveis.`
+                    : "Resultado dentro da meta."
+                  : aucResult.status === "above"
+                    ? aucResult.doseSuggestion
+                      ? `Resultado acima da janela, com risco de toxicidade. Sugestão: reduzir para cerca de ${formatNumber(
+                          roundDose(aucResult.doseSuggestion.targetDosePerAdminMid),
+                          0,
+                        )} mg q${formatNumber(
+                          aucResult.tauValue,
+                          0,
+                        )}h.`
+                      : "Resultado acima da janela, com risco de toxicidade."
+                    : aucResult.doseSuggestion
+                      ? `Resultado abaixo da janela, podendo não ser suficiente para infecções graves. Sugestão: aumentar para cerca de ${formatNumber(
+                          roundDose(aucResult.doseSuggestion.targetDosePerAdminMid),
+                          0,
+                        )} mg q${formatNumber(
+                          aucResult.tauValue,
+                          0,
+                        )}h.`
+                      : "Resultado abaixo da janela, podendo não ser suficiente para infecções graves."}
+              </p>
+            </>
           ) : aucResult?.kind === "error" ? (
             <p className="vanco-error">{aucResult.message}</p>
           ) : (
             <p className="vanco-help">Preencha os campos corretamente para ver os resultados.</p>
           )}
-
-          {aucResult?.kind === "result" && !aucResult.doseSuggestion ? (
-            <p className="vanco-help">
-              Para estimar dose e posologia mantendo o mesmo intervalo, preencha tambem a dose atual por administração.
-            </p>
-          ) : null}
         </div>
       )}
 
