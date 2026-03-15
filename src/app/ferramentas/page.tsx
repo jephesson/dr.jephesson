@@ -146,6 +146,21 @@ export default function Page() {
           <h3>Diluição de medicamentos</h3>
           <p>Consulte preparo, diluição, infusão e compatibilidade.</p>
         </Link>
+
+        <Link
+          href="/ferramentas/imunoglobulina-g-humana"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#1e293b",
+              "--card-to": "#8b5cf6",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Calculadora</span>
+          <h3>Imunoglobulina G humana</h3>
+          <p>Estime volume e escalonamento da infusão do Privigen em mL/h.</p>
+        </Link>
       </div>
     </div>
   );
