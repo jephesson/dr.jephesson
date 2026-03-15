@@ -3132,6 +3132,7 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
         title: "2) O que exatamente é o axi-cel",
         paragraphs: [
           "O axi-cel é um produto constituído por linfócitos T autólogos transduzidos ex vivo com um vetor γ-retroviral incompetente para replicação, baseado em MSCV, que introduz o gene de um CAR anti-CD19.",
+          "Esse desenho faz do axi-cel um CAR de segunda geração, ou seja, ele combina o sinal de ativação T clássico com um segundo sinal coestimulatório embutido na própria construção molecular. O resultado é uma resposta T mais robusta do que a dos CARs de primeira geração, com forte expansão in vivo e alta potência antitumoral, mas também maior propensão a toxicidades inflamatórias importantes.",
         ],
         bullets: [
           "um scFv murino anti-CD19;",
@@ -3139,9 +3140,6 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
           "um domínio de sinalização CD3-zeta (CD3ζ).",
           "Dose-alvo: 2 × 10⁶ células T viáveis CAR-positivas/kg, com máximo de 2 × 10⁸ células CAR-positivas viáveis.",
           "Cada bolsa de Yescarta contém uma concentração dependente do lote/paciente, em cerca de 68 mL, com criopreservante contendo DMSO.",
-        ],
-        paragraphs: [
-          "Esse desenho faz do axi-cel um CAR de segunda geração, ou seja, ele combina o sinal de ativação T clássico com um segundo sinal coestimulatório embutido na própria construção molecular. O resultado é uma resposta T mais robusta do que a dos CARs de primeira geração, com forte expansão in vivo e alta potência antitumoral, mas também maior propensão a toxicidades inflamatórias importantes.",
         ],
       },
       {
