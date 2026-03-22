@@ -67,6 +67,25 @@ const itensDiluicao: DiluicaoItem[] = [
     fotossensivel: "-",
     flebite: "Protocolo institucional HSL: diluir em 50 mL e administrar em 60 min por risco de flebite",
   },
+  {
+    id: "vancomicina",
+    name: "Vancomicina",
+    principioAtivo: "Vancomicina",
+    apresentacaoComercial: "Vancocina injetável 500 mg/frasco; vancomicina 125 mg/cápsula (manipulado)",
+    volumeReconstituicao: "10 mL AD (concentração de 50 mg/mL)",
+    estabilidadeReconstituido: "14 dias sob refrigeração ou 7 dias em temperatura ambiente",
+    solucaoInfusao: "SF 0,9%",
+    volumeDiluicao:
+      "Diluir para 5 mg/mL. 500-1000 mg: 250 mL (mínimo 100 mL); 1250-1500 mg: 350 mL (mínimo 150 mL); 1750-2000 mg: 500 mL (mínimo 200 mL)",
+    estabilidadeDiluido: "14 dias sob refrigeração ou 7 dias em temperatura ambiente",
+    concentracaoMaximaAdm: "10 mg/mL",
+    velocidadeTempoInfusao:
+      "Infundir até 15 mg/min. 500-1000 mg: 60 min; 1250-1500 mg: 90 min; 1750-2000 mg: 120 min",
+    observacoes:
+      "VO e EV. Utilizar equipo de bomba de infusão pelo risco de reação infusional relacionada à concentração e ao tempo de infusão (síndrome do homem vermelho). Manter protocolo de vancocinemia e monitorização sérica quando indicado.",
+    fotossensivel: "-",
+    flebite: "Risco relacionado à concentração e ao tempo de infusão; preferir volumes mínimos apenas em CVC/restrição hídrica",
+  },
 ];
 
 export default function Page() {
