@@ -49,6 +49,24 @@ const itensDiluicao: DiluicaoItem[] = [
     fotossensivel: "-",
     flebite: "-",
   },
+  {
+    id: "piperacilina-tazobactam",
+    name: "Piperacilina + Tazobactam",
+    principioAtivo: "Piperacilina (A) + Tazobactam (B)",
+    apresentacaoComercial:
+      "Tazocin 4,5 g injetável (4 g + 500 mg)/frasco-ampola; Tazocin 2,25 g injetável (2 g + 250 mg)/frasco-ampola",
+    volumeReconstituicao: "2,25 g: 10 mL AD ou SF; 4,5 g: 20 mL AD ou SF",
+    estabilidadeReconstituido: "24h TA ou 48h sob refrigeração",
+    solucaoInfusao: "SF, SG e RL",
+    volumeDiluicao: "50 a 150 mL; padrão HSL: 50 mL",
+    estabilidadeDiluido: "24h TA ou 48h sob refrigeração",
+    concentracaoMaximaAdm: "-",
+    velocidadeTempoInfusao: "Infusão: 30 min; padrão HSL: 60 min",
+    observacoes:
+      "EV. Padrão HSL considera 50 mL e infusão em 60 min por protocolo institucional de risco de flebite.",
+    fotossensivel: "-",
+    flebite: "Protocolo institucional HSL: diluir em 50 mL e administrar em 60 min por risco de flebite",
+  },
 ];
 
 export default function Page() {
