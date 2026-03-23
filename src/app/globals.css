@@ -2607,6 +2607,269 @@ a{color:inherit;text-decoration:none}
   max-width:760px;
 }
 
+.review-hub{
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+}
+
+.review-hub__hero,
+.review-hub__card,
+.review-banner,
+.review-infographic,
+.review-sidebar,
+.review-section-card{
+  border:1px solid rgba(11,20,34,.12);
+  border-radius:24px;
+  background:#fff;
+  box-shadow:0 18px 44px rgba(15,23,42,.08);
+}
+
+.review-hub__hero{
+  padding:28px;
+}
+
+.review-hub__eyebrow,
+.review-banner__eyebrow{
+  display:inline-flex;
+  margin-bottom:12px;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#d97706;
+}
+
+.review-hub__hero h1,
+.review-banner h1{
+  margin:0;
+  font-size:42px;
+  line-height:1.05;
+  color:#10233f;
+}
+
+.review-hub__hero p,
+.review-banner p,
+.review-infographic__header p,
+.review-hub__card p,
+.review-section-card p,
+.review-section-card li{
+  margin:14px 0 0;
+  font-size:16px;
+  line-height:1.75;
+  color:rgba(16,35,63,.76);
+}
+
+.review-hub__grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:18px;
+}
+
+.review-hub__card{
+  padding:24px;
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.review-hub__card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 22px 48px rgba(15,23,42,.12);
+}
+
+.review-hub__tag{
+  display:inline-flex;
+  padding:6px 10px;
+  border-radius:999px;
+  background:#eef5ff;
+  font-size:12px;
+  font-weight:800;
+  color:#204572;
+}
+
+.review-hub__card h2{
+  margin:16px 0 0;
+  font-size:26px;
+  color:#10233f;
+}
+
+.review-hub__card strong{
+  display:block;
+  margin-top:16px;
+  font-size:14px;
+  color:#204572;
+}
+
+.review-article{
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+}
+
+.review-banner{
+  padding:28px;
+  background:linear-gradient(135deg,#f8fbff,#ffffff);
+}
+
+.review-infographic{
+  padding:28px;
+  background:linear-gradient(180deg,#ffffff 0%,#f9fbff 100%);
+}
+
+.review-infographic__header{
+  text-align:center;
+  max-width:920px;
+  margin:0 auto 22px;
+}
+
+.review-infographic__header h2{
+  margin:0;
+  font-size:clamp(30px,4vw,52px);
+  line-height:1.05;
+  color:#10233f;
+}
+
+.review-infographic__grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+
+.review-infographic__card{
+  border:1px solid rgba(147,197,253,.4);
+  border-radius:22px;
+  padding:22px;
+  background:#fff;
+}
+
+.review-infographic__card strong{
+  display:block;
+  font-size:24px;
+  line-height:1.1;
+  color:#10233f;
+}
+
+.review-infographic__card p{
+  margin:12px 0 0;
+  font-size:15px;
+  line-height:1.7;
+  color:rgba(16,35,63,.74);
+}
+
+.review-layout{
+  display:grid;
+  grid-template-columns:280px minmax(0,1fr);
+  gap:20px;
+  align-items:start;
+}
+
+.review-sidebar{
+  position:sticky;
+  top:110px;
+  padding:20px;
+}
+
+.review-sidebar h3{
+  margin:0 0 14px;
+  font-size:18px;
+  color:#10233f;
+}
+
+.review-sidebar nav{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.review-sidebar a{
+  display:block;
+  padding:12px 14px;
+  border:1px solid rgba(11,20,34,.08);
+  border-radius:16px;
+  background:#f8fafc;
+  font-size:14px;
+  font-weight:700;
+  color:#204572;
+}
+
+.review-main{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.review-section-card{
+  padding:24px;
+}
+
+.review-section-card h2{
+  margin:0 0 8px;
+  font-size:28px;
+  line-height:1.15;
+  color:#10233f;
+}
+
+.review-section-card ul{
+  margin:16px 0 0;
+  padding-left:20px;
+  display:grid;
+  gap:10px;
+}
+
+.review-table-wrap{
+  margin-top:18px;
+}
+
+.review-table-caption{
+  margin:0 0 10px;
+  font-size:14px;
+  font-weight:800;
+  color:#204572;
+}
+
+.review-table-scroll{
+  overflow:auto;
+  border:1px solid rgba(11,20,34,.08);
+  border-radius:18px;
+}
+
+.review-table{
+  width:100%;
+  border-collapse:collapse;
+  min-width:720px;
+}
+
+.review-table th,
+.review-table td{
+  padding:14px 16px;
+  text-align:left;
+  vertical-align:top;
+  border-bottom:1px solid rgba(11,20,34,.08);
+  font-size:14px;
+  line-height:1.6;
+}
+
+.review-table th{
+  background:#eef5ff;
+  font-weight:800;
+  color:#204572;
+}
+
+.review-table td{
+  color:rgba(16,35,63,.8);
+  background:#fff;
+ }
+
+@media (max-width: 900px){
+  .review-infographic__grid,
+  .review-layout{
+    grid-template-columns:1fr;
+  }
+
+  .review-sidebar{
+    position:static;
+  }
+}
+
 @media (max-width: 900px){
   .coreclin-hero,
   .coreclin-feature-grid,

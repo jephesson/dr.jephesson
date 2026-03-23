@@ -8,6 +8,7 @@ const items = [
   { href: "/quem-sou-eu", label: "Quem sou eu" },
   { href: "/medicamentos", label: "Medicamentos" },
   { href: "/ferramentas", label: "Ferramentas" },
+  { href: "/revisoes-clinicas", label: "Revisões clínicas" },
   { href: "/coreclin", label: "Sistema de apoio à decisão clínica" },
   { href: "/aulas", label: "Aulas grátis - Youtube" },
   { href: "/ebooks", label: "E-books" },
