@@ -11,7 +11,6 @@ const items = [
   { href: "/revisoes-clinicas", label: "Revisões clínicas" },
   { href: "/coreclin", label: "Sistema de apoio à decisão clínica" },
   { href: "/aulas", label: "Aulas grátis - Youtube" },
-  { href: "/ebooks", label: "E-books" },
   { href: "/contato", label: "Contato" },
 ];
 
@@ -53,6 +52,8 @@ export default function Navbar() {
             maxWidth: 1152,
             margin: "0 auto",
             padding: "10px 16px",
+            overflowX: "auto",
+            WebkitOverflowScrolling: "touch",
           }}
           aria-label="Navegação"
         >
@@ -60,9 +61,11 @@ export default function Navbar() {
             style={{
               display: "flex",
               justifyContent: "center",
-              gap: 12,
-              flexWrap: "wrap",
-              rowGap: 10,
+              gap: 10,
+              flexWrap: "nowrap",
+              width: "max-content",
+              minWidth: "100%",
+              paddingBottom: 2,
             }}
           >
             {items.map((it) => {
@@ -77,14 +80,16 @@ export default function Navbar() {
                     color: "#0b1422",
                     border: on ? "2px solid #0b1422" : "2px solid rgba(11,20,34,.35)",
                     borderRadius: 999,
-                    padding: "8px 14px",
-                    fontSize: 14,
+                    padding: "8px 12px",
+                    fontSize: 13,
                     fontWeight: 700,
                     lineHeight: "14px",
                     letterSpacing: 0.2,
                     display: "inline-flex",
                     alignItems: "center",
                     justifyContent: "center",
+                    whiteSpace: "nowrap",
+                    flex: "0 0 auto",
                   }}
                 >
                   {it.label}
