@@ -20,10 +20,10 @@ export default async function Page() {
 
       <section className="review-guide-image-card">
         <Image
-          src="/revisoes/guia-sobrevivencia-sepse.png"
+          src="/revisoes/unnamed.png"
           alt="Guia de sobrevivência à sepse: das diretrizes iniciais à medicina de precisão"
-          width={3024}
-          height={1964}
+          width={2752}
+          height={1536}
           className="review-guide-image"
           priority
         />
