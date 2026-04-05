@@ -174,7 +174,7 @@ export default function Page() {
         >
           <span className="tool-card__label">Calculadora</span>
           <h3>Velocidade de infusão</h3>
-          <p>Calcule preparo, diluição e tempo de infusão da vancomicina 500 mg (Blau).</p>
+          <p>Escolha o medicamento e calcule preparo, diluição e tempo mínimo de infusão.</p>
         </Link>
       </div>
     </div>

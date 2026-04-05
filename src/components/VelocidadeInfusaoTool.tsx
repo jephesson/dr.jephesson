@@ -4,6 +4,31 @@ import { useMemo, useState } from "react";
 
 type Diluente = "sf" | "sg5";
 type ConcentracaoFinal = 5 | 10;
+type MedicationId = "vancomicina-blau-500";
+
+type MedicationOption = {
+  id: MedicationId;
+  nome: string;
+  apresentacao: string;
+  reconstituicao: string;
+  concentracaoReconstituidaMgMl: number;
+  diluentes: Diluente[];
+  via: string;
+  velocidadeMaximaMgMin: number;
+};
+
+const MEDICATIONS: MedicationOption[] = [
+  {
+    id: "vancomicina-blau-500",
+    nome: "Vancomicina",
+    apresentacao: "500 mg (Blau)",
+    reconstituicao: "10 mL de agua para injetaveis por frasco de 500 mg",
+    concentracaoReconstituidaMgMl: 50,
+    diluentes: ["sf", "sg5"],
+    via: "CVC",
+    velocidadeMaximaMgMin: 15,
+  },
+];
 
 function toNumber(value: string): number | null {
   if (!value.trim()) return null;
@@ -31,9 +56,12 @@ function getDiluenteLabel(diluente: Diluente) {
 }
 
 export default function VelocidadeInfusaoTool() {
+  const [medicationId, setMedicationId] = useState<MedicationId>("vancomicina-blau-500");
   const [dose, setDose] = useState("");
   const [diluente, setDiluente] = useState<Diluente>("sf");
   const [concentracaoFinal, setConcentracaoFinal] = useState<ConcentracaoFinal>(5);
+
+  const medication = MEDICATIONS.find((item) => item.id === medicationId) ?? MEDICATIONS[0];
 
   const result = useMemo(() => {
     const doseMg = toNumber(dose);
@@ -42,10 +70,10 @@ export default function VelocidadeInfusaoTool() {
 
     const frascos = Math.ceil(doseMg / 500);
     const aguaReconstituicaoMl = frascos * 10;
-    const volumeAspiradoMl = doseMg / 50;
+    const volumeAspiradoMl = doseMg / medication.concentracaoReconstituidaMgMl;
     const volumeFinalMl = doseMg / concentracaoFinal;
     const volumeDiluenteMl = Math.max(volumeFinalMl - volumeAspiradoMl, 0);
-    const tempoMinimoMin = doseMg / 15;
+    const tempoMinimoMin = doseMg / medication.velocidadeMaximaMgMin;
     const velocidadeMlHora = (volumeFinalMl / tempoMinimoMin) * 60;
 
     return {
@@ -58,7 +86,7 @@ export default function VelocidadeInfusaoTool() {
       tempoMinimoMin,
       velocidadeMlHora,
     };
-  }, [concentracaoFinal, dose]);
+  }, [concentracaoFinal, dose, medication.concentracaoReconstituidaMgMl, medication.velocidadeMaximaMgMin]);
 
   return (
     <div className="infusao-tool">
@@ -66,8 +94,12 @@ export default function VelocidadeInfusaoTool() {
         <div className="infusao-grid">
           <div className="infusao-field">
             <label>Medicamento</label>
-            <select value="vanco-blau-500" disabled>
-              <option value="vanco-blau-500">Vancomicina 500 mg (Blau)</option>
+            <select value={medicationId} onChange={(event) => setMedicationId(event.target.value as MedicationId)}>
+              {MEDICATIONS.map((item) => (
+                <option key={item.id} value={item.id}>
+                  {item.nome} {item.apresentacao}
+                </option>
+              ))}
             </select>
           </div>
 
@@ -99,15 +131,17 @@ export default function VelocidadeInfusaoTool() {
         <div className="infusao-static">
           <div className="infusao-static__card">
             <h4>Reconstituição</h4>
-            <p>10 mL de água para injetáveis para cada frasco de 500 mg.</p>
-            <p>Concentração após reconstituição: 50 mg/mL.</p>
+            <p>{medication.reconstituicao}.</p>
+            <p>Concentração após reconstituição: {formatNumber(medication.concentracaoReconstituidaMgMl, 0)} mg/mL.</p>
           </div>
 
           <div className="infusao-static__card">
             <h4>Parâmetros fixos</h4>
-            <p>Diluente compatível: {getDiluenteLabel(diluente)}.</p>
-            <p>Via: CVC.</p>
-            <p>Velocidade máxima: até 15 mg/min.</p>
+            <p>
+              Diluentes compatíveis: {medication.diluentes.map((item) => getDiluenteLabel(item)).join(" ou ")}.
+            </p>
+            <p>Via: {medication.via}.</p>
+            <p>Velocidade máxima: até {formatNumber(medication.velocidadeMaximaMgMin, 0)} mg/min.</p>
           </div>
         </div>
 
@@ -117,13 +151,13 @@ export default function VelocidadeInfusaoTool() {
               <div className="infusao-result infusao-result--primary">
                 <h4>Tempo mínimo de infusão</h4>
                 <p>{formatDuration(result.tempoMinimoMin)}</p>
-                <small>Limite de 15 mg/min</small>
+                <small>Limite de {formatNumber(medication.velocidadeMaximaMgMin, 0)} mg/min</small>
               </div>
 
               <div className="infusao-result">
                 <h4>Velocidade máxima da bomba</h4>
                 <p>{formatNumber(result.velocidadeMlHora, 0)} mL/h</p>
-                <small>{formatNumber(15, 0)} mg/min</small>
+                <small>{formatNumber(medication.velocidadeMaximaMgMin, 0)} mg/min</small>
               </div>
 
               <div className="infusao-result">
@@ -143,7 +177,9 @@ export default function VelocidadeInfusaoTool() {
               <div className="infusao-detail-card">
                 <h4>Preparo calculado</h4>
                 <ul>
-                  <li>Frascos necessários: {result.frascos} frasco(s) de 500 mg.</li>
+                  <li>
+                    Frascos necessários: {result.frascos} frasco(s) de {medication.apresentacao}.
+                  </li>
                   <li>Água para reconstituição: {formatNumber(result.aguaReconstituicaoMl, 0)} mL no total.</li>
                   <li>Volume a aspirar da solução reconstituída: {formatNumber(result.volumeAspiradoMl, 1)} mL.</li>
                   <li>Volume final da preparação: {formatNumber(result.volumeFinalMl, 0)} mL.</li>
@@ -153,10 +189,13 @@ export default function VelocidadeInfusaoTool() {
               <div className="infusao-detail-card">
                 <h4>Resumo prático</h4>
                 <ul>
+                  <li>
+                    Medicamento selecionado: {medication.nome} {medication.apresentacao}.
+                  </li>
                   <li>Dose prescrita: {formatNumber(result.doseMg, 0)} mg.</li>
                   <li>Diluente selecionado: {getDiluenteLabel(diluente)}.</li>
                   <li>Concentração final: {formatNumber(concentracaoFinal, 0)} mg/mL.</li>
-                  <li>Administrar via CVC.</li>
+                  <li>Administrar via {medication.via}.</li>
                 </ul>
               </div>
             </div>
@@ -169,8 +208,8 @@ export default function VelocidadeInfusaoTool() {
       </div>
 
       <p className="infusao-disclaimer">
-        Ferramenta educativa para vancomicina 500 mg (Blau). Validar concentração final, acesso venoso e protocolo
-        institucional antes da administração.
+        Ferramenta educativa para velocidade de infusão. Selecione o medicamento e valide concentração final, acesso
+        venoso e protocolo institucional antes da administração.
       </p>
     </div>
   );

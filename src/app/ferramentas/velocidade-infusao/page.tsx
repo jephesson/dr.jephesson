@@ -7,7 +7,7 @@ export default function Page() {
         Velocidade de infusão
       </h2>
       <p className="mt-3 text-sm" style={{ color: "rgba(11,20,34,0.65)" }}>
-        Calcule preparo, volume final, diluente e tempo mínimo de infusão para vancomicina 500 mg (Blau).
+        Escolha o medicamento e calcule preparo, volume final, diluente e tempo mínimo de infusão.
       </p>
 
       <div className="mt-6">
