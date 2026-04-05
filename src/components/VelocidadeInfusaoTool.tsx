@@ -208,8 +208,8 @@ export default function VelocidadeInfusaoTool() {
       </div>
 
       <p className="infusao-disclaimer">
-        Ferramenta educativa para velocidade de infusão. Selecione o medicamento e valide concentração final, acesso
-        venoso e protocolo institucional antes da administração.
+        Ferramenta educativa para cálculo da velocidade de infusão e diluição. Selecione o medicamento e valide
+        concentração final, acesso venoso e protocolo institucional antes da administração.
       </p>
     </div>
   );

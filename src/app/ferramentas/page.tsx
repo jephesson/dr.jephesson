@@ -173,7 +173,7 @@ export default function Page() {
           }
         >
           <span className="tool-card__label">Calculadora</span>
-          <h3>Velocidade de infusão</h3>
+          <h3>Cálculo da velocidade de infusão e diluição</h3>
           <p>Escolha o medicamento e calcule preparo, diluição e tempo mínimo de infusão.</p>
         </Link>
       </div>
