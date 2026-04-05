@@ -1,7 +1,131 @@
+"use client";
+
 import type { CSSProperties } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 
+type ToolItem = {
+  href: string;
+  label: string;
+  description: string;
+  kind: "Ferramenta" | "Calculadora";
+  from: string;
+  to: string;
+};
+
+const tools: ToolItem[] = [
+  {
+    href: "/ferramentas/administracao-via-sonda",
+    label: "Administração via sonda",
+    description: "Pesquise o medicamento e veja se é permitido e a observação.",
+    kind: "Ferramenta",
+    from: "#0b3a2f",
+    to: "#22c55e",
+  },
+  {
+    href: "/ferramentas/calculadoras-nefrologicas",
+    label: "Calculadoras nefrológicas",
+    description: "CKD-EPI, MDRD e Cockcroft-Gault com comparativo prático.",
+    kind: "Calculadora",
+    from: "#0b2f3a",
+    to: "#38bdf8",
+  },
+  {
+    href: "/ferramentas/calculo-gotejamento",
+    label: "Cálculo de gotejamento",
+    description: "Estime dose, volume total e frascos necessários.",
+    kind: "Calculadora",
+    from: "#0b3a2f",
+    to: "#84cc16",
+  },
+  {
+    href: "/ferramentas/velocidade-infusao",
+    label: "Cálculo da velocidade de infusão e diluição",
+    description: "Escolha o medicamento e calcule preparo, diluição e tempo mínimo de infusão.",
+    kind: "Calculadora",
+    from: "#1f2937",
+    to: "#0ea5e9",
+  },
+  {
+    href: "/ferramentas/correcao-calcio-albumina",
+    label: "Correção do cálcio",
+    description: "Corrija o cálcio total pela albumina com interpretação rápida.",
+    kind: "Calculadora",
+    from: "#1f2937",
+    to: "#ef4444",
+  },
+  {
+    href: "/ferramentas/diluicao-medicamentos",
+    label: "Diluição de medicamentos",
+    description: "Consulte preparo, diluição, infusão e compatibilidade.",
+    kind: "Ferramenta",
+    from: "#1f2937",
+    to: "#06b6d4",
+  },
+  {
+    href: "/ferramentas/espectro-antimicrobianos",
+    label: "Espectro terapêutico",
+    description: "Consulte cobertura por bactéria ou antimicrobiano.",
+    kind: "Ferramenta",
+    from: "#0f172a",
+    to: "#14b8a6",
+  },
+  {
+    href: "/ferramentas/imunoglobulina-g-humana",
+    label: "Imunoglobulina G humana",
+    description: "Estime volume e escalonamento da infusão do Privigen em mL/h.",
+    kind: "Calculadora",
+    from: "#1e293b",
+    to: "#8b5cf6",
+  },
+  {
+    href: "/ferramentas/incompatibilidade-via-y",
+    label: "Incompatibilidade via Y",
+    description: "Verifique incompatibilidades relacionadas ao uso em Y.",
+    kind: "Ferramenta",
+    from: "#0f172a",
+    to: "#2563eb",
+  },
+  {
+    href: "/ferramentas/sacarato-ferrico",
+    label: "Sacarato férrico",
+    description: "Calcule o ferro a repor e o número de ampolas do Sucrofer.",
+    kind: "Calculadora",
+    from: "#3f1d12",
+    to: "#f59e0b",
+  },
+  {
+    href: "/ferramentas/vancocinemia",
+    label: "Vancocinemia",
+    description: "Calcule ajuste pelo vale e AUC com duas medições.",
+    kind: "Calculadora",
+    from: "#2b1d3a",
+    to: "#f97316",
+  },
+];
+
+function normalizeText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
 export default function Page() {
+  const [search, setSearch] = useState("");
+
+  const filteredTools = useMemo(() => {
+    const ordered = [...tools].sort((a, b) => a.label.localeCompare(b.label, "pt-BR", { sensitivity: "base" }));
+    const normalizedSearch = normalizeText(search);
+
+    if (!normalizedSearch) return ordered;
+
+    return ordered.filter((tool) =>
+      normalizeText(`${tool.label} ${tool.description} ${tool.kind}`).includes(normalizedSearch),
+    );
+  }, [search]);
+
   return (
     <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "rgba(15,26,43,0.12)" }}>
       <h2 className="text-2xl font-semibold" style={{ color: "#0b1422" }}>
@@ -11,172 +135,61 @@ export default function Page() {
         Selecione a ferramenta que deseja usar.
       </p>
 
-      <div className="tool-grid mt-6">
-        <Link
-          href="/ferramentas/incompatibilidade-via-y"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#0f172a",
-              "--card-to": "#2563eb",
-            } as CSSProperties
-          }
+      <div className="mt-6" style={{ maxWidth: 640 }}>
+        <label
+          htmlFor="ferramenta-search"
+          style={{
+            display: "block",
+            marginBottom: 8,
+            fontSize: 14,
+            fontWeight: 700,
+            color: "#0b1422",
+          }}
         >
-          <span className="tool-card__label">Ferramenta</span>
-          <h3>Incompatibilidade via Y</h3>
-          <p>Verifique incompatibilidades relacionadas ao uso em Y.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/administracao-via-sonda"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#0b3a2f",
-              "--card-to": "#22c55e",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Ferramenta</span>
-          <h3>Administração via sonda</h3>
-          <p>Pesquise o medicamento e veja se é permitido e a observação.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/vancocinemia"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#2b1d3a",
-              "--card-to": "#f97316",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Calculadora</span>
-          <h3>Vancocinemia</h3>
-          <p>Calcule ajuste pelo vale e AUC com duas medições.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/calculadoras-nefrologicas"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#0b2f3a",
-              "--card-to": "#38bdf8",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Calculadora</span>
-          <h3>Calculadoras nefrológicas</h3>
-          <p>CKD-EPI, MDRD e Cockcroft-Gault com comparativo prático.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/correcao-calcio-albumina"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#1f2937",
-              "--card-to": "#ef4444",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Calculadora</span>
-          <h3>Correção do cálcio</h3>
-          <p>Corrija o cálcio total pela albumina com interpretação rápida.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/sacarato-ferrico"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#3f1d12",
-              "--card-to": "#f59e0b",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Calculadora</span>
-          <h3>Sacarato férrico</h3>
-          <p>Calcule o ferro a repor e o número de ampolas do Sucrofer.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/espectro-antimicrobianos"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#0f172a",
-              "--card-to": "#14b8a6",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Ferramenta</span>
-          <h3>Espectro terapêutico</h3>
-          <p>Consulte cobertura por bactéria ou antimicrobiano.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/calculo-gotejamento"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#0b3a2f",
-              "--card-to": "#84cc16",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Calculadora</span>
-          <h3>Cálculo de gotejamento</h3>
-          <p>Estime dose, volume total e frascos necessários.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/diluicao-medicamentos"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#1f2937",
-              "--card-to": "#06b6d4",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Ferramenta</span>
-          <h3>Diluição de medicamentos</h3>
-          <p>Consulte preparo, diluição, infusão e compatibilidade.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/imunoglobulina-g-humana"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#1e293b",
-              "--card-to": "#8b5cf6",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Calculadora</span>
-          <h3>Imunoglobulina G humana</h3>
-          <p>Estime volume e escalonamento da infusão do Privigen em mL/h.</p>
-        </Link>
-
-        <Link
-          href="/ferramentas/velocidade-infusao"
-          className="tool-card"
-          style={
-            {
-              "--card-from": "#1f2937",
-              "--card-to": "#0ea5e9",
-            } as CSSProperties
-          }
-        >
-          <span className="tool-card__label">Calculadora</span>
-          <h3>Cálculo da velocidade de infusão e diluição</h3>
-          <p>Escolha o medicamento e calcule preparo, diluição e tempo mínimo de infusão.</p>
-        </Link>
+          Pesquisar ferramenta
+        </label>
+        <input
+          id="ferramenta-search"
+          value={search}
+          onChange={(event) => setSearch(event.target.value)}
+          placeholder="Digite o nome da ferramenta"
+          style={{
+            width: "100%",
+            border: "1px solid rgba(11,20,34,0.12)",
+            borderRadius: 16,
+            padding: "14px 16px",
+            fontSize: 15,
+            color: "#0b1422",
+            background: "#fff",
+          }}
+        />
       </div>
+
+      <div className="tool-grid mt-6">
+        {filteredTools.map((tool) => (
+          <Link
+            key={tool.href}
+            href={tool.href}
+            className="tool-card"
+            style={
+              {
+                "--card-from": tool.from,
+                "--card-to": tool.to,
+              } as CSSProperties
+            }
+          >
+            <span className="tool-card__label">{tool.kind}</span>
+            <h3>{tool.label}</h3>
+            <p>{tool.description}</p>
+          </Link>
+        ))}
+      </div>
+
+      {filteredTools.length === 0 ? (
+        <p className="mt-6 text-sm" style={{ color: "rgba(11,20,34,0.65)" }}>
+          Nenhuma ferramenta encontrada para essa busca.
+        </p>
+      ) : null}
     </div>
   );
 }
