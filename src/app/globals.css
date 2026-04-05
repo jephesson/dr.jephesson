@@ -1655,6 +1655,114 @@ a{color:inherit;text-decoration:none}
   color:rgba(11,20,34,.65);
 }
 
+.infusao-tool{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.infusao-card{
+  border:1px solid rgba(11,20,34,.12);
+  border-radius:16px;
+  padding:20px;
+  background:#fff;
+  box-shadow:0 16px 32px rgba(15,23,42,.08);
+}
+
+.infusao-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+}
+
+.infusao-field{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.infusao-field label{
+  font-size:14px;
+  font-weight:700;
+  color:#0b1422;
+}
+
+.infusao-field input,
+.infusao-field select{
+  border:1px solid rgba(11,20,34,.12);
+  border-radius:14px;
+  padding:14px 16px;
+  font-size:15px;
+  color:#0b1422;
+  background:#fff;
+}
+
+.infusao-static,
+.infusao-details,
+.infusao-results{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+  margin-top:20px;
+}
+
+.infusao-static__card,
+.infusao-detail-card,
+.infusao-result{
+  border:1px solid rgba(11,20,34,.1);
+  border-radius:16px;
+  padding:16px;
+  background:#f8fafc;
+}
+
+.infusao-result--primary{
+  border-color:rgba(14,165,233,.2);
+  background:linear-gradient(135deg,#f0f9ff,#dbeafe);
+}
+
+.infusao-static__card h4,
+.infusao-detail-card h4,
+.infusao-result h4{
+  margin:0 0 8px;
+  font-size:14px;
+  font-weight:800;
+  color:#0b1422;
+}
+
+.infusao-static__card p,
+.infusao-detail-card li,
+.infusao-result small{
+  font-size:14px;
+  line-height:1.65;
+  color:rgba(11,20,34,.72);
+}
+
+.infusao-static__card p + p{
+  margin-top:8px;
+}
+
+.infusao-result p{
+  margin:0;
+  font-size:24px;
+  font-weight:800;
+  color:#0b1422;
+}
+
+.infusao-detail-card ul{
+  margin:0;
+  padding-left:20px;
+  display:grid;
+  gap:8px;
+}
+
+.infusao-help,
+.infusao-disclaimer{
+  margin:0;
+  font-size:14px;
+  line-height:1.65;
+  color:rgba(11,20,34,.65);
+}
+
 @media (max-width: 900px){
   .diluicao-tool{
     grid-template-columns:1fr;
@@ -1677,6 +1785,13 @@ a{color:inherit;text-decoration:none}
   .igg-grid,
   .igg-static,
   .igg-results{
+    grid-template-columns:1fr;
+  }
+
+  .infusao-grid,
+  .infusao-static,
+  .infusao-details,
+  .infusao-results{
     grid-template-columns:1fr;
   }
 

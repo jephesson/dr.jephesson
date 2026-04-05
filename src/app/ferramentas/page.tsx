@@ -161,6 +161,21 @@ export default function Page() {
           <h3>Imunoglobulina G humana</h3>
           <p>Estime volume e escalonamento da infusão do Privigen em mL/h.</p>
         </Link>
+
+        <Link
+          href="/ferramentas/velocidade-infusao"
+          className="tool-card"
+          style={
+            {
+              "--card-from": "#1f2937",
+              "--card-to": "#0ea5e9",
+            } as CSSProperties
+          }
+        >
+          <span className="tool-card__label">Calculadora</span>
+          <h3>Velocidade de infusão</h3>
+          <p>Calcule preparo, diluição e tempo de infusão da vancomicina 500 mg (Blau).</p>
+        </Link>
       </div>
     </div>
   );
