@@ -3935,6 +3935,12 @@ function sectionAnchor(title: string, index: number) {
   return `sec-${index + 1}-${slug || "topico"}`;
 }
 
+function sectionLevel(title: string) {
+  if (/^\d+\.\s/.test(title)) return 1;
+  if (/^\d+\.\d+/.test(title)) return 2;
+  return 3;
+}
+
 function isLikelyBulletSubheading(text: string) {
   const value = text.trim();
   if (!value) return false;
@@ -4127,7 +4133,7 @@ export default function MedicamentosHub() {
                 <section
                   id={sectionAnchor(section.title, index)}
                   key={`${section.title}-${index}`}
-                  className="meds-section"
+                  className={`meds-section meds-section--level-${sectionLevel(section.title)}`}
                 >
                   <h4>{section.title}</h4>
                   {section.paragraphs?.map((text, index) => (
@@ -4219,7 +4225,11 @@ export default function MedicamentosHub() {
                 <p>Índice</p>
                 <div className="meds-index__list">
                   {selected.sections.map((section, index) => (
-                    <a key={`${section.title}-${index}`} href={`#${sectionAnchor(section.title, index)}`}>
+                    <a
+                      key={`${section.title}-${index}`}
+                      className={`meds-index__item meds-index__item--level-${sectionLevel(section.title)}`}
+                      href={`#${sectionAnchor(section.title, index)}`}
+                    >
                       {section.title}
                     </a>
                   ))}

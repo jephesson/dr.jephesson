@@ -50,6 +50,26 @@ function normalizeSectionTitle(title) {
   return title;
 }
 
+function isListLikeSection(title) {
+  return /nome gen[eé]rico|classe farmacol[oó]gica|apresenta[cç][oõ]es|pearls|micro-organismos|alvos|lacunas|quando n[aã]o usar|resist[eê]ncia|indica[cç][oõ]es|off-label|posologia|dose|pediatria|neonatologia|ajustes|insufici[eê]ncia|obesidade|idoso|administra[cç][aã]o|intera[cç][oõ]es|estabilidade|compatibilidade|efeitos adversos|contraindica[cç][oõ]es|advert[eê]ncias|gesta[cç][aã]o|lacta[cç][aã]o|farmacocin[eé]tica|par[aâ]metros|monitoriza[cç][aã]o|crit[eé]rios|conduta|erros comuns|dicas|observa[cç][oõ]es/i.test(
+    title
+  );
+}
+
+function addLinesToSection(section, lines, { forceBullets = false } = {}) {
+  const cleaned = lines.map(cleanLine).filter(Boolean);
+  if (!cleaned.length) return;
+
+  const values = cleaned.map((line) => line.replace(/^[•\-–]\s+/, "").trim());
+  const shouldUseBullets = forceBullets || cleaned.some(isBullet) || (cleaned.length > 1 && isListLikeSection(section.title));
+
+  if (shouldUseBullets) {
+    section.bullets.push(...values);
+  } else {
+    section.paragraphs.push(...values);
+  }
+}
+
 function splitTopLevelNodes(bodyXml) {
   const nodes = [];
   let cursor = 0;
@@ -81,19 +101,32 @@ function splitTopLevelNodes(bodyXml) {
   return nodes;
 }
 
-function extractParagraphText(paragraphXml) {
-  const normalizedXml = paragraphXml
-    .replace(/<w:tab(?:\s[^>]*)?\/>/g, " ")
-    .replace(/<w:br(?:\s[^>]*)?\/>/g, " ");
-  const texts = [];
-  const textRegex = /<w:t(?:\s[^>]*)?>([\s\S]*?)<\/w:t>/g;
+function extractParagraphLines(paragraphXml) {
+  const lines = [""];
+  const tokenRegex = /<w:t(?:\s[^>]*)?>([\s\S]*?)<\/w:t>|<w:tab(?:\s[^>]*)?\/>|<w:br(?:\s[^>]*)?\/>/g;
   let match;
 
-  while ((match = textRegex.exec(normalizedXml)) !== null) {
-    texts.push(decodeXml(match[1]));
+  while ((match = tokenRegex.exec(paragraphXml)) !== null) {
+    const token = match[0];
+
+    if (match[1] !== undefined) {
+      lines[lines.length - 1] += decodeXml(match[1]);
+      continue;
+    }
+
+    if (/^<w:tab/.test(token)) {
+      lines[lines.length - 1] += " ";
+      continue;
+    }
+
+    lines.push("");
   }
 
-  return cleanLine(texts.join(""));
+  return lines.map(cleanLine).filter(Boolean);
+}
+
+function extractParagraphText(paragraphXml) {
+  return cleanLine(extractParagraphLines(paragraphXml).join(" "));
 }
 
 function extractTable(tableXml) {
@@ -163,9 +196,10 @@ function parseDocx(filePath) {
 
   for (const node of nodes) {
     if (node.type === "paragraph") {
-      const line = extractParagraphText(node.xml);
-      if (!line) continue;
-      linearTexts.push(line);
+      const paragraphLines = extractParagraphLines(node.xml);
+      if (!paragraphLines.length) continue;
+      linearTexts.push(...paragraphLines);
+      const [line, ...contentLines] = paragraphLines;
 
       if (isHeading(line)) {
         if (current) {
@@ -175,16 +209,13 @@ function parseDocx(filePath) {
           sections.push(current);
         }
         current = { title: normalizeSectionTitle(line), paragraphs: [], bullets: [], tables: [] };
+        addLinesToSection(current, contentLines);
         continue;
       }
 
       if (!current) current = { title: "Visão geral", paragraphs: [], bullets: [], tables: [] };
 
-      if (node.xml.includes("<w:numPr>") || isBullet(line)) {
-        current.bullets.push(line.replace(/^[•\-–]\s+/, "").trim());
-      } else {
-        current.paragraphs.push(line);
-      }
+      addLinesToSection(current, paragraphLines, { forceBullets: node.xml.includes("<w:numPr>") });
       continue;
     }
 
