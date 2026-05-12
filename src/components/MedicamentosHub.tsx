@@ -1,13 +1,21 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import bibliotecaPostsData from "@/data/bibliotecaMedicamentos.json";
+
+type SectionFigure = {
+  src: string;
+  alt: string;
+  caption?: string;
+};
 
 type Section = {
   title: string;
   paragraphs?: string[];
   bullets?: string[];
+  figures?: SectionFigure[];
   tables?: {
     headers: string[];
     rows: string[][];
@@ -23,7 +31,7 @@ type Post = {
   id: string;
   name: string;
   className: string;
-  category: "Farmacologia" | "Uso hospitalar";
+  category: "Farmacologia" | "Uso hospitalar" | "Oncologia";
   summary: string;
   sections: Section[];
   references: Reference[];
@@ -3906,6 +3914,77 @@ Implicação: Eficácia mantida em tratamento de longo prazo (manutenção) (15)
       },
     ],
   },
+  {
+    id: "protocolo-abvd",
+    name: "Protocolo ABVD (linfoma de Hodgkin)",
+    className: "Protocolos",
+    category: "Oncologia",
+    summary:
+      "Esquema clássico de quimioterapia para linfoma de Hodgkin clássico, combinando doxorrubicina, bleomicina, vinblastina e dacarbazina — com mecanismos complementares sobre DNA, radicais livres, mitose e alquilação.",
+    sections: [
+      {
+        title: "Visão geral",
+        paragraphs: [
+          `O ABVD é um dos protocolos mais emblemáticos da hematologia-oncologia: associa quatro fármacos com alvos e toxicidades parcialmente distintos, o que aumenta a chance de resposta clínica sem depender de um único mecanismo. Na prática, o esquema é amplamente utilizado no linfoma de Hodgkin clássico em contextos de linha de tratamento definidos por diretrizes e por decisão multiprofissional (estadiamento, fatores de risco, reserva orgânica e intenção curativa ou de intensificação).`,
+          `Este conteúdo é educativo: doses, número de ciclos, intervalos, pré-medicação e manejo de toxicidade variam por protocolo institucional, fase do tratamento e comorbidades. A prescrição deve seguir sempre a equipe assistencial e as normas locais.`,
+        ],
+      },
+      {
+        title: "Composição do acrônimo",
+        bullets: [
+          "A — Adriamicina (doxorrubicina): antraciclina; intercalação no DNA, inibição da topoisomerase II, geração de radicais livres e indução de apoptose.",
+          "B — Bleomicina: glicopeptídeo que se liga ao DNA e favorece quebras por radicais livres dependentes de ferro e oxigênio (quebras de fita simples e dupla).",
+          "V — Vinblastina: alcalóide da vinca; liga-se à tubulina, inibe a polimerização de microtúbulos, desorganiza o fuso mitótico e bloqueia a mitose.",
+          "D — Dacarbazina: pró-fármaco com metabólitos alquilantes/metilantes; adiciona grupos metil ao DNA, prejudica a replicação e contribui para apoptose.",
+        ],
+      },
+      {
+        title: "Por que combinar estes agentes?",
+        paragraphs: [
+          `A ideia central é somar vias de dano celular: estresse ao DNA (doxorrubicina, bleomicina, dacarbazina) e bloqueio da divisão (vinblastina). Na célula de Reed–Sternberg e no microambiente do Hodgkin, essa combinação histórica mostrou-se eficaz em cenários em que monoterapias seriam insuficientes ou mais rapidamente limitadas por resistência.`,
+        ],
+      },
+      {
+        title: "Mecanismo de ação (figura)",
+        paragraphs: [
+          `O infográfico abaixo resume, de forma integrada, como cada componente atinge a célula tumoral e qual é o efeito biológico combinado (dano ao DNA, bloqueio da divisão, redução da proliferação e apoptose).`,
+        ],
+        figures: [
+          {
+            src: "/medicamentos/abvd-mecanismo-acao.png",
+            alt: "Infográfico do protocolo ABVD: mecanismos da doxorrubicina, bleomicina, vinblastina e dacarbazina convergindo para dano ao DNA, bloqueio mitótico e apoptose na célula de Reed-Sternberg.",
+            caption:
+              "Protocolo ABVD — mecanismo de ação (esquema clássico no linfoma de Hodgkin). Fonte: material educativo do site.",
+          },
+        ],
+      },
+      {
+        title: "Toxicidades frequentes na prática (lembrar na vigilância)",
+        bullets: [
+          "Cardiotoxicidade (doxorrubicina): monitorização clínica e, quando indicado, avaliação de função cardíaca conforme protocolo.",
+          "Toxicidade pulmonar (bleomicina): atenção a dispneia, tosse ou alterações radiológicas; fatores como idade, tabagismo e oxigenoterapia de alto fluxo podem modificar o risco.",
+          "Neurotoxicidade/neuromuscular e mielossupressão: comuns com vinblastina e com o esquema como um todo — hemograma e sintomas periféricos conforme assistência.",
+          "Náuseas e toxicidade hepática/hematológica: considerar suporte e laboratório de acordo com o centro.",
+        ],
+      },
+    ],
+    references: [
+      {
+        label:
+          "NATIONAL COMPREHENSIVE CANCER NETWORK. NCCN Clinical Practice Guidelines in Oncology: Hodgkin Lymphoma. Versão contínua. Disponível em: https://www.nccn.org. Acesso em: 12 maio 2026.",
+        href: "https://www.nccn.org",
+      },
+      {
+        label:
+          "SWEETLOW, S. H. et al. (Ed.). WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues. 4. ed. Lyon: IARC Press, 2008.",
+      },
+      {
+        label:
+          "CONNORS, J. M. Hodgkin Lymphoma: a success story in multidisciplinary collaboration. The Lancet Oncology, v. 20, n. 7, p. e332–e339, 2019. DOI: 10.1016/S1470-2045(19)30207-5.",
+        href: "https://doi.org/10.1016/S1470-2045(19)30207-5",
+      },
+    ],
+  },
 ];
 
 const themes = [
@@ -3918,6 +3997,7 @@ const themes = [
   "Betabloqueadores",
   "Imunomoduladores",
   "Incretínicos",
+  "Protocolos",
 ];
 
 const getBlockKey = (post: Post): BlockKey =>
@@ -4175,6 +4255,24 @@ export default function MedicamentosHub() {
                       );
                     })()
                   ) : null}
+                  {section.figures?.map((figure, figureIndex) => (
+                    <figure
+                      key={`${section.title}-figure-${figureIndex}`}
+                      className="meds-figure"
+                    >
+                      <Image
+                        src={figure.src}
+                        alt={figure.alt}
+                        width={1024}
+                        height={768}
+                        sizes="(max-width: 900px) 100vw, 720px"
+                        className="meds-figure__img"
+                      />
+                      {figure.caption ? (
+                        <figcaption>{figure.caption}</figcaption>
+                      ) : null}
+                    </figure>
+                  ))}
                   {section.tables?.map((table, tableIndex) => (
                     <div key={`${section.title}-table-${tableIndex}`} className="meds-table-wrap">
                       <table className="meds-table">
